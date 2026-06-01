@@ -7,11 +7,18 @@ import argparse
 import json
 import re
 import sys
+import xml.etree.ElementTree as ET
+from datetime import date, datetime
 from pathlib import Path
+
+from jinja2 import Environment, FileSystemLoader
 
 ROOT = Path(__file__).resolve().parent
 
 DATA_DIR = ROOT / "data"
+TEMPLATE_DIR = ROOT / "template"
+DIST_DIR = ROOT / "dist"
+DIST_DIR.mkdir(parents=True, exist_ok=True)
 
 sys.path.insert(0, str(ROOT))
 
@@ -96,6 +103,108 @@ def save_json(slug: str, data: dict, force: bool = False) -> bool:
     return True
 
 
+def render_html(slug: str, topic: str, data: dict, domain: str) -> bool:
+    """用 quiz_template.html 渲染单页静态 HTML"""
+    env = Environment(loader=FileSystemLoader(str(TEMPLATE_DIR)))
+    try:
+        template = env.get_template("quiz_template.html")
+    except Exception as e:
+        print(f"❌ 找不到模板 quiz_template.html: {e}")
+        return False
+
+    seo = data["seo_metadata"]
+    questions = data["questions"]
+    total_q = len(questions)
+    generated_date = date.today().isoformat()
+
+    # FAQ Schema (前 10 题) — 模板中未使用 faq_schema 变量，
+    # 模板已内联 Quiz + BreadcrumbList schema，此处保留以备将来使用
+    import json as _json
+    schema_entities = []
+    for q in questions[:10]:
+        schema_entities.append({
+            "@type": "Question",
+            "name": q["question"],
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": f"Correct Answer: {q['answer']}. {q['analysis']}"
+            }
+        })
+    faq_schema = _json.dumps({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": schema_entities
+    }, ensure_ascii=False)
+
+    html = template.render(
+        # <title>, <h1>, og:title
+        title=seo["unique_h1"],
+        # <meta description>, og:description
+        description=seo["meta_description"],
+        # <meta keywords>
+        keywords=",".join(seo.get("primary_keywords", [])),
+        # canonical, og:url
+        canonical_url=f"{domain}/{slug}.html",
+        domain=domain,
+        # Schema.org 中的章节名
+        chapter_title=topic,
+        chapter_slug=slug,
+        chapter_num=0,
+        # 单页：page_num=1, total_pages=1
+        page_num=1,
+        total_pages=1,
+        total_questions=total_q,
+        generated_date=generated_date,
+        # 题目列表（每项: question, options, answer, analysis）
+        questions=questions,
+        # 无分页，无上下章
+        prev_page_url=None,
+        next_page_url=None,
+        prev_chapter_link=None,
+        next_chapter_link=None,
+        prev_chapter_label="",
+        next_chapter_label="",
+        # 以下变量模板未使用，传入无副作用
+        short_title=seo["unique_h1"][:30],
+        faq_schema=faq_schema,
+    )
+
+    path = DIST_DIR / f"{slug}.html"
+    path.write_text(html, encoding="utf-8")
+    print(f"   📄 已渲染: {path}")
+    return True
+
+
+def update_sitemap(slug: str, domain: str, priority: str = "0.9") -> bool:
+    """向 dist/sitemap.xml 追加新的 URL entry"""
+    sitemap_path = DIST_DIR / "sitemap.xml"
+    if not sitemap_path.exists():
+        print("⚠️ sitemap.xml 不存在，跳过")
+        return False
+
+    tree = ET.parse(str(sitemap_path))
+    root = tree.getroot()
+
+    # 检查是否已存在
+    target_url = f"{domain}/{slug}.html"
+    for url_elem in root.findall("url"):
+        loc = url_elem.find("loc")
+        if loc is not None and loc.text == target_url:
+            print(f"   ⚠️ Sitemap 已包含 {target_url}，跳过")
+            return True
+
+    url_elem = ET.SubElement(root, "url")
+    ET.SubElement(url_elem, "loc").text = target_url
+    ET.SubElement(url_elem, "lastmod").text = datetime.today().strftime("%Y-%m-%d")
+    ET.SubElement(url_elem, "changefreq").text = "weekly"
+    ET.SubElement(url_elem, "priority").text = priority
+
+    ET.indent(tree, space="  ", level=0)
+    tree.write(str(sitemap_path), encoding="utf-8", xml_declaration=True)
+    print(f"   📅 Sitemap 已更新: +{target_url}")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(description="GSC Long-Tail Attack — 一键长尾词攻击脚本")
     parser.add_argument("keyword", type=str, help="GSC 长尾关键词")
@@ -128,6 +237,14 @@ def main():
     # Step 3: 保存 JSON
     if not save_json(slug, data):
         sys.exit(0)
+
+    # Step 4: 渲染 HTML
+    if not render_html(slug, topic, data, config.DOMAIN):
+        sys.exit(1)
+
+    # Step 5: 更新 sitemap
+    priority = "0.9" if args.mode == "bonus" else "0.7"
+    update_sitemap(slug, config.DOMAIN, priority)
 
 
 if __name__ == "__main__":
