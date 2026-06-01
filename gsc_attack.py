@@ -10,6 +10,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
+sys.path.insert(0, str(ROOT))
+
+import config  # noqa
+from build_site import get_client, call_claude  # type: ignore  # noqa
+
 
 def keyword_to_slug_topic(keyword: str) -> tuple[str, str]:
     """纯字符串处理，不调外部 API"""
@@ -32,6 +37,12 @@ def main():
     if not (10 <= args.num <= 40):
         print("❌ --num 范围: 10-40")
         sys.exit(1)
+
+    if not config.CLAUDE_API_KEY:
+        print("❌ 请在 config.py 中设置 CLAUDE_API_KEY")
+        sys.exit(1)
+
+    print(f"   Model: {config.MODEL}")
 
     slug, topic = keyword_to_slug_topic(args.keyword)
     print(f"📎 Keyword: {args.keyword}")
