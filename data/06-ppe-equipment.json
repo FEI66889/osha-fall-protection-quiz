@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA PPE & Lifesaving Equipment Quiz — 29 CFR 1926.95-107 Practice Questions",
+    "meta_description": "Free OSHA 30-Hour Construction PPE and lifesaving equipment practice test with 40 realistic scenarios. Hard hats, eye protection, respiratory protection, hearing conservation, fall arrest harness inspection, life jackets, and first aid with 29 CFR 1926 Subpart E references.",
+    "primary_keywords": [
+      "OSHA PPE quiz",
+      "construction personal protective equipment",
+      "29 CFR 1926.95",
+      "OSHA 30-Hour PPE"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A construction worker is performing overhead drilling into concrete, generating silica dust and small falling debris. The worker wears a Type I hard hat, standard safety glasses (ANSI Z87.1), and an N95 filtering facepiece. Chips of concrete fall and strike the worker's face above the glasses. What PPE deficiency exists?",
+      "options": [
+        "A. Type I hard hat is insufficient — Type II (lateral impact) is required for overhead work",
+        "B. Safety glasses alone are insufficient — a face shield must be worn over safety glasses when there is overhead debris; additionally, the hard hat had no chin strap",
+        "C. The N95 is the wrong respirator class for silica",
+        "D. No deficiency — the PPE worn is adequate for the described work"
+      ],
+      "answer": "B",
+      "analysis": "1926.102(a)(1): eye and face protection shall be provided when there is a hazard from flying particles. Standard safety glasses protect the eyes but not the face — a face shield over safety glasses is required for overhead debris. 1926.100(a): employees shall wear protective helmets in areas where there is possible danger of head injury from impact or falling objects. A chin strap is needed when working overhead to prevent the hard hat from falling off. The Type I hard hat (A) is actually acceptable — Type II is for lateral impact, not a specific overhead requirement."
+    },
+    {
+      "question": "A carpenter on a commercial construction site is using a pneumatic nail gun for sheathing work. The carpenter wears leather gloves and safety glasses. The nail gun misfires and a nail penetrates the carpenter's leather glove and thumb. What PPE should have prevented or mitigated this injury?",
+      "options": [
+        "A. Leather gloves are adequate — this was a freak accident",
+        "B. Cut-resistant or puncture-resistant gloves appropriate for pneumatic tool use; standard leather work gloves do not reliably stop a high-velocity nail",
+        "C. No glove can stop a nail from a nail gun — this was unavoidable",
+        "D. Steel mesh gloves are required for all pneumatic tool operations"
+      ],
+      "answer": "B",
+      "analysis": "1926.95(a): protective equipment shall be provided, used, and maintained in a sanitary and reliable condition. 1926.28(a): the employer is responsible for requiring the wearing of appropriate PPE in all operations where there is an exposure to hazardous conditions. Standard leather work gloves are designed for abrasion and minor cut protection, not ballistic puncture from a pneumatic nail. Puncture-resistant gloves (rated to ANSI/ISEA 105 Level 3 or higher) exist specifically for this hazard."
+    },
+    {
+      "question": "A crew cutting concrete with a walk-behind saw is exposed to noise measured at 102 dBA (8-hour TWA). The foreman provides foam earplugs with an NRR of 29. Workers complain they still hear loud noise. What does OSHA 1926.52 require?",
+      "options": [
+        "A. 102 dBA is below the 8-hour PEL, so no hearing protection is legally required",
+        "B. The OSHA PEL is 90 dBA — at 102 dBA, hearing protection is mandatory AND the employer must implement a hearing conservation program (testing, training); earplugs alone may not provide enough attenuation if fitted incorrectly",
+        "C. Foam earplugs with NRR 29 reduce noise by exactly 29 dB, bringing 102 dBA to 73 dBA, which is well within limits",
+        "D. The workers are complaining unnecessarily — the earplugs work"
+      ],
+      "answer": "B",
+      "analysis": "1926.52(d)(1): when employees are subjected to sound levels exceeding those listed in Table D-2 (90 dBA for 8 hours), feasible administrative or engineering controls shall be utilized. If controls fail to reduce levels within the PEL, PPE shall be provided AND used. The NRR of 29 is the LABORATORY rating — OSHA derates earplugs by 50% (NRR-7/2), giving approximately 11 dB real-world attenuation: 102 - 11 = 91 dBA, still above the 90 dBA PEL. Dual protection (earplugs + earmuffs) or engineering controls (enclosures) may be necessary."
+    },
+    {
+      "question": "A welder on a bridge project is performing shielded metal arc welding (stick welding) overhead. What combination of PPE is specifically required for this type of work?",
+      "options": [
+        "A. Welding helmet with shade 10 lens and regular cotton clothing",
+        "B. Welding helmet with appropriate shade lens (shade 10-14), fire-resistant clothing (leather or FR cotton), leather gauntlet gloves, and a NIOSH-approved respirator if welding fumes exceed PELs",
+        "C. Clear face shield and synthetic long-sleeve shirt",
+        "D. Any tinted glasses and leather gloves are sufficient"
+      ],
+      "answer": "B",
+      "analysis": "1926.353(c)(1): proper eye protective equipment for welding shall be provided. 1926.102(b)(1): filter lens shade numbers vary by current and process — stick welding at typical amperage requires shade 10-14. Overhead welding creates falling sparks and slag; synthetic clothing (C) will melt and cause severe burns. Leather or FR cotton is required. 1926.55 and 1926.353 require respiratory protection if welding fumes (hexavalent chromium from stainless, zinc from galvanized, etc.) exceed PELs."
+    },
+    {
+      "question": "On a multi-story construction site, the employer provides all workers with standard Type I, Class C hard hats (conductive). The electrical contractor is doing hot work on 480V switchgear nearby. What is the hard hat issue?",
+      "options": [
+        "A. Type I is fine for electrical work — the class is what matters for electrical protection",
+        "B. Class C hard hats are CONDUCTIVE — Class E (electrical, rated to 20,000V) is required where there is electrical hazard; Type I protects against top impact only",
+        "C. All hard hats are non-conductive by design",
+        "D. The electrical contractor's work doesn't affect other workers' PPE requirements"
+      ],
+      "answer": "B",
+      "analysis": "1926.100(b): hard hats must meet ANSI Z89.1 standards. ANSI Z89.1 classifies hard hats: Class G (General, 2,200V), Class E (Electrical, 20,000V), Class C (Conductive — NO electrical protection). Class C hard hats are typically made of aluminum or have conductive coatings — wearing one near 480V equipment creates a path to ground through the worker's head. The electrical contractor and anyone working near energized equipment need Class E hard hats."
+    },
+    {
+      "question": "A worker is required to wear fall protection (PFAS) while working 40 feet up on a cell tower. The worker also needs to wear a body belt-style tool pouch weighing 25 lbs with tools. Can the worker use the PFAS'S dorsal D-ring to also attach the tool pouch?",
+      "options": [
+        "A. Yes — the dorsal D-ring can support tool loads up to 50 lbs in addition to fall arrest",
+        "B. No — PFAS equipment shall not be used for any purpose other than employee safeguarding; tools must be secured by a separate tool lanyard system attached to a non-PFAS anchor or the worker's body belt",
+        "C. Yes — as long as the total load (worker + tools) doesn't exceed the anchor's 5,000-lb rating",
+        "D. Tool belts are prohibited above 25 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(2): personal fall arrest systems shall not be used to hoist materials. The PFAS dorsal D-ring is a life-safety component — it must be available exclusively for fall arrest forces. Attaching a tool pouch adds static load, could interfere with deployment of the shock-absorbing lanyard, and could compromise the harness stitching. 1926.502(d)(15): PFAS anchorages must support 5,000 lbs per employee — but this refers to fall arrest forces, not accessory loads. Tools must be independently tethered to body belts or structural points."
+    },
+    {
+      "question": "A construction site has a high-noise area where the sound level is measured at 95 dBA. The employer posts a sign reading 'Hearing Protection Required' at the entry. Workers enter, grab foam earplugs from a dispenser, and go to work. Is this compliant with OSHA 29 CFR 1926.52?",
+      "options": [
+        "A. Yes — providing earplugs and signage meets the requirements",
+        "B. No — the employer must also ensure workers are TRAINED in proper earplug insertion, fit, and care, and must SUPERVISE proper use; earplugs improperly inserted provide virtually no attenuation",
+        "C. Yes — earplug dispensers are the industry standard",
+        "D. Yes — 95 dBA is borderline; signage alone is adequate"
+      ],
+      "answer": "B",
+      "analysis": "1926.52(b): when PPE is required, the employer must ensure it is properly worn and maintained. Simply making earplugs available is not enough — OSHA requires: training on insertion technique (roll, pull, hold), fit verification, and supervision to ensure compliance. Studies show approximately 50% of workers insert foam earplugs incorrectly, reducing attenuation to near zero. The employer must also implement a hearing conservation program per 1926.52(d)(1) when levels exceed 90 dBA TWA."
+    },
+    {
+      "question": "A laborer is using a jackhammer to break up a concrete sidewalk. The vibration magnitude is measured at 12 m/s². After 4 hours of continuous use, the worker reports numbness and tingling in both hands. What does OSHA expect the employer to do?",
+      "options": [
+        "A. Hand-arm vibration syndrome (HAVS) is not covered by an OSHA standard — no action required",
+        "B. While OSHA has no specific HAVS standard, the General Duty Clause requires the employer to implement vibration-reducing measures: anti-vibration gloves, job rotation, tool maintenance, and medical surveillance",
+        "C. Workers should wear two pairs of gloves and continue",
+        "D. The worker should be terminated for being unable to perform the job"
+      ],
+      "answer": "B",
+      "analysis": "While OSHA does not have a specific standard for hand-arm vibration, Section 5(a)(1) (General Duty Clause) applies: the employer must furnish a workplace free from recognized hazards. HAVS is a well-documented occupational disease — the European Union and ACGIH have established exposure limits. Recognized controls include: anti-vibration (AV) gloves meeting ISO 10819, job rotation limiting exposure duration, properly maintained tools with dampened handles, warm dry work conditions, and medical monitoring for early symptoms. Numbness and tingling are early warning signs of permanent nerve and vascular damage."
+    },
+    {
+      "question": "During a hot summer day (heat index 105°F), workers are pouring concrete on an exposed slab with no shade. One worker shows signs of heat exhaustion: heavy sweating, dizziness, and nausea. The foreman tells him to sit in the truck with the AC on for 15 minutes, then get back to work. What does OSHA require?",
+      "options": [
+        "A. 15 minutes rest in AC is adequate treatment for heat exhaustion",
+        "B. Heat exhaustion requires immediate medical evaluation — the worker should not return to work that day without medical clearance; the employer must provide water, rest, shade as part of a heat illness prevention plan",
+        "C. The foreman handled it correctly — brief rest is the standard response",
+        "D. Heat stress is the worker's own responsibility to manage"
+      ],
+      "answer": "B",
+      "analysis": "OSHA's Heat Illness Prevention campaign and the proposed heat standard (NPRM) require: water (accessible, cool), rest (in shade or AC until symptoms resolve), and shade (at 80°F+). Under the General Duty Clause, heat illness is a recognized hazard. Heat exhaustion can progress to heat stroke (core temp ≥104°F) within minutes — 15 minutes rest is not always sufficient. The worker should be monitored, cooled, and not be forced to return if symptoms persist. Employers should have a written heat illness prevention plan with acclimatization protocols."
+    },
+    {
+      "question": "A worker is required to wear fall protection for roofing work but also needs prescription safety glasses. The employer provides standard non-prescription safety glasses and tells the worker to wear them over his regular glasses. The worker's regular glasses keep fogging up underneath. What is the employer's obligation?",
+      "options": [
+        "A. The employer has provided safety glasses — the fogging is the worker's problem",
+        "B. Prescription safety glasses meeting ANSI Z87.1 must be provided if the worker needs them to see and the standard over-the-glasses solution creates a hazard (fogging leading to falls)",
+        "C. The worker should get LASIK surgery and return without glasses",
+        "D. The worker can work without safety glasses if wearing prescription glasses that look sturdy"
+      ],
+      "answer": "B",
+      "analysis": "1926.102(a)(2)(i): eye and face PPE shall be distinctly marked to facilitate identification of the manufacturer. 1926.102(a)(1): employees whose vision requires the use of corrective lenses shall be protected by goggles or spectacles of one of the following types: (a) spectacles whose protective lenses provide optical correction, (b) goggles that can be worn over corrective spectacles without disturbing the adjustment of the spectacles, or (c) goggles that incorporate corrective lenses mounted behind the protective lenses. If option (b) creates additional hazards (fogging causing fall risk), the employer must provide option (a) or (c)."
+    },
+    {
+      "question": "A construction site hazard assessment identifies the need for hand protection against sharp metal edges, concrete abrasion, and occasional chemical splashes from form release oil. The foreman buys cotton jersey gloves for everyone. Is this PPE selection adequate?",
+      "options": [
+        "A. Yes — cotton gloves are general-purpose hand protection",
+        "B. No — the employer must select PPE that specifically protects against each identified hazard; cotton gloves provide zero cut resistance, zero chemical resistance, and minimal abrasion resistance. Cut-resistant gloves with chemical-resistant coating are needed",
+        "C. Yes — as long as workers can change gloves when wet",
+        "D. No — no gloves can protect against all three hazards simultaneously"
+      ],
+      "answer": "B",
+      "analysis": "1926.95(a): protective equipment shall be provided, used, and maintained in a sanitary and reliable condition wherever hazards exist. 1910.132(d)(1): the employer shall perform a hazard assessment and select appropriate PPE. Cotton jersey gloves provide no cut protection, no chemical barrier (form release oil penetrates cotton and contacts skin), and minimal abrasion resistance. The employer must select gloves rated for the specific hazards: ANSI/ISEA 105 cut-rated gloves with chemical-resistant nitrile or PVC coating."
+    },
+    {
+      "question": "A carpenter is using a pneumatic nail gun for sheathing work. The carpenter wears safety glasses with side shields. A nail ricochets off a knot and strikes the carpenter's face below the glasses. What additional PPE is indicated?",
+      "options": [
+        "A. Safety glasses alone are sufficient — ricochets are rare",
+        "B. A face shield over safety glasses, or safety goggles with a face shield, is indicated when there is a risk of flying particles from multiple angles that glasses alone cannot protect against",
+        "C. Only prescription glasses are needed",
+        "D. The carpenter should work from a different angle"
+      ],
+      "answer": "B",
+      "analysis": "1926.102(a)(1): the employer shall ensure that each affected employee uses appropriate eye or face protection when exposed to eye or face hazards. Safety glasses protect from frontal impact only. A nail gun ricochet can come from below, above, or the side — safety glasses alone leave large areas of the face unprotected. A face shield with safety glasses underneath provides more comprehensive protection against unpredictable trajectories. The hazard assessment should identify nail ricochet as requiring face, not just eye, protection."
+    },
+    {
+      "question": "A crew cutting concrete with a walk-behind saw is exposed to noise measured at 102 dBA (8-hour TWA). The employer provides earplugs with an NRR of 29 dB. Workers wear them but some complain of ringing ears after work. Is the hearing protection adequate?",
+      "options": [
+        "A. Yes — NRR 29 is more than sufficient for 102 dBA",
+        "B. The actual attenuation is less than the labeled NRR: OSHA derating (NRR - 7) / 2 = 11 dB effective for earplugs; 102 - 11 = 91 dBA at the ear — still above the 90 dBA PEL, indicating inadequate protection",
+        "C. Yes — ringing ears is normal after noise exposure",
+        "D. No — earplugs are always inadequate for concrete saws"
+      ],
+      "answer": "B",
+      "analysis": "1926.52(d)(1): feasible administrative or engineering controls shall be used to reduce sound levels. 1926.101(b): hearing protectors must attenuate to below the limits in Table D-2. OSHA uses derating factors: for earplugs, (NRR - 7) / 2 = effective attenuation. (29 - 7) / 2 = 11 dB effective. 102 - 11 = 91 dBA at the ear, which exceeds the 90 dBA PEL. The employer needs: (1) higher-NRR earplugs or earmuffs (NRR 33+), (2) dual protection (plugs + muffs), or (3) engineering controls. Ringing ears (tinnitus) is a sign of noise-induced hearing damage — the current protection is not working."
+    },
+    {
+      "question": "A welder on a bridge project is performing shielded metal arc welding overhead. The welder wears a welding helmet with a #10 shade lens, leather jacket, leather gloves, and steel-toe boots. Sparks and slag rain down, some going down the welder's collar and into the boots. What PPE deficiencies exist?",
+      "options": [
+        "A. No deficiencies — this is standard welding PPE",
+        "B. The welder needs: (1) a welding cap or hood under the helmet to protect the head/hair from overhead sparks, (2) a welder's collar or cape to prevent slag from entering at the neck, (3) metatarsal guards or spats over boots to prevent hot slag entry",
+        "C. Only a higher shade number is needed",
+        "D. Welding overhead is prohibited — no PPE can make it safe"
+      ],
+      "answer": "B",
+      "analysis": "1926.95(a): PPE shall protect against hazards. For overhead welding, standard PPE has gaps: the neck (slag pools at the collar and causes severe burns), the head (sparks ignite hair), and the top of the feet (slag melts through laces and tongue, burning the instep). A welder's cap, leather collar/cape, and spats or metatarsal boots close these gaps. This is well-established industry practice for overhead welding."
+    },
+    {
+      "question": "On a multi-story construction site, the employer provides all workers with Type I, Class C hard hats. Workers on the 3rd floor are exposed to overhead formwork — potential falling tools from the 4th floor. An electrician on the 2nd floor is working near exposed 277V conductors. Are these hard hats appropriate?",
+      "options": [
+        "A. Yes — any hard hat meets OSHA requirements",
+        "B. No — Type I protects top impact only (no lateral); Class C provides no electrical protection. The electrician needs Class E (tested to 20,000V). Workers on the 3rd floor may need Type II (lateral impact) if struck-by hazards exist",
+        "C. Yes — hard hat types are interchangeable",
+        "D. No — only Type II, Class E hard hats are allowed on construction sites"
+      ],
+      "answer": "B",
+      "analysis": "1926.100(a): employees shall wear protective helmets where there is a possible danger of head injury. ANSI Z89.1 classifies hard hats: Type I (top impact only) vs Type II (top + lateral), Class G (2,200V), Class E (20,000V), Class C (conductive — no electrical protection). The electrician working near 277V needs at least Class E — Class C provides zero electrical protection. Overhead work with lateral struck-by risk requires Type II. The employer must match hard hat type/class to specific hazards identified in the hazard assessment."
+    },
+    {
+      "question": "A worker required to wear fall protection (PFAS) at 40 feet on a cell tower is using a harness that was purchased 6 years ago. The harness looks clean, has been stored indoors, and passes a visual inspection — no cuts, frays, UV fading, or chemical stains. The manufacturer's instructions say 'service life 5 years from date of first use.' Can this harness still be used?",
+      "options": [
+        "A. Yes — the harness looks fine and passes visual inspection",
+        "B. No — the manufacturer's specified service life is binding; exceeding the 5-year service life (now at 6 years) means the harness must be removed from service regardless of appearance",
+        "C. Yes — service life recommendations are just suggestions",
+        "D. The harness can be used for one more year if inspected monthly"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(2): the employer shall provide for the proper use, inspection, maintenance, and storage of personal fall arrest systems in accordance with the manufacturer's instructions. If the manufacturer specifies a 5-year service life, that is the mandatory removal timeline. The reason: synthetic webbing (nylon/polyester) degrades over time from hydrolysis, oxidation, and micro-damage that may not be visible. Even stored indoors, chemical processes continue. After the service life, the harness's strength cannot be guaranteed."
+    },
+    {
+      "question": "A construction site has a high-noise area (95 dBA). The employer places a box of disposable earplugs at the entrance with a sign 'HEARING PROTECTION REQUIRED.' No training is provided, and no individual fit-testing. Workers roll the plugs and insert them — some visibly not fully inserted. Is this compliant?",
+      "options": [
+        "A. Yes — hearing protection is provided and available",
+        "B. No — the employer must: (1) train each worker on proper insertion and care of hearing protectors, (2) ensure proper initial fit by a competent person, and (3) supervise correct use. Earplugs deeply inserted provide dramatically different attenuation than poorly inserted ones",
+        "C. Yes — as long as noise doesn't exceed 100 dBA",
+        "D. No — only earmuffs are allowed in construction"
+      ],
+      "answer": "B",
+      "analysis": "1926.101(b): hearing protectors must be fitted and maintained in accordance with the manufacturer's instructions. 1926.21(b)(2): the employer shall instruct each employee in the recognition and avoidance of hazards. Proper earplug insertion requires: rolling the plug into a tight crease-free cylinder, pulling the ear up and back to straighten the canal, inserting deeply, and holding until it expands. A plug inserted only halfway can provide 5-10 dB less attenuation. Without training, many workers get significantly less than the rated NRR."
+    },
+    {
+      "question": "A laborer uses a jackhammer to break concrete. The estimated hand-arm vibration magnitude is 12 m/s². The worker uses the jackhammer 4 hours per day. The employer provides vibration-dampening gloves (rated to reduce vibration by 20%). What else is required?",
+      "options": [
+        "A. The gloves alone are sufficient — they reduce vibration exposure below the action level",
+        "B. Anti-vibration gloves reduce vibration by only 5-20% in real use, not enough to bring 12 m/s² below the 5 m/s² ACGIH TLV. Engineering controls (vibration-dampened tool handles), work rotation, and health surveillance for Hand-Arm Vibration Syndrome are needed",
+        "C. Nothing — vibration is not regulated by OSHA",
+        "D. The worker must take a 30-minute break every hour"
+      ],
+      "answer": "B",
+      "analysis": "While OSHA has no specific vibration standard, the General Duty Clause applies — hand-arm vibration syndrome (HAVS) is a recognized serious health hazard. At 12 m/s² for 4 hours, the 8-hour equivalent A(8) = 12 × √(4/8) = 8.5 m/s² — well above the ACGIH TLV of 2.5 m/s² A(8). Gloves claiming 20% reduction realistically achieve 5-10%. The employer should: use low-vibration tools (manufacturer data on vibration emission), rotate workers to reduce individual exposure, and have a medical surveillance program for early HAVS detection."
+    },
+    {
+      "question": "A construction site on a waterfront has workers on a barge within 10 feet of the water edge. No life jackets or ring buoys are present. The water depth is 12 feet, and the current is moderate. Is fall protection/lifesaving equipment required?",
+      "options": [
+        "A. No — the workers are on a barge, not in the water",
+        "B. Employees working over or near water where the danger of drowning exists must be provided with U.S. Coast Guard-approved life jackets or buoyant work vests; additionally, at least one lifesaving skiff and ring buoys with 90-foot lines must be available",
+        "C. Only hard hats are required on barges",
+        "D. Yes — PFDs are required but ring buoys are optional"
+      ],
+      "answer": "B",
+      "analysis": "1926.106(a): employees working over or near water shall be provided with U.S. Coast Guard-approved life jackets or buoyant work vests. 1926.106(c): ring buoys with at least 90 feet of line shall be provided and readily available for emergency rescue operations. 1926.106(d): at least one lifesaving skiff shall be immediately available at all times. The 10-foot proximity to water with a current creates a drowning hazard — PPE and rescue equipment must be in place."
+    },
+    {
+      "question": "A worker is performing abrasive blasting (sandblasting) of structural steel. The worker is inside a supplied-air (Type CE) abrasive blasting hood with airline respirator. The breathing air compressor is a standard job-site air compressor with no carbon monoxide monitor or high-temperature alarm. Is this setup acceptable?",
+      "options": [
+        "A. Yes — the airline hood is sufficient protection",
+        "B. No — supplied-air respirators require Grade D breathing air; a standard compressor can produce carbon monoxide from overheated oil; a CO monitor with alarm or a high-temperature alarm with continuous CO monitoring is required, plus inline filtration",
+        "C. Yes — as long as the compressor is oil-less",
+        "D. No — abrasive blasting is prohibited on construction sites"
+      ],
+      "answer": "B",
+      "analysis": "1926.103 references 1910.134(i): compressed breathing air shall meet Grade D specification (ANSI/CGA G-7.1). Standard job-site compressors use oil, which can overheat and produce CO (a colorless, odorless, deadly gas). 1910.134(i)(7): the employer shall ensure that breathing air couplings are incompatible with other gas systems. The compressor must have: a high-temperature or CO alarm, proper filtration (particulate + coalescing + charcoal), and regular air quality testing. Multiple fatalities have occurred from CO poisoning through supplied-air systems."
+    },
+    {
+      "question": "At a construction site 45 minutes from the nearest hospital, a worker suffers a deep laceration from a saw. The first aid kit on site contains basic adhesive bandages and antiseptic wipes — no trauma supplies (tourniquet, pressure bandage, hemostatic gauze). Bleeding is severe. What OSHA requirement applies?",
+      "options": [
+        "A. The basic first aid kit meets minimum requirements for construction",
+        "B. 1926.50(c) requires the employer to ensure the availability of medical personnel for advice and consultation; ANSI Z308.1-2015 (referenced by OSHA) requires workplace first aid kits to contain supplies appropriate for the injuries likely to occur — for construction, this includes trauma/bleeding control supplies",
+        "C. 911 is sufficient — no first aid kit is required if EMS is available",
+        "D. Only a bandage is needed — workers should go to the hospital for everything else"
+      ],
+      "answer": "B",
+      "analysis": "1926.50(c): the employer must ensure the availability of medical personnel for advice and consultation. 1926.50(d)(1): first aid supplies shall be easily accessible. ANSI Z308.1 (incorporated by reference in many state plans and considered industry standard) specifies Class A (basic) and Class B (industrial) kit contents. For construction with laceration/amputation risks, Class B kits including trauma supplies (tourniquets, hemostatic agents, pressure dressings) are appropriate. A basic kit with only adhesive bandages is inadequate for the hazards present."
+    },
+    {
+      "question": "A new worker wears prescription eyeglasses on a construction site. The employer provides standard safety glasses that fit over the prescription glasses, but they fog constantly and the worker removes them to see clearly. What is the employer's obligation?",
+      "options": [
+        "A. The employer has met the obligation by providing over-the-glass safety glasses",
+        "B. The employer must ensure PPE is effective and actually used; if the over-the-glass protection is incompatible with the worker's needs (fogging, poor fit), the employer must provide prescription safety glasses or other suitable solution",
+        "C. The worker must purchase their own prescription safety glasses",
+        "D. The worker can work without eye protection as long as they're careful"
+      ],
+      "answer": "B",
+      "analysis": "1926.102(a)(1): the employer shall ensure appropriate eye protection is used. 1926.95(a): PPE shall be provided by the employer at no cost to employees. If standard over-the-glass safety glasses don't work (fogging, discomfort, poor fit), the employer must provide an alternative that works — prescription safety glasses with impact-rated lenses and side shields. OSHA Directive CPL 02-00-158 clarifies that PPE must be properly fitted and compatible. PPE that the worker removes because it's unusable is equivalent to no PPE at all."
+    },
+    {
+      "question": "A construction crew is working in a trench where air monitoring detects 19.0% oxygen (normal air is 20.9%). The foreman says 'it's just a little low — keep working.' Workers feel slightly breathless and one worker's lips look slightly blue. What type of respirator provides protection in an oxygen-deficient atmosphere?",
+      "options": [
+        "A. An N95 filtering facepiece — it filters particles",
+        "B. Only a supplied-air respirator (SAR) or self-contained breathing apparatus (SCBA) — air-purifying respirators (including N95, half-face, full-face with cartridges) DO NOT supply oxygen and will not protect in an oxygen-deficient atmosphere",
+        "C. A full-face respirator with organic vapor cartridges",
+        "D. A P100 half-face respirator"
+      ],
+      "answer": "B",
+      "analysis": "1926.103 references 1910.134(d)(2)(iii): any atmosphere with oxygen below 19.5% is considered oxygen-deficient and immediately dangerous to life or health (IDLH). Air-purifying respirators CANNOT be used in oxygen-deficient atmospheres — they only filter contaminants, they do NOT add oxygen. Only supplied-air respirators (SAR with escape bottle) or SCBA provide breathable air. At 19.0% O₂, workers are already showing signs of hypoxia (breathlessness, cyanosis/bluish lips) — this is an IDLH atmosphere requiring immediate evacuation and supplied-air respirators for any re-entry."
+    },
+    {
+      "question": "An employer on a construction site is implementing a hearing conservation program. Workers are exposed to 92 dBA TWA over 8 hours. The employer provides hearing tests and earplugs. One worker's annual audiogram shows a Standard Threshold Shift (STS) — a 10 dB average hearing loss at 2,000, 3,000 and 4,000 Hz. What must the employer do?",
+      "options": [
+        "A. Nothing — some hearing loss is expected with age",
+        "B. The employer must: (1) inform the worker in writing within 21 days, (2) refit or replace hearing protectors with higher attenuation, (3) refer for clinical audiological evaluation, and (4) re-evaluate the effectiveness of the hearing conservation program",
+        "C. Transfer the worker to a non-noise job",
+        "D. File a workers' compensation claim"
+      ],
+      "answer": "B",
+      "analysis": "1926.52 references 1910.95(g)(8): if an STS is detected, the employer must: inform the employee in writing within 21 days, ensure the employee uses hearing protectors (if not already), refit/replace protectors for better attenuation, refer for clinical evaluation, and consider revising the hearing conservation program. An STS is a red flag — it indicates the current hearing protection strategy is failing for that worker. Age-related hearing loss is accounted for in the STS calculation using age correction factors."
+    },
+    {
+      "question": "A worker drops a 3-lb sledgehammer from a scaffold platform at 15 feet. It strikes another worker below on the shoulder. The struck worker was wearing a hard hat, safety glasses, and steel-toe boots — but no upper body protection. What PPE might have reduced this injury?",
+      "options": [
+        "A. None — upper body PPE is not required for construction",
+        "B. While no specific OSHA standard mandates shoulder/upper body protection for struck-by hazards, effective falling object protection (toeboards, debris nets, barricades below) should have prevented the incident. PPE is the last line of defense — the primary requirement is preventing objects from falling",
+        "C. Shoulder pads should be standard issue for all construction workers",
+        "D. The injured worker should have been wearing a bulletproof vest"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(h)(1): toeboards shall be installed on scaffolds to protect employees below. 1926.451(h)(2): screens, debris nets, or barricades required where tools may fall. The hierarchy of controls: (1) engineering control — toeboard on the scaffold to prevent tools from falling, (2) administrative control — barricade the area below, (3) PPE — hard hats provide some protection but shoulder injury from a 3-lb hammer is a reminder that PPE alone cannot prevent all injuries. The root cause was the failure of falling object prevention, not the lack of body armor."
+    },
+    {
+      "question": "A construction site has a portable eyewash station that was filled with water 3 months ago. It's been sitting in direct sunlight. A worker gets cement dust in their eyes and uses the eyewash — the water is warm and has visible algae growth. The worker's eye irritation worsens. What is the violation?",
+      "options": [
+        "A. No violation — any water is better than nothing in an eye emergency",
+        "B. The eyewash station must be maintained per ANSI Z358.1: water must be clean, tepid (60-100°F), and flushed/replaced regularly (typically weekly for portable units); stagnant, algae-contaminated water introduces additional contaminants to an injured eye",
+        "C. Algae in eyewash water is harmless",
+        "D. Eyewash stations are not required on construction sites"
+      ],
+      "answer": "B",
+      "analysis": "1926.50(g): where the eyes or body of any person may be exposed to injurious corrosive materials, suitable facilities for quick drenching or flushing of the eyes and body shall be provided. ANSI Z358.1 (recognized as industry standard) specifies: flushing fluid must be potable, preserved, and changed per manufacturer's schedule (typically weekly). Algae-contaminated warm water applied to an eye with corneal abrasion (from cement dust) can cause a serious eye infection potentially leading to vision loss. Eyewash stations require documented weekly maintenance."
+    },
+    {
+      "question": "A worker wearing a full-face respirator with organic vapor cartridges is applying spray foam insulation containing isocyanates (MDI). The worker notices a sweet chemical taste inside the mask after 3 hours. What does this indicate?",
+      "options": [
+        "A. The respirator is working — the taste means the cartridge is capturing the chemical",
+        "B. Breakthrough — the cartridge is saturated; isocyanates are now passing through the cartridge. The worker must leave the area immediately and replace the cartridge. Isocyanates are powerful sensitizers and asthmagens",
+        "C. The respirator needs a tighter face seal",
+        "D. The taste is from the foam reacting, not the respirator issue"
+      ],
+      "answer": "B",
+      "analysis": "1926.103 references 1910.134(d)(3)(iii)(B)(1): for substances with adequate warning properties (odor, taste, irritation), the worker can use these as an indicator of cartridge breakthrough. A sweet chemical taste inside the mask is a classic sign of organic vapor cartridge breakthrough — the sorbent is saturated. Isocyanates are particularly dangerous: they are respiratory sensitizers (single high exposure can cause lifelong asthma) and have poor warning properties at low concentrations. The worker must leave the area, replace cartridges, and verify proper fit. For isocyanates, supplied-air respirators are generally preferred due to their poor warning properties."
+    },
+    {
+      "question": "A construction worker handling rebar is wearing standard leather work gloves with no cut-resistance rating. A piece of rebar with a sharp burr slices through the glove and into the worker's palm, requiring 12 stitches. Could this injury have been prevented by proper PPE selection?",
+      "options": [
+        "A. No — no glove can protect against sharp rebar burrs",
+        "B. Yes — the employer's hazard assessment should have identified sharp rebar edges/burrs as a cut hazard; ANSI/ISEA 105-rated cut-resistant gloves (Level A3 or higher) with coated palms would have provided significantly better protection",
+        "C. Leather gloves provide the best cut protection available",
+        "D. Gloves are the worker's responsibility to choose"
+      ],
+      "answer": "B",
+      "analysis": "1926.95(a): the employer must assess workplace hazards and select appropriate PPE. 1926.21(b)(2): the employer must train employees to recognize hazards. Sharp rebar burrs are a well-known construction cut hazard. Standard leather work gloves offer minimal cut protection (ANSI Cut Level A1-A2). For rebar handling, ANSI Cut Level A3-A5 gloves with nitrile or polyurethane-coated palms provide substantially better cut resistance while maintaining grip. The employer failed the hazard assessment by not identifying the cut severity and selecting appropriate hand protection."
+    },
+    {
+      "question": "A construction company issues the same model of hard hat to all employees. One employee notices the suspension inside their hard hat is adjusted to the largest setting, causing the hat to sit low on their head and wobble. They add a baseball cap underneath the hard hat for a better fit. Is this acceptable?",
+      "options": [
+        "A. Yes — adding a cap improves fit and keeps sweat out of eyes",
+        "B. No — wearing anything under a hard hat is prohibited unless it's specifically designed to be worn with that hard hat (e.g., a manufacturer-approved winter liner); a baseball cap interferes with the suspension system and can reduce impact protection",
+        "C. Yes — as long as the hard hat doesn't fall off",
+        "D. The worker should get a smaller hard hat"
+      ],
+      "answer": "B",
+      "analysis": "1926.100(a) requires protective helmets meet ANSI Z89.1. ANSI Z89.1 requires hard hats to be worn as designed — the suspension system must maintain a minimum clearance of 1.25 inches between the head and the shell. A baseball cap under the hard hat (1) reduces this clearance, (2) interferes with the suspension straps, and (3) can redirect impact forces incorrectly. If the hard hat is too large, the employer must provide a properly sized one with the suspension adjusted correctly. Manufacturer-approved accessories (sweatbands, winter liners) are designed to not interfere with the protection system."
+    },
+    {
+      "question": "An employer provides fall arrest harnesses and 6-foot shock-absorbing lanyards to all workers on a 30-foot roof. A 350-lb worker asks for a harness rated for their weight. The standard harness is rated 130-310 lbs. The employer says 'you'll have to lose weight or not work at height.' Is this legally acceptable?",
+      "options": [
+        "A. Yes — the employer can't be expected to provide custom equipment for every weight",
+        "B. No — the employer must provide PPE that fits and protects each employee; standard 310-lb max harnesses are inadequate for a 350-lb worker. Harnesses rated to 400+ lbs exist and must be provided",
+        "C. Yes — the worker is responsible for their own safety",
+        "D. No — the worker must be assigned to ground work only"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(16)(ii): PFAS must limit maximum arresting force to 1,800 lbs. However, the equipment must be rated for the user's actual weight. Harnesses and lanyards rated for 400+ lbs are commercially available (e.g., ANSI Z359.6 capacity range up to 420 lbs). 1926.95(a) requires the employer to provide PPE. The employer cannot simply exclude a worker from work because standard PPE doesn't fit — they must provide appropriately rated equipment. This is also a potential ADA/disability accommodation issue. The 'lose weight' response is both unsafe and discriminatory."
+    },
+    {
+      "question": "A worker's full-body fall arrest harness has a label that reads 'ANSI Z359.11-2014. Capacity: 130-310 lbs. Manufactured: 2018.' The harness has been worn approximately 200 days and stored in a gang box when not in use. A competent person is inspecting it. What should the inspector look for?",
+      "options": [
+        "A. Just check the label is still attached",
+        "B. The inspector must examine: (1) all webbing for cuts, fraying, abrasion, UV damage (fading/stiffness), chemical damage (discoloration/stiff or softened areas), (2) all stitching for pulled, cut, or abraded threads, (3) D-rings for cracks, corrosion, distortion, (4) buckle/grommet function, (5) impact indicators (if equipped), (6) that the label is legible and not expired per manufacturer's service life (now 8 years old in 2026)",
+        "C. The harness is automatically expired at 5 years",
+        "D. A quick visual once-over is sufficient"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(21): PFAS shall be inspected prior to each use for wear, damage, and deterioration. ANSI Z359.2 provides the detailed inspection protocol. The harness is now 8 years old (manufactured 2018, inspected in 2026) — the manufacturer's specified service life (typically 5-10 years from date of manufacture if unused, or 5 years from first use) must be verified from the manufacturer's instructions. Storage in a gang box can expose the harness to moisture, chemicals, tools that cut, and crushing. The detailed inspection is not optional — each element must be checked."
+    },
+    {
+      "question": "A construction site covers 5 acres with workers spread across multiple buildings. The employer places one first aid kit in the job trailer. Some workers are a 10-minute walk from the trailer. When a worker at the far end of the site cuts their hand deeply, it takes 12 minutes for someone to retrieve the first aid kit and return. Is this compliant?",
+      "options": [
+        "A. Yes — one first aid kit per site is standard",
+        "B. No — 1926.50(d)(1) requires first aid supplies be 'easily accessible'; for a 5-acre site with workers spread out, multiple kits distributed across the work area are needed so response time is no more than 3-4 minutes for bleeding control",
+        "C. Yes — 12 minutes is reasonable for a non-emergency",
+        "D. No — each worker must carry a personal first aid kit"
+      ],
+      "answer": "B",
+      "analysis": "1926.50(d)(1): first aid supplies shall be easily accessible when needed. ANSI Z308.1 suggests travel time to a first aid kit should not exceed 3-4 minutes for trauma emergencies. A 12-minute round trip for a bleeding wound is excessive — uncontrolled bleeding can lead to shock or death in minutes. The employer should place additional kits at locations around the site (in vehicles, in key work areas) and train workers on their locations."
+    },
+    {
+      "question": "A construction foreman tells workers to use N95 filtering facepiece respirators while cutting fiber cement siding (contains crystalline silica). The workers are not fit-tested, not trained on respirator use, and not medically evaluated. The foreman says 'they're just dust masks — anyone can wear them.' Is this compliant under the silica standard?",
+      "options": [
+        "A. Yes — N95s are dust masks and don't require a full respiratory protection program",
+        "B. No — N95s are respirators under OSHA; 1926.1153 requires: (1) medical evaluation before respirator use, (2) fit testing, (3) training on use/limitations/care, and (4) a written respiratory protection program. 'Voluntary use' of filtering facepieces is exempt from SOME requirements but not for mandatory use",
+        "C. Yes — fiber cement doesn't contain real silica",
+        "D. N95s are only required for asbestos, not silica"
+      ],
+      "answer": "B",
+      "analysis": "1926.1153(d)(1): when respirators are required by the silica standard, the employer must implement a respiratory protection program per 1910.134. N95 filtering facepieces ARE respirators — they are certified by NIOSH and subject to all respiratory protection program requirements when their use is mandatory (i.e., when engineering controls don't reduce silica exposure below the PEL of 50 μg/m³). Mandatory use requires: medical evaluation, fit testing, training, and a written program. The foreman's characterization of them as 'just dust masks' is incorrect and dangerous."
+    },
+    {
+      "question": "A worker at a highway construction site works at night. The employer provides a Class 2 high-visibility safety vest (ANSI/ISEA 107). The worker is in an area where traffic speeds reach 55 mph. Another worker flagging on the road wears the same Class 2 vest. Is the PPE classification adequate?",
+      "options": [
+        "A. Yes — Class 2 is standard for all highway work",
+        "B. The flagger needs Class 3 apparel under MUTCD — workers exposed to vehicle speeds ≥50 mph require Class 3 garments (more reflective material, sleeves or full coverage). The worker in the work zone may need Class 3 if traffic is not separated by barriers",
+        "C. No — all highway workers need Class 3",
+        "D. Class 1 is sufficient for night work with headlights"
+      ],
+      "answer": "B",
+      "analysis": "Manual on Uniform Traffic Control Devices (MUTCD) Section 6D.03: workers exposed to traffic with speeds ≥50 mph require Class 3 high-visibility apparel. 1926.95(a) requires PPE appropriate for hazards. Class 2 vests have less reflective material (typically 201 sq in of background + 201 sq in of retroreflective) compared to Class 3 (310 sq in background + 310 sq in retroreflective, with sleeves or full body coverage). At 55 mph, driver reaction time + braking distance means the worker must be visible from 1,000+ feet — Class 3 significantly improves nighttime conspicuity at distance."
+    },
+    {
+      "question": "A construction company has a policy requiring safety glasses at all times on site. A worker with a facial structure that makes standard safety glasses extremely painful to wear (pressure behind ears, nose bridge bruising) repeatedly removes their glasses. The supervisor writes them up for safety violations. What should the employer do instead?",
+      "options": [
+        "A. Continue disciplinary action — PPE rules apply equally to everyone",
+        "B. The employer must provide alternative eye protection that fits the worker — this could include OTG (over-the-glass) styles, goggles with adjustable straps, safety glasses with different frame designs, or prescription safety glasses with custom fit",
+        "C. Transfer the worker to an office job",
+        "D. Excuse the worker from eye protection — their face shape makes it impossible"
+      ],
+      "answer": "B",
+      "analysis": "1926.95(a): PPE shall be provided, used, and maintained. 1926.102(a)(1): appropriate eye protection shall be used. OSHA compliance directive CPL 02-00-158: PPE must be properly fitted and selected based on individual worker characteristics. The employer's duty goes beyond a one-size-fits-all approach. If standard safety glasses don't fit, the employer must provide alternatives — different brands, sizes, styles, or custom options. Disciplining a worker for removing poorly fitting PPE is blaming the worker for the employer's PPE selection failure."
+    },
+    {
+      "question": "A worker is using a chainsaw to clear brush at a construction site. The employer provides: hard hat, safety glasses, steel-toe boots, and work gloves. The worker receives a 6-inch laceration to the thigh when the chainsaw kicks back. What critical PPE was missing?",
+      "options": [
+        "A. Nothing — standard construction PPE was provided",
+        "B. Chainsaw operation requires: chainsaw chaps or pants (cut-resistant leg protection meeting ASTM F1897), hearing protection (chainsaws typically produce 110+ dBA), and face protection (mesh visor with safety glasses underneath)",
+        "C. Only a face shield was missing",
+        "D. The worker should have worn a full-body harness"
+      ],
+      "answer": "B",
+      "analysis": "1926.95(a): PPE shall be provided for all hazards. Chainsaws present specific hazards: (1) leg cuts from kickback — chainsaw chaps/pants with multiple layers of cut-resistant fiber (ASTM F1897) that jam the chain, (2) high noise — typically 110-115 dBA requiring earplugs + earmuffs (dual protection), (3) face/eye impact from flying chips — mesh visor + safety glasses. Standard construction PPE does not address chainsaw-specific hazards. The employer failed the hazard assessment by not recognizing the specialized PPE requirements for chainsaw use."
+    },
+    {
+      "question": "A construction site has a chemical storage area with a bulk muriatic acid (hydrochloric acid, 31%) container used for masonry cleaning. The container is a 275-gallon IBC tote with a bottom valve. A worker accidentally opens the valve fully and acid gushes out, splashing the worker's face and chest. The worker runs to the eyewash station 35 seconds away. The eyewash is a portable gravity-fed unit. What PPE should have been worn when working with this container?",
+      "options": [
+        "A. Standard work clothes — acid is just a cleaning product",
+        "B. When handling bulk corrosive chemicals with splash potential, the worker needs: (1) chemical splash goggles (not just glasses), (2) face shield over goggles, (3) acid-resistant suit or apron, (4) acid-resistant gloves (neoprene or butyl rubber, not latex/nitrile), (5) acid-resistant boots. The eyewash must be accessible within 10 seconds",
+        "C. Just chemical-resistant gloves are enough",
+        "D. A respirator is the only requirement"
+      ],
+      "answer": "B",
+      "analysis": "1926.95(a): PPE for all hazards. 1910.132(h)(1): the employer must provide PPE at no cost. Muriatic acid (31% HCl) causes immediate, severe chemical burns to skin and eyes — permanent blindness can occur in seconds. The SDS specifies required PPE: chemical splash goggles, face shield, acid-resistant suit/apron, butyl rubber or neoprene gloves (NOT latex or thin nitrile — HCl penetrates these quickly), and chemical-resistant boots. The 35-second travel to eyewash exceeds ANSI Z358.1's 10-second (55-foot) requirement for corrosive chemical workstations. An eyewash should be immediately adjacent to the hazard."
+    },
+    {
+      "question": "A construction worker is performing hot work (welding) on a steel beam. The worker wears a welding helmet with auto-darkening filter, FR cotton shirt, FR cotton pants, leather gloves, and leather steel-toe boots. A spark lands on the worker's FR shirt sleeve and smolders (continues to burn slowly). FR cotton (treated cotton) is supposed to self-extinguish — why is it smoldering?",
+      "options": [
+        "A. FR cotton is defective — it should never burn",
+        "B. FR cotton (treated with flame retardant chemicals) can become less effective after repeated laundering; the chemicals deplete over time. Additionally, FR cotton can char and smolder under sustained heat. The garment may need replacement",
+        "C. The worker should wear synthetic materials — they're more flame-resistant",
+        "D. FR cotton is not intended for welding — only leather provides protection"
+      ],
+      "answer": "B",
+      "analysis": "1926.95(a): PPE must be maintained in reliable condition. FR-treated cotton relies on chemical flame retardants (e.g., THPOH, Pyrovatex) that are gradually depleted through laundering, especially with hard water, chlorine bleach, or improper detergents. The garment should be tested or replaced per manufacturer's service life. Additionally, for heavy welding, leather sleeves or cape provide better protection — FR cotton is a minimum, not optimal protection. Smoldering indicates the garment's FR properties are compromised — it should be removed from service."
+    },
+    {
+      "question": "A welder is performing arc welding on galvanized steel overhead. The work produces intense UV radiation, molten metal spatter, and zinc oxide fumes. Which combination of PPE is the MINIMUM required?",
+      "options": [
+        "A. Safety glasses, cotton gloves, and a N95 dust mask",
+        "B. Welding helmet with appropriate shade lens, leather gauntlet gloves, flame-resistant clothing, and respiratory protection for metal fumes",
+        "C. Face shield, rubber gloves, and a Tyvek suit",
+        "D. Auto-darkening hood, mechanic's gloves, and a bandana over the mouth"
+      ],
+      "answer": "B",
+      "analysis": "1926.353(c)(2)(i) requires that when welding galvanized steel, local exhaust ventilation or supplied-air respirators be used to protect against zinc oxide fumes (which cause metal fume fever). 1926.102(b)(1) requires eye protection with appropriate filter lens shade for arc welding (Shade #10-14 per 1926.102(b)(1) Table E-1). 1926.95(a) requires protective clothing for hazards — leather gauntlets and FR clothing protect against UV burns and spatter. A N95 is inadequate for metal fumes — 1926.103 refers to 29 CFR 1910.134 for respiratory protection requirements."
+    },
+    {
+      "question": "A carpenter using a pneumatic nail gun on a residential framing crew refuses to wear safety glasses, claiming they fog up in the humidity and slow him down. The foreman allows it because 'he's experienced.' A coworker's nail gun misfires and a nail ricochets. What is the OSHA liability?",
+      "options": [
+        "A. The worker is solely liable — he refused PPE and assumed the risk",
+        "B. The employer is liable — PPE must be enforced, not merely provided, and worker 'experience' does not exempt PPE requirements",
+        "C. No violation — nail guns are not specifically covered under PPE standards",
+        "D. The liability is shared equally between employer and employee under contributory negligence"
+      ],
+      "answer": "B",
+      "analysis": "1926.102(a)(1) states: 'Employees shall be provided with eye and face protection equipment when machines or operations present potential eye or face injury.' 1926.21(b)(2) requires the employer to instruct each employee in the recognition and avoidance of unsafe conditions and the regulations applicable to his work environment. OSHA precedent under the General Duty Clause and 1926.102 holds that it is the employer's non-delegable duty to ENFORCE PPE use — not just provide it. Allowing an employee to work without required PPE is a violation regardless of the employee's experience or personal preference. In re: 'experience' — complacency is itself a leading cause of injury."
+    }
+  ]
+}

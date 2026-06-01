@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA Materials Handling & Storage Quiz — 29 CFR 1926.250-252 Practice Questions",
+    "meta_description": "Free OSHA 30-Hour Construction materials handling and storage practice test with 40 realistic scenarios. Lumber stacking, rebar storage, rigging inspection, sling types, material hoists, debris disposal, housekeeping, and manual lifting with 29 CFR 1926 Subpart H references.",
+    "primary_keywords": [
+      "OSHA materials handling quiz",
+      "29 CFR 1926.250 practice",
+      "rigging inspection test",
+      "OSHA 30-Hour storage safety"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A construction site has stacks of lumber stored near the main access path. The stacks are 16 feet high, and the bottom layer is on 4×4 runners. The piles have no cross-stripping and some boards are visibly leaning. Workers walk between the stacks. What does 1926.250(b)(1) require for this lumber storage?",
+      "options": [
+        "A. Lumber can be stacked at any height as long as it's on runners",
+        "B. Lumber piles must not exceed 16 feet in height if handled manually, or 20 feet if handled by forklift; must be stable, self-supporting, and stacked on level, solidly supported sills; cross-strips are required at intervals not exceeding 4 feet vertically",
+        "C. Lumber storage is not regulated — only steel and concrete storage has requirements",
+        "D. As long as a warning sign is posted, leaning stacks are acceptable"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(b)(1): all lumber shall be stacked on level and solidly supported sills. 1926.250(b)(4): lumber piles shall not exceed 16 feet in height if handled manually, nor 20 feet if handled by a forklift. 1926.250(b)(5): lumber shall be stacked so as to be stable and self-supporting. Cross-stripping every 4 feet vertically prevents the stack from shifting. Workers walking between leaning, un-stripped piles risk being crushed if a stack collapses."
+    },
+    {
+      "question": "A 55-gallon drum of used motor oil is being stored on a construction site. The drum is on its side with the bung at the bottom, directly on the dirt. No secondary containment is provided. A slow leak develops. What does OSHA require?",
+      "options": [
+        "A. Drums of used oil are exempt from storage requirements on construction sites",
+        "B. The drum must be stored upright on an impervious surface with secondary containment (spill pallet); leaking drums must be immediately addressed — spilled oil is both an environmental and slip hazard",
+        "C. Placing cardboard under the drum is adequate containment",
+        "D. Used oil drums can be stored on their side as long as the bung is tightened"
+      ],
+      "answer": "B",
+      "analysis": "1926.252(e): all solvent waste, oily rags, and flammable liquids shall be kept in fire-resistant covered containers until removed from worksite. While this subsection primarily addresses fire hazards, the General Duty Clause requires employers to prevent recognized hazards — used oil on dirt creates a slip hazard and environmental contamination. EPA SPCC regulations may also apply. Storing a drum on its side with the bung at the bottom means hydrostatic pressure forces the leak; upright storage is standard practice."
+    },
+    {
+      "question": "A forklift operator is moving a pallet of concrete blocks across a construction site. The load blocks the operator's forward view. The operator is driving in the forward direction, leaning to the side to see around the load. What does 1926.602(c)(1) require?",
+      "options": [
+        "A. This is acceptable — operators frequently drive with obstructed views by leaning to see",
+        "B. When a load obstructs forward view, the operator must travel with the load trailing (drive in reverse) unless the route is on an upgrade",
+        "C. Forklift operators are exempt from view obstruction rules on construction sites",
+        "D. The operator should honk the horn continuously while driving with an obstructed view"
+      ],
+      "answer": "B",
+      "analysis": "1926.602(c)(1)(vi) incorporating 1910.178(n)(4): when the load obstructs forward view, the driver shall be required to travel with the load trailing. Driving forward with an obstructed view is prohibited — the operator cannot see the path ahead, creating a struck-by hazard. If the grade is too steep to drive load-trailing, a spotter must guide the operator. Leaning to one side provides only a partial view and creates an ergonomic/control hazard."
+    },
+    {
+      "question": "Bags of cement are stored outside on pallets. The forecast calls for heavy rain overnight. The foreman decides to leave them uncovered because 'the bags are paper and the outer layer will protect the cement.' By morning, the bags are soaked, the cement is hardened, and workers must manually break up the hardened bags. What two problems exist?",
+      "options": [
+        "A. No problems — hardened cement can be broken up and re-bagged",
+        "B. First: bags must be stored to prevent moisture damage (bagged materials should be stored under cover or tarped). Second: breaking up hardened cement manually generates respirable crystalline silica dust — workers need silica controls and PPE",
+        "C. Only the dust issue matters — moisture damage is a financial loss, not a safety issue",
+        "D. Wet cement is safer than dry cement"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(a)(1): all materials stored in tiers shall be stacked, racked, blocked, interlocked, or otherwise secured to prevent sliding, falling, or collapse. While there's no specific 'tarp your cement' rule, the standard requires materials to be secured from damage. More importantly, hardened cement being broken up generates respirable crystalline silica — the silica standard (1926.1153) applies, requiring engineering controls (water, local exhaust ventilation) and respiratory protection. The foreman's oversight created both a material loss and a silica exposure hazard."
+    },
+    {
+      "question": "Steel rebar is being delivered to a construction site. Workers are manually unloading 40-foot #8 rebar from a flatbed truck by hand, carrying it on their shoulders while walking backward. A worker trips and the rebar strikes another worker. What does this reveal about the site's material handling plan?",
+      "options": [
+        "A. Manual unloading of rebar is standard industry practice",
+        "B. Mechanical handling equipment (forklift with boom attachment, mobile crane, or material cart) should be used for long, heavy rebar; if manual handling is necessary, a team-lift protocol with a designated spotter AND clear communication must be established",
+        "C. Only steel workers can unload rebar",
+        "D. Walking backward with rebar is an acceptable practice if you look over your shoulder"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(a)(2): maximum safe load limits shall be posted for floors and roofs. While most materials handling standards address storage, 1926.250(a)(1) and the General Duty Clause require the employer to implement safe material handling procedures. 40-foot #8 rebar is heavy (approximately 107 lbs per bar) and unwieldy — manual handling by workers walking backward combines struck-by, trip, and ergonomic hazards. A proper plan includes: mechanical handling, taglines to control the load, designated drop zones, and spotters."
+    },
+    {
+      "question": "A construction site has scrap lumber, bent nails, and debris accumulating around work areas. Workers are stepping over piles and a laborer punctures his boot on a nail protruding from a board. What does 1926.25(a) require regarding housekeeping?",
+      "options": [
+        "A. Housekeeping is a best practice, not an OSHA requirement",
+        "B. During the course of construction, debris and scrap materials shall be removed from the immediate work area — form and scrap lumber with protruding nails must not be left where workers walk",
+        "C. Construction sites are inherently messy; scattered debris is unavoidable",
+        "D. Housekeeping is required only at the end of the project"
+      ],
+      "answer": "B",
+      "analysis": "1926.25(a): during the course of construction, form and scrap lumber with protruding nails, and all other debris, shall be kept cleared from work areas, passageways, and stairs, in and around buildings or other structures. This is NOT optional — it's a specific standard. Protruding nails from lumber are a puncture/impalement hazard. 1926.25(b): combustible scrap and debris shall be removed at regular intervals. Good housekeeping also prevents trip hazards and fire fuel accumulation."
+    },
+    {
+      "question": "A crew is using a material hoist to lift bundles of drywall to the 5th floor. The hoist is a temporary installation on the exterior of the building. Workers on the 5th floor are leaning over the edge to signal the operator below. No fall protection is being used at the landing because 'it's just a loading operation.' What does 1926.552(b) require for the material hoist landing?",
+      "options": [
+        "A. The landing area requires the same fall protection as any unprotected edge at 6+ feet — guardrails must be in place; leaning over the edge without protection is a violation",
+        "B. Material hoist landings are exempt from fall protection requirements during active loading/unloading",
+        "C. Only the hoist operator needs fall protection",
+        "D. The workers can lean over as long as they hold onto the hoist mast"
+      ],
+      "answer": "A",
+      "analysis": "1926.552(b)(3): overhead protection shall be provided where the hoist extends above a building. 1926.552(b)(2)(ii): the requirements of Subpart M (Fall Protection) apply to material hoist installations. At the 5th-floor landing, workers are near an unprotected edge 40+ feet above grade — 1926.501(b)(1) requires guardrails, safety nets, or PFAS. 'It's just a loading operation' does not exempt the edge. Guardrails at the landing must be either permanently installed or removable only when the hoist car is present."
+    },
+    {
+      "question": "Masonry blocks are being stored on a supported scaffold platform during bricklaying operations. The blocks are stacked 24 inches high along the back edge of the 29-inch-wide platform. Workers are working from the scaffold, handling blocks from the stack. What does OSHA require regarding material storage on scaffolds?",
+      "options": [
+        "A. Any amount of material can be stored on scaffolds as long as the total load doesn't exceed the scaffold's rated capacity",
+        "B. Materials must not be stored on scaffolds in excess of the load rating; the blocks plus workers must stay within capacity, and the stack must be stable and not create a falling object hazard",
+        "C. Materials can never be stored on scaffold platforms",
+        "D. Only 12 inches of material stacking height is permitted on scaffolds"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(f)(1): scaffolds shall not be loaded in excess of their maximum intended loads or rated capacities. The combined weight of workers + stacked blocks must be below the scaffold rating. Additionally, 1926.451(h)(1): toeboards must be provided where there is a danger of falling objects. A 24-inch stack of blocks on a 29-inch platform leaves workers working near the edge — the blocks could shift/fall. The scaffold must be rated for the load (likely heavy-duty, 75 psf for masonry)."
+    },
+    {
+      "question": "Workers are manually lifting and carrying 94-lb bags of Portland cement from a delivery truck into a storage container. No mechanical aids are provided. By the end of the day, workers have moved 80 bags each. One worker reports severe lower back pain. What does the employer need to consider under OSHA's approach to ergonomic hazards?",
+      "options": [
+        "A. OSHA has no ergonomics standard for construction — the employer has no obligation",
+        "B. While there's no specific ergonomics standard, the General Duty Clause applies — employers must address recognized ergonomic hazards (heavy manual lifting): provide mechanical aids (bag carts, forklifts, vacuum lifters), two-person lifts, or job rotation",
+        "C. Workers are responsible for lifting with their legs, not their back",
+        "D. Back injuries from lifting are pre-existing conditions, not workplace injuries"
+      ],
+      "answer": "B",
+      "analysis": "Although OSHA's ergonomics standard was repealed and no specific construction ergonomics standard exists, the General Duty Clause applies to recognized serious hazards. Manual handling of 94-lb bags is widely recognized as a risk factor for musculoskeletal disorders. NIOSH recommends a maximum lifting limit of 51 lbs under ideal conditions. At 94 lbs per bag × 80 bags = 7,520 lbs moved per worker per day, this far exceeds safe manual handling limits. Engineering controls (mechanical handling equipment) are the primary solution under the hierarchy of controls."
+    },
+    {
+      "question": "A worker is using a nylon web sling to lift a steel beam with sharp, un-padded edges. The sling is rated for 4,000 lbs in a vertical hitch. The beam weighs 1,800 lbs. During the lift, the sling contacts the sharp edge and the outer webbing cuts through, causing the load to drop. What went wrong?",
+      "options": [
+        "A. The sling was adequately rated — this was an unforeseeable failure",
+        "B. Slings must be protected from sharp edges with corner protectors, softeners, or padding — a synthetic web sling on an unprotected sharp steel edge is a known failure mode; the sling rating assumes protected contact",
+        "C. Only wire rope slings can be used for steel beams",
+        "D. The sling was undersized — the beam weight exceeded the sling's true capacity"
+      ],
+      "answer": "B",
+      "analysis": "1926.251(b)(3): slings shall be padded or protected from the sharp edges of their loads. Nylon and polyester web slings have excellent strength-to-weight ratios but are extremely vulnerable to cutting on sharp edges. The 4,000-lb rating applies when the sling is used with protected contact — an unprotected sharp edge can cut the sling at a fraction of its rated load. Corner protectors, wear pads, or softeners are mandatory, not optional. Additionally, 1926.251(b)(6)(i) requires damaged slings be immediately removed from service."
+    },
+    {
+      "question": "A construction site has stacks of lumber 16 feet high. The stacks are directly on the ground with no cross-stripping between layers, no dunnage, and the stack is slightly leaning. The lumber being accessed from the bottom. What violations exist?",
+      "options": [
+        "A. No violations — lumber can be stacked at any height if it's stable",
+        "B. Multiple violations: (1) lumber stacks must be stable and self-supporting (1926.250(a)(1)), (2) used lumber must have nails removed (1926.250(a)(2)), (3) stacks over 8-10 feet need cross-stripping or dunnage for stability, (4) pulling from the bottom is dangerous — undermines the stack",
+        "C. Only the leaning is an issue",
+        "D. Lumber stacking is not regulated — it's a carpentry skill"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(a)(1): materials stored inside buildings under construction shall not be placed within 6 feet of any hoistway or 10 feet of an exterior wall. 1926.250(a)(2): materials shall be stacked, blocked, interlocked, and limited in height so they are stable and secure. A leaning 16-foot lumber stack will collapse catastrophically if undermined. Pulling from the bottom is a well-known cause of stack collapse. Cross-stripping between layers ties the stack together. Nails in used lumber cause impalement hazards and must be removed or bent over per 1926.250(a)(2)."
+    },
+    {
+      "question": "A 55-gallon drum of used motor oil is stored on a construction site on its side, bung facing down, with no secondary containment. The drum is in a corner near a floor drain. What storage requirements apply?",
+      "options": [
+        "A. Used oil drums need no special storage — it's just oil",
+        "B. Drums must be: stored upright with bungs tight, on secondary containment (spill pallet) capable of holding 110% of the largest container, away from floor drains (prevent environmental release), and labeled per HazCom. Used oil is a regulated substance under RCRA",
+        "C. Drums should be stored on their side for easy dispensing",
+        "D. Used oil is exempt — it's being recycled"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(b)(3): drums, barrels, and kegs shall be stacked symmetrically. While OSHA doesn't specifically require secondary containment for used oil, EPA 40 CFR 279 (Used Oil Management Standards) and the Clean Water Act require spill prevention. 1926.252(e): all solvent waste, oily rags, and flammable liquids shall be kept in fire-resistant covered containers. A leaking drum near a floor drain = EPA violation + potential OSHA citation under General Duty Clause. The drum should be upright (bung up to prevent leaks), on a spill pallet, labeled, and the floor drain should be sealed or the drum relocated."
+    },
+    {
+      "question": "A forklift operator moves a pallet of concrete blocks across a construction site. The load is stacked 8 feet high on the pallet, blocking the operator's forward view. The operator drives forward (load first, driving blind). A worker walks in front of the forklift. What's the correct procedure?",
+      "options": [
+        "A. Driving with a blocked view is acceptable if the operator honks periodically",
+        "B. The operator must drive in reverse (load trailing) when the load obstructs forward view, OR use a spotter walking ahead of the forklift to guide the operator. The work area should be barricaded during forklift operation",
+        "C. The operator should stand up to see over the load",
+        "D. Forklifts can always drive forward — other workers must stay clear"
+      ],
+      "answer": "B",
+      "analysis": "1926.602(c)(1)(i): all earthmoving and material handling equipment shall have a service brake system and an emergency brake system. While no specific OSHA standard addresses load-obstructed view, the General Duty Clause and 1926.20(a) require safe operations. Powered Industrial Truck standard 1910.178(n)(4): the driver shall be required to look in the direction of and keep a clear view of the path of travel. Industry standard: drive in reverse when load blocks forward view, or use a designated spotter. A blind operator driving forward is a struck-by fatality waiting to happen."
+    },
+    {
+      "question": "Bags of cement are stored outside on pallets directly on the ground. The weather forecast calls for heavy rain overnight. The foreman says 'the bags have plastic liners — they'll be fine.' In the morning, the lower bags are saturated and hardened. Is this a compliance issue?",
+      "options": [
+        "A. No — ruined cement is a cost issue, not a safety issue",
+        "B. While cement spoilage per se is not an OSHA violation, the hardened bags create manual handling hazards (irregular heavy objects), and 1926.250(a)(2)(i) requires materials to be stored to prevent their movement or collapse. Wet bags that harden in unstable shapes create tipping hazards",
+        "C. Yes — cement must be stored indoors at all times",
+        "D. The plastic liners make cement completely waterproof"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(a)(2)(i): materials shall be stored in a manner to prevent falling or collapsing. Cement bags that partially harden in irregular shapes become unstable when stacked — they don't stack flat and can slide/fall. Additionally, wet cement bags weigh significantly more than dry ones (up to 2×), creating unexpected lifting hazards. Best practice: store cement on elevated, covered platforms with waterproof tarps. The plastic liners in cement bags are vapor barriers, not waterproof coatings — they prevent moisture vapor transmission, not liquid water penetration."
+    },
+    {
+      "question": "Steel rebar is being unloaded by hand from a delivery truck. Workers manually lift 40-foot #8 rebar (approx 107 lbs per 20-ft length = 214 lbs total). Two workers lift one end each. The rebar flexes and whips as they move it, nearly striking a third worker. What safe practices apply?",
+      "options": [
+        "A. This is standard rebar handling — workers just need to coordinate",
+        "B. Long rebar requires: mechanical handling (crane with spreader bar, forklift with boom), or if manually handled, adequate workers per bar (at least 3-4 for 40-foot #8), tag lines to control the load, and a controlled path clear of other workers",
+        "C. Rebar is light — two workers are always enough",
+        "D. Manual rebar handling is prohibited — only cranes can be used"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(a): materials shall be stored, handled, and transported in a safe manner. 1926.251(a)(1): rigging equipment shall be inspected before use. While no specific OSHA standard mandates mechanical handling for rebar, 1926.21(b)(2) requires training in safe material handling. Long, flexible rebar is particularly dangerous — it stores elastic energy when flexed and can whip violently if one worker loses grip. Mechanical handling (forklift with pipe boom, mobile crane with spreader bar) is the safe standard. If manual handling is necessary, 3+ workers with tag lines and a designated team leader should coordinate the lift."
+    },
+    {
+      "question": "A construction site has scrap lumber, bent nails, and debris accumulating around work areas. Workers have stepped on nails protruding from scrap boards twice this week, both requiring tetanus shots. The foreman says 'we'll do a cleanup at the end of the project.' What is the violation?",
+      "options": [
+        "A. Housekeeping is a matter of pride, not a regulation",
+        "B. 1926.25(a): during the course of construction, form and scrap lumber with protruding nails shall not be accumulated but shall be kept clear of work areas, passageways, and stairs. 1926.252(a): debris shall be removed regularly. Two nail punctures are two too many",
+        "C. The violations only occur if OSHA is on site",
+        "D. Workers should wear steel-sole shoes to prevent nail punctures"
+      ],
+      "answer": "B",
+      "analysis": "1926.25(a): during the course of construction, form and scrap lumber with protruding nails and all other debris shall be kept cleared from work areas, passageways, and stairs. 1926.252: debris shall be regularly removed. The standard says 'during the course of construction,' not 'at the end.' Waiting until project completion means workers are exposed to puncture hazards for the entire project duration. Nail punctures are a leading cause of injuries on construction sites, and the debris also creates trip hazards, fire hazards, and harbors pests."
+    },
+    {
+      "question": "A crew is using a material hoist to lift bundles of drywall to the 5th floor. The hoist is temporary, installed on the building exterior. Workers on the 5th floor reach into the hoist car through the open side to pull out drywall while the car is still at the 5th floor level. The hoist has no landing gate. Is this compliant?",
+      "options": [
+        "A. Yes — the hoist is stationary at the floor",
+        "B. No — 1926.552(b)(2): material hoist landing openings must be provided with gates or bars that prevent displacement, and 1926.552(b)(1) requires the hoist enclosure to prevent workers from falling into the hoistway or reaching into the moving car path",
+        "C. Yes — material hoists don't need gates if workers are careful",
+        "D. No — drywall must be carried up stairs, not hoisted"
+      ],
+      "answer": "B",
+      "analysis": "1926.552(b)(2): landing openings shall be provided with gates or bars. 1926.552(b)(3): gates shall be not less than 42 inches high and shall be of material that can withstand a 200-lb load. Even when stationary, the lack of a gate exposes workers to falling into the hoistway. Additionally, 1926.552(b)(4): two-way communication must be provided between each landing and the operator. The open-sided hoistway is a fall hazard — workers reaching in for materials could fall 5+ stories."
+    },
+    {
+      "question": "Masonry blocks are being stored on a supported scaffold platform during bricklaying. The scaffold is rated at 50 psf (medium duty). The mason has 400 standard concrete blocks (approx 38 lbs each = 15,200 lbs) on a 7-foot × 5-foot platform (35 sq ft). What's the issue?",
+      "options": [
+        "A. No issue — the blocks are what masons work with every day",
+        "B. The load density is 15,200 lbs / 35 sq ft = 434 psf — nearly 9 times the 50 psf medium-duty rating. The scaffold is grossly overloaded and in imminent danger of collapse",
+        "C. Masonry scaffolds are exempt from load limits",
+        "D. The blocks should be stacked in two piles to distribute the load"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(a)(6): scaffolds shall not be loaded in excess of the maximum intended load. 400 blocks × 38 lbs = 15,200 lbs + workers = ~16,000 lbs on 35 sq ft = 457 psf. A medium-duty scaffold is rated for 50 psf (2,400 lbs for masonry operations). This scaffold is carrying nearly 7× its rated capacity. The platform planks, bearers, and frame legs are all critically overloaded. Blocks should be staged on the floor/ground level and only the amount needed for immediate use (~50-75 blocks) should be on the scaffold at any time. This is a catastrophic collapse waiting to happen."
+    },
+    {
+      "question": "A worker manually lifts a 94-lb bag of Portland cement from a delivery truck. The worker bends at the waist (not the knees), twists while lifting, and carries the bag 30 feet to a stack. This is repeated for 50 bags. The worker reports severe back pain the next day. What ergonomic principles were violated?",
+      "options": [
+        "A. The worker used proper technique — bending at the waist protects the back",
+        "B. The employer should evaluate: (1) weight — 94 lbs may exceed individual lifting capacity (NIOSH lifting equation: 51-lb limit under optimal conditions), (2) mechanical assist (forklift, pallet jack), (3) two-person lift, (4) training on proper technique (bend knees, keep back straight, avoid twisting)",
+        "C. Back injuries are unavoidable in construction",
+        "D. Bags over 50 lbs are prohibited on construction sites"
+      ],
+      "answer": "B",
+      "analysis": "While OSHA has no specific ergonomics standard for construction, the General Duty Clause requires employers to address recognized serious hazards. The NIOSH Lifting Equation recommends a maximum of 51 lbs under ideal conditions (close to body, no twisting, no vertical distance). At 94 lbs — nearly double — with twisting (worst back-loading motion), bending at waist (not knees), and 50 repetitions, this worker is at extreme risk. 1926.21(b)(2) requires training in safe material handling. Mechanical aids (forklift, hand truck, pallet jack with lift gate) would eliminate the hazard."
+    },
+    {
+      "question": "A worker uses a nylon web sling to lift a steel beam with sharp, un-padded edges. The sling is rated for 5,000 lbs in a vertical hitch. The beam weighs 2,800 lbs. After the lift, the sling shows a 1/4-inch cut on one edge. Is this sling still usable?",
+      "options": [
+        "A. Yes — a 1/4-inch edge cut is minor for a 5,000-lb rated sling",
+        "B. No — 1926.251(b)(6): synthetic web slings with cuts, tears, or snags exposing the red core warning yarns must be removed from service. Any cut on the edge compromises the sling's integrity and requires removal",
+        "C. Yes — edge cuts only matter if they're over 1 inch",
+        "D. The sling can be used at 50% reduced capacity"
+      ],
+      "answer": "B",
+      "analysis": "1926.251(b)(6)(i): synthetic web slings shall be removed from service when the sling exhibits: (A) cuts, tears, or snags; (B) broken or worn stitching in load-bearing splices; (C) excessive abrasive wear; (D) knots; (E) visible red core warning yarns; (F) acid or caustic burns; (G) melting or charring; (H) missing or illegible identification tags. The root cause is the sharp un-padded beam edge — 1926.251(b)(5) requires slings to be protected from sharp edges with corner protectors/padding. Without edge protection, even a new sling can be cut on the first lift."
+    },
+    {
+      "question": "A chain sling being used for a lift has a link that shows a 10% reduction in diameter due to wear. The chain grade is 80 (alloy steel). The sling is tagged and rated for 7,100 lbs vertical. The actual load is 3,500 lbs. Is this chain sling acceptable for continued use?",
+      "options": [
+        "A. Yes — 10% wear is within the allowable limit for Grade 80 chain",
+        "B. No — 1926.251(d)(3)(i) requires removal when any link shows wear exceeding 15% of the original link diameter; at 10%, the chain is within the limit. However, individual manufacturer criteria may be more stringent",
+        "C. Yes — chain is stronger than wire rope",
+        "D. No — any visible wear requires immediate removal"
+      ],
+      "answer": "A",
+      "analysis": "1926.251(d)(3)(i): alloy steel chain slings shall be removed from service when the chain has stretched such that any link has increased length by more than 5% OR when any link shows wear exceeding 15% of the original link diameter. 10% wear is within the 15% threshold. However, the employer should: (1) verify the wear measurement is accurate (use calipers, not visual estimate), (2) check for other damage (nicks, gouges, cracks, heat damage, stretch), (3) document the wear in inspection records, and (4) monitor the wear rate — if 10% occurred quickly, the chain may need replacement before the next use."
+    },
+    {
+      "question": "A rigger is using a wire rope sling in a choker hitch configuration around a concrete pipe. The sling's vertical hitch capacity is 6,000 lbs. In a choker hitch, the capacity is reduced per the manufacturer's tag. The actual load is 4,200 lbs. What approximate capacity reduction applies to a choker hitch?",
+      "options": [
+        "A. No reduction — choker hitch has the same capacity as vertical",
+        "B. Choker hitch typically reduces capacity to approximately 75% of vertical capacity (unless the choke angle is less than 120 degrees, where further reduction applies). 6,000 × 0.75 = 4,500 lbs. At 4,200 lbs, the lift is within the choker rating but close to the limit",
+        "C. Choker hitch increases capacity because the sling grips tighter",
+        "D. Choker hitch reduces capacity to 50% always"
+      ],
+      "answer": "B",
+      "analysis": "1926.251(c)(3): slings used in a choker hitch shall have the rated capacity reduced to account for the angle of choke and the loss of strength from the bending of the wire rope around the load. Standard reduction: choker hitch = 75% of vertical capacity when the choke angle is ≥120 degrees. For tighter choke angles, further reduction applies. 6,000 × 0.75 = 4,500 lbs. At 4,200 lbs, the lift is 93% of the choker capacity — within limits but with little margin. The rigger should verify the exact reduction factor from the sling's tag (it must list capacities for vertical, choker, and basket hitches)."
+    },
+    {
+      "question": "A shackle is used to connect a wire rope sling to a lifting eye. The shackle pin is finger-tightened. During the lift, vibration causes the pin to back out 1/4 inch. The screw pin type shackle is under load. Is this condition acceptable?",
+      "options": [
+        "A. Yes — the pin is still partially engaged",
+        "B. No — 1926.251(a)(4): shackles shall have the pin properly secured; screw pin shackles must be tightened with a wrench (not just finger-tight) and the pin shoulder must be fully seated. A backing-out pin can shear under load, resulting in catastrophic disconnection",
+        "C. Yes — screw pins are self-tightening under load",
+        "D. The pin should be tack-welded to the shackle body"
+      ],
+      "answer": "B",
+      "analysis": "1926.251(a)(4): all rigging hardware shall be inspected, and damaged or defective hardware shall be removed. Industry standard: screw pin shackles must be wrenched tight — finger-tight is insufficient. The pin shoulder must fully seat against the shackle body. A loose pin under an oscillating load (common during crane movement) can continue to back out, eventually disconnecting. Screw pin shackles should never be used in applications where the pin can rotate under load — a bolt-type shackle with a nut and cotter pin is appropriate for permanent or semi-permanent connections. Tack welding the pin is prohibited — it damages the heat treatment of the alloy steel."
+    },
+    {
+      "question": "A demolition contractor is dropping debris from a 4th floor window into an open dumpster below. No chute is used — workers simply throw debris out the window. The area below is barricaded with yellow caution tape 15 feet from the building. Is this debris disposal method compliant?",
+      "options": [
+        "A. Yes — caution-tape barricade is sufficient",
+        "B. No — 1926.252(a): debris dropped more than 20 feet outside of a building must go through an enclosed debris chute. At 4 floors (approx 40-50 feet), an enclosed chute is required. The barricade must also prevent workers from entering the danger zone",
+        "C. Yes — throwing debris out windows is standard demolition practice",
+        "D. The 20-foot rule only applies to buildings over 5 stories"
+      ],
+      "answer": "B",
+      "analysis": "1926.252(a): whenever materials are dropped more than 20 feet to any point lying outside the exterior walls of the building, an enclosed chute of wood or equivalent material shall be used. 1926.252(b): when debris is dropped through holes in the floor without a chute, the area shall be completely enclosed with barricades not less than 42 inches high and not less than 6 feet back from the projected edge of the opening. A 4th floor window is 40-50 feet above ground — well over 20 feet. Caution tape is not an adequate barricade — rigid barriers (plywood, chain-link fencing) are required."
+    },
+    {
+      "question": "A spiral rebar cage (for a drilled shaft foundation) is stored upright on the ground. The cage is 30 feet tall and 4 feet in diameter, weighing approximately 2,000 lbs. It is not tied, guyed, or braced — it just stands on its base. Workers are working within 5 feet of the cage. Is this acceptable?",
+      "options": [
+        "A. Yes — the cage is self-supporting on its base",
+        "B. No — 1926.250(a)(2): materials shall be stacked, blocked, or secured to prevent falling or collapsing. A 30-foot tall, 2,000-lb cylindrical cage standing unsecured can tip over from wind, ground settlement, or accidental bumping, crushing anyone within its fall radius",
+        "C. Yes — rebar cages are immune to tipping",
+        "D. The cage only needs securing if wind exceeds 20 mph"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(a)(2): materials shall be stored to prevent falling, rolling, or collapsing. A 30-foot tall cylinder with a 4-foot base has a height-to-base ratio of 7.5:1 — far exceeding stability without lateral support. The cage should be guyed (wire ropes staked to ground in 3-4 directions) or laid horizontal. Workers within the fall radius (at minimum 30 feet) are in the crush zone if the cage tips. Vertical storage of tall, heavy cylindrical objects without lateral bracing has caused multiple fatalities in construction."
+    },
+    {
+      "question": "A material hoist car (temporary construction elevator) is being used to transport both materials and workers. The car has no enclosure — just a platform with a railing. Workers ride on the platform holding onto the rail. The hoist is marked 'MATERIAL HOIST — NO RIDERS.' Is this usage compliant?",
+      "options": [
+        "A. Yes — workers can ride material hoists if they hold on",
+        "B. No — 1926.552(b)(5): riding on material hoists is prohibited except where the following requirements are met: it's impossible to install a separate personnel hoist, the hoist is specifically designed for personnel, and specific safety features are present. A hoist marked 'NO RIDERS' means it is NOT designed for personnel",
+        "C. Yes — the railing provides adequate protection",
+        "D. Workers can ride if they sign a waiver"
+      ],
+      "answer": "B",
+      "analysis": "1926.552(b)(5): no person shall be allowed to ride on material hoists except for the purposes of inspection and maintenance. The manufacturer's prohibition ('NO RIDERS') is binding. Material hoists lack: (1) car enclosure (personnel hoists require full enclosure per 1926.552(c)(1)), (2) door interlocks (1926.552(c)(2)), (3) overspeed governors and safety devices (1926.552(c)(5)), (4) emergency stop and communication. Riding a material hoist is gambling with all the safety features that distinguish personnel hoists from material hoists. A separate personnel hoist, stair tower, or manlift must be provided."
+    },
+    {
+      "question": "A worker is using an alloy steel chain sling to lift a steel beam. The sling tag is missing — the worker doesn't know the sling's rated capacity or grade. The sling looks in good condition (no wear, cracks, or stretch). The worker estimates the beam at 3,000 lbs and assumes the 3/8-inch chain can handle it. Is this sling usable?",
+      "options": [
+        "A. Yes — a visual inspection is sufficient if no damage is found",
+        "B. No — 1926.251(e)(1)(i): alloy steel chain slings must have a permanently affixed, durable identification tag stating the size, grade, rated capacity, and manufacturer. Without the tag, the sling's capacity is unknown and it must be removed from service",
+        "C. Yes — experienced workers can estimate chain capacity by feel",
+        "D. The tag can be replaced with a handwritten note"
+      ],
+      "answer": "B",
+      "analysis": "1926.251(e)(1)(i): alloy steel chain slings shall have permanently affixed, durable identification tags. 1926.251(e)(1)(ii): the tag must state: size, grade, rated capacity in the hitches used, manufacturer's name or trademark, and serial number. Without the tag, the sling is non-compliant regardless of its apparent condition. Different grades of chain (Grade 30, 43, 70, 80, 100) have dramatically different strengths. A 3/8-inch Grade 30 chain has about 2,650 lbs working load limit, while Grade 80 has 7,100 lbs — the difference is 2.7×. Guessing the grade and capacity is not acceptable — the sling must be re-identified by the manufacturer or removed from service."
+    },
+    {
+      "question": "A construction crew stores 20-foot long steel pipes in a vertical pipe rack. The rack has two horizontal support bars at 3 feet and 7 feet above ground. The pipes are placed with their bottom ends on the ground between the rack and a building wall, leaning slightly against the rack. Workers remove pipes from the middle of the bundle. What's wrong?",
+      "options": [
+        "A. Nothing — vertical pipe storage is standard in pipe yards",
+        "B. The rack needs: a top restraint system (chain or bar across the front at top level) to prevent pipes from falling forward, organized tiers (not a random leaning bundle), and pipes should be removed from the outside/top, not the middle (which can cause the bundle to shift and cascade)",
+        "C. Pipes must always be stored horizontally",
+        "D. The rack height is insufficient for 20-foot pipes"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(a)(2): materials shall be stored to prevent falling or collapsing. 1926.250(b)(7): structural steel and other heavy materials shall be stored in a manner that prevents toppling. A pipe rack must: (1) positively restrain pipes from falling forward (top bar, chain, or individual slots), (2) have adequate height (top support at least 2/3 of the pipe height for stable leaning), (3) allow removal without destabilizing adjacent pipes. Pulling a pipe from the middle of a leaning bundle can cause the entire bundle to shift and cascade, crushing the worker. Pipes should be organized in tiers with spacers, and workers must be trained on safe removal sequence."
+    },
+    {
+      "question": "A job-site has compressed gas cylinders: 4 oxygen cylinders, 3 acetylene cylinders, and 2 propane cylinders. They are all stored together in a small lockable cage, standing upright. Some cylinders are not capped, and some are not secured with chains. A 'NO SMOKING' sign is posted. Is this storage compliant?",
+      "options": [
+        "A. Yes — they're in a locked cage with a no-smoking sign",
+        "B. No — 1926.350(a)(10): oxygen cylinders must be separated from fuel gas cylinders by at least 20 feet OR a 5-foot high, 1/2-hour fire-rated noncombustible barrier. 1926.350(a)(1): valve protection caps must be in place when cylinders are not in use. 1926.350(a)(2): cylinders must be secured upright to prevent falling",
+        "C. Yes — a cage counts as a barrier",
+        "D. The no-smoking sign is the only requirement for cylinder storage"
+      ],
+      "answer": "B",
+      "analysis": "1926.350(a)(10): oxygen cylinders shall be stored separately from fuel gas cylinders by a minimum distance of 20 feet OR by a noncombustible barrier at least 5 feet high with a 1/2-hour fire-resistance rating. A standard chain-link fence cage is not a 1/2-hour fire-rated barrier. 1926.350(a)(1): cylinder valve caps shall be in place when not in use. 1926.350(a)(2): cylinders shall be secured upright (chain or strap at roughly 2/3 height). An unsecured, uncapped cylinder can be knocked over, shearing the valve and becoming a missile. Oxygen + acetylene + propane together is an explosive combination — one fire and the cage becomes a bomb."
+    },
+    {
+      "question": "A crew uses a basket hitch with two wire rope slings to lift a 5,000-lb concrete vault. Each sling has a vertical capacity of 4,000 lbs. In a basket hitch at 90 degrees (each sling vertical), the capacity is 200% of vertical = 8,000 lbs each. But the slings aren't at 90 degrees — they're at 60 degrees from horizontal (30 degrees from vertical). What's the actual capacity?",
+      "options": [
+        "A. Still 8,000 lbs each — basket hitch always doubles capacity",
+        "B. The basket hitch capacity must be derated by the sling angle factor; at 60 degrees from horizontal, the angle factor is approximately 0.866 (sin 60°). The effective capacity = 2 × 4,000 × 0.866 = 6,928 lbs per sling. With two slings sharing the 5,000-lb load, each sees ~2,500 lbs — within the adjusted capacity",
+        "C. At 60 degrees, capacity is reduced to 50%",
+        "D. Sling angle doesn't affect basket hitch capacity"
+      ],
+      "answer": "B",
+      "analysis": "1926.251(c)(3): slings used at angles shall have the rated capacity adjusted. For a basket hitch: the capacity multiplier varies with the angle of the sling legs from the vertical (or horizontal, depending on the manufacturer's table). At 30 degrees from vertical (60 degrees from horizontal), the basket hitch factor is approximately 1.73× (not the full 2×). For a 4,000-lb vertical-rated sling: 4,000 × 1.73 = 6,920 lbs adjusted basket capacity. Each sling sees 2,500 lbs (half of 5,000 lbs) — well within the 6,920-lb adjusted capacity. However, the rigger must verify using the specific manufacturer's tag/chart, not generic calculations."
+    },
+    {
+      "question": "A 30-gallon waste container for oily rags on a construction site has a lid. The container is a standard 55-gallon drum cut in half. The rags are saturated with linseed oil, mineral spirits, and paint thinner. The container is not labeled. Is this container adequate?",
+      "options": [
+        "A. Yes — it's metal and has a lid",
+        "B. No — 1926.252(e): all solvent waste, oily rags, and flammable liquids shall be kept in fire-resistant covered containers. The container must be specifically designed for oily waste (self-closing lid, raised bottom, UL-listed). Linseed oil rags can self-heat and spontaneously combust — a standard drum with a loose lid won't contain a fire",
+        "C. Yes — the lid prevents spontaneous combustion",
+        "D. Oily rags don't need special containers — just keep them away from flames"
+      ],
+      "answer": "B",
+      "analysis": "1926.252(e): all solvent waste, oily rags, and flammable liquids shall be kept in fire-resistant covered containers. 1926.252(d): waste materials shall not be allowed to accumulate. Linseed oil is particularly dangerous — it undergoes an exothermic oxidation reaction as it dries, and rags soaked in linseed oil can self-heat to ignition temperature (autoignition around 450°F, but self-heating can reach this from ambient). Approved oily waste cans have: (1) self-closing, tight-fitting lids that limit oxygen, (2) raised bottoms to allow air circulation, (3) UL/FM listing. A cut-off drum with a loose lid does not meet these requirements. The container should also be labeled per HazCom."
+    },
+    {
+      "question": "A tower crane is lifting a bundle of rebar from a flatbed truck. The rigger uses two 3/8-inch wire rope slings in a basket hitch at a 60-degree angle from horizontal. The load weight is 4,200 lbs and each sling has a vertical capacity of 2,800 lbs. Is the rigging adequate?",
+      "options": [
+        "A. Yes — two slings at 2,800 lbs each provide 5,600 lbs capacity, exceeding the 4,200 lb load",
+        "B. No — at a 60-degree angle, sling tension increases; the effective capacity of each sling is reduced by the angle factor of 1.155, making the setup marginal at best",
+        "C. Yes — basket hitches double the sling capacity",
+        "D. No — 3/8-inch slings are never adequate for rebar bundles over 2,000 lbs"
+      ],
+      "answer": "B",
+      "analysis": "1926.251(a)(1) requires that rigging equipment be inspected prior to use and that the safe working load be determined. The sling angle factor at 60 degrees from horizontal is 1.155 (load in each sling = load ÷ number of slings × angle factor = 4,200 ÷ 2 × 1.155 = 2,426 lbs per sling). This is within the 2,800-lb capacity but very close to it — and assumes perfectly balanced loading, which rebar bundles rarely are. 1926.251(a)(2) requires that rigging be configured so that no component exceeds its rated capacity. The competent rigger should either use 1/2-inch slings with higher capacity or adjust the hitch configuration. Note: at 30 degrees from horizontal, the angle factor jumps to 2.0, which would create 4,200 lbs per sling — clearly overloading the slings."
+    },
+    {
+      "question": "A forklift operator is moving a load of lumber that blocks forward visibility. The designated travel path goes through an active work area with ground personnel. How should the operator proceed?",
+      "options": [
+        "A. Honk the horn continuously and proceed slowly forward",
+        "B. Drive in reverse with the load trailing, maintaining a clear line of sight in the direction of travel",
+        "C. Have a spotter walk ahead while the operator drives forward slowly",
+        "D. Proceed forward with the load elevated slightly above eye level to see underneath it"
+      ],
+      "answer": "B",
+      "analysis": "1926.602(c)(1)(vi) states: 'When a powered industrial truck is used on a roadway, the provisions of 1926.21...shall apply.' 29 CFR 1910.178(n)(4): 'The driver shall be required to look in the direction of, and keep a clear view of the path of travel.' When the load obstructs forward view, driving in reverse (load trailing) keeps the operator's line of sight clear in the direction of travel. Option D is dangerous — elevated loads destabilize the forklift. Option C is acceptable but less safe than direct line-of-sight control. 1910.178(n)(6) specifically requires the operator to look in the direction of travel at all times."
+    },
+    {
+      "question": "A chain sling being used to lift a steel beam shows a 12% elongation in one link compared to the manufacturer's original link dimension. The sling is less than 6 months old. What action is required?",
+      "options": [
+        "A. Continue use — elongation under 15% is within tolerance",
+        "B. Remove the chain sling from service immediately — any elongation exceeding 5% (or manufacturer's specification) requires removal",
+        "C. Reduce the load by 25% and continue using the chain",
+        "D. Weld the elongated link for reinforcement and return to service"
+      ],
+      "answer": "B",
+      "analysis": "1926.251(a)(4) states that alloy steel chain slings shall be permanently removed from service if they are stretched beyond the manufacturer's recommendations. ASME B30.9 (incorporated by reference in OSHA's rigging standards) specifies that chain slings shall be removed if any link shows elongation exceeding 5% (or wear exceeding 15% of original diameter). 12% elongation indicates the link has entered plastic deformation — the chain is compromised and could fail catastrophically. Welding or repair of alloy steel chain slings is prohibited by 1926.251(a)(5) — replacement is the only option."
+    },
+    {
+      "question": "A worker is manually lifting bags of cement (94 lbs each) from a pallet onto a mixer platform. The bags are at ground level and the platform is 3 feet high. The worker lifts alone with no mechanical aid. Is this allowed?",
+      "options": [
+        "A. Yes — the worker is experienced and can handle 94-lb bags",
+        "B. No — 94 lbs exceeds the NIOSH lifting guideline; the employer must provide mechanical assistance, team lifting, or reduce the bag weight",
+        "C. Yes — there are no specific weight limits for manual lifting in OSHA construction standards",
+        "D. No — the maximum weight for manual lifting in construction is 50 lbs"
+      ],
+      "answer": "B",
+      "analysis": "There is no single 'maximum lift weight' in OSHA standards. However, 1926.21(b)(2) requires the employer to instruct employees in the recognition and avoidance of unsafe conditions. The General Duty Clause 5(a)(1) applies: if a hazard is recognized (and back injuries from heavy manual lifting are among the most recognized hazards in construction), the employer must take feasible abatement action. The NIOSH lifting equation considers 51 lbs the maximum under ideal conditions — 94 lbs far exceeds this, especially from ground level (origin below knuckle height). OSHA has consistently cited employers under the General Duty Clause for permitting excessive manual lifts when engineering controls (vacuum lifters, two-person teams, smaller bags) are feasible and available."
+    },
+    {
+      "question": "A crawler crane is set up on a slope with a 4% grade. The operator checked the load chart for the rated capacity on level ground. Outriggers are fully extended on the uphill side but the downhill outriggers are only 75% extended due to space constraints. Is this acceptable?",
+      "options": [
+        "A. Yes — slope compensation accounts for the grade, and partial outrigger extension is allowed",
+        "B. No — crane load charts assume level conditions and fully-extended outriggers; both violations independently make the lift non-compliant",
+        "C. Yes — as long as the lift is reduced by 25% below chart capacity",
+        "D. No — but only because of the partial outrigger extension, not the 4% slope"
+      ],
+      "answer": "B",
+      "analysis": "1926.1431(b) requires that the equipment be assembled and operated within the manufacturer's specifications. Crane load charts are developed for level ground (within 1% grade per ASME B30.5). Operating on a 4% slope shifts the center of gravity, reduces effective capacity, and increases the risk of tipping — lifting capacities must be derated according to the manufacturer's slope chart (or by a qualified person using accepted engineering methods). Additionally, 1926.1431(c) requires outriggers to be fully extended and set per manufacturer specifications. Partial outrigger extension invalidates the load chart. Either violation alone would make the lift non-compliant and citable under 1926.1431."
+    },
+    {
+      "question": "A signal person is directing a crane operator during a blind lift where neither can see the load at the pick point. The signal person uses standard hand signals, but the operator hesitates on the 'hoist slowly' signal. What should happen?",
+      "options": [
+        "A. The signal person should repeat the signal more vigorously",
+        "B. The operator must stop all operations until the communication is clarified — hesitation means the signal was not understood",
+        "C. The signal person should switch to radio communication immediately",
+        "D. The operator should default to hoisting at minimum speed"
+      ],
+      "answer": "B",
+      "analysis": "1926.1419(d) requires: 'When the operator is unable to see the load, the employer must ensure that the operator uses that information to comply with the standard.' 1926.1428(a)(2) requires that the operator obey a stop signal regardless of who gives it, but for non-stop signals, the operator and signal person must have a clear shared understanding. If a signal is ambiguous or not understood, 1926.1417 requires that operations cease until signals are clarified. Operator hesitation is a safety behavior — it indicates something was unclear and MUST be resolved before proceeding. This is a leading cause of crane incidents."
+    },
+    {
+      "question": "A tagline is being used to control a suspended load in moderate wind (15 mph). The worker holding the tagline wraps it around their wrist to get a better grip. Is this acceptable?",
+      "options": [
+        "A. Yes — wrapping the tagline improves control in windy conditions",
+        "B. No — taglines should never be wrapped around any body part; a sudden gust or load shift can pull the worker into the load path or off balance",
+        "C. Yes — but only if wearing leather gloves",
+        "D. No — taglines are prohibited in winds above 10 mph regardless"
+      ],
+      "answer": "B",
+      "analysis": "1926.1425(a)(3) requires that tagline use be in accordance with manufacturer specifications and industry practice. ASME B30.5 and industry consensus standards specify that taglines be controlled by hand grip only — never wrapped, tied, or fastened to any body part or stationary object. A wind gust can transform a suspended load into a pendulum with tremendous force. If the load swings or drops suddenly, a wrist-wrapped tagline becomes a noose. There is no regulatory wind speed cutoff for taglines, but 1926.1431(k)(6) requires the operator to consider wind conditions in the lift plan — 15 mph with a large surface-area load may already warrant stopping the lift."
+    },
+    {
+      "question": "A worker is cutting banding straps on a bundle of 20-foot-long metal studs with tin snips. The bundle was stacked by forklift and the bands are under tension from the compression of the stack. What should the worker do first?",
+      "options": [
+        "A. Cut the bands — tin snips are the correct tool for banding",
+        "B. Stand to the side (not in the line of fire), position the bundle so the released tension won't whip toward anyone, then cut the band",
+        "C. Cut all bands simultaneously to release tension evenly",
+        "D. Leave the bands — removing banding is the forklift operator's responsibility"
+      ],
+      "answer": "B",
+      "analysis": "1926.250(a)(2) requires that material be stacked and secured to prevent sliding, falling, or collapse. 1926.250(b)(6) requires that employees handling materials be trained in safe methods. Cutting tensioned banding straps is one of the most common causes of severe lacerations and eye injuries in material handling — straps under thousands of pounds of compression tension can whip with enough force to cause deep cuts, fractures, or blindness. The worker must stand to the side (out of the line of fire), wear eye and hand protection, alert others in the area, and cut the band at the point of lowest stored energy. Snips should cut away from the body."
+    },
+    {
+      "question": "A site has a designated debris chute for roof tear-off material going to a dumpster at ground level. The chute opening at the top (on the roof) is 4 ft × 4 ft and unguarded when not in use. Workers walk past it during tear-off operations. Is this compliant?",
+      "options": [
+        "A. Yes — debris chute openings only need guarding during active dumping",
+        "B. No — the 4 ft × 4 ft opening is a floor hole, and when not in active use for dumping, must be guarded with a cover, guardrail, or equivalent",
+        "C. Yes — as long as the area is designated a controlled access zone",
+        "D. No — debris chutes must be completely enclosed at all openings"
+      ],
+      "answer": "B",
+      "analysis": "1926.252(b) requires that debris removal openings be guarded. A 4 ft × 4 ft opening exceeds the dimensions of a floor hole (which, per 1926.500(b), is an opening less than 12 inches in its least dimension). This is actually a floor opening exceeding 12 inches — 1926.501(b)(4)(i) requires that every employee on a walking/working surface be protected from falling through holes more than 6 feet above lower levels by covers, guardrails, or PFAS. When the chute is not being actively loaded, the opening must be covered or guarded."
+    }
+  ]
+}

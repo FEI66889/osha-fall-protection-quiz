@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://osha-fall-protection.pages.dev/sitemap.xml
+
+# 404 页面无害，不屏蔽任何路径

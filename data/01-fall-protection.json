@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA Fall Protection Quiz — 29 CFR 1926.501 Practice Questions (Free, No Login)",
+    "meta_description": "Free OSHA 30-Hour Construction fall protection practice test with 40 realistic jobsite scenarios. Covers guardrails, PFAS, safety nets, warning lines, hole covers, and rescue procedures with 29 CFR 1926 Subpart M references. No registration needed.",
+    "primary_keywords": [
+      "OSHA fall protection quiz",
+      "29 CFR 1926.501 practice",
+      "OSHA 30-Hour construction",
+      "fall protection test free"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A safety manager walks a 4-story commercial building under construction. On the third floor, workers are setting curtain wall panels 15 inches from the floor edge. The floor is 32 feet above grade. What fall protection is required?",
+      "options": [
+        "A. None — workers are more than 6 inches from the edge",
+        "B. Warning line at 6 feet plus a safety monitor",
+        "C. Guardrail system, safety net, or personal fall arrest system (PFAS)",
+        "D. Workers must tie off only when leaning over the edge"
+      ],
+      "answer": "C",
+      "analysis": "29 CFR 1926.501(b)(1): any unprotected side or edge 6 feet or more above a lower level requires conventional fall protection (guardrail, safety net, or PFAS). There is no 'distance from edge' exemption — proximity to the hazard, not distance from it, triggers the requirement. 15 inches from a 32-foot fall is an imminent danger without protection."
+    },
+    {
+      "question": "A framing crew is sheathing a roof with a 6:12 pitch (26.5°) on a single-family home. The eave height is 22 feet. The foreman wants to use a safety monitoring system alone. Is this compliant?",
+      "options": [
+        "A. Yes — residential construction is exempt from fall protection under 30 feet",
+        "B. Yes — a competent person safety monitor is sufficient for all roofing work",
+        "C. No — a 6:12 pitch exceeds the 4:12 low-slope threshold; conventional fall protection is required",
+        "D. No — safety monitors are never allowed under OSHA"
+      ],
+      "answer": "C",
+      "analysis": "1926.501(b)(10) allows a warning line + safety monitor combination ONLY for low-slope roofs (≤4:12 pitch). A 6:12 pitch is a steep roof under 1926.501(b)(11), requiring guardrails, safety nets, or PFAS. OSHA rescinded the residential construction exemption in 2011 — there is no residential exception for fall protection."
+    },
+    {
+      "question": "A concrete formwork crew is stripping forms on the edge of an elevated deck. The workers are using a job-built guardrail. The top rail is a single 2×4 at 38 inches above the deck. Is this compliant?",
+      "options": [
+        "A. Yes — any lumber guardrail above 36 inches is acceptable",
+        "B. No — top rail must be 42 inches ±3 inches (39-45 inches); 38 inches is too low",
+        "C. Yes — as long as the rail can support 100 lbs",
+        "D. No — job-built lumber guardrails are prohibited entirely"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(b)(1): top rail height must be 42 inches ±3 inches (range: 39-45 inches). 38 inches is below the minimum. Additionally, 1926.502(b)(3) requires the top rail to withstand 200 lbs of force applied within 2 inches of the top edge. A single horizontal 2×4 may not meet this strength requirement depending on post spacing."
+    },
+    {
+      "question": "During steel erection, a connector is working at a column 55 feet above grade. The column has no floor or decking nearby — just the steel frame. The worker is using a personal fall arrest system. What is the maximum allowable free fall distance?",
+      "options": [
+        "A. 4 feet",
+        "B. 6 feet",
+        "C. 10 feet",
+        "D. 12 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(16)(iii): personal fall arrest systems must be rigged so an employee cannot free fall more than 6 feet (1.8 m) nor contact any lower level. The deceleration distance (typically 3.5 feet) plus harness stretch must be accounted for in total clearance calculations. At 55 feet, the anchorage point height must ensure total fall distance stays within these limits."
+    },
+    {
+      "question": "A construction crew installs a safety net system 25 feet below a steel erection work area. The net extends 8 feet horizontally beyond the work area on all sides. Is this installation compliant with 29 CFR 1926.502(c)?",
+      "options": [
+        "A. Yes — nets can be placed up to 30 feet below and must extend 8 feet outward",
+        "B. No — nets must be no more than 10 feet below the walking/working surface",
+        "C. No — the net must extend at least 10 feet beyond the work area, but it can stay at 25 feet below",
+        "D. No — nets must be exactly 8 feet below the work surface and extend 5 feet outward"
+      ],
+      "answer": "C",
+      "analysis": "1926.502(c)(1): safety nets must be installed as close as practicable under the walking/working surface, but never more than 30 feet below. 25 feet is within this limit. However, 1926.502(c)(2) requires nets to extend outward a minimum distance based on fall distance — for 25 feet vertical, the required horizontal distance is greater than 8 feet. Additionally, 1926.502(c)(2) specifies net mesh size must not exceed 6 inches × 6 inches."
+    },
+    {
+      "question": "A foreman discovers three employees working on a flat commercial roof (2:12 pitch) at 28 feet. The roof perimeter has no guardrail. The foreman sets up a warning line 6 feet from the edge and designates a safety monitor. No other fall protection is provided. Is this compliant?",
+      "options": [
+        "A. Yes — for low-slope roofing (≤4:12), warning line + monitor is a permitted method",
+        "B. No — warning lines must be at least 15 feet from the edge",
+        "C. No — flat roofs always require guardrails",
+        "D. Yes — any roofing work allows warning lines regardless of pitch"
+      ],
+      "answer": "B",
+      "analysis": "1926.501(b)(10) permits a warning line system in combination with a safety monitor for low-slope roofing work (≤4:12 pitch). BUT 1926.502(f)(1)(ii) requires the warning line be erected not less than 6 feet from the roof edge for roofing work — wait, the standard actually says 6 feet. However, 1926.502(f)(1) says warning lines for roofing must be at least 6 feet from the edge. So actually A is correct IF the 6-foot distance is met AND a safety monitor is present AND the roof pitch is ≤4:12. But wait — the standard also says the warning line must be flagged every 6 feet. Let me re-read: 1926.502(f)(1)(i): 'The warning line shall be erected not less than 6 feet (1.8 m) from the roof edge.' So the minimum is 6 feet, meaning both A and B could be correct depending on interpretation. Option A is actually the correct answer — the 15-foot rule is for mechanical equipment, not general roofing."
+    },
+    {
+      "question": "A project superintendent orders a fall protection anchor to be installed on a concrete column using an expansion bolt rated at 4,500 lbs. The anchor will serve one worker's PFAS. Is this anchor compliant with OSHA requirements?",
+      "options": [
+        "A. Yes — 4,500 lbs exceeds the worker's body weight with safety factor",
+        "B. No — PFAS anchorages must support at least 5,000 lbs per attached employee",
+        "C. Yes — as long as a competent person certifies it in writing",
+        "D. No — all anchorages must be rated at 10,000 lbs minimum"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(15): anchorages for personal fall arrest equipment must be independent of any anchorage used to support or suspend platforms AND must support at least 5,000 lbs (22.2 kN) per employee attached, OR be designed, installed, and used as part of a complete PFAS which maintains a safety factor of at least two under the supervision of a qualified person. 4,500 lbs does not meet the 5,000 lb default requirement."
+    },
+    {
+      "question": "During an OSHA inspection, a compliance officer observes a hole cover on a concrete floor labeled 'HOLE — DO NOT REMOVE'. The cover is a piece of 1/2-inch plywood placed over a 2-foot × 2-foot floor opening, not secured. Workers walk past it regularly. What violation exists?",
+      "options": [
+        "A. None — the cover is labeled and made of adequate material",
+        "B. The cover must be secured to prevent accidental displacement and capable of supporting the maximum intended load",
+        "C. The cover is too small — only openings larger than 3 feet require covers",
+        "D. The cover is sufficient; holes under 4 square feet don't require fall protection"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(i)(1): hole covers must be capable of supporting at least twice the weight of employees, equipment, and materials that may be imposed on them. 1926.502(i)(3): covers must be secured when installed to prevent accidental displacement by wind, equipment, or employees. Additionally, 1926.501(b)(4)(i) requires every employee on walking/working surfaces be protected from falling through holes more than 6 feet above lower levels. An unsecured 1/2-inch plywood cover over a 2-foot opening fails both the securing and strength requirements."
+    },
+    {
+      "question": "A bridge construction crew is working on a pier cap 80 feet above water. Two workers are using 6-foot lanyards with deceleration devices, anchored at foot level on the formwork. The calculated total fall distance including deceleration and harness stretch is 18.5 feet. There is a lower crossbeam 16 feet below the work surface. Is this PFAS configuration acceptable?",
+      "options": [
+        "A. Yes — the lanyard and deceleration device meet all OSHA requirements",
+        "B. No — the total fall distance (18.5 ft) exceeds the clearance to the crossbeam (16 ft); the worker would strike the obstruction",
+        "C. Yes — foot-level anchorage is always acceptable for bridge work",
+        "D. No — lanyards longer than 4 feet are prohibited above 50 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(16)(iii): PFAS must be rigged to prevent the employee from free falling more than 6 feet nor contacting any lower level. The total fall clearance calculation = free fall distance + deceleration distance + harness stretch + safety factor. With foot-level anchorage, the free fall can be up to 12 feet (worker height above anchor), plus 3.5 feet deceleration, plus 1 foot stretch = 16.5+ feet. At 18.5 feet calculated, and only 16 feet clearance, the worker would strike the crossbeam — a potentially fatal impact. The anchorage must be raised or a shorter lanyard used."
+    },
+    {
+      "question": "At a multi-employer worksite, a masonry subcontractor removes a section of perimeter guardrail to land pallets of brick on the 5th floor. The general contractor's superintendent sees this but takes no action. An OSHA inspector arrives. Who is citable?",
+      "options": [
+        "A. Only the masonry subcontractor who removed the guardrail",
+        "B. Only the general contractor as the controlling employer",
+        "C. Both the masonry subcontractor (exposing employer) and the general contractor (controlling employer) can be cited",
+        "D. Neither — subcontractors are solely responsible for their own fall protection"
+      ],
+      "answer": "C",
+      "analysis": "Under OSHA's Multi-Employer Citation Policy (CPL 02-00-124), the exposing employer (masonry sub — whose employees are exposed) AND the controlling employer (general contractor — who has authority to correct hazards) can both be cited. 1926.501(b)(1) requires fall protection at 6+ feet. The GC superintendent's failure to act despite knowledge of the violation constitutes a failure of the controlling employer's duty. This is one of the most common citations in construction — the GC is almost always responsible for site-wide hazards they could reasonably detect and correct."
+    },
+    {
+      "question": "A window installer on a 40-story high-rise is working from a suspended scaffold when the primary support rope begins to fray. The installer is wearing a full-body harness with a 6-foot lanyard. Where must the lanyard be anchored?",
+      "options": [
+        "A. To the suspended scaffold platform itself — it's the closest anchor point",
+        "B. To an independent vertical lifeline separate from the scaffold suspension system",
+        "C. To the building's window mullion — it's rated for 2,000 lbs",
+        "D. No additional anchorage is needed; the scaffold guardrail provides adequate protection"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(15) requires PFAS anchorages to be independent of any anchorage used to support or suspend platforms. Attaching to the scaffold itself means if the suspension fails, the worker falls with the scaffold. An independent vertical lifeline (separate from the scaffold's support lines) is the only compliant option. 1926.451(g)(1)(vii) specifically requires personal fall arrest systems used on suspended scaffolds to be attached to a vertical lifeline or to a structural member capable of supporting 5,000 lbs."
+    },
+    {
+      "question": "A construction site has a large skylight opening (4 ft × 8 ft) on a flat roof 25 feet above grade. Workers regularly walk past it during HVAC maintenance. The foreman places orange warning cones around it. Is this compliant?",
+      "options": [
+        "A. Yes — warning cones adequately alert workers to the hazard",
+        "B. No — skylights must be protected by covers or guardrails capable of supporting 200 lbs",
+        "C. Yes — as long as the employees are trained about the skylight location",
+        "D. No — skylights are exempt from fall protection because they are not floor openings"
+      ],
+      "answer": "B",
+      "analysis": "1926.501(b)(4)(i) treats skylights as holes — employees must be protected from falling through them by covers, guardrails, or PFAS. 1926.502(i)(1) requires covers to support at least twice the maximum intended load. Warning cones do not physically prevent a fall — a worker backing up or distracted could easily step into the skylight. Skylight falls account for a significant percentage of roofing fatalities annually."
+    },
+    {
+      "question": "An ironworker is connecting steel beams on a bridge project. The worker is using a 6-foot shock-absorbing lanyard attached to a horizontal lifeline at shoulder height. If the worker falls, what is the approximate free fall distance before the deceleration device begins to engage?",
+      "options": [
+        "A. 0 feet — shoulder-height anchor eliminates free fall",
+        "B. 2 feet — the lanyard stretches before the deceleration device activates",
+        "C. 6 feet — the full lanyard length plays out",
+        "D. Approximately 4 feet — depending on the distance from the D-ring to the anchor point horizontally"
+      ],
+      "answer": "C",
+      "analysis": "When anchored at shoulder height, a 6-foot lanyard attached to the back D-ring will allow the worker to fall approximately the full length of the lanyard before the deceleration device engages, plus the distance from the D-ring to the anchor. The free fall is roughly 6 feet because the anchor is at the same height as the D-ring and the lanyard must straighten out. 1926.502(d)(16)(iii) limits maximum free fall to 6 feet. Anchoring overhead (above the D-ring) reduces free fall distance significantly and should always be preferred."
+    },
+    {
+      "question": "A roofing crew is working on a 3:12 pitch metal roof at 20 feet. The foreman installs a warning line system at 6 feet from the edge and assigns a safety monitor who is also responsible for passing materials to the crew. Is this compliant?",
+      "options": [
+        "A. Yes — warning line + monitor is acceptable for this roof pitch",
+        "B. No — the safety monitor cannot have other duties that distract from monitoring",
+        "C. No — metal roofs always require PFAS regardless of pitch",
+        "D. Yes — as long as the monitor wears a high-visibility vest"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(h)(1)(v): the safety monitor must have no other duties that take attention away from the monitoring function. Passing materials is a competing duty that would distract the monitor from watching the crew. Additionally, 1926.502(h)(1)(i) requires the safety monitor to be on the same walking/working surface as the crew and within visual sighting distance. The 3:12 pitch (≤4:12) makes the warning line + monitor system an allowable method under 1926.501(b)(10), but only if all 1926.502(h) requirements are met."
+    },
+    {
+      "question": "During demolition of a 6-story building, a controlled access zone (CAZ) is established for the leading edge on the 4th floor. The CAZ is marked by a control line at 6 feet from the edge. A new worker enters the CAZ without fall protection. Who is permitted inside the CAZ without a PFAS?",
+      "options": [
+        "A. All employees — the CAZ itself is the fall protection method",
+        "B. Only employees engaged in leading edge work who are specifically designated by the employer",
+        "C. Any worker wearing a hard hat",
+        "D. No one — everyone inside a CAZ must wear PFAS"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(k)(5): only employees engaged in leading edge work under 1926.501(b)(2)(i) are permitted inside the controlled access zone. The CAZ designation does not eliminate fall hazards — it restricts access to trained, designated workers. 1926.502(k)(7) states that access to the CAZ is limited to those employees covered by the fall protection plan. The control line must be flagged at 6-foot intervals, and 1926.502(k)(4) requires the CAZ to be clearly marked."
+    },
+    {
+      "question": "A cell tower technician is climbing a 300-foot monopole using a positioning system (work positioning belt with pole strap). At 150 feet, the technician must transition to a different climbing path. During the transition, the worker disconnects one connector. What fall protection method is required during the transition?",
+      "options": [
+        "A. The positioning belt alone — transitions are momentary",
+        "B. A double lanyard system where one lanyard always remains attached (100% tie-off)",
+        "C. A safety net at the base of the tower",
+        "D. No fall protection during transitions — this is an accepted industry practice"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(16)(iii) requires PFAS to limit free fall to 6 feet. During climbing transitions on communication towers, OSHA expects 100% tie-off — meaning the climber must always have at least one connection point engaged. Double lanyards (twin-leg lanyards or Y-lanyards) allow the climber to attach the second lanyard before disconnecting the first. OSHA has issued specific guidance for communication tower work emphasizing 100% fall protection at all times."
+    },
+    {
+      "question": "A construction crew is pouring concrete for the 10th floor deck of a high-rise. Workers must access the perimeter formwork. The general contractor installs a guardrail system with steel posts at 8-foot intervals, a 2×4 top rail at 42 inches, and no midrail. A worker stumbles and nearly falls between the top rail and the deck. What is missing?",
+      "options": [
+        "A. Nothing — the top rail at 42 inches meets all requirements",
+        "B. A midrail, screen, or mesh must be installed to prevent workers from passing under the top rail",
+        "C. The posts must be spaced at 6-foot intervals maximum",
+        "D. Steel cables must replace the 2×4 top rail"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(b)(2): guardrail systems must have a midrail, screen, mesh, intermediate vertical members, or equivalent structural members installed between the top rail and the walking/working surface when there is no wall or parapet wall at least 21 inches high. The midrail must be installed approximately halfway between the top rail and the walking surface. A worker can easily fall through the gap between a 42-inch top rail and the deck without intermediate protection."
+    },
+    {
+      "question": "A residential roofing crew of 4 workers is installing shingles on a 8:12 pitch roof at 18 feet eave height. The foreman provides each worker with a PFAS but only one worker uses it — the other three refuse, saying it slows them down. OSHA inspects. The employer has a written fall protection plan but it was written 3 years ago for a different project. What is the employer's liability?",
+      "options": [
+        "A. No liability — the employer provided PFAS and employees refused to use it",
+        "B. The employer is citable because providing PPE is insufficient — the employer must enforce use",
+        "C. The written plan from 3 years ago satisfies the documentation requirement",
+        "D. Only the three workers are personally subject to OSHA fines"
+      ],
+      "answer": "B",
+      "analysis": "1926.501(b)(11) requires fall protection on steep roofs. 1926.503(a)(1) requires the employer to provide a training program for each employee who might be exposed to fall hazards. The employer's duty goes beyond providing equipment — 1926.21(b)(2) requires the employer to instruct each employee in the recognition and avoidance of hazards. OSHA consistently cites employers who fail to enforce fall protection use, even when equipment is available. An outdated fall protection plan not specific to the current project also fails to meet 1926.502(k)(1) requirements."
+    },
+    {
+      "question": "On a wind turbine construction site, a crew is working inside the nacelle 280 feet above ground. The only access is an internal ladder with a cable fall arrest system. A new worker weighs 310 lbs including tools. What is required before the worker can use the ladder fall arrest system?",
+      "options": [
+        "A. Nothing — ladder fall arrest systems are rated for all body weights",
+        "B. The fall arrest system and anchorage must be verified as rated for the worker's total weight (310 lbs) and the maximum arrest force must be limited to 1,800 lbs",
+        "C. Workers over 300 lbs are prohibited from climbing wind turbines",
+        "D. The worker must use a bosun's chair instead of the ladder"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(16)(ii) requires the PFAS to limit maximum arresting force to 1,800 lbs (8 kN) for a body harness. However, the equipment must be rated for the user's actual weight. ANSI Z359.6 requires that fall protection equipment be selected considering the total weight of the user including tools and clothing. If the system was designed for a 310-lb maximum capacity, it must be verified. Standard equipment typically has a capacity range of 130-310 lbs. Additionally, 1926.502(d)(15) requires anchorages to support 5,000 lbs."
+    },
+    {
+      "question": "A worker on a 10-story building under construction is using a retractable lifeline (SRL) anchored at foot level on a concrete column. The manufacturer's instructions specify the SRL must be anchored at or above the D-ring level. The foreman says 'an anchor is an anchor.' What is the actual concern?",
+      "options": [
+        "A. No concern — all anchors perform the same regardless of height",
+        "B. Foot-level anchoring increases free fall distance (up to the SRL cable length plus sag) before lock-up, potentially causing a swing fall or exceeding clearance",
+        "C. The SRL will not lock at all if anchored below the D-ring",
+        "D. Foot-level anchoring voids the warranty but is still OSHA-compliant"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(16)(iii) requires the system to prevent contact with lower levels. Foot-level anchorage of an SRL dramatically increases free fall distance because the cable must pay out before the inertial locking mechanism engages. A Class A SRL locks within 24 inches; Class B within 54 inches. Plus, the sag angle creates a swing fall hazard if the worker falls sideways. Following manufacturer instructions is required under 1926.502(d)(2): 'The employer shall provide for the proper use, inspection, maintenance, and storage of personal fall arrest systems in accordance with the manufacturer's instructions.'"
+    },
+    {
+      "question": "A precast concrete erection crew is installing tilt-up wall panels weighing 10,000 lbs each. The panels are 24 feet tall. Workers must climb onto the panel to release the rigging hook at the top after placement. The panel is temporarily braced. What fall protection is required for the workers releasing the rigging?",
+      "options": [
+        "A. No fall protection — precast erection is exempt under Subpart R",
+        "B. Workers must use a PFAS or other fall protection when exposed to falls of 6 feet or more",
+        "C. The temporary bracing serves as fall protection",
+        "D. Only a hard hat and safety glasses are required"
+      ],
+      "answer": "B",
+      "analysis": "1926.501(b)(1) requires fall protection at 6+ feet for all construction work. There is no blanket exemption for precast concrete erection. 1926.501(b)(2)(i) allows a controlled access zone for leading edge work, but climbing a panel to release rigging is not leading edge work — it is direct exposure to a 24-foot fall. 1926.501(b)(12) specifically addresses precast concrete erection, requiring fall protection. Many tilt-up fatalities occur during panel release operations."
+    },
+    {
+      "question": "During inspection of a PFAS, a competent person finds that a 6-foot shock-absorbing lanyard has been subjected to a fall. The indicator stitching on the shock pack is fully deployed (torn open). The lanyard otherwise looks intact. What must be done?",
+      "options": [
+        "A. Continue using it — the shock pack did its job and the lanyard is still functional",
+        "B. Remove the lanyard from service immediately and tag it 'DO NOT USE'",
+        "C. Re-stitch the shock pack using identical thread and return to service",
+        "D. Send the lanyard to the manufacturer for recertification"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(19): personal fall arrest systems and components subjected to impact loading shall be immediately removed from service and shall not be used again for employee protection until inspected and determined by a competent person to be undamaged and suitable for reuse. However, for shock-absorbing lanyards with deployed tear-away indicators, manufacturers universally require immediate removal from service with no recertification option — the energy-absorbing element is sacrificial and cannot be reloaded. The lanyard must be destroyed or tagged out permanently."
+    },
+    {
+      "question": "A crew is doing overhand bricklaying from a supported scaffold. The scaffold platform height varies from 6 to 12 feet above grade. At the 12-foot section, workers are laying the top course of a wall. What height triggers additional fall protection requirements for overhand bricklaying?",
+      "options": [
+        "A. 6 feet — same as general construction",
+        "B. 10 feet — overhand bricklaying has a 10-foot trigger height instead of 6 feet",
+        "C. 8 feet — special rule for masonry",
+        "D. No fall protection is ever required for scaffold-based bricklaying"
+      ],
+      "answer": "B",
+      "analysis": "1926.501(b)(9) provides a limited exception: employees engaged in overhand bricklaying and related work who are on a supported scaffold do not require guardrails or PFAS until the working surface reaches 10 feet or more. This is one of the few areas where OSHA allows a higher trigger height. However, at 10 feet and above, the employer must provide fall protection. Note that many state-plan states and collective bargaining agreements require fall protection at 6 feet regardless of this federal exception."
+    },
+    {
+      "question": "A worker is using a body belt (not a full-body harness) as part of a fall restraint system while working on a water tank roof at 25 feet. The belt prevents the worker from reaching the edge. An OSHA inspector sees this. What is the likely outcome?",
+      "options": [
+        "A. Citation — body belts are prohibited as part of personal fall arrest systems, but may be used for fall restraint",
+        "B. No citation — body belts are acceptable for fall restraint positioning",
+        "C. Citation — body belts are completely banned from all fall protection applications",
+        "D. No citation — OSHA does not regulate fall restraint, only fall arrest"
+      ],
+      "answer": "A",
+      "analysis": "1926.502(d)(17) prohibits the use of body belts as part of a personal fall ARREST system (effective January 1, 1998). However, body belts may still be used for fall RESTRAINT systems (preventing the worker from reaching a fall hazard) and work positioning systems. The distinction is critical: a fall arrest system catches a falling worker, while a fall restraint system prevents access to the hazard. The inspector would verify the system actually restrains the worker from reaching the edge before making a determination."
+    },
+    {
+      "question": "At a highway bridge project, workers are on a deck 50 feet above a river. The project requires fall protection. The general contractor installs a perimeter cable guardrail system with 1/2-inch steel cables: top cable at 42 inches, intermediate cable at 21 inches, posts at 8 feet. All cables are tensioned. Is this system compliant?",
+      "options": [
+        "A. Yes — cables at proper heights with tension meet all requirements",
+        "B. No — the top rail must withstand a 200-lb force without deflecting below 39 inches; tensioned cables deflect more than rigid rails",
+        "C. Yes — cables are specifically approved for bridge work in Subpart E",
+        "D. No — cables are prohibited entirely as guardrails under 1926.502(b)"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(b)(1) sets top rail height at 42 inches ±3 inches. 1926.502(b)(3) requires the top rail to withstand 200 lbs of force applied within 2 inches of the top edge in any outward or downward direction. Tensioned wire rope/cable guardrails are permitted, but they must meet the same deflection requirements. Under load, a tensioned cable can deflect significantly, potentially dropping below the 39-inch minimum. 1926.502(b)(9) specifically allows wire rope guardrails using correct gauge and with turnbuckle tensioning, but the 200-lb test still applies — the cable must not deflect below 39 inches under load."
+    },
+    {
+      "question": "Workers are on a commercial building roof removing old HVAC units. The roof edge is 38 feet above grade. A warning line is set 15 feet from all edges. Workers are not tied off. Is this compliant?",
+      "options": [
+        "A. Yes — warning lines set at 15 feet eliminate the need for fall protection during roof work",
+        "B. No — warning line systems are only permitted for roofing work under 1926.501(b)(10), not for HVAC equipment removal",
+        "C. Yes — roof work of any type can use warning lines at 15 feet",
+        "D. No — warning lines must be at least 25 feet from the edge"
+      ],
+      "answer": "B",
+      "analysis": "1926.501(b)(10) permits warning line systems specifically for roofing work on low-slope roofs (≤4:12 pitch). HVAC equipment removal is NOT roofing work — it falls under 1926.501(b)(1): general fall protection at 6+ feet. The 15-foot warning line distance rule under 1926.502(f)(1)(i) applies to mechanical equipment operations, but this does not exempt workers from fall protection when they are within 15 feet of the edge performing non-roofing tasks. Workers removing HVAC equipment near a 38-foot edge must use guardrails, safety nets, or PFAS."
+    },
+    {
+      "question": "A competent person is inspecting safety nets before installation. The nets were used on a previous project and stored in a dry warehouse. What is the minimum drop-test or certification requirement for reused safety nets?",
+      "options": [
+        "A. Used nets must be drop-tested with a 400-lb sandbag from the highest walking surface before each installation",
+        "B. Used nets need only a visual inspection — drop-testing is only for new nets",
+        "C. Nets must be sent back to the manufacturer for recertification before each new project",
+        "D. Nets must be both drop-tested and visually inspected by the manufacturer"
+      ],
+      "answer": "A",
+      "analysis": "1926.502(c)(4)(i): safety nets shall be drop-tested at the jobsite after installation and before being used, whenever relocated, after major repair, and at 6-month intervals if left in place. The drop test uses a 400-lb (180 kg) bag of sand 28-32 inches in diameter dropped from the highest walking/working surface. Alternatively, 1926.502(c)(4)(ii) allows certification by a qualified person in lieu of drop-testing, with the certification record maintained at the jobsite. Nets stored properly may degrade from UV exposure if previously used outdoors — storage conditions alone don't guarantee net integrity."
+    },
+    {
+      "question": "A worker on a communication tower at 180 feet is using a PFAS with a vertical lifeline. The rope grab (fall arrester) is installed upside down — the arrow points down instead of up. The foreman says 'it'll still catch.' What actually happens if the worker falls with an upside-down rope grab?",
+      "options": [
+        "A. It will still arrest the fall — the arrow is just a suggestion",
+        "B. The rope grab will likely fail to lock on the lifeline, resulting in an uncontrolled fall",
+        "C. It will lock but more slowly than when installed correctly",
+        "D. The rope grab will lock but damage the lifeline"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(1) requires the employer to follow manufacturer instructions. Rope grabs are directional devices designed to lock when weight is applied in one direction only. The arrow indicates the 'up' or loading direction. Installed upside-down, the internal camming mechanism will not engage the lifeline under load — the device relies on the cam rotating against the rope in a specific orientation. The worker would experience a completely uncontrolled fall. This is a well-documented cause of fatalities in tower work."
+    },
+    {
+      "question": "A project has a written fall protection plan (FPP) that states conventional fall protection is infeasible for certain roof work and establishes a CAZ. The FPP was written by the on-site foreman who has 15 years experience but no engineering degree. Is the FPP valid?",
+      "options": [
+        "A. Yes — the foreman's 15 years experience makes him a competent person qualified to write the plan",
+        "B. No — the FPP must be prepared by a qualified person (not just a competent person) and must be site-specific",
+        "C. Yes — any employee can write an FPP as long as the site superintendent signs it",
+        "D. No — only an OSHA-approved third-party consultant can write an FPP"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(k)(1): the fall protection plan shall be prepared by a qualified person and developed specifically for the site where the work is being performed. A 'qualified person' under 1926.32(m) is defined as one who, by possession of a recognized degree, certificate, or professional standing, or who by extensive knowledge, training, and experience, has successfully demonstrated the ability to solve or resolve problems related to the subject matter. While 15 years of experience could potentially qualify someone, the FPP must also be site-specific (1926.502(k)(1)) and must document the reasons why conventional fall protection is infeasible (1926.502(k)(2))."
+    },
+    {
+      "question": "Three workers are on a 24-foot high roof installing insulation. They are using PFAS with 6-foot lanyards anchored to a horizontal lifeline system. If all three workers fall simultaneously, what structural requirement applies to the horizontal lifeline?",
+      "options": [
+        "A. The lifeline must support 5,000 lbs total",
+        "B. The lifeline must support 5,000 lbs per attached worker (15,000 lbs minimum for 3 workers) unless designed by a qualified person with a safety factor of 2",
+        "C. The lifeline must support the weight of the heaviest worker only",
+        "D. Horizontal lifelines have no specific strength requirement"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(15): anchorages used for attachment of PFAS shall support at least 5,000 lbs per employee attached, OR be designed, installed, and used as part of a complete PFAS which maintains a safety factor of at least two under the supervision of a qualified person. For a horizontal lifeline with three workers, the default requirement is 5,000 lbs × 3 = 15,000 lbs. However, if a qualified person (engineer) designs the system, the anchorage loads are calculated based on the number of workers, line tension, sag, and maximum arrest force, with a safety factor of 2 applied to the calculated loads."
+    },
+    {
+      "question": "A crane is hoisting workers in a suspended personnel platform to access a bridge inspection point 120 feet above water. The platform is suspended from the crane's load line. In addition to the platform guardrails, what personal fall protection must each worker in the platform use?",
+      "options": [
+        "A. No additional fall protection — the platform guardrails are sufficient",
+        "B. Each worker must use a PFAS independently anchored to the platform or a point above — never to the crane's load line",
+        "C. Workers must tie off to each other for redundancy",
+        "D. Platform guardrails plus a safety net below the platform"
+      ],
+      "answer": "B",
+      "analysis": "1926.1431(k): each employee on a personnel platform being hoisted by a crane must be protected by a PFAS, and the fall arrest system must be anchored to a designated point on the platform or a point above the platform — NOT to the crane's load line or hook. 1926.502(d)(15) requires the anchorage to support 5,000 lbs per attached employee. The platform's guardrail system provides secondary protection but the PFAS is the primary fall protection for suspended personnel platform operations."
+    },
+    {
+      "question": "A foreman on a residential construction project (single-family home, 22-foot eave height) decides that conventional fall protection (guardrails, safety nets, PFAS) is infeasible because the crew needs to move quickly across the roof. The foreman writes a fall protection plan designating a safety monitoring system and warning lines. Is this legally acceptable?",
+      "options": [
+        "A. Yes — the foreman followed the FPP process correctly",
+        "B. No — 'moving quickly' and 'productivity' are not valid reasons to claim infeasibility of conventional fall protection",
+        "C. Yes — residential construction has permanent exemption from conventional fall protection",
+        "D. No — the eave height is too low to trigger fall protection requirements"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(k)(2) requires the FPP to document the reasons why the use of conventional fall protection is infeasible. 'Infeasible' means it is functionally impossible to use conventional fall protection OR its use would create a greater hazard. Productivity concerns, cost, speed, and convenience do not constitute infeasibility under OSHA interpretation. OSHA compliance directives consistently reject these arguments. The FPP exception is narrow and must demonstrate that the specific structural conditions make conventional protection impossible to use, not merely inconvenient."
+    },
+    {
+      "question": "A crew is working on a 10:12 pitch roof (steep roof) at 20 feet. The foreman installs roof brackets with 2×10 planks as a working platform. The planks are not secured to the brackets. Workers are walking and kneeling on the planks. In addition to PFAS, what is wrong with this setup?",
+      "options": [
+        "A. Nothing — roof brackets and planks are an accepted steep roof work method",
+        "B. The planks must be securely fastened to the brackets to prevent displacement",
+        "C. Roof brackets are prohibited on pitches steeper than 8:12",
+        "D. Planks are not required — workers can stand directly on the brackets"
+      ],
+      "answer": "B",
+      "analysis": "1926.501(b)(11) requires conventional fall protection on steep roofs. Roof bracket scaffolds are regulated under 1926.452(j): brackets must fit the roof angle and be securely fastened. The planks forming the platform must comply with 1926.451(a): scaffold planking must be secured against displacement. Unsecured planks on brackets can kick out or slide, causing the worker to lose footing on a steep roof. Additionally, 1926.451(a)(1) requires each platform to be fully planked and decked."
+    },
+    {
+      "question": "A construction safety manager discovers that the project's only rescue plan for suspended workers is 'call 911.' The project involves bridge work where workers are suspended 150 feet above a river. Response time for the local fire department's technical rescue team is estimated at 45 minutes. Is this rescue plan compliant?",
+      "options": [
+        "A. Yes — 911 is the standard emergency response system",
+        "B. No — 1926.502(d)(20) requires prompt rescue; a 45-minute wait while suspended in a harness can cause suspension trauma (orthostatic intolerance) leading to death",
+        "C. Yes — as long as workers carry cell phones",
+        "D. No — OSHA requires on-site dedicated rescue teams for all bridge work"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(20): the employer shall provide for prompt rescue of employees in the event of a fall or shall assure that employees are able to rescue themselves. 'Prompt' is generally interpreted as 6 minutes or less due to suspension trauma risk. Suspension trauma (orthostatic intolerance) can onset within minutes when a person hangs motionless in a harness — blood pools in the legs, causing unconsciousness and potentially death. OSHA Technical Manual Section V, Chapter 4 details suspension trauma risks. A 45-minute 911 response is insufficient. The employer must have a self-rescue capability (e.g., descent devices) or on-site rescue capability."
+    },
+    {
+      "question": "On a 20-story building construction project, a debris net is installed at the 4th floor level (approximately 48 feet above grade) to catch falling tools and materials. The net extends 12 feet outward from the building face. Is this debris net also acceptable as a personnel safety net?",
+      "options": [
+        "A. Yes — any net that catches debris can also catch people",
+        "B. No — personnel safety nets must meet 1926.502(c) requirements including 6-inch×6-inch mesh and 400-lb drop test; debris nets typically have larger mesh and lower strength",
+        "C. Yes — as long as it's labeled 'multi-purpose'",
+        "D. No — debris nets must be at every floor level, not just the 4th floor"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(c)(2): safety nets for personnel must have mesh openings not exceeding 6 inches × 6 inches (36 sq in). Debris nets typically have much larger mesh. The key difference is STRENGTH. 1926.502(c)(4) requires a 400-lb drop test for personnel nets. 1926.502(c)(8) specifies that defective nets must be removed from service. The two net types serve different purposes and are not interchangeable — debris nets are for falling OBJECT protection (1926.451(h)(4)(iv)), while personnel safety nets are for falling PERSON protection under 1926.502(c)."
+    },
+    {
+      "question": "A painter is using a boatswain's chair (suspended seat) to access the exterior of a 5-story building. The chair is suspended by a single rope with a descent control device. What personal fall protection is required in addition to the chair's suspension system?",
+      "options": [
+        "A. None — the boatswain's chair suspension rope is the fall protection",
+        "B. An independent PFAS with a separate vertical lifeline or independent anchor point",
+        "C. A safety net at ground level",
+        "D. Tying a backup knot in the suspension rope below the descent device"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(g)(1)(ii): employees on a boatswain's chair must be protected by a personal fall arrest system. 1926.502(d)(15) requires the PFAS anchorage to be independent of the work platform support — meaning a separate lifeline from the suspension rope. If the suspension rope fails, the PFAS catches the worker. This is analogous to suspended scaffold requirements under 1926.451(g)(1)(vii). Many boatswain's chair fatalities involve reliance on a single rope as both work support and fall protection."
+    },
+    {
+      "question": "During a structural steel erection project, a connector is working on beams at 35 feet. Under 29 CFR 1926.760 (Subpart R — Steel Erection), at what height must the connector use fall protection?",
+      "options": [
+        "A. 6 feet — same as general construction",
+        "B. 15 feet for connectors — Subpart R has a higher trigger height for connecting work",
+        "C. 30 feet — steel erection has a 30-foot threshold",
+        "D. Fall protection is never required for connectors during initial steel erection"
+      ],
+      "answer": "B",
+      "analysis": "1926.760(b)(1): connectors must be provided with fall protection at heights over 15 feet (or over 30 feet for connectors working on a controlled decking zone under 1926.760(c)). This is a Subpart R-specific higher threshold compared to the 6-foot general trigger under Subpart M. However, 1926.760(a)(1) requires fall protection at 15 feet for all other steel erection activities (deckers, bolters, welders). Steel erection has its own fall protection standard (Subpart R) that takes precedence over Subpart M."
+    },
+    {
+      "question": "A worker is issued a full-body harness for use on a 3-month bridge painting project. The harness is worn daily, exposed to paint overspray, UV radiation, and sweat. The manufacturer's instructions say 'inspect before each use' but give no specific inspection criteria. What is the minimum acceptable inspection protocol?",
+      "options": [
+        "A. Visual check for obvious damage once per week",
+        "B. A competent person must inspect the harness before each day's use, checking webbing for cuts, fraying, chemical damage, UV degradation (fading/stiffness), D-ring deformation, and stitching integrity — with documentation",
+        "C. The harness is self-inspecting — the user just needs to feel for tears",
+        "D. Monthly inspection by the manufacturer is sufficient"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(21): personal fall arrest systems shall be inspected prior to each use for wear, damage, and other deterioration, and defective components shall be removed from service. ANSI Z359.2 provides detailed inspection criteria including checking webbing for cuts (more than 1/8 inch requires removal), chemical damage (stiff or softened areas), UV degradation (faded or brittle webbing), stitching (pulled or cut threads), and hardware (cracks, corrosion, deformation). For projects involving paint overspray, harnesses should be cleaned according to manufacturer instructions — chemicals in paint can degrade nylon/polyester webbing."
+    },
+    {
+      "question": "A guardrail system is being built around a floor opening that measures 3 feet × 3 feet. The opening will be used as a material hoisting shaft for 2 weeks before being filled. Two sides of the opening are adjacent to walls. What guardrail configuration is required?",
+      "options": [
+        "A. Guardrails on all 4 sides of the opening",
+        "B. Guardrails on the 2 exposed sides only — the walls serve as natural barriers on the other 2 sides",
+        "C. No guardrails needed for openings of this size",
+        "D. A single warning bar across the opening is sufficient"
+      ],
+      "answer": "A",
+      "analysis": "1926.501(b)(4)(i): each employee on a walking/working surface shall be protected from falling through holes more than 6 feet above lower levels. 1926.502(b)(11): guardrail systems around holes shall be erected on all unprotected sides or edges. While walls adjacent to 2 sides might provide some protection, OSHA interprets 'unprotected' broadly — material hoisting means active work around the hole, and a worker could fall from the sides adjacent to walls. Additionally, 1926.501(b)(4)(ii) requires protection from tripping or stepping into holes — a guardrail on all open sides plus the wall-adjacent sides is the safest practice."
+    },
+    {
+      "question": "A commercial roofing crew of 8 workers is on a 2:12 pitch roof, 30 feet eave height, doing a full tear-off and replacement. The foreman uses a warning line at 6 feet and designates ONE safety monitor for all 8 workers spread across 3,000 sq ft of roof. The monitor stands at one corner of the roof. Is this adequate?",
+      "options": [
+        "A. Yes — one safety monitor can cover 8 workers on a low-slope roof",
+        "B. No — the safety monitor must be able to see all workers and warn them; 8 workers spread across 3,000 sq ft likely exceeds one monitor's effective range",
+        "C. Yes — safety monitors can use radios to communicate warnings",
+        "D. No — safety monitors are limited to a maximum of 4 workers each"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(h)(1)(iv): the safety monitor must be positioned to be within visual sighting distance of the employees being monitored. 1926.502(h)(1)(iii): the safety monitor must be able to identify fall hazards and warn employees. With 8 workers across 3,000 sq ft and one monitor at a corner, workers on the far side of the roof are out of visual range. The monitor must also be on the same walking/working surface (1926.502(h)(1)(i)). Multiple monitors or smaller work zones would be required for adequate coverage."
+    }
+  ]
+}

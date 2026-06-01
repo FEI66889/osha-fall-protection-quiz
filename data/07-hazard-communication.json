@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA Hazard Communication Quiz — 29 CFR 1926.59 & 1910.1200 Practice Questions",
+    "meta_description": "Free OSHA 30-Hour Construction hazard communication practice test with 40 realistic scenarios. GHS labels, Safety Data Sheets, written program, chemical inventory, silica, lead, asbestos, and multi-employer HazCom with 29 CFR 1926 Subpart D references.",
+    "primary_keywords": [
+      "OSHA hazard communication quiz",
+      "GHS labels construction",
+      "Safety Data Sheet practice",
+      "OSHA 30-Hour hazcom"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A masonry contractor delivers several pallets of bagged mortar mix and concrete to a residential construction site. The bags have no GHS labels. The site superintendent says 'It's just cement dust — don't worry about labels.' What does the OSHA Hazard Communication Standard (1926.59, incorporating 1910.1200) require?",
+      "options": [
+        "A. Consumer products like bagged cement are exempt from labeling requirements",
+        "B. All containers of hazardous chemicals must be labeled with product identifier, signal word, hazard pictograms, hazard statements, and supplier information per GHS requirements",
+        "C. Labels are only required for liquid chemicals, not dry powders",
+        "D. The superintendent is correct — cement dust is a nuisance dust exempt from hazcom"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 incorporates 1910.1200 (Hazard Communication). 1910.1200(f)(1): the chemical manufacturer, importer, or distributor shall ensure that each container of hazardous chemicals leaving the workplace is labeled with: product identifier, signal word, hazard statement(s), pictogram(s), precautionary statement(s), and supplier information. Portland cement is a hazardous chemical — it contains hexavalent chromium (carcinogen), causes alkali burns (wet cement), and produces respirable crystalline silica dust. 'It's just cement' is dangerously wrong."
+    },
+    {
+      "question": "A new employee on a construction site needs to use a solvent-based concrete curing compound. The supervisor hands the worker the product but the Safety Data Sheet (SDS) binder for the site is locked in the trailer and the supervisor has the key at home. The worker asks about hazards. What does 1926.59 require?",
+      "options": [
+        "A. SDSs must be readily accessible to employees during each work shift — locked in a trailer with no key available is a violation",
+        "B. The supervisor can verbally describe the hazards, which satisfies the SDS access requirement",
+        "C. SDSs only need to be provided within 24 hours of an employee request",
+        "D. SDSs only apply to industrial facilities, not construction sites"
+      ],
+      "answer": "A",
+      "analysis": "1910.1200(g)(8): the employer shall maintain in the workplace copies of the required safety data sheets for each hazardous chemical, and shall ensure that they are readily accessible during each work shift to employees when they are in their work area. 'Readily accessible' means: no barriers to immediate access — not locked in a trailer with the key off-site. Electronic access is acceptable if reliable access to devices is provided. The supervisor's verbal summary does not replace the SDS's 16 standardized sections."
+    },
+    {
+      "question": "A construction crew is cutting fiber cement siding containing crystalline silica using a circular saw without water or dust collection. The work is outdoors. The foreman claims outdoor work doesn't need silica controls 'because the wind blows the dust away.' What does 1926.1153 (Respirable Crystalline Silica) require?",
+      "options": [
+        "A. Outdoor operations are exempt from the silica standard",
+        "B. Engineering controls (water delivery system OR dust collection system with HEPA filter) must be used to reduce silica exposure to below the PEL of 50 μg/m³, regardless of indoor/outdoor work location",
+        "C. A dust mask alone is sufficient for outdoor silica work",
+        "D. The foreman is correct — wind adequately controls silica dust"
+      ],
+      "answer": "B",
+      "analysis": "1926.1153(c)(1): for each employee engaged in a task listed in Table 1, the employer shall fully and properly implement the engineering controls, work practices, and respiratory protection specified for the task. Table 1, Entry 8 (handheld power saws for fiber cement board): require the saw to be equipped with commercially available dust collection system, operated and maintained per manufacturer instructions to minimize dust emissions. The PEL is 50 μg/m³ averaged over an 8-hour day. 'Outdoors' is not an exemption. Wind direction changes — it doesn't eliminate the worker's breathing zone exposure."
+    },
+    {
+      "question": "A worker at a renovation site is removing old paint from a steel bridge built in 1965. The paint likely contains lead. No air monitoring has been done. The worker uses a needle gun (powered chipping tool) with no dust control. What does 1926.62 (Lead in Construction) require?",
+      "options": [
+        "A. Lead paint is only regulated when it is known to exceed 0.5% by weight — no testing means no regulation",
+        "B. The employer must perform an initial exposure assessment (air monitoring or objective data); if airborne lead exceeds the action level of 30 μg/m³, engineering controls, respiratory protection, hygiene facilities, and medical surveillance are triggered",
+        "C. Lead exposure is only regulated in bridge demolition, not renovation",
+        "D. The worker needs a lead-specific respirator, but no other controls"
+      ],
+      "answer": "B",
+      "analysis": "1926.62(d)(1): the employer shall perform an initial determination of whether any employee may be exposed to lead at or above the action level (30 μg/m³ averaged over 8 hours). Without air monitoring, the employer is guessing. Needle guns on lead paint typically generate lead exposures far exceeding the PEL of 50 μg/m³. 1926.62 requires specific compliance elements: written compliance plan, air monitoring, respirators per 1926.62(f), hygiene facilities (change rooms, wash stations), medical surveillance, and training. Presuming the paint contains lead on a 1965 bridge is the conservative (and likely correct) assumption."
+    },
+    {
+      "question": "A supervisor notices that several chemical containers on-site have labels that are faded and unreadable after being exposed to weather. A worker poured what was left in a labeled 'Form Release Oil' container into an unlabeled water bottle 'temporarily.' What violations exist?",
+      "options": [
+        "A. None — chemicals exposed to weather naturally fade; the water bottle is only temporary",
+        "B. The faded labels must be replaced immediately; transferring chemicals into unlabeled containers (especially food/beverage containers) is prohibited — all secondary containers must be labeled",
+        "C. Only the water bottle issue is a violation",
+        "D. Weather-faded labels are exempt from replacement requirements"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(f)(5): the employer shall not remove or deface existing labels on incoming containers of hazardous chemicals unless the container is immediately marked with the required information. Faded = defaced — replacement labels must be affixed. 1910.1200(f)(8): the employer shall ensure that workplace containers are labeled. Pouring chemicals into an unlabeled water bottle is a double violation: no label AND using a food/beverage container that could be mistaken for potable water — this has caused chemical ingestion fatalities."
+    },
+    {
+      "question": "In a multi-employer worksite, a painting subcontractor brings a solvent-based paint containing toluene onto the general contractor's project. The painting sub provides no SDS, no hazard training to its own workers, and the GC has no information about the product. When an OSHA inspector asks, who is responsible for the hazcom violations?",
+      "options": [
+        "A. Only the painting subcontractor — they brought the chemical",
+        "B. Only the general contractor — they control the site",
+        "C. Both: the painting sub (as the exposing employer) for not training its workers or having the SDS, and the GC (as the controlling employer) for allowing an uncontrolled hazardous chemical on site without ensuring SDS availability",
+        "D. Neither — toluene in paint is below reportable thresholds"
+      ],
+      "answer": "C",
+      "analysis": "Under the Multi-Employer Citation Policy: the painting sub is the EXPOSING employer (its workers are exposed to toluene without training or SDS). The GC is the CONTROLLING employer (it has authority to require subcontractors to provide SDSs before chemicals enter the site). Both can be cited. 1926.59/1910.1200(h)(1): employers shall provide employees with effective information and training on hazardous chemicals. The GC's failure to have a contractor safety pre-qualification program that requires SDS submission is a systemic gap."
+    },
+    {
+      "question": "A worker is mixing a two-part epoxy coating in a poorly ventilated basement. The SDS for Part A lists respiratory sensitization and skin corrosion as hazards. The worker wears leather gloves (not chemical-resistant) and no respirator. Within hours, the worker develops a severe rash and difficulty breathing. What hazcom and PPE failures occurred?",
+      "options": [
+        "A. The worker should have read the SDS more carefully — employer provided access",
+        "B. The employer must: (1) train the worker on the SDS hazards before the task, (2) provide appropriate PPE specified in SDS Section 8 (chemical-resistant gloves, respirator), (3) ensure ventilation controls are in place — none of which happened",
+        "C. Epoxy is generally safe and this was an individual allergic reaction",
+        "D. Leather gloves are appropriate PPE for all chemical applications"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(h)(1): training must include: detection methods, physical and health hazards, protective measures. The SDS Section 8 (Exposure Controls/Personal Protection) specifies required PPE — for epoxy hardeners, this typically includes nitrile or butyl rubber gloves (NOT leather, which absorbs chemicals and holds them against skin). SDS Section 2 lists respiratory sensitization — meaning each exposure can worsen the allergic reaction. The employer's failure to read and implement the SDS's PPE requirements led directly to a preventable occupational illness."
+    },
+    {
+      "question": "A construction site stores propane cylinders, oxygen cylinders, and acetylene cylinders together in a gang box with other tools. The oxygen and acetylene cylinders are not separated. What does 1926.350(a) require for compressed gas cylinder storage?",
+      "options": [
+        "A. All gas cylinders can be stored together as long as valve protection caps are in place",
+        "B. Oxygen cylinders must be separated from fuel-gas cylinders (acetylene, propane) by a minimum of 20 feet OR by a noncombustible barrier at least 5 feet high with a fire-resistance rating of at least one-half hour",
+        "C. Gas cylinders must be stored upright and chained, but can be stored together",
+        "D. Only acetylene requires separate storage from oxygen"
+      ],
+      "answer": "B",
+      "analysis": "1926.350(a)(10): oxygen cylinders in storage shall be separated from fuel-gas cylinders or combustible materials (especially oil or grease) a minimum distance of 20 feet (6.1 m) or by a noncombustible barrier at least 5 feet (1.5 m) high having a fire-resistance rating of at least one-half hour. Storing them together in a gang box is an explosion hazard. A single spark or impact could cause oxygen-enriched combustion of the acetylene/propane. Valve protection caps must also be in place when cylinders are not in use (1926.350(a)(1))."
+    },
+    {
+      "question": "A worker on a road construction crew is exposed to asphalt fumes from hot-mix asphalt paving operations. The worker reports chronic headaches, nausea, and throat irritation. The employer provides no respiratory protection, claiming 'asphalt fume exposure limits are not explicitly listed in 1926.55 Appendix A.' What does OSHA require?",
+      "options": [
+        "A. Since there's no specific PEL for asphalt fumes, no action is required",
+        "B. Under the General Duty Clause and 1926.55(b), if there's no specific PEL, the employer must still protect workers from recognized hazards — including asphalt fumes, which contain known carcinogens (PAHs) and irritants",
+        "C. Symptoms like headaches and nausea are not serious enough to trigger OSHA requirements",
+        "D. Asphalt is a natural material and its fumes are harmless at construction levels"
+      ],
+      "answer": "B",
+      "analysis": "1926.55(b): exposure to airborne contaminants not specifically listed in Appendix A shall be controlled in accordance with ACGIH TLVs or other recognized exposure limits. Asphalt fumes contain polycyclic aromatic hydrocarbons (PAHs), known carcinogens. ACGIH has published exposure recommendations. Engineering controls for paving include: enclosed cabs with filtered air, fume-suppressed asphalt, lower application temperatures (warm-mix asphalt), and administrative controls. The General Duty Clause also applies — asphalt fume hazards are well-recognized in the construction industry."
+    },
+    {
+      "question": "A supervisor instructs workers to clean spray foam insulation equipment with a solvent labeled with a GHS pictogram showing a health hazard (exclamation mark) and flame. The work area is in a confined attic space. The supervisor says 'just work fast and you'll be fine.' What multiple hazard communication and confined space failures are occurring?",
+      "options": [
+        "A. The supervisor's instruction is adequate — working fast minimizes exposure",
+        "B. The GHS label indicates the solvent is both a health hazard (inhalation toxicity) and flammable — working in a confined attic without ventilation, without air monitoring, and without a confined space entry permit is a violation of multiple OSHA standards",
+        "C. Attics are not confined spaces under OSHA",
+        "D. Spray foam solvents are water-based and harmless in enclosed spaces"
+      ],
+      "answer": "B",
+      "analysis": "This scenario involves multiple violations across standards: (1) 1926.59/1910.1200(h): the employer must train workers on the specific hazards of the chemicals they use — the GHS label is a clue, not a substitute for training. (2) 1926.1203: attics can be permit-required confined spaces if they have limited entry/exit, are not designed for continuous occupancy, and contain a hazardous atmosphere (solvent vapors). (3) 1926.57: ventilation is required to control airborne contaminants. (4) The flammable pictogram means an explosive atmosphere can form in the enclosed space — a single spark from a tool could cause a flash fire."
+    },
+    {
+      "question": "A masonry contractor delivers bagged mortar mix to a residential site. The bags are labeled with a GHS pictogram showing a health hazard symbol (the bust with a star). A worker asks what it means. The foreman says 'don't worry about it — it's just concrete.' What is the employer's obligation?",
+      "options": [
+        "A. The foreman is correct — mortar is just sand and cement, not hazardous",
+        "B. The employer must train workers on the specific hazards of chemicals they work with; mortar contains crystalline silica (carcinogen) and Portland cement (corrosive, causes alkali burns). The GHS health hazard pictogram indicates respiratory sensitization, carcinogenicity, or target organ toxicity",
+        "C. Only the SDS needs to be available — not training",
+        "D. The pictogram is just a suggestion — workers can ignore it"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(h)(1): the employer shall provide effective information and training on hazardous chemicals in the work area. 1910.1200(h)(2)(i): training must include methods to detect the presence of hazardous chemicals, physical and health hazards, and protective measures. The health hazard pictogram (bust with star) specifically indicates: carcinogenicity, respiratory sensitization, reproductive toxicity, specific target organ toxicity, or aspiration hazard. Portland cement is alkaline (pH 12-13) and causes severe alkali burns on wet skin. Crystalline silica is a known human carcinogen. The foreman's dismissive response is a training violation."
+    },
+    {
+      "question": "A new employee needs to use a solvent-based concrete curing compound. The supervisor hands the employee the can and says 'wear gloves.' The employee asks for the SDS. The supervisor says 'it's in the trailer somewhere.' Is this compliant?",
+      "options": [
+        "A. Yes — the supervisor gave basic safety instruction",
+        "B. No — 1910.1200(g)(8): the employer shall maintain copies of SDSs for each hazardous chemical in the workplace and shall ensure that SDSs are readily accessible to employees during each work shift. 'In the trailer somewhere' is not readily accessible",
+        "C. Yes — verbal instruction is sufficient for solvents",
+        "D. SDSs only need to be available during OSHA inspections"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(g)(8): SDSs shall be readily accessible to employees in their work area during each work shift. 'Readily accessible' means workers can obtain the SDS within a minute or two without barriers (unlocked cabinet, known location, no need to find someone with a key). Electronic access is acceptable if the system is reliable and workers are trained on its use. The supervisor should retrieve the SDS and review it with the worker before the task begins."
+    },
+    {
+      "question": "A construction crew is cutting fiber cement siding containing crystalline silica. They use a circular saw with no water or vacuum dust collection. A cloud of visible dust surrounds the cutting area. The crew wears no respiratory protection. What does the silica standard require?",
+      "options": [
+        "A. Workers can work without protection for short durations",
+        "B. 1926.1153(c)(1) requires employers to use engineering controls (water delivery system or dust collection system) for power saws cutting silica-containing materials per Table 1; if the specified control is used and properly maintained, no air monitoring or respirator is required",
+        "C. Just wear N95 masks and continue",
+        "D. Fiber cement doesn't contain silica — it's cement"
+      ],
+      "answer": "B",
+      "analysis": "1926.1153(c)(1) Table 1, Entry 18: for handheld power saws cutting fiber-cement board, the required engineering control is a saw with an integrated water delivery system that continuously feeds water to the blade. If this control is used AND operated per manufacturer's instructions, no air monitoring is required and no respirator is needed. Dry cutting with no dust control is a violation — the visible dust cloud is almost certainly above the PEL of 50 μg/m³. 1926.1153(d)(1): if engineering controls don't reduce exposure below the PEL, respirators are required."
+    },
+    {
+      "question": "A worker at a renovation site is removing old paint from a 1965 steel bridge. The paint likely contains lead. The employer has not done exposure monitoring and provides no respiratory protection. A worker asks about lead hazards. What applies?",
+      "options": [
+        "A. Lead paint in bridge work is exempt from OSHA regulations",
+        "B. 1926.62(d)(1): the employer must perform initial exposure monitoring to determine if employees are exposed to lead at or above the action level (30 μg/m³). Until monitoring is done, the employer must provide protection meeting the standard's requirements as if overexposure is present",
+        "C. The 1965 date means it's pre-1978, so it's automatically exempt",
+        "D. Workers can refuse to work with lead"
+      ],
+      "answer": "B",
+      "analysis": "1926.62(d)(1)(iii): initial monitoring must be performed. 1926.62(d)(3): until exposure is determined by monitoring, the employer shall provide respiratory protection, protective clothing, hygiene facilities, and training as if employees are exposed above the PEL. Lead in construction is a well-known hazard — structural steel bridges painted before 1978 almost certainly contain lead-based paint. The action level is 30 μg/m³; the PEL is 50 μg/m³. Hot work (cutting, grinding, welding) on lead paint can generate extremely high airborne lead concentrations."
+    },
+    {
+      "question": "A supervisor notices several chemical containers have faded, unreadable labels. The product names are still barely visible. Workers continue to use these products. What must be done?",
+      "options": [
+        "A. Nothing — if workers know what's in the containers, labels aren't needed",
+        "B. 1910.1200(f)(1): the employer shall ensure that each container of hazardous chemicals in the workplace is labeled, tagged, or marked with the product identifier, signal word, hazard statements, pictograms, precautionary statements, and supplier information. Faded labels must be replaced immediately",
+        "C. Labels are only required for shipping, not workplace use",
+        "D. Workers can create their own handwritten labels"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(f)(6): workplace containers must be labeled. 1910.1200(f)(1): labels must include the product identifier, signal word, hazard and precautionary statements, pictograms, and supplier info. If the original label is illegible, the employer must replace it — either with a new original label from the supplier or a workplace label meeting GHS requirements. Handwritten labels are acceptable as workplace labels if they contain all required GHS elements, but obtaining replacement supplier labels is preferred for consistency."
+    },
+    {
+      "question": "A painting subcontractor brings a solvent-based paint containing toluene onto a multi-employer site. The general contractor's HazCom program doesn't list this product. The GC superintendent sees the paint but says nothing. Who is responsible for HazCom on this site?",
+      "options": [
+        "A. Only the painting subcontractor — they brought the chemical",
+        "B. Both the subcontractor (must maintain SDS and train their employees) AND the general contractor (must include information about all known chemical hazards on site in their overall HazCom program and communicate hazards between employers)",
+        "C. Only the GC — they control the site",
+        "D. No one — paint is exempt from HazCom"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(e)(1): the employer shall develop a written hazard communication program. 1910.1200(e)(2): in multi-employer workplaces, the written program must include methods for providing other employers with SDSs and informing them of precautionary measures. 1926.16(d): the GC has supervisory responsibility for the entire project. The GC must: (1) ensure subs have and follow their HazCom programs, (2) collect SDSs for all chemicals on site, (3) communicate hazards between trades. Toluene is a neurotoxin and flammable liquid — all site workers potentially exposed must be informed."
+    },
+    {
+      "question": "A worker is mixing a two-part epoxy coating in a poorly ventilated basement. The SDS for Part A (epoxy resin) lists: 'May cause allergic skin reaction. Suspected of causing genetic defects.' The worker wears latex gloves 'because they fit best.' After 3 hours, the worker's hands are red and itching. What HazCom failures occurred?",
+      "options": [
+        "A. No failure — skin irritation is normal with epoxies",
+        "B. Multiple failures: (1) latex gloves are not appropriate for epoxy — the SDS likely specifies nitrile or butyl rubber (epoxy resins penetrate latex), (2) the worker was not trained on the SDS PPE recommendations, (3) no ventilation was provided despite the confined space",
+        "C. Only the ventilation is an issue",
+        "D. The SDS warnings are exaggerated"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(h)(1): training must include methods to protect against hazards. The SDS Section 8 (Exposure Controls/Personal Protection) specifies glove material and breakthrough time. Epoxy resins are known to penetrate latex quickly. The GHS hazard statement 'May cause allergic skin reaction' means the chemical is a skin sensitizer — once sensitized, the worker will react to even trace exposures for life. The employer's failures: (1) not reading/reviewing the SDS before the task, (2) not providing correct gloves, (3) not engineering ventilation, (4) not training the worker on the specific hazards."
+    },
+    {
+      "question": "A construction site stores propane cylinders, oxygen cylinders, and acetylene cylinders together in a storage container. Workers routinely smoke near the container during breaks. What HazCom and storage violations exist?",
+      "options": [
+        "A. No violations — gas cylinders are self-contained and safe",
+        "B. Major violations: (1) oxygen and acetylene must be separated by 20 feet or a 5-foot-high 1/2-hour fire-rated barrier per 1926.350(a)(10), (2) cylinders must be stored in well-ventilated areas away from ignition sources, (3) 'No Smoking' signs must be posted, (4) workers must be trained on cylinder hazards",
+        "C. Only the smoking is an issue",
+        "D. Propane is the only hazard — oxygen and acetylene are inert"
+      ],
+      "answer": "B",
+      "analysis": "1926.350(a)(10): oxygen cylinders shall be separated from fuel-gas cylinders by a minimum of 20 feet or a noncombustible barrier at least 5 feet high with a 1/2-hour fire rating. 1926.350(a)(7): cylinders shall be kept away from open flames and sources of heat. 1926.350(d)(1): 'No Smoking' signs shall be posted. 1910.1200(h): workers must be trained on the hazards of flammable gases and oxidizers. Oxygen is NOT inert — it is an oxidizer that dramatically accelerates combustion. Acetylene is unstable and explosive at pressures above 15 psi. Smoking near this storage is extremely dangerous."
+    },
+    {
+      "question": "A worker on a road construction crew is exposed to asphalt fumes from hot-mix paving. The crew has been doing this work for 2 weeks straight. Some workers report headaches and nausea at the end of the day. What HazCom requirements apply?",
+      "options": [
+        "A. Asphalt fumes are a nuisance — no special requirements",
+        "B. The employer must: (1) have an SDS for the asphalt, (2) train workers on the health hazards (PAHs are probable carcinogens, fumes cause respiratory irritation and possible long-term effects), (3) implement controls (engineering ventilation on pavers, administrative work rotation, respiratory protection if needed)",
+        "C. Only respirators are required",
+        "D. Headaches are from the heat, not the asphalt"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200: asphalt is a hazardous chemical. The SDS for asphalt lists: polycyclic aromatic hydrocarbons (PAHs) — probable human carcinogens, hydrogen sulfide (H₂S) — toxic gas, and volatile organic compounds. Headaches and nausea are symptoms of acute exposure. 1926.55(a): the employer must limit employee exposure to air contaminants below the PELs. Engineering controls on pavers (fume capture systems), work rotation to limit individual exposure, and respiratory protection when controls are insufficient are required. The symptoms indicate overexposure — air monitoring is warranted."
+    },
+    {
+      "question": "A supervisor instructs workers to clean spray foam equipment with a solvent. The solvent container has a GHS label with: a flame pictogram (fire), an exclamation mark, and a health hazard pictogram. The signal word is 'DANGER.' The workers wear no gloves or respiratory protection. They use the solvent in a confined crawlspace. What does the label communicate?",
+      "options": [
+        "A. The pictograms are just decorative — don't worry about them",
+        "B. DANGER = more severe hazard (Category 1-2); flame = flammable; exclamation mark = irritant/skin sensitizer/narcotic; health hazard = carcinogen/respiratory sensitizer/target organ toxicity. In a confined crawlspace, this is an IDLH scenario requiring supplied-air respirators",
+        "C. The solvent is safe to use without PPE",
+        "D. DANGER is the same as WARNING"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(f)(1)(ii): the signal word 'DANGER' indicates severe hazard categories (Category 1-2), while 'WARNING' indicates less severe (Category 3-4). The flame pictogram = flammable (GHS01). Exclamation mark (GHS07) = skin/eye irritation, skin sensitization, or narcotic effects. Health hazard (GHS08) = carcinogenicity, respiratory sensitization, or specific target organ toxicity. Combined with a confined crawlspace (limited ventilation, potential oxygen displacement by solvent vapors), this is an extremely hazardous operation. 1926.353(b)(1): ventilation shall be provided for solvents. The workers need: respiratory protection (likely supplied-air in a crawlspace), chemical-resistant gloves specified in the SDS Section 8, and mechanical ventilation."
+    },
+    {
+      "question": "An employer has a written hazard communication program that was created 5 years ago. Since then, the company has added several new chemicals (epoxies, spray foam, acid etch), changed SDS providers, and hired 20 new employees. The program hasn't been updated. Is this compliant?",
+      "options": [
+        "A. Yes — a written program doesn't expire",
+        "B. No — 1910.1200(e)(1): the written program must be current; it must accurately describe the current SDS management system, the current chemical inventory, the current training program, and current multi-employer communication methods. An outdated program that doesn't reflect current reality is non-compliant",
+        "C. Yes — the program only needs to exist, not be updated",
+        "D. No — the program must be rewritten annually"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(e)(1): the written hazard communication program shall describe how the criteria for labels, SDSs, employee information and training, and the chemical hazard list will be met. 1910.1200(e)(4): the employer shall make the written program available upon request. If the program doesn't reflect current chemicals, current SDS locations (new provider), or current training content, it fails its purpose. The program must be a living document — updated whenever the chemical inventory, SDS management system, or workplace organization changes significantly."
+    },
+    {
+      "question": "A demolition contractor is removing old floor tiles (9×9 inch, manufactured in the 1960s). The tiles likely contain asbestos. The contractor's crew uses pry bars to pop up the tiles, breaking many into fragments in the process. No air monitoring, no respirators, no protective clothing. What asbestos work class is this, and what is required?",
+      "options": [
+        "A. This is Class IV work (no disturbance of ACM) — no requirements",
+        "B. This is Class II work (removal of flooring material) — requires: (1) competent person supervision, (2) trained workers, (3) negative exposure assessment or respirators + protective clothing, (4) HEPA vacuums for debris, and (5) specific work practices to minimize breakage",
+        "C. This is Class I work — full containment required",
+        "D. Floor tiles are exempt from asbestos regulations"
+      ],
+      "answer": "B",
+      "analysis": "1926.1101(b) defines work classes. 1926.1101(f): Class II work includes removal of asbestos-containing flooring. 9×9 floor tiles manufactured before the 1980s are presumed asbestos-containing material (PACM) per 1926.1101(b). Breaking tiles releases asbestos fibers. Requirements for Class II: 1926.1101(g)(8): trained workers, competent person, HEPA vacuum, wet methods, and either negative exposure assessment or respirators per 1926.1101(h). Dry-breaking tiles creates airborne asbestos — a serious carcinogen (mesothelioma, lung cancer). The contractor's approach is dangerously inadequate."
+    },
+    {
+      "question": "A worker sees a container with a GHS label showing: a skull and crossbones pictogram, signal word 'DANGER', and hazard statement 'Fatal if inhaled.' The task requires using this chemical in an indoor room. The SDS Section 8 says 'Use only with adequate ventilation.' What does 'adequate ventilation' mean?",
+      "options": [
+        "A. Open a window — that's adequate ventilation",
+        "B. For a chemical with acute inhalation toxicity (skull and crossbones = GHS06), 'adequate ventilation' typically means mechanical exhaust ventilation (not just natural ventilation), potentially local exhaust capture at the source, and air monitoring to verify concentrations are below the OEL. In some cases, supplied-air respirator may be needed",
+        "C. A standard fan is sufficient",
+        "D. The SDS will specify the exact CFM requirement"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(h)(2): training must cover protective measures. GHS06 (skull and crossbones) indicates acute toxicity — can be fatal from single exposure. 'Adequate ventilation' is a performance-based term: the employer must determine what's adequate through industrial hygiene assessment. For a 'fatal if inhaled' substance, this means: mechanical exhaust (not just open windows), capture at the source, dilution ventilation to maintain concentrations well below the OEL, and possibly continuous air monitoring. The employer must document the hazard assessment and control selection. Leaving it to worker interpretation ('open a window') for a potentially fatal chemical is grossly negligent."
+    },
+    {
+      "question": "An employee transfers a cleaning solvent from its original labeled container into an unlabeled spray bottle for convenience. The spray bottle is left on a workbench where other workers use it, thinking it's water. This is a violation of what GHS requirement?",
+      "options": [
+        "A. No violation — workers should ask before using any unlabeled container",
+        "B. 1910.1200(f)(8): the employer shall ensure that portable containers for immediate use by the employee who performs the transfer are labeled. However, if the container is left for others to use, it MUST be fully labeled per GHS requirements",
+        "C. Transferring chemicals is prohibited on construction sites",
+        "D. The original container is the only one that needs a label"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(f)(8): the employer is not required to label portable containers into which hazardous chemicals are transferred from labeled containers, WHICH ARE INTENDED ONLY FOR THE IMMEDIATE USE OF THE EMPLOYEE WHO PERFORMS THE TRANSFER. The key phrase: 'immediate use' and 'the employee who performs the transfer.' When the spray bottle is set down and left for others, it is no longer in the possession of the transferor and the exemption expires. The container must be labeled with the full GHS label (product identifier, signal word, pictograms, hazard statements, precautionary statements). Additionally, an unlabeled spray bottle that workers mistake for water creates a poisoning risk."
+    },
+    {
+      "question": "A new worker from a non-English-speaking background is hired. The employer provides HazCom training in English using a PowerPoint presentation. The worker nods but clearly doesn't understand. The SDSs are in English. Two weeks later, the worker is burned by a concrete etching acid because they didn't understand the hazard. What went wrong?",
+      "options": [
+        "A. The training was provided — it's the worker's fault for not understanding",
+        "B. 1910.1200(h)(1): the training must be comprehensible to the employee. If the worker doesn't speak English, the employer must provide training in a language the worker understands, using methods that verify comprehension (not just presentation). Nodding is not proof of understanding",
+        "C. All construction workers must speak English",
+        "D. The SDS only needs to be in English — the worker should have used a translator"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(h)(1): 'The employer shall provide employees with effective information and training.' OSHA interpretation: 'effective' means the training must be understood by the employee. If a worker doesn't understand English, English-only training is not effective. The employer must: (1) provide training in the worker's primary language, (2) use methods appropriate for literacy level (visual demonstrations, translated materials), and (3) verify comprehension through oral questioning or demonstration, not just assume nodding = understanding. This is both a HazCom violation and a failure of the employer's duty to provide a safe workplace."
+    },
+    {
+      "question": "A contractor is doing a residential renovation project involving sanding of lead-based paint (pre-1978 house). The EPA's Renovation, Repair and Painting (RRP) Rule applies. The contractor is not EPA-certified. Workers wear no PPE. What's the relationship between OSHA's lead standard and EPA's RRP rule?",
+      "options": [
+        "A. They're the same — EPA compliance equals OSHA compliance",
+        "B. They are separate and cumulative: EPA RRP requires firm certification and lead-safe work practices (containment, HEPA vacuums, cleaning verification); OSHA 1926.62 requires exposure monitoring, PPE, hygiene facilities, and medical surveillance. Compliance with one does NOT satisfy the other",
+        "C. RRP only applies to commercial projects",
+        "D. OSHA lead standard doesn't apply to residential work"
+      ],
+      "answer": "B",
+      "analysis": "EPA's RRP Rule (40 CFR Part 745) and OSHA's Lead in Construction Standard (1926.62) are independent regulations with different requirements. EPA focuses on environmental contamination and occupant protection; OSHA focuses on worker protection. The contractor needs: (1) EPA firm certification + certified renovator, (2) lead-safe work practices (plastic containment, HEPA vacuum, wet sanding), (3) OSHA exposure monitoring (1926.62(d)), (4) respiratory protection + PPE if above action level, (5) hygiene facilities and change areas (1926.62(i)), (6) worker training specific to lead hazards. Neither regulation's compliance substitutes for the other."
+    },
+    {
+      "question": "A worker reads an SDS for a product and sees Section 2 (Hazard Identification) lists: 'Carcinogenicity Category 1A.' The worker asks the supervisor 'what does Category 1A mean?' The supervisor says 'it just means it might cause cancer in rats.' Is this correct?",
+      "options": [
+        "A. Yes — carcinogen categories only refer to animal studies",
+        "B. No — GHS Carcinogenicity Category 1A means 'Known to have carcinogenic potential for humans — based largely on human evidence.' This is the highest carcinogenicity classification, indicating there is sufficient evidence from human epidemiological studies. The supervisor's trivialization is dangerously misleading",
+        "C. Category 1A only applies in California",
+        "D. The supervisor is correct — rat studies are unreliable"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(h)(2)(iii): training must include the details of the hazard communication program, including explanation of labels and SDSs. GHS carcinogen categories: Cat 1A = known human carcinogen (human evidence); Cat 1B = presumed human carcinogen (animal evidence); Cat 2 = suspected human carcinogen. The supervisor's dismissive statement misinforms the worker and undermines the HazCom program. The employer must train supervisors as well — they are the primary communicators of hazard information and must provide accurate information. Deliberately misleading workers about a Category 1A carcinogen is a serious training failure."
+    },
+    {
+      "question": "A construction company's written HazCom program includes a chemical inventory list that was copied from a template — it lists generic products like 'paint, solvents, adhesives' but does not list specific product names, manufacturers, or the corresponding SDS index. When a worker asks to see the SDS for a specific epoxy, the foreman can't find it. Is this program compliant?",
+      "options": [
+        "A. Yes — a generic list is acceptable for a construction site",
+        "B. No — 1910.1200(e)(1)(i): the chemical inventory must be specific and linked to actual workplace chemicals; a generic template that doesn't reflect actual products on site is non-compliant. The SDS library must contain an SDS for each hazardous chemical actually present",
+        "C. Yes — as long as the SDSs are somewhere on site",
+        "D. No — each product must be pre-approved by an industrial hygienist"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(e)(1)(i): the written program shall include a list of the hazardous chemicals known to be present in the workplace. The list must be specific — product name, manufacturer, and the location/availability of the corresponding SDS. A generic list ('solvents') doesn't tell workers or medical personnel what specific chemical was involved in an exposure. The SDS for each specific product must be present and accessible. If the foreman can't find the SDS, the employer is not complying with 1910.1200(g)(8): SDSs must be readily accessible."
+    },
+    {
+      "question": "A crew applying spray polyurethane foam (SPF) insulation in an attic uses no respiratory protection. The SDS for Part A (isocyanate) lists: respiratory sensitizer, Category 1. The crew chief says 'we've done this for years with no problems.' Two days later, a worker develops wheezing and can't breathe — isocyanates have caused occupational asthma. Could this have been prevented with proper HazCom?",
+      "options": [
+        "A. No — occupational asthma just happens to some people",
+        "B. Yes — proper HazCom would have: (1) identified isocyanates as respiratory sensitizers (GHS08), (2) required supplied-air respirators (air-purifying cartridges don't reliably protect against isocyanates due to poor warning properties), (3) required skin protection (isocyanates can sensitize through skin contact), (4) trained the worker that 'once sensitized, even trace exposure triggers life-threatening asthma attacks'",
+        "C. Only the worker is to blame — they should have read the SDS themselves",
+        "D. SPF is not hazardous once it's mixed"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 references 1910.1200(h)(1): effective training. Isocyanates (MDI, TDI) are among the leading causes of occupational asthma. The GHS08 (health hazard) pictogram with 'Respiratory Sensitizer Category 1' means: the substance can cause specific respiratory hypersensitivity, and once sensitized, permanent asthma results. The employer's failure cascade: (1) no exposure assessment, (2) no ventilation (attics have limited natural ventilation), (3) no respiratory protection (NIOSH and manufacturers recommend supplied-air respirators for enclosed SPF application), (4) no skin protection, (5) the crew chief's anecdotal 'we've been fine' overrode the SDS — this is a failure of both HazCom training and management leadership."
+    },
+    {
+      "question": "A construction site uses a concrete curing compound that contains methylene chloride. The SDS arrived, but the container label has become illegible due to rain exposure. The foreman says workers 'know what's in it.' Can work continue?",
+      "options": [
+        "A. Yes — the SDS on file is sufficient, and experienced workers don't need labels",
+        "B. No — every container must have a legible label; work must stop until the container is relabeled",
+        "C. Yes — as long as the foreman verbally briefs the crew on the contents",
+        "D. No — but only because methylene chloride requires a special permit beyond standard HazCom"
+      ],
+      "answer": "B",
+      "analysis": "1926.59 incorporates 29 CFR 1910.1200 by reference. 1910.1200(f)(1) requires that the chemical manufacturer, importer, or distributor ensure each container of hazardous chemicals leaving the workplace is labeled. 1910.1200(f)(5) requires that employers ensure labels are not removed or defaced. An illegible label is a defaced label — the employer must replace it immediately. Having the SDS does not substitute for the container label; both are required elements of the HazCom program. An illegible label violates both the letter and purpose of the standard."
+    },
+    {
+      "question": "A subcontractor brings a new concrete admixture to a multi-employer site but has not added it to the site's chemical inventory. The GC's safety manager discovers it during a walkthrough. Who must provide the SDS and hazard information to the GC?",
+      "options": [
+        "A. The GC is responsible for all hazard communication regardless of who brought the chemical",
+        "B. The subcontractor must provide the SDS to the GC and ensure the chemical is added to the site inventory before use",
+        "C. The manufacturer provides SDS directly to the GC — subcontractors have no HazCom duties",
+        "D. No SDS is needed for admixtures — they are covered by the construction exemption"
+      ],
+      "answer": "B",
+      "analysis": "Under 1926.16(d), subcontractors are responsible for complying with standards applicable to their work. 1910.1200(e)(1) requires employers to develop and maintain a written hazard communication program that includes a list of hazardous chemicals. On multi-employer sites, 1926.16(c) requires the controlling contractor (GC) to coordinate safety efforts, but each employer maintains independent HazCom compliance duties. The subcontractor must maintain its own chemical inventory AND provide SDS copies to the GC for the master site file. 1926.59 requires that the HazCom standard applies to construction exactly as it does to general industry."
+    },
+    {
+      "question": "A worker is assigned to clean a confined space previously containing a solvent-based paint. The SDS lists the solvent's TLV-TWA as 50 ppm. The worker's air monitoring at the opening reads 35 ppm. The foreman issues a half-face organic vapor respirator and says to go in. Is this correct?",
+      "options": [
+        "A. Yes — 35 ppm is below 50 ppm TLV, so it's safe with respiratory protection as a precaution",
+        "B. No — the reading at the opening does not reflect interior concentrations; monitoring must be done at multiple levels inside the space first",
+        "C. Yes — the respirator provides sufficient additional protection",
+        "D. No — half-face respirators are prohibited in confined spaces regardless of concentration"
+      ],
+      "answer": "B",
+      "analysis": "1926.1204(c)(2) requires that before entry, the internal atmosphere be tested first for oxygen, then for flammable gases and vapors, and then for potential toxic air contaminants — in that order. 1926.1204(c)(4) specifies that testing be conducted at multiple vertical levels (top, middle, bottom) because vapors stratify by density. A reading at the opening tells you nothing about the concentration at the bottom of the space. Additionally, 1910.1200 Appendix D provides that SDS exposure limits are for normal use — confined spaces concentrate vapors unpredictably. Entry based on an opening reading alone would violate 1926.1204."
+    },
+    {
+      "question": "A site has silica dust, welding fumes, and diesel exhaust all present simultaneously. The safety manager prepares separate SDS binders for each hazard category. Is this compliant?",
+      "options": [
+        "A. Yes — organizing by hazard category is a best practice exceeding minimum requirements",
+        "B. No — HazCom requires a single comprehensive chemical inventory and SDS file accessible to all employees in one location",
+        "C. Yes — there is no requirement for SDS organization format",
+        "D. No — only because diesel exhaust is exempt from SDS requirements"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(e)(1)(i) requires a single list of hazardous chemicals known to be present, using an identity referenced on the appropriate SDS. 1910.1200(g)(8) requires that SDSs be readily accessible to employees in their work area during each work shift. Splitting SDSs into multiple binders by category increases the risk that an employee won't find the right one in an emergency. A single, alphabetized master binder (or electronic system with backup) at a known central location is the accepted compliant practice. Diesel exhaust particulates from heavy equipment are hazardous chemicals under the standard."
+    },
+    {
+      "question": "A Hispanic-speaking roofing crew applies a solvent-based adhesive. The SDS is only available in English. The foreman, who is bilingual, translates key points verbally. Half the crew only speaks Spanish. Is this compliant?",
+      "options": [
+        "A. Yes — verbal translation by a bilingual foreman satisfies the communication requirement",
+        "B. No — the employer must provide hazard information in a language and manner that each employee can understand",
+        "C. Yes — the OSHA standard only requires English SDS distribution",
+        "D. No — but only if the product is imported; domestic products have English-only requirements"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(h)(1) requires that 'employees be provided with effective information and training on hazardous chemicals in their work area at the time of their initial assignment, and whenever a new chemical hazard is introduced.' 1910.1200(h)(2) specifies that training must be in a manner and language that the employee can comprehend. Verbal translation as the sole method is insufficient — the employees must be able to independently reference hazard information. This is a well-established area of OSHA enforcement, particularly in construction where multilingual crews are common. Failure to provide Spanish-language training and SDS access has resulted in numerous citations."
+    },
+    {
+      "question": "During an OSHA inspection, the compliance officer asks to see the Hazard Communication written program. The site superintendent hands over a generic program downloaded from the internet that lists chemicals not present on this site. What will likely happen?",
+      "options": [
+        "A. Nothing — any written program satisfies the requirement",
+        "B. A citation — the written program must be specific to the workplace and reflect the actual chemicals present",
+        "C. A citation — but only if there has been an injury related to chemical exposure",
+        "D. The officer will accept it with a note to update the program"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(e)(1) requires that the written program contain a list of hazardous chemicals known to be present using an identity referenced on the appropriate SDS. 1910.1200(e)(1)(i-iv) also requires methods for container labeling, SDS maintenance, employee training, and multi-employer coordination — all of which must be workplace-specific. A generic program listing chemicals not present provides no useful information and demonstrates that the employer has not actually conducted the required hazard determination. OSHA has consistently cited employers for 'paper programs' with no relation to actual site conditions. This is one of the most frequently cited HazCom violations."
+    },
+    {
+      "question": "An older container of industrial solvent has no GHS pictogram, only the old NFPA diamond. A new shipment of the same chemical arrives with full GHS labeling. Which containers can legally remain in use?",
+      "options": [
+        "A. Only the new shipment — all containers must carry GHS labels now",
+        "B. Both — the older container can remain in use if workers have been trained on both old and new labeling systems",
+        "C. The older container must be relabeled with GHS elements before continued use",
+        "D. Both — but they must be stored separately"
+      ],
+      "answer": "C",
+      "analysis": "1910.1200(f)(1) as updated by the 2012 GHS alignment requires that shipped containers be labeled with product identifier, signal word, hazard statements, pictograms, precautionary statements, and supplier information. 1910.1200(f)(5) requires that workplace labels be maintained and not defaced. While the standard allowed transition periods, those expired in 2016. An NFPA diamond alone does not meet GHS requirements for shipped containers — the container must be relabeled or replaced. The employer must ensure any container in active use carries a compliant label."
+    },
+    {
+      "question": "A small contractor (6 employees) uses only common consumer products: paint thinner, PVC cement, and spray lubricant — all purchased from Home Depot in consumer-sized containers with consumer labels. Does the contractor need a written HazCom program?",
+      "options": [
+        "A. No — consumer products used as intended are exempt from HazCom requirements",
+        "B. Yes — the frequency and duration of construction use exceeds consumer exposure assumptions, triggering workplace HazCom requirements",
+        "C. No — companies with fewer than 10 employees are exempt from written program requirements",
+        "D. Yes — but only the SDS binder, not the full written program"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(b)(6)(ix) exempts consumer products only when they are used in the same manner, frequency, and duration as a consumer would use them. A construction worker using PVC cement daily over 8-hour shifts is NOT the same exposure pattern as a homeowner gluing two pipes once. OSHA has repeatedly held in interpretation letters that construction use of consumer products exceeds the consumer exemption because of frequency and duration. There is no small-employer exemption under HazCom — 1910.1200 applies to all employers with hazardous chemicals in the workplace, regardless of size."
+    },
+    {
+      "question": "A worker is assigned to sandblast a steel bridge coated with lead-based paint. The SDS for the abrasive media is posted, but the SDS for the lead paint being removed is not. Is this compliant?",
+      "options": [
+        "A. Yes — SDS is only required for products being applied, not materials being removed",
+        "B. No — the lead paint being removed creates airborne lead exposure; SDS or equivalent hazard information must be available for ALL hazardous chemicals employees may be exposed to",
+        "C. Yes — lead paint on existing structures is regulated only by EPA, not OSHA HazCom",
+        "D. No — but only if the lead concentration exceeds 0.5% by weight"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(e)(1)(i) requires a list of ALL hazardous chemicals known to be present in the workplace. The lead paint being removed creates respirable lead dust and fume — it is as much a 'hazardous chemical present in the workplace' as any product being applied. 1926.62 (Lead in Construction) specifically requires hazard communication for lead exposures at any detectable level, with an action level of 30 μg/m³. EPA's RRP rule addresses lead paint disturbance from a public health perspective, but OSHA independently regulates worker exposure. The employer must have both an SDS for lead (or equivalent hazard information) and comply with the full 1926.62 program."
+    },
+    {
+      "question": "Silicone caulk is being applied indoors with no ventilation during winter. The SDS lists no hazardous ingredients, but 3 of 5 workers report headaches and nausea. What action is required?",
+      "options": [
+        "A. No action — the SDS confirms the product is non-hazardous",
+        "B. Work must stop; the employer must investigate whether the SDS is complete and whether ventilation or respiratory protection is needed despite the SDS claims",
+        "C. The workers should be rotated to limit individual exposure",
+        "D. The foreman should open a door briefly between applications"
+      ],
+      "answer": "B",
+      "analysis": "Under the General Duty Clause 5(a)(1), when employees exhibit symptoms consistent with chemical exposure, the employer has a duty to investigate and abate — even if the SDS lists no hazards. Silicone caulk releases acetic acid, methanol, and other volatile organic compounds during curing. In an unventilated space, these reach concentrations that cause symptoms. 1926.57 requires ventilation when hazardous concentrations of air contaminants are present. Reliance on an SDS that may be incomplete or that does not account for confined/enclosed application is not a defense. The employer must conduct air monitoring and implement engineering controls if symptoms are present."
+    },
+    {
+      "question": "A GC's site has 12 different subcontractors, each with their own chemicals. The HazCom program is on the GC's laptop in the job trailer, locked when the superintendent is away. Is SDS access compliant?",
+      "options": [
+        "A. Yes — the laptop is available during work hours",
+        "B. No — SDSs must be accessible to all employees without barriers (locked office, password-protected computer, or needing to find the superintendent)",
+        "C. Yes — as long as a paper backup is in the trailer with the laptop",
+        "D. No — but only because 12 subcontractors requires a dedicated safety officer on site"
+      ],
+      "answer": "B",
+      "analysis": "1910.1200(g)(8) requires that SDSs be 'readily accessible' to employees in their work area during each work shift. OSHA interpretation letters consistently define 'readily accessible' as: employees must be able to obtain the SDS without barriers such as locked doors, password-protected files, asking permission, or waiting for a supervisor. An SDS locked in a job trailer defeats the purpose — if a worker is splashed with a chemical, they need immediate access to first aid information on the SDS. The GC must ensure SDSs are available at an unlocked, known location (e.g., a weather-protected SDS station at the site entrance) or in a binder accessible 24/7."
+    }
+  ]
+}

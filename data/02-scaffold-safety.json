@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA Scaffold Safety Quiz — 29 CFR 1926.450-454 Practice Questions",
+    "meta_description": "Free OSHA 30-Hour Construction scaffold safety practice test with 40 realistic scenarios. Covers supported scaffolds, suspended scaffolds, aerial lifts, platform construction, guardrails, and competent person inspection with 29 CFR 1926 Subpart L references.",
+    "primary_keywords": [
+      "OSHA scaffold safety quiz",
+      "29 CFR 1926.451 practice",
+      "scaffold safety test",
+      "OSHA 30-Hour construction"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A mason is working from a tubular welded frame scaffold 3 tiers high, approximately 18 feet above grade. The scaffold has no guardrails on the inner face because bricks are being stacked on the platform and the mason claims guardrails would interfere with the work. Is this compliant?",
+      "options": [
+        "A. Yes — guardrails can be omitted on the working face of mason scaffolds",
+        "B. Yes — guardrails are only required above 20 feet",
+        "C. No — guardrails are required on all open sides of scaffolds 10+ feet above a lower level, including mason scaffolds",
+        "D. No — but a safety monitor can substitute for guardrails on mason scaffolds"
+      ],
+      "answer": "C",
+      "analysis": "1926.451(g)(1)(vii): for all scaffolds not otherwise specified, each employee more than 10 feet above a lower level must be protected by guardrails or personal fall arrest systems. The masonry scaffold exception that once allowed omission of guardrails on the working face was eliminated — 1926.451(g)(1)(vi) requires guardrails on all open sides. If the workface side truly cannot have guardrails, the employer must implement a PFAS for each affected worker."
+    },
+    {
+      "question": "A scaffold erector is building a supported scaffold. The base plates are set directly on asphalt pavement. The scaffold will reach 40 feet in height. What does 29 CFR 1926.451(c)(2) require for the foundation?",
+      "options": [
+        "A. Base plates on asphalt are sufficient at any height",
+        "B. Mud sills must be used under all base plates, and the scaffold must be tied to the structure at intervals specified by the manufacturer",
+        "C. Asphalt pavement counts as adequate support since it is a hard surface",
+        "D. Concrete footings must be poured for any scaffold over 30 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(c)(2): supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation. The footing must be capable of supporting the loaded scaffold without settling. At 40 feet, vertical and lateral loads are substantial. Additionally, 1926.451(c)(1) requires scaffolds be tied (guys, ties, braces) to the structure at intervals per 1926.451(c)(1)(i) — vertical tie spacing must not exceed 26 feet for scaffold widths under 3 feet. The asphalt alone may concentrate loads and crack."
+    },
+    {
+      "question": "During disassembly of a suspended scaffold at a high-rise window washing project, a worker discovers the wire rope has a broken strand with 4 of its 19 wires broken over a 12-inch section. The worker's supervisor says to finish the job and replace the rope afterward. What should happen?",
+      "options": [
+        "A. Continue — 4 broken wires in one strand is within acceptable wear limits",
+        "B. Remove the damaged section and splice the rope, then continue",
+        "C. The wire rope must be immediately removed from service — it exceeds the removal criteria",
+        "D. Add a secondary rope as backup and complete the disassembly"
+      ],
+      "answer": "C",
+      "analysis": "1926.451(d)(10)(iv): wire ropes must be removed from service when there are 6 randomly distributed broken wires in one rope lay, or 3 broken wires in one strand in one rope lay. 4 broken wires in ONE strand exceeds the 3-wire threshold — immediate removal is required. Splicing suspension ropes (B) is prohibited under 1926.451(d)(10)(vi). The supervisor's instruction would be a willful violation if enforced."
+    },
+    {
+      "question": "A medium-duty scaffold (50 psf rated) is being loaded with masonry blocks. The foreman calculates the total weight of blocks plus workers as 52 psf. The scaffold manufacturer's rated capacity is 50 psf or 1,250 lbs total. The foreman argues it's 'close enough.' What does OSHA require?",
+      "options": [
+        "A. Up to 10% overload is permitted if a competent person approves",
+        "B. The scaffold must not be loaded in excess of its maximum intended load or rated capacity, whichever is less",
+        "C. Medium-duty scaffolds can handle 75 psf — the 50 psf is just a guideline",
+        "D. Blocks can be stacked if workers are not on the scaffold at the same time"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(f)(1): scaffolds and scaffold components shall not be loaded in excess of their maximum intended loads or rated capacities, whichever is less. 1926.451(a)(6): scaffolds shall be designed by a qualified person and shall be constructed and loaded in accordance with that design. 'Close enough' is not a compliance defense — 52 psf exceeds 50 psf, period. For masonry work, a heavy-duty scaffold rated at 75 psf is required per 1926.451(a)(1) when significant material weight is involved."
+    },
+    {
+      "question": "On a two-point suspension scaffold (swing stage), two window installers are working at the 12th floor. The scaffold platform is 32 inches wide. What fall protection is required for each worker?",
+      "options": [
+        "A. No fall protection is needed if guardrails are installed on all sides",
+        "B. Both a guardrail system AND personal fall arrest systems are required for each worker",
+        "C. Personal fall arrest systems alone are sufficient; no guardrails needed",
+        "D. A safety net below the scaffold is the only required protection"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(g)(1)(ii): each employee on a single-point or two-point adjustable suspension scaffold shall be protected by BOTH a personal fall arrest system AND a guardrail system. This is a higher standard than supported scaffolds because swing stages present unique risks — hoist failure, platform tilt, and dynamic loading. The PFAS must be attached to an independent vertical lifeline or a structural anchorage, NOT to the scaffold itself unless the scaffold is designed for it."
+    },
+    {
+      "question": "A competent person inspects a supported scaffold at the start of the shift and finds the cross-bracing is missing a locking pin on the third tier. The competent person tells workers to start using the scaffold while he goes to get a replacement pin. Is this acceptable?",
+      "options": [
+        "A. Yes — the competent person identified the issue; workers can use it briefly",
+        "B. Yes — as long as workers are warned verbally about the missing pin",
+        "C. No — scaffolds with damaged or weakened components must be immediately removed from service until repaired",
+        "D. No — but only because cross-bracing is not structural"
+      ],
+      "answer": "C",
+      "analysis": "1926.451(f)(3): any scaffold, including accessories such as braces, damaged or weakened from any cause shall be immediately removed from service and shall not be used until repairs are completed. Cross-bracing IS structural — it provides lateral stability. A scaffold with missing locking pins can collapse under load. The competent person's duty is to prevent use, not to allow interim use with warnings."
+    },
+    {
+      "question": "Workers access a scaffold platform by climbing the cross-braces. The scaffold is 25 feet high. The site superintendent says, 'That's how we always do it.' What does OSHA 1926.451(e) require for scaffold access?",
+      "options": [
+        "A. Cross-brace climbing is permitted if scaffold is under 30 feet",
+        "B. Cross-brace climbing is the standard access method and fully compliant",
+        "C. A portable ladder, hook-on ladder, attachable ladder, stairway, or equivalent safe access must be provided — cross-brace climbing is prohibited",
+        "D. Cross-brace climbing is permitted for erectors and dismantlers only"
+      ],
+      "answer": "C",
+      "analysis": "1926.451(e)(1): a portable ladder, hook-on ladder, attachable ladder, stairway, or ramp must be provided when access is more than 2 feet above or below a point of access. 1926.451(e)(6)(i) explicitly states: cross-braces are prohibited as a means of access. Additionally, 1926.451(e)(2) requires the bottom rung of access ladders be no more than 24 inches above the starting point. 'How we always do it' is a leading indicator of a serious OSHA violation."
+    },
+    {
+      "question": "A supported scaffold 30 feet high and 5 feet wide (single bay) is erected adjacent to a building but is not yet tied to the structure. Workers notice the scaffold swaying in a 15 mph wind. What does the standard require?",
+      "options": [
+        "A. Continue working — 15 mph wind is within normal limits for any scaffold",
+        "B. Install guys, ties, and braces according to the manufacturer's specifications — the 4:1 height-to-base ratio has been exceeded",
+        "C. Add counterweights to the base of the scaffold",
+        "D. Only laborers under 200 lbs may use the scaffold until ties are installed"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(c)(1): supported scaffolds with a height-to-base width ratio (including outriggers) of more than 4:1 shall be restrained from tipping by guying, tying, bracing, or equivalent means. At 30 feet high / 5 feet wide = 6:1 ratio — clearly exceeding the 4:1 threshold. The manufacturer's tie pattern must be followed. Counterweights (C) are not a recognized scaffold stabilization method for supported scaffolds."
+    },
+    {
+      "question": "A scaffold is erected directly under an active 7,200-volt overhead power line. The minimum clearance distance from the scaffold to the line is measured at 2.5 feet. Workers are installing siding from the scaffold. Is this compliant?",
+      "options": [
+        "A. Yes — 2.5 feet is adequate for insulated power lines",
+        "B. Yes — scaffolds have no specific power line clearance requirements",
+        "C. No — minimum clearance for insulated lines under 300 volts is 3 feet; for this 7,200V line, the minimum is 10 feet",
+        "D. No — all work must stop; the power line must be de-energized for any scaffold work"
+      ],
+      "answer": "C",
+      "analysis": "1926.451(f)(6): scaffolds shall not be erected, used, dismantled, altered, or moved such that they or any conductive material handled on them might come closer to exposed and energized power lines than the distances in 1926.1408 Table A. For lines ≤50 kV (including 7,200V), the minimum clearance is 10 feet. Even insulated lines require clearance — insulation is an additional safeguard, not a substitute for clearance distance. At only 2.5 feet, this is an electrocution waiting to happen."
+    },
+    {
+      "question": "A tube and coupler scaffold is erected by a crew. The qualified person's design called for specific coupler torque values and placement patterns. During inspection, the competent person finds several couplers have been tightened by hand only ('snug tight' but not torqued). What is the correct action?",
+      "options": [
+        "A. Hand-tight couplers are acceptable for tube and coupler scaffolds under 50 feet",
+        "B. Continue — couplers only need to be snug; torque is a manufacturer recommendation, not a requirement",
+        "C. The scaffold must be removed from service until all couplers are properly torqued per the design specifications",
+        "D. Flag the loose couplers with red tape and schedule replacement next weekend"
+      ],
+      "answer": "C",
+      "analysis": "1926.451(a)(6): scaffolds must be designed by a qualified person and constructed and loaded in accordance with that design. If the design specifies torque values, deviating from them means the scaffold is not constructed per design. 1926.451(f)(3): scaffolds with weakened or altered components must be immediately removed from service. Under-torqued couplers can slip under load, causing progressive collapse. The 'red tag' (flagging for later repair) violates the 'immediately remove from service' requirement."
+    },
+    {
+      "question": "A mason is working from a tubular welded frame scaffold that is 3 tiers high (approximately 18 feet). The scaffold has no guardrails because the mason claims 'guardrails get in the way of laying brick.' The scaffold is fully planked and has proper access. What is the violation?",
+      "options": [
+        "A. No violation — masons are exempt from guardrail requirements on scaffolds",
+        "B. The scaffold must have guardrails on all open sides and ends; the guardrail exemption applies only to the working side during bricklaying, not all sides",
+        "C. No violation if the mason wears a PFAS",
+        "D. Masons are exempt from all fall protection up to 20 feet on scaffolds"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(g)(1)(vii): each employee on a scaffold more than 10 feet above a lower level shall be protected by a guardrail system or a personal fall arrest system. For overhand bricklaying, 1926.451(g)(1)(ii) allows removal of the front guardrail only when necessary to lay brick — the other three sides must remain guarded. Guardrails are the primary protection; PFAS is an alternative but guardrails protect everyone on the platform simultaneously."
+    },
+    {
+      "question": "A scissor lift is being used to install ceiling fixtures at 28 feet inside a warehouse. The worker on the platform is not wearing a harness. The lift has standard guardrails (top rail at 42 inches, midrail at 21 inches, toeboard). Is the worker required to wear a PFAS?",
+      "options": [
+        "A. Yes — all aerial lifts require PFAS regardless of guardrails",
+        "B. No — OSHA requires PFAS only on boom lifts, not scissor lifts with proper guardrails; but manufacturer instructions may require it",
+        "C. Yes — any work above 25 feet requires PFAS",
+        "D. No — no lift requires PFAS if guardrails are present"
+      ],
+      "answer": "B",
+      "analysis": "1926.453: scissor lifts are classified as mobile scaffolds under 1926.452(w), not as aerial lifts under 1926.453(b). 1926.451(g)(1)(vii) requires guardrails OR PFAS on scaffolds above 10 feet. With compliant guardrails, OSHA does not mandate PFAS on scissor lifts. However, ANSI A92.6 and most manufacturers REQUIRE fall protection (harness + lanyard attached to the platform anchor point) because scissor lifts can bounce and eject occupants. OSHA can cite under the General Duty Clause if manufacturer instructions require PFAS and it's not used."
+    },
+    {
+      "question": "A two-point suspension scaffold (swing stage) is set up at the 15th floor of a high-rise. The platform is 24 feet long with two workers. The supporting wire ropes have a safety factor of 6. The rigger attached the stirrups directly to the platform — no additional fasteners. What is wrong?",
+      "options": [
+        "A. Nothing — stirrups attached directly to platform ends are standard",
+        "B. The scaffold hangers (stirrups) must be secured to the platform to prevent displacement or disengagement",
+        "C. The wire rope safety factor is insufficient — must be 8 minimum",
+        "D. Swing stages cannot exceed 20 feet in length"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(d)(5): suspension scaffold outrigger beams shall be provided with stop bolts or shackles at both ends. 1926.451(d)(12): scaffold hangers shall be designed and secured to prevent accidental displacement. Additionally, 1926.451(d)(7): tiebacks for outrigger beams must be equivalent in strength to the suspension ropes. Many swing stage accidents occur when the stirrup slips off the platform end. The platform should have stirrup retention pins, bolts, or clamps."
+    },
+    {
+      "question": "A supported scaffold 4 tiers high (about 24 feet) is erected next to a masonry building under construction. The scaffold is NOT tied to the building. The competent person says 'it's heavy enough — it won't tip.' The base plates are on compacted gravel. Is this compliant?",
+      "options": [
+        "A. Yes — scaffold weight provides sufficient stability up to 4 tiers",
+        "B. No — 1926.451(c)(1)(iii) requires scaffolds be tied to the building at heights exceeding 4 times the minimum base dimension unless the scaffold is designed by a qualified person to be freestanding",
+        "C. Yes — as long as the base plates are on firm ground",
+        "D. No — ALL scaffolds must be tied regardless of height"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(c)(1): supported scaffolds must be restrained from tipping by guys, ties, or braces. The 4:1 height-to-base ratio rule is the standard stability requirement — if the height exceeds 4 times the minimum base width, tie-ins are required. For a typical 5-foot wide frame scaffold, tie-ins are required above 20 feet. 1926.451(c)(1)(iii) requires the first tie at the closest horizontal member to the 4:1 height, and additional ties every 26 feet vertically and 30 feet horizontally thereafter."
+    },
+    {
+      "question": "A competent person is inspecting tubular welded frame scaffolds at the start of the shift. One scaffold leg shows a 2-inch dent from a forklift impact. The dent is about 1/4 of the tube diameter deep. The foreman says 'it's just cosmetic.' What must be done?",
+      "options": [
+        "A. Nothing — cosmetic damage does not affect scaffold strength",
+        "B. The damaged component must be removed from service and replaced or repaired by a qualified person before use",
+        "C. The scaffold can be used but workers must be notified of the damage",
+        "D. Paint over the dent to prevent rust and continue use"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(f)(3): scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect a scaffold's structural integrity. 1926.451(f)(4): any part of a scaffold damaged or weakened such that its strength is less than required shall be immediately repaired or replaced. A dent 1/4 of the tube diameter deep in a scaffold leg significantly reduces its load-bearing capacity — the leg is a column in compression and the dent creates a buckling failure point."
+    },
+    {
+      "question": "A crew is disassembling a supported scaffold. Workers are passing frames down hand-to-hand from the 3rd tier. The frames are being stacked on the ground but not secured. A gust of wind knocks over two stacked frames, nearly striking a worker. What safety practice was violated?",
+      "options": [
+        "A. No violation — disassembly always involves unsecured components",
+        "B. Scaffold components being dismantled must be lowered — not dropped or passed — and stacked in a stable manner that prevents tip-over",
+        "C. Workers should wear hard hats — that's the only requirement",
+        "D. Disassembly must be done by crane only"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(f)(7): scaffold components shall not be dropped or thrown. 1926.252(a): debris shall be dropped through enclosed chutes or lowered in containers. While passing frames hand-to-hand avoids 'dropping,' the frames on the ground must be stacked to prevent collapse. Additionally, 1926.451(h)(1): toeboards or other falling object protection is needed. The stacked frames created a struck-by hazard that should have been mitigated by organized stacking, securing, or barricading the area."
+    },
+    {
+      "question": "An employer uses a tubular welded frame scaffold rated as 'light duty' (25 psf). Workers are doing drywall finishing from the scaffold — one worker, plus a stack of 10 drywall sheets (4×8 ft, approx 55 lbs each) being stored on the platform. The scaffold platform is 3 feet × 7 feet. What is the loading concern?",
+      "options": [
+        "A. No concern — one worker plus materials is within light duty rating",
+        "B. The total load likely exceeds the 25 psf light-duty rating; a medium-duty (50 psf) scaffold is required for this combined worker + material load",
+        "C. Storing drywall on scaffolds is always prohibited",
+        "D. The platform length is the only concern — 7 feet exceeds the maximum for light duty"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(a)(1): each scaffold platform shall be fully planked. 1926.451(a)(6): scaffolds shall not be loaded in excess of their maximum intended load. Light duty = 25 psf (workers only, no material storage). 10 sheets × 55 lbs = 550 lbs + worker (250 lbs) = 800 lbs on 21 sq ft = 38 psf — exceeding the 25 psf light-duty rating. 1926.451(f)(1): scaffolds shall be erected with the load rating appropriate for the intended use. For material storage, at least medium-duty (50 psf, 450 lbs for bricklaying) is required."
+    },
+    {
+      "question": "A suspended scaffold (swing stage) has counterweights on the outrigger beams consisting of standard concrete blocks (8×8×16 inches, approximately 36 lbs each). The manufacturer specifies a 4:1 safety factor for counterweights and calls for 1,200 lbs of counterweight. The rigger uses 30 blocks (30 × 36 = 1,080 lbs). Is this acceptable?",
+      "options": [
+        "A. Yes — 1,080 lbs is close enough to 1,200 lbs",
+        "B. No — counterweights must meet the specified weight exactly; 1,080 lbs is 120 lbs short, reducing the safety factor below the required 4:1",
+        "C. Yes — as long as the blocks are not cracked",
+        "D. No — concrete blocks can never be used as counterweights"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(d)(3)(ii): counterweights shall be made of a solid material (concrete blocks are acceptable) and shall be secured to the outrigger beam by mechanical means. The counterweight must be specifically intended as counterweight and marked. 1926.451(d)(3)(i): the counterweight shall be at least 4 times the load applied. If the manufacturer specifies 1,200 lbs, using only 1,080 lbs reduces the safety factor below the 4:1 requirement. Additionally, loose individual blocks must be mechanically connected to function as a single counterweight — they cannot simply be stacked."
+    },
+    {
+      "question": "Workers on a supported scaffold access the platform by climbing the cross-braces. The scaffold is equipped with a built-in ladder on one end, but it's at the far end from where workers are working. A compliance officer observes workers climbing the cross-braces. What is the citation?",
+      "options": [
+        "A. No citation — climbing cross-braces is an accepted practice",
+        "B. Citation under 1926.451(e)(1) — scaffold access must be by a ladder, ramp, stair tower, or other safe means; cross-braces are not designed as climbing surfaces",
+        "C. Citation under 1926.1053 for improper ladder use",
+        "D. No citation if the cross-braces are less than 16 inches apart"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(e)(1): when scaffold platforms are more than 2 feet above or below a point of access, access must be by portable ladders, hook-on ladders, attachable ladders, stair towers, ramps, or other safe means. Cross-braces are structural bracing members — they are not designed, tested, or intended as climbing surfaces. The rung spacing, diameter, and attachment are not compliant with ladder requirements under 1926.1053. The built-in ladder must be positioned to provide practical access — workers will take the unsafe shortcut if access is inconvenient."
+    },
+    {
+      "question": "A boom lift (articulating boom) is being operated on a 5-degree slope. The manufacturer's operator manual states the maximum allowable slope is 3 degrees. The slope indicator on the lift reads 4 degrees. The operator levels the platform using the platform tilt function and continues work. Is this acceptable?",
+      "options": [
+        "A. Yes — the platform tilt function compensates for the slope",
+        "B. No — the lift must not be operated on a slope exceeding the manufacturer's limit regardless of platform leveling",
+        "C. Yes — as long as the outriggers are deployed",
+        "D. No — boom lifts are prohibited on ALL slopes regardless of degree"
+      ],
+      "answer": "B",
+      "analysis": "1926.453(b)(2)(iii): aerial lifts shall not be operated on grades, side slopes, or ramps exceeding the manufacturer's recommendations. Platform leveling adjusts the platform angle for worker comfort — it does NOT change the lift's center of gravity or stability. The 3-degree manufacturer's limit is based on the machine's stability envelope and tip-over risk. Operating at 4-5 degrees exceeds the design limit. 1926.453(b)(2)(i) requires operators to follow manufacturer instructions for operation."
+    },
+    {
+      "question": "A plastering crew is working on a multi-point suspended scaffold 60 feet long, suspended by 4 wire ropes. The scaffold is rated for 50 psf (medium duty). During plastering, workers accumulate approximately 400 lbs of wet plaster debris on the platform plus 3 workers (250 lbs each = 750 lbs). The platform is 5 feet wide. What is the load per square foot?",
+      "options": [
+        "A. 400 + 750 = 1,150 lbs / (60 ft × 5 ft = 300 sq ft) = 3.8 psf — well within the 50 psf limit",
+        "B. The load may be within the overall psf limit but the 60-foot span between suspension points creates high bending stress — multi-point suspension must be engineered",
+        "C. The load is fine — plaster scaffolds can go to 75 psf",
+        "D. The load exceeds the limit because wet plaster is considered a dynamic load"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(a)(6): scaffolds must not be loaded in excess of the maximum intended load. While the average 3.8 psf is below 50 psf, a 60-foot multi-point suspended scaffold must consider concentrated loads between suspension points. 1926.451(d)(9): suspension ropes on adjustable suspension scaffolds shall be of sufficient length to allow the platform to be lowered to the ground. 1926.451(a)(3): platforms must not deflect more than 1/60 of the span. A 60-foot long platform between 4 points (3 spans of ~20 feet each) must be engineered for the load distribution. The issue is structural adequacy of the platform spanning between suspension points, not just the average load."
+    },
+    {
+      "question": "A scaffold erector is installing a pump jack scaffold (for siding work) on a two-story house. The pump jack poles are 2×4 lumber, 28 feet long, spliced at mid-height using a metal sleeve. Each pump jack bracket supports one worker and tools. What are the key requirements for this setup?",
+      "options": [
+        "A. Any 2×4 is sufficient; the splice just needs to hold the poles together",
+        "B. Pump jack scaffold poles must be specifically selected lumber (No. 1 or better), splices must develop the full strength of the member, and poles must be adequately braced at splice points",
+        "C. Pump jack scaffolds are no longer permitted under OSHA",
+        "D. The poles must be steel — wood poles are prohibited"
+      ],
+      "answer": "B",
+      "analysis": "1926.452(j)(3): pump jack scaffolds shall have poles made of straight-grained lumber, free of knots that would impair strength. The poles must be adequately braced and the splices must develop the full strength of the member. 1926.452(j)(6): the maximum height of a pump jack scaffold is 30 feet. 1926.452(j)(5): brackets must be two-point suspension type. Standard 2×4 lumber used as poles must be No. 1 or select structural grade — common construction-grade 2×4s may contain knots and defects that compromise the pole's bending strength."
+    },
+    {
+      "question": "A scaffold built next to a highway overpass has 2×10 wood planks for the platform. One plank has a large knot (about 3 inches in diameter) in the middle of the span. The plank is otherwise sound. The competent person says it's fine. What does 1926.451 require regarding scaffold planking?",
+      "options": [
+        "A. The knot is acceptable as long as the plank doesn't bend when walked on",
+        "B. Scaffold grade planking must be used; wood planks must be scaffold grade, certified by a qualified grading agency, and free of defects that would impair strength — a 3-inch knot in the span is a defect",
+        "C. Any 2×10 lumber can be used as scaffold planking",
+        "D. The knot only matters if it's on the edge of the plank"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(a)(1): scaffold planking must be capable of supporting the intended load. 1926.451(a)(7): scaffold planking shall be scaffold grade as recognized by grading rules. Appendix A to Subpart L specifies that scaffold grade lumber must be certified by a grading agency and marked. A 3-inch knot in the middle of a span creates a stress concentration — under load, the plank is most likely to fail at the knot. The knot acts as a natural fracture point, significantly reducing the bending strength of the plank. Scaffold grade lumber specifically limits knot size relative to the cross-section."
+    },
+    {
+      "question": "Workers on a 40-foot high supported scaffold are using a nylon debris net draped over the scaffold's exterior to contain falling tools. The net is attached to the guardrails with zip ties. A 2-lb hammer slips through a gap between the net and the scaffold platform. What is the correct falling object protection requirement?",
+      "options": [
+        "A. The debris net is sufficient — it caught the hammer eventually",
+        "B. 1926.451(h)(4)(iv) requires panels or screens extending from the toeboard to the top rail; debris nets must be properly installed with no gaps and adequate strength",
+        "C. Falling object protection is only required above pedestrian areas",
+        "D. Zip ties are acceptable for attaching debris netting"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(h)(1): toeboards shall be installed on all open sides and ends of scaffolds more than 10 feet above lower levels, unless employees below are protected by barricades or other means. 1926.451(h)(2): where tools or materials may fall, additional protection such as screens or panels extending from toeboard to top rail OR a debris net shall be provided. Zip ties are not a structural attachment — debris nets must be securely fastened with adequate strength connections. Gaps between the net and platform defeat the purpose."
+    },
+    {
+      "question": "A tube and coupler scaffold is being erected. The qualified person's design specifies certain tube diameters and coupler types. The erector runs out of right-angle couplers and substitutes swivel couplers with the same load rating. Is this acceptable?",
+      "options": [
+        "A. Yes — swivel couplers with the same load rating are interchangeable with right-angle couplers",
+        "B. No — the scaffold must be erected according to the qualified person's design; substituting components without re-engineering may compromise structural integrity",
+        "C. Yes — as long as the swivel couplers are tightened to the same torque",
+        "D. No — swivel couplers are prohibited entirely"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(a)(6): scaffolds shall be designed by a qualified person. 1926.451(d)(1): scaffold components shall be used in accordance with the manufacturer's recommendations. Swivel couplers have different load-transfer characteristics than right-angle (double) couplers — they allow rotation and may not maintain the same rigidity at connections. The qualified person's design assumes specific coupler types at each connection point. Substituting without re-engineering changes the structural behavior of the scaffold system. Swivel couplers are intended for diagonal bracing, not primary load-bearing connections."
+    },
+    {
+      "question": "A scaffold is built partially over an unmarked underground vault. One base plate settles 3 inches into the ground after a rain, causing the scaffold to tilt. The competent person had checked the ground condition the day before (dry weather). What should have been done differently?",
+      "options": [
+        "A. Nothing — ground settlement after rain is unpredictable",
+        "B. The competent person must assess ground conditions considering changing weather; base plates on soil require mud sills or adequate support to prevent settlement under all expected conditions",
+        "C. Scaffolds can never be erected over underground vaults",
+        "D. The base plate settling 3 inches is within tolerance"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(c)(2): scaffold footings shall be level and capable of supporting the loaded scaffold without settling or displacement. 1926.451(f)(3): scaffolds shall be inspected before each work shift and after any occurrence that could affect structural integrity. A competent person should anticipate that rain will saturate soil over a vault (which has a void underneath), causing settlement. Mud sills, timber mats, or concrete pads should have been used to distribute the load. After the rain, the scaffold should have been re-inspected and relevelled before use."
+    },
+    {
+      "question": "On a shipyard scaffold, workers are welding on a tank interior. The scaffold is made of steel tube and coupler. A welding lead (cable) is draped over the scaffold frame — the insulation on the cable is worn, exposing bare copper at a point where it contacts the scaffold tube. What is the hazard?",
+      "options": [
+        "A. No hazard — it's just a welding lead",
+        "B. The exposed welding lead can energize the entire scaffold structure, creating an electrocution hazard for all workers on the scaffold",
+        "C. Only the welder is at risk",
+        "D. Welding on steel scaffolds is prohibited"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(f)(13): welding can only be performed on scaffold components after a qualified person approves the procedure. The real hazard is electrical: a damaged welding lead contacting the steel scaffold frame energizes the entire scaffold at welding voltage (typically 60-80V DC open circuit, but AC systems can be 80V+). All workers on the scaffold become part of the circuit if they touch the frame and any grounded object. The welding lead must be insulated, routed away from the frame, and inspected before use. 1926.351(c) requires welding cables to be free from repairs or splices within 10 feet of the electrode holder unless spliced with insulated connectors of capacity equal to the cable."
+    },
+    {
+      "question": "A scaffold platform consists of two 2×10 planks laid side-by-side over a 7-foot span. The planks are not secured (no cleats, no wire ties). Under load, one plank shifts sideways, creating a gap, and a worker's foot slips through. What does 1926.451 require regarding plank securing?",
+      "options": [
+        "A. Planks over 6 feet long must be secured against displacement with cleats, hooks, or other means",
+        "B. Planks only need to be secured on suspension scaffolds, not supported scaffolds",
+        "C. The planks are fine as long as they overlap the support by 6 inches",
+        "D. Two planks side-by-side are self-securing because they brace each other"
+      ],
+      "answer": "A",
+      "analysis": "1926.451(a)(12): scaffold planks shall be secured against displacement. 1926.451(b)(6): on supported scaffolds, planks must overhang the end supports between 6 and 12 inches unless secured to prevent movement. The planks must also be cleated or otherwise secured to prevent lateral movement. Two unsecured planks side-by-side can shift independently, creating dangerous gaps. Cleats (wood blocks attached to the underside that hook against the support), wire ties, or manufactured hook planks prevent this. This is one of the most common scaffold violations."
+    },
+    {
+      "question": "A competent person is performing a pre-shift scaffold inspection and notices that a cross-brace on a frame scaffold is missing its locking pin — the brace is held in place by gravity. Workers are about to start their shift. What is the competent person's immediate duty?",
+      "options": [
+        "A. Let workers start — the brace is held by gravity and won't come out under normal use",
+        "B. Tag the scaffold as unsafe, prevent use, and have the missing pin installed before any worker accesses the scaffold",
+        "C. Tell workers to be careful on that section",
+        "D. The competent person can use it themselves to verify it's safe"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(f)(3): scaffolds shall be inspected by a competent person before each work shift. 1926.451(f)(4): any part of a scaffold damaged or weakened shall be immediately repaired or replaced. Cross-braces are structural members — without the locking pin, the brace can disengage from the frame, causing the scaffold frame to lose lateral stability and potentially collapse. The competent person has the authority to stop work and must exercise it. Simply warning workers is insufficient — the scaffold must be physically prevented from use until the hazard is corrected."
+    },
+    {
+      "question": "A window washing crew is using a two-point suspension scaffold at the 25th floor. The scaffold has two independent suspension ropes, each with a fall arrest system attached to separate vertical lifelines. One of the two suspension ropes shows 3 broken wires in one lay length. The crew says they'll fix it after today's work. What must happen?",
+      "options": [
+        "A. Complete the day's work — the second rope provides redundancy",
+        "B. Cease use of the scaffold immediately; the damaged rope must be replaced before the scaffold is used again",
+        "C. Apply duct tape over the broken wires and continue",
+        "D. Only the competent person can decide — workers can continue if they feel safe"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(d)(10): wire rope used for scaffold suspension shall be inspected before each workshift. 1926.451(f)(4): any damaged or weakened component shall be immediately repaired or replaced. Wire rope inspection criteria under 1926.1414 (applicable by reference) say that 3 broken wires in one lay length requires replacement. The fact that there are two suspension ropes does not justify continuing with a damaged rope — the system is designed assuming both ropes are intact. A rope failure could cause the platform to tilt, ejecting workers even if the fall arrest system catches them."
+    },
+    {
+      "question": "At a stadium renovation, a catenary scaffold (a platform supported by two parallel horizontal wire ropes, with the platform suspended between them) is used for ceiling work 80 feet above the arena floor. The platform is accessed by a rope ladder dropped from the catwalk. What additional fall protection is required for workers on the catenary scaffold?",
+      "options": [
+        "A. None — the catenary scaffold platform is fully enclosed by guardrails",
+        "B. Workers must use PFAS attached to an independent lifeline — catenary scaffolds are dynamic and can swing, making platform-level guardrails insufficient",
+        "C. A safety net must be installed below the scaffold",
+        "D. Only a safety monitor is needed"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(g)(1)(ii): employees on catenary scaffolds must be protected by a personal fall arrest system. 1926.451(g)(1)(vii): PFAS used on suspended scaffolds must be attached to an independent vertical lifeline. Catenary scaffolds are particularly susceptible to dynamic movement — the horizontal wire ropes can oscillate, and the platform can swing or tilt. Platform guardrails alone may not prevent ejection during unexpected movement. The independent vertical lifeline (separate from the catenary support ropes) provides continuous fall protection regardless of platform movement."
+    },
+    {
+      "question": "A baker scaffold (narrow mobile scaffold, approximately 2 feet × 6 feet platform) is being moved by a worker who is still on the platform — the worker 'surfs' the scaffold by pushing off a wall and riding it to the next location. The platform is at 12 feet height. What violations exist?",
+      "options": [
+        "A. No violation — this is a common and accepted practice for mobile scaffolds",
+        "B. Multiple violations: (1) workers must not ride scaffolds during movement, (2) the scaffold must be unloaded, and (3) the worker must descend before moving",
+        "C. No violation if the floor is smooth and level",
+        "D. Only the height is a problem — mobile scaffolds cannot exceed 10 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.452(w)(2): employees shall not be allowed to ride on scaffolds unless the surface is within 3 degrees of level, free of pits and obstructions, the height-to-base ratio is 2:1 or less, and outriggers are installed (if used). 1926.452(w)(5): the force necessary to move the scaffold shall be applied as close to the base as possible. A narrow baker scaffold at 12 feet height with a 2-foot base width has a 6:1 height-to-base ratio — far exceeding the 2:1 limit for riding. Additionally, 'surfing' involves the worker's body weight shifting, which can cause the scaffold to tip."
+    },
+    {
+      "question": "A scaffold is erected in a high-wind area. Weather forecast predicts 35 mph sustained winds with 50 mph gusts. The scaffold manufacturer specifies a maximum wind speed of 25 mph for erected scaffolds. Workers are scheduled for exterior stucco work at height 40 feet. What must the competent person do?",
+      "options": [
+        "A. Allow work to proceed — 35 mph is still safe for workers",
+        "B. Cease scaffold operations and potentially secure or dismantle the scaffold before winds exceed the manufacturer's limit; wind forces increase exponentially with height",
+        "C. Add extra tie-ins and continue work",
+        "D. Wind speed doesn't matter — scaffolds are designed for hurricane-force winds"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(f)(12): scaffolds shall not be used during storms or high winds unless a competent person determines it is safe. The manufacturer's 25 mph limit is binding. Wind force is proportional to the square of velocity — 35 mph wind exerts nearly double the force of 25 mph. At 40 feet height, wind speed is higher than ground level measurement. Additionally, the scaffold may be carrying materials (stucco) that increase the sail area. The scaffold should be secured or dismantled before winds reach the limit. The General Duty Clause also requires the employer to protect workers from recognized hazards."
+    },
+    {
+      "question": "Workers install a bracket scaffold by inserting two metal brackets into wall openings and laying planks across them. The brackets are designed to support 500 lbs each. One bracket is inserted into a deteriorated brick pocket that has loose mortar. The competent person approved the installation without inspecting the wall condition. When loaded, the bracket pulls out of the wall. What should have been done?",
+      "options": [
+        "A. The bracket manufacturer is responsible for the failure",
+        "B. The competent person must inspect the supporting structure (wall) to verify it can support the bracket load with an adequate safety factor — not just the bracket rating",
+        "C. Brackets should be tested by jumping on them before use",
+        "D. Wall condition doesn't matter — the bracket rating is all that counts"
+      ],
+      "answer": "B",
+      "analysis": "1926.452(k)(5): brackets for bracket scaffolds shall be seated securely on the supporting surface, and the supporting surface shall be capable of supporting the intended load. The competent person's inspection under 1926.451(f)(3) must include the supporting structure, not just the scaffold components. Deteriorated brick with loose mortar cannot provide the friction and bearing capacity needed for the bracket. A 500-lb rated bracket inserted into a weak wall pocket is only as strong as the wall itself. The employer must evaluate the entire load path from scaffold to ground."
+    },
+    {
+      "question": "A scaffold erector uses scaffold components from three different manufacturers on a single frame scaffold. The frames interlock (the pins fit) but the locking mechanisms are different designs. The competent person says 'if it fits, it's fine.' What does OSHA require?",
+      "options": [
+        "A. Mixing manufacturers is acceptable if the components physically fit together",
+        "B. Scaffold components from different manufacturers shall not be intermixed unless the components fit together without force, the scaffold's structural integrity is maintained, and a competent person determines they are compatible",
+        "C. Mixing manufacturers is always prohibited — all components must be from the same manufacturer",
+        "D. Only the pins need to match — the locking mechanism design doesn't matter"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(d)(1): scaffold components manufactured by different manufacturers shall not be intermixed unless the components fit together without force and the scaffold's structural integrity is maintained by the user. The competent person must make an affirmative determination of compatibility, not just assume that fitting pins equals structural compatibility. Different locking mechanisms (wedge locks, gravity pins, snap pins, etc.) may not engage properly with different frame dimples or slots, potentially releasing under dynamic load. If there is any doubt, the manufacturer should be consulted or components should not be mixed."
+    },
+    {
+      "question": "A worker on a float scaffold (a single plank suspended by two ropes from above, used for light-duty tasks like caulking) at 40 feet height is not wearing fall protection. The scaffold is the worker's only support. Is this compliant?",
+      "options": [
+        "A. Yes — float scaffolds are not covered by fall protection requirements",
+        "B. No — employees on float scaffolds must use a PFAS with an independent lifeline; the scaffold's support ropes are the work support, not fall protection",
+        "C. Yes — the worker is essentially in a boatswain's chair which has different rules",
+        "D. No — float scaffolds are completely prohibited above 25 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(g)(1)(ii): employees on float scaffolds shall be protected by a personal fall arrest system. The PFAS must be attached to an independent lifeline (separate from the scaffold support ropes — 1926.451(g)(1)(vii)). A float scaffold is essentially a single plank hanging from two ropes — if either rope support fails, the plank drops. Without an independent PFAS, the worker has no backup. Float scaffolds are inherently unstable (they can tilt, rotate, and swing), making an independent fall arrest system essential for worker survival."
+    },
+    {
+      "question": "After a scaffold is erected, the competent person inspects it and finds that the platform planks overhang the end supports by 14 inches. The platform is 7 feet long between supports. Is the overhang acceptable?",
+      "options": [
+        "A. Yes — the overhang can be any length as long as the plank doesn't tip when stepped on",
+        "B. No — scaffold planks on supported scaffolds must overhang between 6 and 12 inches; 14 inches exceeds the maximum",
+        "C. Yes — up to 18 inches is acceptable for 2×10 planks",
+        "D. The overhang rule only applies to suspension scaffolds, not supported scaffolds"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(b)(6): on supported scaffolds, the ends of each platform must overhang the centerline of the support between 6 and 12 inches, unless the platform is designed to cantilever loads or is secured to prevent movement. At 14 inches, a worker stepping near the end of the plank could cause it to teeter (the plank becomes a lever with the support as fulcrum). The 6-12 inch range ensures adequate bearing on the support while limiting the cantilever effect. The plank should be replaced with a shorter one or the support spacing adjusted."
+    },
+    {
+      "question": "A mast climber (mast climbing work platform) is being used for masonry work on a 6-story building. The platform rises along a vertical mast tied to the building. Workers are loading bricks onto the platform from a forklift at ground level, and the platform is being raised with workers aboard. What must be verified during operation?",
+      "options": [
+        "A. Nothing — mast climbers are self-inspecting",
+        "B. Mast climber operation requires: ties to the building at specified intervals, load not exceeding the rated capacity, guardrails intact, emergency lowering system functional, and no one underneath the platform during raising/lowering",
+        "C. Only the maximum height needs monitoring",
+        "D. Mast climbers don't require inspection because they're considered elevators, not scaffolds"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(c)(2)(v): mast climbers shall be tied to the building at intervals specified by the manufacturer. 1926.451(a)(6): scaffolds must not be loaded beyond capacity. 1926.451(f)(3): inspection before each shift. 1926.451(g)(1)(vii): guardrails required. 1926.451(h)(1): toeboards. Additionally, mast climbers must have operational emergency descent systems and limit switches. No one should be beneath the platform during raising/lowering (struck-by hazard). The operator must be trained and competent. Mast climbers are classified as scaffolds under Subpart L, not elevators."
+    },
+    {
+      "question": "During disassembly of a 60-foot high frame scaffold, the crew starts removing tie-ins from the top down. After removing the top two sets of ties, the 40-foot remaining scaffold section is freestanding at 40 feet with a 5-foot base — an 8:1 height-to-base ratio. A wind gust of 20 mph causes the scaffold to sway noticeably. What should have been done?",
+      "options": [
+        "A. Continue — swaying is normal during disassembly",
+        "B. Disassembly must be planned; tie-ins should be maintained to keep the height-to-base ratio at or below 4:1 during dismantling, or temporary guying should be used",
+        "C. Dismantle faster to reduce the height",
+        "D. Only the top section needs ties during disassembly"
+      ],
+      "answer": "B",
+      "analysis": "1926.451(f)(7): scaffolds shall be dismantled in a systematic manner. While the standard doesn't explicitly mandate maintaining tie-ins during dismantling, the General Duty Clause and the structural requirement of 1926.451(c)(1) (4:1 height-to-base ratio with ties) apply during ALL phases including disassembly. A freestanding scaffold at 8:1 is unstable. Disassembly should be planned so that ties closest to the remaining working level are removed last, or temporary guys are installed. The swaying is a warning sign of incipient collapse."
+    },
+    {
+      "question": "A worker on a supported scaffold at 18 feet height is using a PFAS with a 6-foot shock-absorbing lanyard anchored to the scaffold frame at foot level. The scaffold is fully guarded. The worker falls — the anchor is at foot level on the scaffold frame. What is the concern with anchoring to the scaffold frame?",
+      "options": [
+        "A. No concern — the scaffold frame is a structural member that can handle the load",
+        "B. In a fall, the worker will load the scaffold frame horizontally, potentially tipping the scaffold (if not tied); plus, the free fall distance is greater with foot-level anchoring",
+        "C. The scaffold frame is too weak — it will collapse under any fall load",
+        "D. Anchoring to the scaffold is never permitted — you must anchor to the building"
+      ],
+      "answer": "B",
+      "analysis": "1926.502(d)(15) requires anchorages to be capable of supporting 5,000 lbs. 1926.451(g)(1)(vii): PFAS may be anchored to the scaffold structure ONLY if the scaffold is capable of supporting the fall arrest loads. A scaffold frame is designed for vertical loads — a horizontal 5,000-lb shock load from a falling worker can pull the scaffold sideways. If the scaffold is not adequately tied to the building, it can tip over. Additionally, foot-level anchoring increases free fall distance. The competent person must verify the scaffold (including its ties) can resist the fall arrest forces in the direction they'll be applied."
+    }
+  ]
+}

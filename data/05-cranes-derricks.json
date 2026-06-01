@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA Cranes & Derricks Quiz — 29 CFR 1926.1400-1442 Practice (Subpart CC)",
+    "meta_description": "Free OSHA 30-Hour Construction cranes and derricks practice test with 40 realistic scenarios. Operator certification, rigging inspection, power line clearance, load charts, signal person requirements, and crane assembly/disassembly with 29 CFR 1926 Subpart CC references.",
+    "primary_keywords": [
+      "OSHA crane safety quiz",
+      "29 CFR 1926.1400 practice",
+      "NCCCO operator certification",
+      "OSHA 30-Hour cranes derricks"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A 50-ton hydraulic crane is being set up on a construction site. The outriggers are fully extended. The crane will lift a 12,000-lb HVAC unit at a 40-foot radius. The operator checks the load chart and sees the maximum capacity at 40 feet is 14,500 lbs on outriggers. The rigging weighs 800 lbs. Is this lift within the crane's rated capacity?",
+      "options": [
+        "A. Yes — 12,000 lbs is well under 14,500 lbs rated capacity",
+        "B. No — the NET load (12,000 + 800 = 12,800 lbs) is 88% of rated capacity, which is within limits, but the question needs more data about ground conditions",
+        "C. Yes — rigging weight doesn't count toward the load",
+        "D. No — any lift over 50% of rated capacity requires an engineered lift plan"
+      ],
+      "answer": "B",
+      "analysis": "1926.1417(a): the equipment must not be operated in excess of its rated capacity. The NET load includes: the actual load weight + rigging weight + hook block weight + any other load-attached equipment. 12,000 + 800 = 12,800 lbs net load vs 14,500 lbs rated = 88.3%. While this is technically under the rated capacity, OSHA requires lifts between 75% and 100% of capacity to be treated as 'critical lifts' by many employers. The operator must also account for dynamic loading, wind, and ground bearing capacity. However, the weight calculation IS required — which makes the point that rigging IS part of the load."
+    },
+    {
+      "question": "A mobile crane is working 30 feet from an energized 115 kV overhead transmission line. The operator claims he only needs to maintain 10 feet of clearance because 'that's the OSHA minimum.' What is the actual minimum clearance required by 1926.1408 Table A for this voltage?",
+      "options": [
+        "A. 10 feet — this is the universal minimum for all overhead power lines",
+        "B. 10 feet — but only if the line is de-energized",
+        "C. 15 feet — for lines rated over 50 kV to 200 kV, the minimum clearance is 15 feet",
+        "D. 20 feet — all transmission lines require 20 feet minimum"
+      ],
+      "answer": "C",
+      "analysis": "1926.1408 Table A: for power lines ≤50 kV, minimum clearance is 10 feet. For lines >50 kV to ≤200 kV (which includes this 115 kV line), minimum clearance is 15 feet. The operator's 10-foot assumption is wrong for this voltage class. Additionally, 1926.1408(b) requires that when operating within the minimum clearance distance, the employer must implement Option (3) measures: notify the power company, use encroachment prevention, and ensure lines are insulated or guarded."
+    },
+    {
+      "question": "During assembly of a tower crane, the crew discovers a wire rope sling with 8 randomly distributed broken wires in one rope lay. The sling is a 6×19 IWRC rope being used to lift tower sections. The crew lead says to use it anyway because 'we have a safety factor.' What does 1926.1414(b) require?",
+      "options": [
+        "A. Wire rope slings can be used with up to 10 broken wires in one rope lay",
+        "B. The sling must be removed from service immediately — it exceeds the 6 broken wire per rope lay removal criterion",
+        "C. Broken wires are cosmetic; only core damage requires removal",
+        "D. Reduce the load by 25% and use the sling one final time"
+      ],
+      "answer": "B",
+      "analysis": "1926.1414(b)(1)(iv): wire rope slings shall be removed from service when there are 6 randomly distributed broken wires in one rope lay. With 8 broken wires, this sling exceeds the criterion. 1926.1414(b)(2): the sling must be destroyed or rendered incapable of being used (cut up) so it cannot be accidentally reused. The 'safety factor' argument is dangerous — the 6-wire limit accounts for gradual degradation; 8 broken wires in one lay indicates rapid deterioration and potential catastrophic failure on the next lift."
+    },
+    {
+      "question": "A crane operator is making a blind lift — the load is on the other side of a building, out of the operator's direct line of sight. The operator can see the rigger through a gap in the structure but not the load itself. What does OSHA 1926.1419 require?",
+      "options": [
+        "A. The operator can proceed as long as the rigger stays visible",
+        "B. A qualified signal person or a signaling system (radio/hand signals) must be used whenever the point of operation is not in full view of the operator",
+        "C. Blind lifts are prohibited entirely — the load must always be visible",
+        "D. The operator can proceed based on experience and a pre-lift walk-through"
+      ],
+      "answer": "B",
+      "analysis": "1926.1419(a): when the point of operation is not in full view of the equipment operator, the operator must be directed by a signal person OR use a signaling system (radio, video, etc.). Seeing the rigger's face does not constitute 'point of operation' visibility — the operator must see the load, the landing area, and all potential obstructions. 1926.1419(b): signal persons must be qualified (demonstrate competency through oral/written test and practical demonstration per 1926.1428)."
+    },
+    {
+      "question": "A lattice-boom crawler crane is traveling with an 8,000-lb load suspended. The track is on firm, level ground. The operator is moving at approximately 1.5 mph. Under 1926.1417(n), is this acceptable?",
+      "options": [
+        "A. Yes — cranes may travel with suspended loads on firm, level ground as long as specific safety conditions are met",
+        "B. No — cranes must never travel with a suspended load under any circumstances",
+        "C. Yes — any load under 10,000 lbs can be traveled",
+        "D. No — crawler cranes specifically are prohibited from load travel"
+      ],
+      "answer": "A",
+      "analysis": "1926.1417(n): the equipment must not travel with a suspended load unless the employer has established specific procedures. The standard requires: (1) the operator must be trained on load travel, (2) no workers on the load, (3) the boom must be pointed in the direction of travel (unless good engineering practice dictates otherwise), (4) the path must be planned and inspected, (5) the load must be carried as close to the ground as possible. On firm, level ground, crawler cranes CAN travel with a load when these conditions are met."
+    },
+    {
+      "question": "A rigger attaches two 5/8-inch wire rope slings to a 6,000-lb steel beam using a vertical hitch configuration. Each sling has a vertical-rated capacity of 5,800 lbs. The rigger does not use a tagline because 'the beam is heavy enough not to swing.' What issues exist?",
+      "options": [
+        "A. The slings are correctly sized and taglines are optional",
+        "B. Two vertical slings each rated at 5,800 lbs provide 11,600 lbs capacity — sufficient for 6,000 lbs; the real issue is the missing tagline, which is required to control suspended loads",
+        "C. The slings are overloaded — each carries 3,000 lbs, but the hitch de-rates them below half their vertical rating",
+        "D. There are no issues; this rigging configuration is fully compliant"
+      ],
+      "answer": "B",
+      "analysis": "With two vertical slings, the load distribution to each sling is 3,000 lbs (assuming the load center of gravity is centered). Each sling at 5,800 lbs capacity × 2 = 11,600 lbs total system capacity >> 6,000 lbs load. This part is fine. However, 1926.1431(c): taglines must be used on suspended loads when necessary to control the load. A steel beam being flown without a tagline can rotate or swing from wind or crane movement, creating a struck-by hazard for nearby workers."
+    },
+    {
+      "question": "A crane operator arrives at the jobsite Monday morning. The crane has been parked on-site over the weekend. The operator does a walk-around and starts the engine. Before making the first lift of the day, what does OSHA 1926.1412(d) require?",
+      "options": [
+        "A. A quick visual check is sufficient if the crane was used Friday with no issues",
+        "B. A competent person must perform a shift inspection including: control mechanisms, hydraulic systems, hooks, wire ropes, safety devices, and ground conditions around the crane",
+        "C. The operator only needs to check fluid levels and warm up the engine",
+        "D. Shift inspections are only required if the crane was moved over the weekend"
+      ],
+      "answer": "B",
+      "analysis": "1926.1412(d)(1): a competent person must begin a visual inspection before each shift the equipment will be used. The inspection must include: control mechanisms, pressurized lines, electrical apparatus, hooks with latches, wire rope reeving, ground conditions, outriggers, tires/tracks, and safety devices. 1926.1412(f): the inspection must be documented. This is not just 'checking fluids' — components could have failed or been vandalized over the weekend."
+    },
+    {
+      "question": "During a lift, a crane's load moment indicator (LMI) alarm sounds, warning of an impending overload. The operator looks at the load, estimates it's within limits based on experience, and manually overrides the LMI to continue the lift. Two minutes later, the crane tips. What section of 1926 Subpart CC was violated?",
+      "options": [
+        "A. No violation — LMI systems are advisory only and the operator has final authority",
+        "B. 1926.1416(d): the operator must not override or deactivate safety devices (like the LMI) except in limited circumstances with approval from the lift director and the equipment manufacturer's procedures",
+        "C. The LMI must have been faulty if the crane tipped; this is a manufacturer defect issue",
+        "D. Operators can override LMIs for loads under 20,000 lbs"
+      ],
+      "answer": "B",
+      "analysis": "1926.1416(d)(1): safety devices (including LMIs, anti-two-block devices, boom angle indicators) shall not be modified, bypassed, or deactivated unless the equipment manufacturer's procedures for doing so are followed AND the action is approved by the lift director. 1926.1416(d)(2): the equipment must not be used until the safety device is repaired or replaced. The LMI is a primary safety system — not a 'suggestion.' Overriding it defeats the engineering safeguard that prevents exactly this type of tipping incident."
+    },
+    {
+      "question": "A tower crane is erected on a construction site adjacent to a public sidewalk. There is no overhead protection for pedestrians. Under 1926.1424, what protections are required for the public area?",
+      "options": [
+        "A. Nothing — pedestrians are not OSHA's jurisdiction",
+        "B. The sidewalk must be closed for the duration of the project",
+        "C. If the crane lifts over the sidewalk, the area must be barricaded and the sidewalk must be closed off, OR overhead protection rated for the potential impact must be provided",
+        "D. A flagger must warn pedestrians when the crane is actively lifting"
+      ],
+      "answer": "C",
+      "analysis": "1926.1424(a)(1): where the equipment is used in areas accessible to the public, the employer must establish a work zone that prevents access by unauthorized persons. When lifts pass over public areas, pedestrians must be protected from falling loads. Options include: closing the sidewalk entirely, providing overhead protection (rated for impact loads), or scheduling lifts when the sidewalk can be temporarily cleared. A flagger alone (D) is insufficient — pedestrians cannot outrun a falling load."
+    },
+    {
+      "question": "A signal person is directing a crane operator using hand signals. The crane is making a critical lift of a 20,000-lb chiller unit being placed on a 5th-floor mechanical room. The operator momentarily loses sight of the signal person when the load passes behind a column. What must happen?",
+      "options": [
+        "A. The operator should continue based on the last signal received",
+        "B. Operations must stop immediately, and the lift must not resume until the operator and signal person have re-established continuous communication",
+        "C. A second signal person should relay signals — but this is a best practice, not a requirement",
+        "D. The operator can complete the lift using the LMI display alone"
+      ],
+      "answer": "B",
+      "analysis": "1926.1419(c): when the operator is not able to see the signal person, operations must stop. The operator and signal person must be in continuous visual contact, OR a signaling system (radio) must be used that maintains continuous communication. A relay signal person IS an acceptable method under 1926.1419(d), but (C) incorrectly claims it's 'not required' when the standard explicitly allows it as a compliance method. The key requirement is: no visibility = stop until communication is restored."
+    },
+    {
+      "question": "A 50-ton hydraulic crane is set up with outriggers fully extended on asphalt. The outrigger pads are 2-foot square steel plates. The ground pressure under one outrigger during a near-capacity lift is calculated at 85 psi. The asphalt is 3 inches thick on compacted base. Is this setup adequate?",
+      "options": [
+        "A. Yes — steel plates distribute the load adequately",
+        "B. No — 85 psi likely exceeds the bearing capacity of asphalt, especially in hot weather; larger cribbing (timber mats) is needed to distribute the load to acceptable ground pressure",
+        "C. Yes — asphalt can handle 100+ psi",
+        "D. No — outriggers must always be on concrete"
+      ],
+      "answer": "B",
+      "analysis": "1926.1402(c): the controlling entity must ensure ground conditions are adequate to support the equipment. Hot asphalt can soften significantly, reducing bearing capacity. Typical asphalt bearing capacity is 30-60 psi depending on temperature and base. At 85 psi, the outrigger can punch through, causing the crane to tilt. Timber cribbing/mats increase the footprint area, reducing ground pressure. The competent person must evaluate ground conditions per 1926.1402(b)."
+    },
+    {
+      "question": "A mobile crane is working 30 feet from an energized 115 kV transmission line. The operator plans a lift where the boom tip could come within 18 feet of the line. What is the minimum clearance required under 1926.1408 Table A?",
+      "options": [
+        "A. 10 feet — standard for all power lines",
+        "B. 20 feet for lines over 50 kV up to 200 kV",
+        "C. 15 feet — the general 15-foot rule applies",
+        "D. 30 feet — double the line voltage in feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.1408 Table A: for lines rated over 50 kV to 200 kV, the minimum clearance is 20 feet. At 115 kV (which falls in the >50-200 kV range), 20 feet is required. The planned 18-foot clearance is 2 feet short. Additionally, 1926.1408(a)(1) requires the work zone to be identified before operations. The 20-foot power line safety zone under 1926.1408(a)(1) applies — since the equipment could be within 20 feet, encroachment prevention measures are mandatory."
+    },
+    {
+      "question": "During assembly of a tower crane, the crew discovers a wire rope sling with 8 randomly distributed broken wires in one strand, within one lay length. The sling is 3/4-inch diameter, 6×19 classification. Is the sling usable?",
+      "options": [
+        "A. Yes — 8 broken wires within tolerance for this classification",
+        "B. No — for 6×19 classification wire rope, 6 randomly distributed broken wires in one rope lay OR 3 broken wires in one strand in one rope lay requires removal from service; 8 broken wires in one strand far exceeds the limit",
+        "C. Yes — wire rope slings can have up to 10 broken wires per strand",
+        "D. The sling can be used but at 50% reduced capacity"
+      ],
+      "answer": "B",
+      "analysis": "1926.1414(a)(1): wire rope shall be taken out of service when any of the conditions in 1926.1413(a) are present. 1926.1413(a)(2)(ii): for 6×19 classification, removal is required at 6 randomly distributed broken wires in one lay, or 3 broken wires in one strand in one lay. At 8 broken wires in one strand, the rope is significantly damaged and must be removed from service — no de-rating is permitted."
+    },
+    {
+      "question": "A crane operator is making a blind lift — the load is on the other side of a building, out of the operator's view. A signal person with a radio provides directions. The radio battery dies mid-lift. The operator loses communication. What must the operator do?",
+      "options": [
+        "A. Complete the lift slowly based on memory of the last instructions",
+        "B. Stop the lift immediately — a lift must not proceed without effective communication between the operator and signal person",
+        "C. Look around the building by leaning out the cab window",
+        "D. Ask another worker to run around the building and shout directions"
+      ],
+      "answer": "B",
+      "analysis": "1926.1419(c): when the operator does not have a clear view of the load, a signal person must be used. 1926.1419(d): if communication is lost, the operator must stop operations until communication is restored. The signal person is the operator's eyes — without communication, the operator is blind to hazards. Continuing a blind lift without communication is extremely dangerous — the load could strike workers, structures, or power lines."
+    },
+    {
+      "question": "A lattice-boom crawler crane is traveling with an 8,000-lb load suspended, on firm level ground. The track is 12 feet wide. The operator is traveling at a normal walking speed. Workers are walking alongside the load to steady it. Is this compliant?",
+      "options": [
+        "A. Yes — traveling with a suspended load is standard practice",
+        "B. No — employees must not be under or near suspended loads; workers alongside the load are in the danger zone if the load swings or the crane tips",
+        "C. Yes — as long as the load is less than 75% of capacity",
+        "D. No — crawler cranes are never permitted to travel with loads"
+      ],
+      "answer": "B",
+      "analysis": "1926.1425(a): employees shall not be under or on suspended loads. 1926.1424(a)(3): the swing radius must be barricaded to prevent unauthorized access. Workers walking alongside a suspended load are exposed to: load swing, boom collapse, rigging failure, and crane tip-over. If the load must be steadied, tag lines should be used from a safe distance outside the fall zone and swing radius."
+    },
+    {
+      "question": "A rigger attaches two 5/8-inch wire rope slings to a 6,000-lb steel beam using a vertical hitch configuration (each sling straight up from the load to the hook). The sling's rated capacity in a vertical hitch is 6,200 lbs each. The sling angle is 0 degrees (vertical). Is the lift acceptable?",
+      "options": [
+        "A. Yes — each sling sees 3,000 lbs, well below the 6,200-lb rating",
+        "B. No — the total capacity of two slings in vertical hitch is additive (12,400 lbs), but the load must be balanced; an unbalanced 6,000-lb load could overload one sling. Additionally, the sling identification tag must be present and legible",
+        "C. Yes — as long as the beam is lifted slowly",
+        "D. No — wire rope slings are prohibited for beam lifting"
+      ],
+      "answer": "A",
+      "analysis": "For a 6,000-lb load with two vertical slings, each sling carries 3,000 lbs (assuming balanced loading). This is well within the 6,200-lb rated capacity (safety factor of ~2). The setup is acceptable provided: slings have legible identification tags per 1926.1414(b)(1), slings were inspected before use per 1926.1414(a), and the rigging is configured to prevent load shifting. The key is ensuring the center of gravity is centered — if the load shifts, one sling could see more than 3,000 lbs but still within the 6,200-lb limit."
+    },
+    {
+      "question": "A crane operator arrives Monday morning. The crane has been parked on-site over the weekend with the boom lowered. The operator does a walk-around visual check but skips the operational checks (function test of all controls, LMI test, anti two-block test) because 'it worked fine Friday.' Is this compliant?",
+      "options": [
+        "A. Yes — the weekend doesn't change anything if the crane was parked",
+        "B. No — 1926.1412(d) requires the operator to verify the crane's functions are working properly before each shift, including all safety devices",
+        "C. Yes — function tests are only weekly",
+        "D. No — but only the LMI needs testing"
+      ],
+      "answer": "B",
+      "analysis": "1926.1412(d)(1): safety devices and operational aids shall be checked before each shift to ensure they are working properly. This includes: anti two-block device, LMI/RCL, boom angle indicator, horn, boom/jib stops, and all control functions. 1926.1412(f)(1): a monthly inspection is also required with documentation. The pre-shift check takes 5-10 minutes — skipping it risks operating with a failed safety device."
+    },
+    {
+      "question": "During a lift, a crane's load moment indicator (LMI) alarm sounds, warning of an impending overload. The operator pauses, checks the load chart, and realizes the lift is at 98% of capacity at this radius. The foreman says 'just bump it up — it's only for a minute.' What must the operator do?",
+      "options": [
+        "A. Follow the foreman's instructions — the foreman is in charge of the site",
+        "B. The operator must refuse to exceed the crane's rated capacity; the LMI warning indicates the lift is at the limit — the operator has the authority and duty to stop the lift",
+        "C. Override the LMI — it's just a warning, not a hard limit",
+        "D. Transfer the load to a larger crane without lowering it"
+      ],
+      "answer": "B",
+      "analysis": "1926.1417(a): the operator must not exceed the manufacturer's rated capacity. 1926.1417(c): the operator has the authority to stop operations if conditions are unsafe. The LMI at 98% leaves a 2% margin — dynamic loading from wind or load movement can push it over 100%. Additionally, 1926.1417(b): if the LMI is not functioning properly, the operator must stop operations. The operator cannot be coerced into unsafe lifts — 1926.1400(c) grants operators stop-work authority."
+    },
+    {
+      "question": "A tower crane is erected on a construction site adjacent to a public sidewalk. There is no overhead protection for pedestrians. During a lift, the load will at one point pass over the sidewalk. Is this permitted?",
+      "options": [
+        "A. Yes — tower cranes routinely lift over public areas",
+        "B. No — 1926.1425(b) prohibits suspending loads over any area where persons are located unless those persons are necessary to the lift; lifting over a public sidewalk is prohibited unless the sidewalk is closed and barricaded",
+        "C. Yes — as long as a flagger warns pedestrians",
+        "D. No — tower cranes may never lift over any area other than the construction site"
+      ],
+      "answer": "B",
+      "analysis": "1926.1425(b): the operator must not swing or pass a load over employees or the public. 1926.1424(a)(3)(i): the area within the swing radius must be barricaded to prevent unauthorized access. The public sidewalk is within the crane's swing radius and under the load path. The sidewalk must be closed, and protected with overhead canopy or the lift path must avoid the sidewalk entirely. Dropped loads from tower cranes have killed pedestrians in multiple incidents."
+    },
+    {
+      "question": "A signal person is directing a crane operator using hand signals during a critical lift. The signal is 'boom up, load up, swing right' — a complex multi-function signal. The operator sees the signal but hesitates. The signal person repeats the signal more aggressively. What is the correct protocol?",
+      "options": [
+        "A. The operator must follow the signal regardless of hesitation",
+        "B. The operator must follow only signals from the designated signal person (which this person is), but may stop if uncertain — however, only the STOP signal overrides all others; complex signals are acceptable if pre-coordinated",
+        "C. Complex signals are prohibited — only one function at a time",
+        "D. The operator should ask for radio verification"
+      ],
+      "answer": "B",
+      "analysis": "1926.1419(b): the operator must follow the signals of the designated signal person, except for the STOP signal which overrides all others and can be given by anyone. 1926.1428(a): hand signals must be per Appendix A of Subpart CC. Complex multi-function signals are acceptable if both operator and signal person are trained and understand the signals. The operator can stop at any time if uncertain, but should generally follow the qualified signal person's directions."
+    },
+    {
+      "question": "A crane's wire rope shows 5 broken wires in one lay length on a standing rope (non-rotating). The rope is 6×37 classification, 1-inch diameter, used as a boom hoist rope. Is this rope acceptable for continued use?",
+      "options": [
+        "A. Yes — 5 broken wires is within the limit for 6×37 classification",
+        "B. No — for 6×37 classification running ropes, the limit is 6 broken wires in one lay; for standing ropes (like pendant lines), it's 3 broken wires. If this is a boom hoist (running rope), 5 is acceptable. However, inspection should note the location and pattern",
+        "C. The rope must be replaced regardless of broken wire count after 6 months",
+        "D. Yes — boom hoist ropes have special exemption"
+      ],
+      "answer": "A",
+      "analysis": "1926.1413(a)(2)(ii)(A): for running wire ropes, the removal criteria depends on classification. For 6×37 classification: 6 randomly distributed broken wires in one rope lay requires removal. At 5 broken wires, the rope is within the limit. However, 1926.1413(a)(2)(ii)(B): for standing/pendant ropes, only 3 broken wires require removal. If this rope is a standing rope (pendant line), 5 broken wires would require removal. The classification of the rope as running vs. standing is critical. The competent person must correctly classify the rope's function."
+    },
+    {
+      "question": "A crane with a lattice boom is being dismantled. The crew is removing a 40-foot boom section. The section weighs 3,200 lbs. Instead of using a second crane, the crew attaches a chain fall to the next boom section and uses it as an improvised lifting point. Is this acceptable?",
+      "options": [
+        "A. Yes — using the existing boom as a lifting point is common practice",
+        "B. No — assembly/disassembly must follow manufacturer procedures or be directed by an A/D (Assembly/Disassembly) director; using a boom section as an improvised lifting point without engineering approval is extremely dangerous",
+        "C. Yes — as long as the chain fall is rated for the load",
+        "D. The boom is designed to handle this additional load"
+      ],
+      "answer": "B",
+      "analysis": "1926.1404(a): assembly/disassembly must be directed by an A/D director who is a competent person. 1926.1404(b): the A/D director must ensure the procedures minimize the risk of unintended movement. Using boom components as lifting points when not designed for it can overload members in unintended directions, causing boom collapse. An engineered lifting plan, possibly using a mobile crane or designed lifting frame, is required."
+    },
+    {
+      "question": "A crane's outrigger is set up on sloped ground. To level the crane, the operator uses wood cribbing of various thicknesses under one outrigger float. The cribbing stack is 18 inches tall, consisting of 6 layers of 4×4 lumber placed in a Jenga-like pattern (alternating but not nailed together). One layer is only partially seated. Is this cribbing acceptable?",
+      "options": [
+        "A. Yes — cribbing height is unlimited as long as it's wood",
+        "B. No — cribbing must be properly constructed: timbers should be solid, stacked in a stable pattern (alternating directions), each layer fully supported, and the stack should not be excessively tall without being secured (nailed or banded); a wobbly 18-inch stack is unstable",
+        "C. Yes — as long as it's on the outrigger float",
+        "D. Cribbing must be exactly 12 inches or less"
+      ],
+      "answer": "B",
+      "analysis": "1926.1402(b): the controlling entity must ensure the equipment is adequately supported. Cribbing distributes outrigger loads to the ground. Industry best practice: cribbing timbers should be solid (no cracks), stacked in an alternating pattern (cribbed), each layer fully in contact with the layer below, and the stack should be stable. Partially seated layers create point loading and can shift. For stacks over 2-3 layers, timbers should be nailed or banded together. An 18-inch stack of loose lumber is a tip-over waiting to happen."
+    },
+    {
+      "question": "A hoist drum on a crane has wire rope that is spooling unevenly, with gaps and crossovers visible. The operator says 'it always does that.' What's the concern?",
+      "options": [
+        "A. No concern — uneven spooling is cosmetic",
+        "B. Uneven spooling can cause: rope crushing (crossovers dig into layers below), accelerated wear, jerky load movement, and in severe cases, rope jumping the drum flange — potentially dropping the load",
+        "C. Only the first layer matters",
+        "D. The rope needs to be replaced — it's stretched"
+      ],
+      "answer": "B",
+      "analysis": "1926.1413(a)(1): wire rope in service shall be inspected daily. 1926.1413(a)(2)(i): conditions like kinking, crushing, birdcaging, or other damage indicating loss of strength require removal. Uneven spooling is a symptom of improper tension during spooling or a worn drum groove. Crossovers crush the underlying rope, creating weak points. If the rope jumps the drum flange, the load can free-fall. The operator should stop and have the rope re-spooled under proper tension or the drum/rope evaluated by a competent person."
+    },
+    {
+      "question": "A contractor is using a crane to lift a load onto a bridge deck. The load chart says the crane can lift 12,000 lbs at a 40-foot radius with outriggers fully extended. The actual lift is at 38-foot radius with a 11,500-lb load, BUT one outrigger is only partially extended because of an obstruction (a concrete barrier). Is this lift permissible?",
+      "options": [
+        "A. Yes — the load is 500 lbs under the chart capacity",
+        "B. No — the load chart is based on ALL outriggers fully extended per the configuration; a partially extended outrigger changes the stability envelope and invalidates the chart capacity",
+        "C. Yes — as long as the partially extended outrigger is on the opposite side from the lift",
+        "D. Reduce the load by 50%"
+      ],
+      "answer": "B",
+      "analysis": "1926.1417(a): the operator must not exceed the rated capacity in the load chart for the specific configuration. 1926.1412(b): load charts are configuration-specific. The load chart for 'outriggers fully extended' assumes the full stability base. A partially retracted outrigger reduces the crane's tipping resistance on that side. The crane must be re-configured, or a different load chart (for the actual outrigger configuration) used — and if no chart exists for that partial-extension configuration, the lift cannot proceed without manufacturer approval or an RPE assessment."
+    },
+    {
+      "question": "A new generation mobile crane has a rated capacity limiter (RCL) that is malfunctioning — it reads 'ERROR' intermittently. The operator continues working, relying on the load chart and experience instead. Is this compliant?",
+      "options": [
+        "A. Yes — the operator can use the load chart manually",
+        "B. No — 1926.1416(b) states if the RCL (a required safety device) is not working properly, the operator must stop operations until it is repaired or replaced, unless a temporary alternative method is documented by the employer",
+        "C. Yes — RCLs were not required on older cranes, so they're optional",
+        "D. The operator can continue but at 50% reduced capacity"
+      ],
+      "answer": "B",
+      "analysis": "1926.1416(a): cranes manufactured after November 8, 2011 must have an operational RCL. 1926.1416(b): if the RCL is not working properly, the operator must cease operations. 1926.1416(c): a temporary alternative method (manually calculating loads and radii, using boom angle indicator plus load chart) may be used ONLY if the employer documents the procedure and the repair is scheduled. The operator cannot unilaterally decide to work without a functioning RCL."
+    },
+    {
+      "question": "A crawler crane is lifting on a barge. The barge is not moored to the dock — it's held in position by the tugboat's engines. The crane operator is lifting a 15,000-lb generator from the dock onto the barge deck. The barge lists 3 degrees during the swing. Is this lift acceptable?",
+      "options": [
+        "A. Yes — 3 degrees of list is within normal barge crane operations",
+        "B. No — barge-mounted cranes require: a stable platform (moored barge), list not exceeding the crane manufacturer's limit (typically 1-2 degrees for most cranes), and a qualified person to evaluate barge stability during lifts",
+        "C. Yes — crane load charts account for barge list",
+        "D. No — cranes on barges must always have the load reduced by 75%"
+      ],
+      "answer": "B",
+      "analysis": "1926.1402(b): equipment must be adequately supported. On a barge, the 'ground' is the barge deck, which moves with the water. Most crane manufacturers specify a maximum list (typically 1-2 degrees) — beyond that, the crane's stability is compromised. 3 degrees of list essentially changes the crane's level condition, reducing capacity asymmetrically. The barge should be moored to minimize movement. 1926.1417(n) requires the operator to stop if the equipment is not properly leveled."
+    },
+    {
+      "question": "A rigger is inspecting a synthetic web sling before use. The sling shows: (1) a 1-inch cut on one edge, (2) red core warning yarns visible through the outer cover in one spot, (3) a missing identification tag. Is this sling usable?",
+      "options": [
+        "A. Usable — minor edge cuts are acceptable if the red core yarns are only partially visible",
+        "B. Not usable — ANY of these three conditions requires removal: missing ID tag (1926.1414(b)(2)), visible red core warning yarns (indicates the protective cover has worn through), or an edge cut >1/8 inch",
+        "C. Usable — the tag can be recreated",
+        "D. Usable but at reduced capacity"
+      ],
+      "answer": "B",
+      "analysis": "1926.1414(b)(2): sling identification tags must be present and legible. 1926.1414(b)(3): synthetic web slings with visible core warning yarns must be removed (the warning yarns are designed to be exposed when the cover is worn to a dangerous level). 1926.1414(b)(1): slings with cuts, tears, or abrasive wear must be removed. Any ONE of these three defects independently requires removal from service."
+    },
+    {
+      "question": "During a crane lift, the operator notices the load is drifting slowly downward even with the hoist lever in neutral. The load is 6,000 lbs, and the crane is rated for 15,000 lbs at this radius. The operator quickly lands the load. What is the likely cause?",
+      "options": [
+        "A. Normal — all hoists drift slightly under load",
+        "B. The hoist brake is failing or improperly adjusted; hoist brakes must hold the rated load with no drift — the operator was correct to land the load immediately",
+        "C. The hoist motor is undersized",
+        "D. The wire rope is stretching permanently"
+      ],
+      "answer": "B",
+      "analysis": "1926.1415(c): hoist brakes must be capable of holding the rated load stationary and must be self-setting (applied when the control is in neutral). A drifting load indicates the hoist brake is not holding — this could be due to worn brake pads, incorrect adjustment, oil on the brake drum, or brake system hydraulic/air failure. The operator's action to immediately land the load was correct. The brake must be inspected and repaired before further lifts — a failing hoist brake can lead to a dropped load and catastrophic consequences."
+    },
+    {
+      "question": "A 30-year-old crane is being used on a construction site. The employer has the original load charts but has never had the crane's structural integrity evaluated. Is annual inspection sufficient?",
+      "options": [
+        "A. Yes — annual inspection by a qualified person is all that's required",
+        "B. The crane's age is a factor but not a regulatory trigger — however, 1926.1412(f) requires a thorough annual inspection including structural members, and if cracks, corrosion, or fatigue are suspected, further evaluation (NDT) may be needed",
+        "C. Cranes over 25 years old must be retired",
+        "D. Cranes over 20 years need monthly structural inspections"
+      ],
+      "answer": "B",
+      "analysis": "1926.1412(f)(1): a qualified person must conduct an annual comprehensive inspection. For older cranes, fatigue cracking, corrosion, and weld deterioration are more likely — the inspection should include non-destructive testing (NDT) of critical welds and pins if conditions warrant. 1926.1412(f)(2): additional monthly inspections cover specific items. While there is no mandatory retirement age for cranes, the employer has a duty under the General Duty Clause to ensure the crane is safe. Many industry best practices recommend enhanced inspection frequencies for equipment over 20 years old."
+    },
+    {
+      "question": "A crane is making a lift near a building under construction. The load must be placed on the 5th floor, accessible only through an opening in the partially completed facade. The operator cannot see the landing point. A signal person is stationed at the landing point with a radio. As the load approaches the opening, the signal person says 'cable up... cable up... stop.' The operator stops, then the radio crackles and the operator hears 'OK, cable down.' Was this instruction valid?",
+      "options": [
+        "A. Yes — the operator heard a clear instruction to cable down",
+        "B. No — the operator could not verify the voice was the designated signal person; if using voice/radio communication, the operator must positively identify the signal person's voice before acting on the instruction",
+        "C. Yes — any instruction heard over the radio should be followed",
+        "D. No — voice signals are prohibited; only hand signals are permitted"
+      ],
+      "answer": "B",
+      "analysis": "1926.1419(e)(2): when using radio or voice communication, the operator must be able to positively identify the signal person's voice. The crackle and ambiguous 'OK, cable down' after a 'stop' command should raise suspicion — was it the signal person, or another radio user? The operator must confirm the instruction with the designated signal person before proceeding. This is how many crane incidents occur — miscommunication during critical landing phases."
+    },
+    {
+      "question": "A construction site crane's annual inspection certificate expired 2 weeks ago. The employer has scheduled the inspection for next week. Workers are told to keep using the crane. Is this acceptable?",
+      "options": [
+        "A. Yes — 2 weeks overdue is a minor violation",
+        "B. No — the crane must have current annual inspection documentation per 1926.1412(f)(5); operating without a valid annual inspection is a violation regardless of the crane's apparent condition",
+        "C. Yes — as long as a competent person does a daily check",
+        "D. The employer can self-certify with a letter"
+      ],
+      "answer": "B",
+      "analysis": "1926.1412(f)(5): the annual inspection must be documented, and the documentation must be maintained on-site. Operating beyond the inspection due date is a violation. The purpose of the annual inspection is to detect deterioration that daily checks might miss. The employer should have scheduled the inspection before expiry. The crane must not be used until the annual inspection is completed and documented."
+    },
+    {
+      "question": "A derrick is being used for stone setting on a building facade. The derrick's mast is supported by the building's steel frame. The competent person notices the mast base plate has deformed (bent) slightly under load. The mast is still plumb. What should be done?",
+      "options": [
+        "A. Continue — slight deformation is normal for derricks under load",
+        "B. Stop use and have a qualified person evaluate the mast base; a deformed base plate indicates the load is exceeding the bearing capacity of the supporting structure or the base plate itself",
+        "C. Just add more bolts to the base plate",
+        "D. Reduce the load by 25% and continue"
+      ],
+      "answer": "B",
+      "analysis": "1926.1412(d)(1): safety devices and operational equipment must be checked. 1926.1412(e): if any deficiency is found during inspection, it must be corrected before the equipment is used. A deformed base plate is a structural deficiency — it indicates yielding of the steel, meaning the load exceeded the elastic limit. The base plate is now work-hardened and weakened. A qualified person must: evaluate the base plate, determine if the supporting structure is adequate, and design any necessary reinforcement before the derrick is used again."
+    },
+    {
+      "question": "A truck-mounted crane is set up on a road with a 3% cross-slope. The outriggers are extended but the crane is not perfectly level — the bubble level on the crane shows approximately 1.5 degrees off-level. The operator proceeds with a lift at 80% of the load chart capacity. Is this acceptable?",
+      "options": [
+        "A. Yes — 1.5 degrees off-level is minor at 80% capacity",
+        "B. No — the crane must be level within the manufacturer's tolerance (typically ≤1 degree for most mobile cranes); 1.5 degrees off-level shifts the center of gravity and reduces effective capacity on the downhill side",
+        "C. Yes — outriggers compensate for slope",
+        "D. No — any out-of-level condition requires load reduction to 50%"
+      ],
+      "answer": "B",
+      "analysis": "1926.1417(n): the operator must not operate the equipment when it is not level within the manufacturer's specifications. Most mobile crane manufacturers specify a maximum out-of-level of 1% (approximately 0.5 degrees) or 1 degree. At 1.5 degrees off-level, the crane's center of gravity shifts, and the effective capacity on the downhill side is reduced — potentially below 80% in a worst case. The operator must re-level the crane using the outriggers or cribbing before proceeding."
+    },
+    {
+      "question": "A multiple-crane lift is planned: two 50-ton cranes will lift a 40-ton bridge girder simultaneously. No engineer designed the lift plan. The foreman says 'each crane lifts 20 tons — they're both at 40% capacity, it's safe.' Is this acceptable?",
+      "options": [
+        "A. Yes — 40% capacity with two cranes is conservative",
+        "B. No — multiple-crane lifts require: (1) a written lift plan designed by a qualified person, (2) the load on each crane not exceeding 75% of its rated capacity (unless the lift plan specifies otherwise), (3) a designated person-in-charge, and (4) coordinated signals",
+        "C. Yes — as long as the cranes are identical models",
+        "D. No — multiple-crane lifts are prohibited entirely"
+      ],
+      "answer": "B",
+      "analysis": "1926.1432(a): multiple-crane lifts must be directed by a person-in-charge. 1926.1432(b): a qualified person must develop a written plan for the lift. 1926.1432(c): each crane's load must not exceed 75% of its rated capacity, unless the plan specifies an equalization procedure. The foreman's approach ignores: unequal load distribution from deflection, dynamic effects, and different hoist speeds. Without a plan, one crane could see 60%+ of the load if the other hoists faster."
+    },
+    {
+      "question": "A crane operator is lifting a load when a sudden gust of wind causes the load to swing. The operator immediate reaction is to boom down to increase radius and stabilize the load. Is this the correct response?",
+      "options": [
+        "A. Yes — booming down increases stability",
+        "B. No — booming down INCREASES the radius, which DECREASES allowable capacity; if the crane is already near capacity, this can cause an overload and potential tipping",
+        "C. Yes — any action to stabilize the load is correct",
+        "D. The operator should swing into the wind"
+      ],
+      "answer": "B",
+      "analysis": "1926.1417(n): the operator must monitor wind speed and stop operations if wind exceeds the limit. A swinging load puts dynamic side loading on the boom — the correct response is to stop the swing and lower the load if possible, NOT change the radius. Booming down increases the load moment (load × radius), potentially exceeding the crane's capacity at the new radius. The operator should: (1) stop all motions, (2) allow the load to pendulum to a stop, (3) lower the load if wind is sustained. If wind is consistently high, operations should cease."
+    },
+    {
+      "question": "A telescopic boom crane has a boom angle indicator that is reading 10 degrees lower than actual (reads 50 degrees when the boom is at 60 degrees). The operator knows this but has 'adjusted' by just adding 10 degrees mentally. Is this acceptable?",
+      "options": [
+        "A. Yes — the operator's mental adjustment compensates for the error",
+        "B. No — the boom angle indicator must be accurate; operating with a known-defective safety device is a violation under 1926.1416(b); the device must be repaired or replaced",
+        "C. Yes — as long as the operator documents the offset",
+        "D. Boom angle indicators are optional on telescopic cranes"
+      ],
+      "answer": "B",
+      "analysis": "1926.1416(b): if a required safety device (which includes the boom angle indicator) is not working properly, the operator must stop operations until it is repaired. 1926.1416(a): the boom angle indicator is a required operational aid. A mental offset of 10 degrees is unreliable — in an emergency situation, the operator may forget, or a relief operator may not know. The device must be calibrated and functional."
+    },
+    {
+      "question": "A crawler crane is being walked (traveled) up a 6-degree slope with a load. The load chart permits operation on slopes up to 5 degrees. The operator says 'it's only one more degree.' The crane has the boom facing uphill. What's the risk?",
+      "options": [
+        "A. No risk — 1 degree over the limit is negligible",
+        "B. The load chart slope limit is absolute; at 6 degrees, the crane's center of gravity shifts rearward, reducing forward tipping resistance; plus, track slippage on a steeper slope increases the risk of uncontrolled sliding",
+        "C. The risk is only to the load, not the crane",
+        "D. Boom facing uphill eliminates all slope concerns"
+      ],
+      "answer": "B",
+      "analysis": "1926.1417(o): the operator must not operate the equipment on a slope exceeding the manufacturer's specification. The 5-degree limit is based on: (1) the crane's stability envelope (tipping axis changes with slope), (2) track traction (at 6 degrees, tracks can lose grip, especially on soil or gravel), (3) the swing bearing's ability to handle the combined load + slope-induced side forces. Exceeding the slope limit by even 1 degree is a violation — the limit is not a suggestion with a margin."
+    },
+    {
+      "question": "A crane's hook has been modified — the safety latch (hook keeper) has been removed because it kept getting caught on rigging. The hook itself is not twisted, cracked, or deformed. Is this hook usable?",
+      "options": [
+        "A. Yes — the safety latch is optional on crane hooks",
+        "B. No — 1926.1413(a)(2)(i)(G) requires hooks to have a functioning safety latch; a hook without a safety latch can allow rigging to slip off during slack conditions",
+        "C. Yes — as long as the riggers are careful",
+        "D. The latch can be replaced by a mousing (wire) across the hook opening"
+      ],
+      "answer": "B",
+      "analysis": "1926.1413(a)(2)(i)(G): hooks shall have a safety latch, unless the hook is used in an application where a latch is infeasible and the employer can demonstrate it would create a greater hazard. The latch prevents rigging from disengaging when the line goes slack — a common occurrence when landing a load or during load shifts. Removing the latch because it's 'inconvenient' does not meet the infeasibility exception. Additionally, modified hooks must be approved by the manufacturer per 1926.1435(d)(4)."
+    },
+    {
+      "question": "A lattice boom crawler crane has a boom that is 200 feet long. During assembly, the crew discovers one of the 20-foot boom insert sections has a 1/4-inch deep gouge on the chord (main structural tube), approximately 2 inches long. The chord is 4-inch diameter pipe. The crew installs it anyway. Is this acceptable?",
+      "options": [
+        "A. Yes — a 1/4-inch gouge on a 4-inch tube is minor",
+        "B. No — any damage to a boom chord must be evaluated by a qualified person; a gouge in a tubular chord creates a stress riser that can initiate buckling under compression loads",
+        "C. Yes — the chord will be in tension during use",
+        "D. The gouge is acceptable if painted over"
+      ],
+      "answer": "B",
+      "analysis": "1926.1412(e): any deficiency found during inspection must be evaluated by a qualified person before the equipment is used. Boom chords are highly stressed members in compression (when the boom is in compression under load). A gouge in a thin-walled tube creates a stress concentration that can trigger local buckling at loads well below the undamaged capacity. The manufacturer should be consulted to determine if the section can be repaired or must be replaced. Installing a damaged boom section risks catastrophic boom collapse."
+    }
+  ]
+}

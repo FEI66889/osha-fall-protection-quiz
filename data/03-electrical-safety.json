@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA Electrical Safety Quiz — 29 CFR 1926.400-449 Practice (Construction)",
+    "meta_description": "Free OSHA 30-Hour Construction electrical safety practice test with 40 realistic scenarios. GFCI, AEGCP, temporary wiring, overhead line clearance, lockout/tagout, hazardous locations, and portable generator safety with 29 CFR 1926 Subpart K references.",
+    "primary_keywords": [
+      "OSHA electrical safety quiz",
+      "29 CFR 1926.403 practice",
+      "GFCI requirements construction",
+      "OSHA 30-Hour electrical"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A crew is using a portable electric hammer drill on a commercial construction site. The drill is plugged into a temporary receptacle on a 120V, 20A circuit that was installed for the job. A worker receives a mild shock when the drill's metal casing becomes energized. The circuit has a standard circuit breaker installed. What does 29 CFR 1926.404(b)(1) require?",
+      "options": [
+        "A. Circuit breakers alone are sufficient overload and fault protection at 120V",
+        "B. All 120V, single-phase, 15A and 20A receptacle outlets on construction sites must have GFCI protection or an Assured Equipment Grounding Conductor Program (AEGCP)",
+        "C. The worker should wear rubber gloves and continue working",
+        "D. Only permanent power receptacles require GFCI protection; temporary construction power is exempt"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(i): the employer shall use either ground fault circuit interrupters (GFCI) OR an Assured Equipment Grounding Conductor Program (AEGCP) to protect employees on construction sites. A standard circuit breaker only trips at ~20A overcurrent — it will NOT detect the 5-30mA ground fault that can cause electrocution. The worker was shocked because no GFCI was present. The AEGCP alternative requires documented daily testing of all cords and tools by a competent person."
+    },
+    {
+      "question": "An excavator operator is digging a trench near a marked underground electrical duct bank carrying 480V feeders to a building. The markings show the duct bank at 36 inches depth. The operator is using a 24-inch bucket. What does OSHA 1926.651(b) require before mechanical excavation near this electrical hazard?",
+      "options": [
+        "A. The excavator can dig as long as the bucket doesn't exceed 30 inches depth",
+        "B. The exact location of the underground installations must be determined by safe and acceptable means (hand-digging, pot-holing) when operators approach within 24 inches of the marked location",
+        "C. Call the power company and wait 48 hours before any excavation",
+        "D. Underground electrical lines are only a concern for blasting operations, not trenching"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(b)(2): while the excavation is open, underground installations shall be protected, supported, or removed as necessary to safeguard employees. 1926.651(b)(1): the estimated location of utility installations shall be determined prior to opening the excavation. Standard industry practice (recognized by OSHA) requires hand-digging or vacuum excavation within 24 inches of marked utility locations. Striking a 480V line with an excavator can cause arc flash and electrocution of the operator."
+    },
+    {
+      "question": "A scissor lift is being repositioned inside a warehouse under construction. The operator raises the platform near overhead fluorescent light fixtures with exposed wiring at 277V. The top rail of the lift comes within 18 inches of the energized conductors. Is this acceptable?",
+      "options": [
+        "A. Yes — 18 inches of clearance is sufficient for 277V indoor fixtures",
+        "B. Yes — scissor lifts are insulated by their rubber tires",
+        "C. No — all overhead energized parts must be de-energized, insulated, or guarded when workers or equipment will be within minimum approach distance",
+        "D. No — scissor lifts are prohibited indoors"
+      ],
+      "answer": "C",
+      "analysis": "1926.416(a)(1): no employer shall permit an employee to work in such proximity to any part of an electric power circuit that the employee could contact the power circuit in the course of work, unless the employee is protected against electric shock by de-energizing the circuit and grounding it or by guarding it effectively. 277V lighting circuits are lethal — they cause more electrocution fatalities than higher voltages in commercial construction. At 18 inches, any inadvertent movement or metal tool contact could be fatal."
+    },
+    {
+      "question": "A construction electrician is installing temporary wiring on a jobsite. The wiring runs along the ground through a high-traffic doorway used by material carts. What does 29 CFR 1926.405(a)(2) require for this temporary wiring installation?",
+      "options": [
+        "A. Cords and cables must be protected from damage — running through a doorway requires a ramp, bridge, or overhead routing",
+        "B. Temporary wiring can be laid on the ground anywhere as long as it's marked with orange tape",
+        "C. Only extension cords (not temporary wiring) need protection in doorways",
+        "D. The doorway should be locked and an alternate entrance used"
+      ],
+      "answer": "A",
+      "analysis": "1926.405(a)(2)(ii)(J): extension cords and cables shall be protected from damage. Sharp corners and projections shall be avoided. Flexible cords and cables shall be protected from accidental damage, as might be caused by sharp corners, projections, and doorways or other pinch points. Running cords across a doorway without a protective ramp (or overhead routing) creates trip hazards AND risks cutting the cord insulation, causing energized conductors to be exposed."
+    },
+    {
+      "question": "A site superintendent needs to use a portable generator during the rough-in phase before permanent power is available. The generator is 5kW, 120/240V. Workers will use drills, saws, and a small welder. What grounding and GFCI requirements apply under OSHA Subpart K?",
+      "options": [
+        "A. Portable generators under 5kW never need grounding or GFCI",
+        "B. The generator must be listed as 'separately derived system'; GFCI protection is required for all 120V receptacles if the generator has them, unless it qualifies for the frame-as-ground exception",
+        "C. All portable generators must be grounded to a driven rod regardless of design",
+        "D. Generators on construction sites are exempt from GFCI requirements because they supply 'industrial' power"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(f)(3): for portable generators, the frame of the generator need not be grounded (may serve as the grounding electrode) IF: (i) the generator supplies only equipment mounted on the generator and/or cord-and-plug-connected equipment through receptacles mounted on the generator, and (ii) the noncurrent-carrying metal parts of equipment and the equipment grounding terminals of the receptacles are bonded to the generator frame. However, 1926.404(b)(1) still requires GFCI protection for all 120V, 15/20A receptacles on construction sites. A generator with integral GFCI receptacles is the compliant solution."
+    },
+    {
+      "question": "A renovation project requires cutting into an existing wall. The foreman tells a laborer to use a reciprocating saw to cut through the drywall, saying 'the power should be off on that wall.' The laborer hits a live 120V Romex cable, causing a short circuit but no injury. What did OSHA require that the foreman failed to do?",
+      "options": [
+        "A. Nothing — the foreman gave a verbal warning, which is sufficient",
+        "B. The foreman should have verified the circuit was de-energized AND implemented lockout/tagout (LOTO) per 1926.417",
+        "C. The laborer should have refused the task",
+        "D. Reciprocating saws are prohibited for drywall work"
+      ],
+      "answer": "B",
+      "analysis": "1926.417(a): controls shall be tagged. Equipment or circuits that are de-energized shall be rendered inoperative and shall have tags attached at all points where such equipment or circuits can be energized. 1926.417(b): tags must clearly state 'DANGER — DO NOT ENERGIZE.' The foreman's verbal statement is not LOTO. Additionally, 1926.416(a)(1) requires circuits to be DE-ENERGIZED and VISUALLY VERIFIED before work begins. 'Should be off' is not verification — a non-contact voltage tester and meter confirmation are the minimum standard of care."
+    },
+    {
+      "question": "On a jobsite, workers use multiple 100-foot extension cords daisy-chained together to reach a work area. The total run is 400 feet of 14 AWG cord powering a 15A miter saw. The saw motor runs slowly and the cord feels warm. What violations exist?",
+      "options": [
+        "A. No violations — daisy-chaining cords is standard practice on construction sites",
+        "B. Voltage drop from excessive length and undersized conductors creates a fire/equipment hazard; 1926.405(a)(2) requires cords be protected from damage and the installation must be approved",
+        "C. Daisy-chaining is fine as long as each connection is wrapped in electrical tape",
+        "D. The only issue is that the saw needs a dedicated 20A circuit"
+      ],
+      "answer": "B",
+      "analysis": "1926.405(a)(2)(ii)(B): extension cord sets used with portable electric tools must be of three-wire type and shall be designed for hard or extra-hard usage. At 400 feet of 14 AWG, the voltage drop at 15A exceeds 10% — the saw motor is undervolted, drawing higher current, overheating both the motor windings and the cord. This is a fire hazard. The cord's warmth indicates resistance heating exceeding the cord's ampacity for that length. Daisy-chaining also introduces multiple connection points, each a potential failure/arcing location."
+    },
+    {
+      "question": "A metal extension ladder is being used by a window installer working near the service entrance of a building. The service drop conductors (120/240V, uninsulated triplex) are approximately 4 feet from the work area. The installer is on an aluminum ladder. What is the minimum safe practice?",
+      "options": [
+        "A. Aluminum ladders are fine—they conduct electricity but the installer won't complete a circuit to ground",
+        "B. Use a fiberglass ladder, maintain minimum 10-foot clearance from overhead lines, or have the utility de-energize/covers the lines",
+        "C. Wear rubber-soled boots on the aluminum ladder — that provides adequate insulation",
+        "D. Lay the ladder directly against the service drop for stability"
+      ],
+      "answer": "B",
+      "analysis": "1926.416(a)(1): employees must not work in proximity to energized circuits without protection. 1926.1053(b)(12): ladders with conductive side rails (aluminum) shall not be used where the employee or ladder could contact exposed energized electrical equipment. Service drop conductors are often bare (uninsulated) where they connect to the weatherhead. A 4-foot working distance while handling metal window frames is dangerously close. The fiberglass ladder is the minimum first step, but the clearance must still be maintained."
+    },
+    {
+      "question": "A jobsite has been experiencing repeated GFCI tripping on a circuit powering multiple tools. The foreman tells the electrician to 'swap in a regular outlet until we finish this concrete pour.' The electrician complies. An OSHA inspector arrives two hours later. What is the violation?",
+      "options": [
+        "A. No violation — GFCIs can be temporarily bypassed for critical concrete operations",
+        "B. The foreman committed a willful violation: intentionally defeating required safety equipment (GFCI) knowing the hazard",
+        "C. There's no violation because the electrician is a qualified person who approved the bypass",
+        "D. The violation is only the GFCI's tripping, which indicates the tools are defective"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(i) requires GFCI protection (or AEGCP) for all 120V, 15/20A construction receptacles — no exception for concrete pours. The foreman knowingly caused the removal of a required safety device. This meets OSHA's definition of a willful violation, which carries a maximum penalty of $161,323 per violation (2025 penalties). The GFCI was tripping because of a ground fault — the safety device was doing its job. Defeating it to 'finish the pour' exposes every worker on that circuit to electrocution."
+    },
+    {
+      "question": "Workers are using a 240V arc welder on a steel bridge project. The welder's case is metallic. The power cord is a 3-wire (2 hots + ground) SOOW cable. The ground pin on the plug has been cut off because 'the generator receptacle doesn't have a ground slot.' What does 1926.404(b)(1)(iii) require regarding equipment grounding?",
+      "options": [
+        "A. Removing the ground pin is acceptable if the welder is on a wooden pallet for insulation",
+        "B. The equipment grounding conductor must be intact and connected — removing the ground pin creates a lethal hazard if the case becomes energized through an internal fault",
+        "C. Welders don't need equipment grounding because they operate at low voltage, high current",
+        "D. The ground pin can be replaced with a separate external ground wire taped to the cord"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(iii): the equipment grounding conductor program (AEGCP) requires all cord sets, receptacles, and cord-and-plug-connected equipment to have an intact equipment grounding conductor. 1926.404(f)(6): the path to ground from circuits, equipment, and enclosures shall be permanent, continuous, and effective. Removing the ground pin leaves the welder's metal case floating — if the hot conductor touches the case internally, the entire case becomes energized at 120V to ground. Any worker touching the case and any grounded surface (bridge steel) completes the circuit. This has caused multiple construction electrocution fatalities."
+    },
+    {
+      "question": "A construction site uses portable generators for temporary power. A worker plugs a circular saw directly into a generator's 120V outlet. The generator is not equipped with GFCI protection. The worker is standing on damp concrete. What is required?",
+      "options": [
+        "A. No GFCI is needed — generators are exempt",
+        "B. GFCI protection is required for all 120V, 15A and 20A receptacle outlets on construction sites not part of permanent wiring, OR the employer must implement an Assured Equipment Grounding Conductor Program (AEGCP)",
+        "C. Only battery-operated tools can be used on damp concrete",
+        "D. Generators over 5kW are exempt from GFCI requirements"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(i): all 120-volt, single-phase, 15- and 20-ampere receptacle outlets on construction sites, which are not a part of the permanent wiring of the building or structure and which are in use by employees, shall have ground-fault circuit interrupter protection. Alternatively, 1926.404(b)(1)(ii) allows an Assured Equipment Grounding Conductor Program. The damp concrete increases the risk of ground-fault electrocution dramatically."
+    },
+    {
+      "question": "An excavator operator is digging near a utility marking that says 'UNDERGROUND ELECTRIC — 13.2 kV.' The one-call center marked the line, but the marks are 3 days old and partially faded. The operator starts digging 3 feet from the faded marks. The bucket strikes the cable. What should have been done?",
+      "options": [
+        "A. Nothing — the operator stayed 3 feet away which is enough",
+        "B. The exact location of underground utilities must be determined by hand-digging (pot-holing) before mechanical excavation within the tolerance zone, especially when marks are faded",
+        "C. Call the one-call center again — that's the only requirement",
+        "D. Underground electric lines are always at least 4 feet deep"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(b)(1): the estimated location of utility installations shall be determined prior to opening the excavation. Hand-digging (pot-holing, vacuum excavation) to physically expose the utility is the industry standard for verification before mechanical excavation within the tolerance zone (typically 18-24 inches from markings). Faded marks introduce uncertainty. Striking a 13.2 kV line can cause catastrophic arc flash and electrocution."
+    },
+    {
+      "question": "A construction electrician installs temporary wiring for job-site lighting. The wiring is type NM (Romex) cable run along the surface of studs at 6 feet height, secured every 6 feet with staples. The run is 40 feet long, powering 4 LED temporary lights. Is this compliant?",
+      "options": [
+        "A. Yes — NM cable secured at 6-foot intervals meets the NEC",
+        "B. No — NM cable (Romex) is prohibited for temporary wiring unless protected from damage; NM cable run exposed on studs at 6 feet height is subject to physical damage from ladders, materials, and equipment",
+        "C. Yes — temporary wiring has more lenient requirements than permanent wiring",
+        "D. No — temporary wiring must always be in conduit"
+      ],
+      "answer": "B",
+      "analysis": "1926.405(a)(2)(ii)(A): NM cable used for temporary wiring shall be protected from damage. NM cable's plastic sheathing is easily cut by sharp objects and crushed by ladders. At 6 feet on studs in active construction, the cable is in the damage zone from material handling and scissor lifts. Acceptable protection includes running NM through stud holes (protected on both sides), using armored cable (MC), or installing rigid conduit in exposed areas."
+    },
+    {
+      "question": "A crew working on a highway lighting project is replacing a pole-mounted light fixture near an active 7,200V overhead power line. The crew uses a metal extension ladder. The nearest energized conductor is 4 feet horizontally from the work position. What clearance must be maintained?",
+      "options": [
+        "A. 2 feet — it's a low-voltage distribution line",
+        "B. 10 feet minimum for voltages up to 50 kV — unqualified persons and conductive objects must maintain at least 10 feet from energized lines",
+        "C. 4 feet — the existing distance is adequate",
+        "D. The line must be de-energized — no clearance is safe"
+      ],
+      "answer": "B",
+      "analysis": "1926.416(a)(1): no employer shall permit an employee to work in such proximity to any part of an electric power circuit that the employee could contact the circuit. 1926.1408 Table A specifies minimum clearance distances: 10 feet for lines ≤50 kV. A metal ladder 4 feet from a 7,200V line is extremely dangerous — if the ladder slips or tips, it can contact the line, killing everyone on or near the ladder."
+    },
+    {
+      "question": "A jobsite has been experiencing repeated nuisance tripping of a GFCI on a circuit powering a worm-drive circular saw. The foreman instructs a worker to replace the GFCI outlet with a standard outlet 'just for today' until a new GFCI can be installed. Is this acceptable?",
+      "options": [
+        "A. Yes — temporary bypass for one day is a practical solution",
+        "B. No — GFCI protection must be maintained at all times; bypassing a GFCI on a construction site is a willful violation exposing workers to a known electrocution hazard",
+        "C. Yes — if the foreman warns all workers not to use the saw in wet conditions",
+        "D. The GFCI can be bypassed if the tool is double-insulated"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(i): GFCI protection is mandatory for all 120V receptacle outlets on construction sites. The foreman's instruction to remove a safety device is a willful violation under the OSH Act. Rather than bypassing the GFCI, the foreman should investigate the cause — the GFCI may be correctly tripping because the saw has a ground fault. Nuisance tripping is a symptom of a ground fault, not a defect in the GFCI."
+    },
+    {
+      "question": "An electrician is working on a 480V panelboard, replacing a circuit breaker. The electrician turns off the main breaker but does not verify zero voltage, lock out, or tag it. Another worker turns the main back on. The electrician is shocked. What LOTO violations occurred?",
+      "options": [
+        "A. No violation — turning off the breaker is sufficient for a qualified electrician",
+        "B. The employer failed to implement an energy control procedure: the circuit must be de-energized, locked out, tagged, and verified zero-energy before work begins",
+        "C. Only the second worker is at fault for not checking before turning on the breaker",
+        "D. LOTO does not apply to electricians — they are exempt under the qualified employee exception"
+      ],
+      "answer": "B",
+      "analysis": "1926.417(b): equipment or circuits that are de-energized shall be rendered inoperative (locked out and tagged). 1926.416(a)(1): employees must be protected by de-energizing and grounding the circuit. Simply turning off a breaker without LOTO provides zero protection — anyone can turn it back on. Verification of zero energy state (testing with a known-working meter before and after) is critical."
+    },
+    {
+      "question": "On a bridge renovation project, workers are cutting rebar with an electric grinder. The grinder's 3-prong plug has the ground pin broken off. The tool is plugged into a GFCI-protected extension cord. Is this acceptable?",
+      "options": [
+        "A. Yes — the GFCI will protect the worker even without the equipment ground",
+        "B. No — the GFCI provides ground-fault protection but does not provide equipment grounding; the missing ground pin means the tool's frame is not grounded, creating a shock hazard if an internal fault energizes the frame",
+        "C. Yes — double-insulated tools don't need a ground pin",
+        "D. The GFCI replaces the need for equipment grounding"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(f)(3): the equipment grounding conductor provides a low-resistance path for fault current to trip the overcurrent device. The GFCI detects current imbalance (leakage) and trips at 5mA. They serve different functions. A tool with a missing ground pin has NO protection against an internal fault energizing the tool frame — the GFCI won't trip until current leaks through a person (at which point the person IS the ground path, receiving up to a 5mA shock before the GFCI trips)."
+    },
+    {
+      "question": "A temporary service (power pole) is installed on a construction site. The panel is mounted on a wood post at 72 inches above grade. The panel door is missing — breakers are exposed to weather. Workers plug in tools at this panel daily. It has rained. What violations?",
+      "options": [
+        "A. No violations — temporary panels can have exposed breakers",
+        "B. Multiple violations: the panel must have a dead front (cover) to prevent accidental contact with energized parts; exposed breakers in rain create a severe shock hazard; the panel should be weatherproof (NEMA 3R) for outdoor use",
+        "C. Only the height is wrong — must be at least 78 inches",
+        "D. Temporary services don't need covers — only permanent panels do"
+      ],
+      "answer": "B",
+      "analysis": "1926.403(i)(2): live parts of electrical equipment shall be guarded against accidental contact. 1926.405(b)(1): cabinets and panelboards shall be mounted in dry locations and shall be weatherproof when installed in wet locations. Exposed breakers with no dead front allow workers to accidentally contact energized bus bars. Rain dramatically increases shock risk — water provides a conductive path."
+    },
+    {
+      "question": "A construction crew is using multiple 100-foot extension cords daisy-chained to power tools 400 feet from the nearest outlet. The cords are 14-gauge, rated for 15A. The total connected load is 13A. What are the concerns?",
+      "options": [
+        "A. No concerns — 13A on 15A-rated 14-gauge cord is within rating",
+        "B. Voltage drop over 400 feet of 14-gauge cord at 13A is approximately 20+ volts (17%+), causing tool motors to run at low voltage (damaging motors and creating a fire hazard from overheating); plus daisy-chaining creates multiple failure points",
+        "C. Only GFCI protection is needed",
+        "D. Daisy-chaining is safe as long as each cord is rated for the load"
+      ],
+      "answer": "B",
+      "analysis": "1926.405(a)(2)(ii)(J): extension cords shall be maintained in good condition. While not explicitly prohibiting daisy-chaining, OSHA interprets 'approved wiring methods' as requiring adequate gauge for the run length. 14-gauge at 400 feet carrying 13A will drop 20+ volts, causing tools to run at ~100V. Low voltage increases current draw, overheating motors. Each connector junction is a failure point and trip hazard. The solution is a single 10-gauge cord of adequate length or a temporary distribution panel closer to the work area."
+    },
+    {
+      "question": "On a construction site, a metal junction box for temporary power is mounted on a metal stud wall. The box is energized (has live wires inside) but the box itself is not grounded. The circuit does have GFCI protection. A worker touches the box while standing on wet ground and receives a shock. Why?",
+      "options": [
+        "A. The GFCI should have prevented this — it must be defective",
+        "B. The metal box, if it becomes energized due to a wire fault, has no equipment ground path to carry fault current — so the GFCI does not trip until the worker completes the path to ground through their body",
+        "C. Wet ground has nothing to do with it",
+        "D. Metal boxes are not required to be grounded on GFCI-protected circuits"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(f)(3): all metal enclosures for circuits and equipment shall be grounded. The equipment grounding conductor provides a low-impedance path that allows fault current to flow, tripping the breaker or GFCI. Without it, if a hot wire touches the ungrounded metal box, the box becomes energized at full line voltage (120V) but no current flows — until someone touches it. The GFCI detects current imbalance but only when current IS flowing. A GFCI does not prevent the initial shock — it limits the duration to 20-30 milliseconds after detecting 5mA+ of leakage."
+    },
+    {
+      "question": "A portable generator (5kW) is being used to power tools during the framing phase. The generator does NOT have GFCI outlets. Instead, the employer implements an Assured Equipment Grounding Conductor Program (AEGCP). What does the AEGCP require?",
+      "options": [
+        "A. Nothing special — just tell workers to be careful",
+        "B. The AEGCP requires: a written program description, a designated competent person, daily visual inspection of all cord sets and tools, AND continuity testing at intervals not exceeding 3 months (plus before first use and after any repair)",
+        "C. Monthly tool replacement",
+        "D. Double-insulated tools only"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(iii)(B-F): the AEGCP must include: written description, competent person designation, daily visual inspection, and electrical testing for equipment grounding conductor continuity at intervals not exceeding 3 months (and before first use, after repair, after suspected damage). Tests must be recorded. The AEGCP is an alternative to GFCI protection — both achieve similar protection through different means."
+    },
+    {
+      "question": "A scissor lift is being repositioned inside a warehouse with exposed overhead bus bars at 480V, 20 feet above the floor. The lift's platform, when raised, reaches 19 feet. The operator raises the platform to adjust a light fixture 2 feet horizontally from the bus bars. What clearance is required?",
+      "options": [
+        "A. 2 feet is adequate — the lift is not touching the bus bars",
+        "B. The lift platform and worker must maintain at least 10 feet from energized 480V overhead conductors; at 2 feet, this violates 1926.416(a)(1) and creates an imminent danger",
+        "C. Bus bars inside a building are exempt from clearance requirements",
+        "D. Only unqualified persons need 10-foot clearance — the operator is qualified"
+      ],
+      "answer": "B",
+      "analysis": "1926.416(a)(1): no employee shall work in proximity to energized power circuits at a distance where accidental contact is possible. A scissor lift's metal platform at 19 feet, only 2 feet from 480V bus bars, is critically dangerous — platform sway, operator movement, or joystick error could bridge the gap. 480V arc flash can cause fatal burns. The bus bars should be de-energized and locked out before work within 10 feet, or barriers installed."
+    },
+    {
+      "question": "A worker using a portable circular saw notices the blade guard is sticking. The worker continues using the saw, holding the guard open manually when needed. Is this a violation?",
+      "options": [
+        "A. No — blade guards are optional for experienced workers",
+        "B. Yes — 1926.302(a)(1) requires power-operated tools to be maintained in safe operating condition; a defective blade guard must be repaired before further use. Using a tool with a defeated safety device is a violation",
+        "C. No — the guard only needs to function if OSHA is on site",
+        "D. The guard can be permanently removed for rip cuts"
+      ],
+      "answer": "B",
+      "analysis": "1926.302(a)(1): electric power-operated tools shall be maintained in safe operating condition. 1926.302(a)(2): guards shall be in good working order and properly maintained. The blade guard is a required safety device. A guard that sticks open leaves the spinning blade exposed after the cut. Deliberately holding a guard open (defeating it) is a serious violation that can result in amputation."
+    },
+    {
+      "question": "A construction electrician is installing a temporary light string for job-site illumination. The string has 10 Edison-base sockets with bare bulbs, hung at 9 feet above the floor along a hallway where workers carry sheetrock. Is this compliant?",
+      "options": [
+        "A. Yes — 9 feet is high enough that workers won't touch the bulbs",
+        "B. No — temporary lighting must have bulbs protected from accidental contact by guards or cages (or be at a height where contact is unlikely), the light string must not be supported by its conductors, and sockets must not be used as tool outlets",
+        "C. Yes — temporary lighting has no specific requirements",
+        "D. No — temporary lighting is prohibited entirely on construction sites"
+      ],
+      "answer": "B",
+      "analysis": "1926.405(a)(2)(ii)(E): temporary lights shall be equipped with guards to prevent accidental contact. 1926.405(a)(2)(ii)(C): temporary lighting strings shall not be supported by their conductors. Workers carrying 4×8 sheetrock at 9 feet height could easily strike a bare bulb, breaking it (flying glass, exposed energized filament)."
+    },
+    {
+      "question": "A warehouse renovation requires cutting into an existing wall. The foreman tells a laborer to use a reciprocating saw to cut a 2×4-foot opening. The laborer does not know what is inside the wall. There is a live 120V circuit 6 inches behind the drywall. The saw blade contacts the cable, causing a short and flash. What should have been done?",
+      "options": [
+        "A. The laborer should have worn arc-flash PPE",
+        "B. Before cutting into any wall, circuits in that area must be identified, de-energized, locked out, and verified zero energy — OR the wall must be opened using non-conductive methods to verify no live circuits are present",
+        "C. The laborer was qualified — electricians are the only ones who need to check",
+        "D. Cutting into walls with power tools is prohibited"
+      ],
+      "answer": "B",
+      "analysis": "1926.416(a)(1): no employee shall be permitted to work in proximity to electric power circuits unless protected. 1926.416(a)(2): where the exact location of energized circuits is unknown, employees shall be protected by insulating protective equipment or by the circuit being de-energized and grounded. The employer knew this was an existing building with live circuits. A circuit tracer or de-energizing the area before cutting are standard safe practices."
+    },
+    {
+      "question": "Workers are using a 240V arc welder on a steel bridge project. The welder's metallic case has a 3-prong plug. During welding, a ground fault inside the welder energizes the case. A worker leaning against the bridge steel touches the welder case. What protection does the worker have?",
+      "options": [
+        "A. The GFCI will protect the worker",
+        "B. The equipment grounding conductor (green wire) provides a low-impedance path for fault current, which should trip the overcurrent device (breaker)",
+        "C. The worker's gloves provide adequate insulation",
+        "D. Welding machines are inherently safe"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(f)(3): the equipment grounding conductor shall provide a continuous, low-impedance path to ground for fault current. 1926.351(c)(3): welding machine frames shall be grounded. For a 240V fault to the case, the equipment ground provides a low-resistance path, allowing fault current (potentially hundreds of amps) to flow and trip the breaker via the magnetic trip mechanism in milliseconds. Without the equipment ground, the case stays energized at 240V."
+    },
+    {
+      "question": "A job-site temporary power pole has a 200A main breaker feeding multiple 20A receptacle circuits. One worker replaces a 20A breaker with a 30A breaker 'to stop the tripping.' The wiring is 12-gauge (rated for 20A). What is the hazard?",
+      "options": [
+        "A. No hazard — 30A on 12-gauge wire is safe for temporary use",
+        "B. 12-gauge wire is rated for 20A maximum; a 30A breaker on 12-gauge wire allows 50% overcurrent before tripping — the wire can overheat, melt insulation, and cause an electrical fire without the breaker ever tripping",
+        "C. The only issue is it voids the panel warranty",
+        "D. 30A breakers are acceptable on 12-gauge wire for motor circuits"
+      ],
+      "answer": "B",
+      "analysis": "1926.405(a)(2)(ii)(A): all conductors shall be of sufficient size to carry the load. NEC Article 240.4(D): 12 AWG copper is limited to 20A overcurrent protection. Installing a 30A breaker on 20A-rated wiring means the wire can carry 30A before the breaker trips, potentially overheating to dangerous temperatures and causing insulation breakdown and fire."
+    },
+    {
+      "question": "An electrician is working on energized 277/480V bus bars with insulated tools, wearing no arc-flash PPE other than safety glasses. The electrician is a licensed journeyman. Is this compliant with OSHA?",
+      "options": [
+        "A. Yes — licensed electricians are permitted to work on energized equipment",
+        "B. No — working on energized 277/480V equipment requires justification why de-energizing is infeasible, an Energized Electrical Work Permit, appropriate arc-flash PPE, and typically a safety watch",
+        "C. Yes — insulated tools eliminate all hazards",
+        "D. Energized work is never permitted at any voltage"
+      ],
+      "answer": "B",
+      "analysis": "1926.416(a)(1): employees must be protected against electric shock. NFPA 70E requires an Energized Electrical Work Permit for work within the limited approach boundary. 277/480V equipment has significant arc-flash hazard — an accidental short can produce an arc flash of 5+ cal/cm², causing second-degree burns. Safety glasses are inadequate for arc-flash protection. De-energizing and LOTO must be the first choice."
+    },
+    {
+      "question": "A construction worker is using a hammer drill outdoors on a bridge deck. The drill has a 3-prong plug and the worker is using a 50-foot, 14-gauge extension cord labeled for 'indoor use only.' It has recently rained. Is the extension cord acceptable?",
+      "options": [
+        "A. Yes — 14-gauge is adequate for a hammer drill over 50 feet",
+        "B. No — indoor-rated cords cannot be used outdoors in wet conditions; the cord must be rated for wet locations (designated by 'W' in the cord type, e.g., SJTW)",
+        "C. The only issue is the gauge — must be 12-gauge minimum",
+        "D. Indoor/outdoor labels are just suggestions"
+      ],
+      "answer": "B",
+      "analysis": "1926.405(a)(2)(ii)(J): extension cords used on construction sites must be of the hard-service or junior hard-service type. Cords for indoor use only typically have lighter insulation not designed for moisture, abrasion, or UV exposure. Using an indoor cord in wet conditions can allow moisture to permeate the insulation, creating leakage current and shock hazard. The 'W' designation indicates moisture-resistant insulation."
+    },
+    {
+      "question": "On a multi-story construction project, temporary wiring for upper floors is run through a 12-inch × 12-inch floor opening. The cables contact the concrete edge. Workers step near this hole regularly. What protection is required?",
+      "options": [
+        "A. The cables are fine as-is — temporary wiring has relaxed requirements",
+        "B. Cables must be protected from damage where passing through holes — a grommet, bushing, or conduit sleeve must prevent the concrete edge from cutting insulation; additionally, the floor opening requires a cover or guardrail",
+        "C. Only the floor opening needs a cover",
+        "D. Cables must never pass through floor openings"
+      ],
+      "answer": "B",
+      "analysis": "1926.405(a)(2)(ii)(H): conductors passing through holes in floors or walls shall be protected from damage by enclosures, raceways, or other means. Concrete edges will eventually cut through cable insulation from vibration and movement. Additionally, the floor opening must be protected — 1926.501(b)(4) requires covers or guardrails."
+    },
+    {
+      "question": "A worker notices a GFCI outlet does not trip when the TEST button is pressed. The foreman says 'keep using it — GFCIs are just a backup.' What should happen?",
+      "options": [
+        "A. Continue using it — the foreman is correct",
+        "B. The GFCI must be immediately removed from service and replaced; a non-functional GFCI provides no ground-fault protection whatsoever",
+        "C. Press RESET and test again later",
+        "D. GFCIs only need to work if an OSHA inspection is scheduled"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(i): GFCI protection is mandatory. A GFCI that does not trip when tested is non-functional — the internal sensing circuit or interrupting mechanism has failed. It offers zero protection against ground faults. A non-functional GFCI should be treated as a life-safety emergency."
+    },
+    {
+      "question": "A portable spider box for temporary power is placed directly on the ground outdoors. After 2 inches of overnight rain, the box sits in a puddle. Workers approach to plug in tools. What should have been done?",
+      "options": [
+        "A. The spider box should be elevated above ground level and protected from rain; energized electrical equipment in standing water creates an extreme electrocution hazard",
+        "B. Spider boxes are waterproof — they can be submerged",
+        "C. Just wipe off the plugs",
+        "D. Workers should wear rubber boots"
+      ],
+      "answer": "A",
+      "analysis": "1926.403(i)(2): electrical equipment shall be installed in accordance with its listing and labeling. If the spider box is not rated NEMA 3R or 4 (weatherproof), it must be protected from weather. Placing an energized electrical distribution box in water is extreme — water can enter the enclosure, energizing the entire puddle. Workers approaching the box could be electrocuted without touching any tool. Spider boxes should be elevated on blocks or hung, and protected by a canopy outdoors."
+    },
+    {
+      "question": "A crew is installing a rooftop HVAC unit. The crane lifting the unit will swing within 15 feet of a 13.8 kV overhead power line. The crane operator says 'we'll just be careful.' What does OSHA require?",
+      "options": [
+        "A. Proceed with a spotter watching the power line",
+        "B. Before any crane activity within 20 feet of energized lines, the employer must determine voltage, de-energize/ground OR maintain Table A clearance with encroachment prevention (dedicated spotter, range control devices, emergency plan)",
+        "C. Crane work near power lines is prohibited",
+        "D. Just use a non-conductive tag line on the load"
+      ],
+      "answer": "B",
+      "analysis": "1926.1408(a)(1): before beginning operations, the employer must identify if equipment could get closer than 20 feet to a power line. 1926.1408(b): if encroachment is possible, the employer must either de-energize and ground, maintain clearance with encroachment prevention (Option 2), or use an insulating link and range limiter (Option 3). At 13.8 kV, Table A minimum clearance is 10 feet. At 15 feet planned swing distance, the crane is within the 20-foot planning zone — encroachment prevention must be implemented."
+    },
+    {
+      "question": "An extension cord on a construction site has its outer jacket cut, exposing inner conductor insulation but not the copper. The cord is wrapped with electrical tape. Is this acceptable for continued use?",
+      "options": [
+        "A. Yes — electrical tape adequately repairs outer jacket damage",
+        "B. No — tape is not an approved repair; the cord must be removed from service until properly repaired (with a listed cord repair kit or by a qualified person replacing the damaged section) or replaced",
+        "C. Yes — as long as the tape is black",
+        "D. The cord is fine until copper is exposed"
+      ],
+      "answer": "B",
+      "analysis": "1926.405(a)(2)(ii)(J): extension cords shall be maintained in good condition. 1926.403(a): electrical equipment shall be free from recognized hazards. Tape does not restore original insulation integrity — it can unravel, peel, or allow moisture ingress. OSHA and NEC require damaged cords to be removed from service and either properly spliced using listed devices or replaced. Field taping is not an approved repair method."
+    },
+    {
+      "question": "A building under renovation has existing knob-and-tube wiring (circa 1920) still energized. Workers are demolishing plaster ceilings near this wiring using metal pry bars. The foreman says it's visible and avoidable. What is required?",
+      "options": [
+        "A. The foreman is correct — visible wiring can be avoided",
+        "B. All known energized circuits in the demolition area must be de-energized, locked out, and verified zero energy before demolition; old wiring often has brittle insulation that crumbles on contact",
+        "C. Knob-and-tube wiring is inherently safe",
+        "D. Only the electrical contractor needs to worry about wiring"
+      ],
+      "answer": "B",
+      "analysis": "1926.416(a)(1): no employee shall work in proximity to energized power circuits unless protected. During demolition, accidental contact risk is extremely high. Old knob-and-tube wiring often has brittle, cracked insulation that can fail when disturbed. 1926.416(a)(3): circuits in the work area shall be identified and de-energized before work."
+    },
+    {
+      "question": "A battery charging station has 6 cordless tool batteries charging via a consumer-grade power strip plugged into an extension cord, placed on a wooden shelf. Is this setup compliant?",
+      "options": [
+        "A. Yes — battery chargers draw minimal power",
+        "B. No — consumer-grade power strips are not permitted on construction sites; all temporary power distribution must use approved job-site electrical boxes (spider boxes) with GFCI protection and circuit breakers",
+        "C. Yes — as long as the power strip has a circuit breaker",
+        "D. Battery charging is exempt from construction electrical requirements"
+      ],
+      "answer": "B",
+      "analysis": "1926.403(a): electrical equipment must be approved for the use. Consumer-grade power strips are not listed or approved for construction site use — they lack the durability, weather resistance, and GFCI protection required. 1926.405(a)(2)(ii)(B): temporary wiring shall be installed per approved methods. Chargers should be plugged directly into a job-site electrical box with GFCI protection."
+    },
+    {
+      "question": "A worker is using a handheld grinder marked 'Double Insulated' with a 2-prong plug. The foreman says all tools on site must have 3-prong grounded plugs. Is the foreman correct?",
+      "options": [
+        "A. Yes — all tools on construction sites must have a ground pin",
+        "B. No — double-insulated tools are specifically exempt from equipment grounding requirements; the second layer of insulation provides protection equivalent to grounding",
+        "C. The foreman is correct only for metal-cased tools",
+        "D. Double-insulated tools still need a GFCI adapter"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(f)(4): double-insulated tools are exempt from equipment grounding requirements. The double-insulation system provides two independent layers of electrical insulation. These tools are marked with the international double-insulation symbol (square inside a square). However, they must still be used with GFCI protection on construction sites per 1926.404(b)(1)."
+    },
+    {
+      "question": "During an OSHA inspection, the compliance officer notices the AEGCP log has missing entries and the last continuity test was 4 months ago. The program document is a single handwritten page. Is this AEGCP compliant?",
+      "options": [
+        "A. Yes — any documentation is better than nothing",
+        "B. No — the AEGCP must be a written program, testing at least every 3 months (plus before first use and after repair), all tests documented, competent person designated in writing; gaps in testing and informal documentation do not meet the standard",
+        "C. Yes — the testing interval is just a guideline",
+        "D. AEGCPs don't require documentation"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(iii): the AEGCP must be in writing, designate a competent person, include daily visual inspection, require continuity testing at intervals not exceeding 3 months (plus before first use and after repair), and document all tests. A 4-month gap and a single informal page lacking program procedures do not meet the requirements."
+    },
+    {
+      "question": "A worker is using an electric chainsaw to cut tree limbs while standing on an aluminum extension ladder at 15 feet. The power cord runs from the house, across wet grass, to the ladder. What are the electrical violations?",
+      "options": [
+        "A. No violations — this is standard tree work",
+        "B. Multiple violations: aluminum ladder is conductive; if the saw cord is damaged, the ladder becomes energized; outdoor wet conditions require GFCI protection and wet-rated cords; using power tools from ladders generally violates manufacturer safety instructions",
+        "C. Only the ladder material is a concern",
+        "D. Only the wet grass is a concern"
+      ],
+      "answer": "B",
+      "analysis": "1926.416(a)(1): employees working near energized circuits must be protected. 1926.404(b)(1): GFCI protection required. The aluminum ladder creates a direct path to ground — if the saw malfunctions or cord is damaged, the worker WILL be electrocuted. The wet grass reduces ground resistance. OSHA strongly discourages power tool use from ladders."
+    },
+    {
+      "question": "A construction crew is using a portable generator to power tools in a trench. The generator is placed 10 feet from the trench edge on dry ground. Workers complain of mild tingling when touching the metal case of a drill. What is the most likely cause?",
+      "options": [
+        "A. Static electricity buildup from dry soil conditions",
+        "B. The generator is not properly grounded or the GFCI is faulty",
+        "C. The drill is drawing too much current for the generator capacity",
+        "D. Low battery in the cordless drill triggering a warning circuit"
+      ],
+      "answer": "B",
+      "analysis": "1926.404(b)(1)(i) requires that all 120-volt, single-phase, 15- and 20-ampere receptacle outlets on construction sites that are not part of the permanent wiring have approved ground-fault circuit interrupters (GFCIs) for personnel protection. The tingling sensation indicates leakage current finding a path to ground through the worker — a classic ground fault condition. 1926.404(f)(3) requires the generator's frame to be grounded if it supplies cord-and-plug connected equipment. A properly functioning GFCI would trip at 5mA (±1mA), well below the perception threshold."
+    }
+  ]
+}

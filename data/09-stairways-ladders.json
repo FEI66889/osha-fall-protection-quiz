@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA Stairways & Ladders Quiz — 29 CFR 1926.1050-1060 Practice Questions",
+    "meta_description": "Free OSHA 30-Hour Construction stairways and ladders practice test with 40 realistic scenarios. Extension ladders, stepladders, fixed ladders, stair rail requirements, job-made ladders, training, and inspection with 29 CFR 1926 Subpart X references.",
+    "primary_keywords": [
+      "OSHA ladder safety quiz",
+      "29 CFR 1926.1053 practice",
+      "stairway safety test",
+      "OSHA 30-Hour ladders"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A painter is setting up a 32-foot extension ladder to access a roof eave at 24 feet. The ladder is set at an angle where the base is 4 feet from the wall. The painter claims this is correct. Under 1926.1053(b)(5)(i), what is the required setup?",
+      "options": [
+        "A. 4 feet is correct — the base should be as close to the wall as possible for stability",
+        "B. A ladder shall be set at a 4:1 ratio — for a working height of 24 feet, the base should be approximately 6 feet from the wall (24 ÷ 4 = 6)",
+        "C. The exact angle doesn't matter as long as the ladder feels stable",
+        "D. Extension ladders must always be set at exactly a 45° angle regardless of height"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(5)(i): non-self-supporting ladders shall be used at an angle such that the horizontal distance from the top support to the foot of the ladder is approximately one-quarter of the working length of the ladder (4:1 ratio). At 24 feet working height, the base should be 24 ÷ 4 = 6 feet from the wall. At 4 feet, the ladder is too steep — the center of gravity shifts rearward, increasing the risk of the base sliding out and the ladder falling backward with the worker on it."
+    },
+    {
+      "question": "An electrician is using an 8-foot A-frame stepladder to access a junction box at 10 feet. The electrician stands on the top cap (the very top platform labeled 'THIS IS NOT A STEP') because the box is slightly out of reach from the highest rung. Is this compliant?",
+      "options": [
+        "A. Yes — experienced electricians frequently use the top cap for short durations",
+        "B. No — the top cap and top step of a stepladder shall not be used as a step; the worker needs a taller ladder that allows reaching the work without standing on prohibited surfaces",
+        "C. Yes — as long as the ladder is held by a second person",
+        "D. The top cap can be used for work under 15 minutes"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(13): the top or top step of a stepladder shall not be used as a step. The manufacturer's label 'THIS IS NOT A STEP' makes this an OSHA requirement AND a manufacturer instruction violation. Standing on the top cap eliminates the upper body support that helps maintain balance — the worker has nothing to lean against or hold. The correct solution is a taller ladder (10-foot stepladder) that positions the work at a comfortable height from a proper rung."
+    },
+    {
+      "question": "A worker is carrying an 8-foot fiberglass stepladder through a doorway. The ladder is folded but still tall enough to contact the top of the door frame. The worker tilts the ladder to clear the frame and continues. Two hours later, the worker uses the same ladder and notices a crack in the top rail near the hinge. What does OSHA require?",
+      "options": [
+        "A. Use the ladder — a crack in fiberglass doesn't affect strength",
+        "B. The ladder shall be immediately removed from service and tagged 'Dangerous — Do Not Use' or destroyed; damaged ladders must not be used until repaired (by manufacturer) or replaced",
+        "C. Wrap the cracked area with duct tape and continue — fiberglass can be field-repaired",
+        "D. Only cracks longer than 6 inches require removal from service"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(16): ladders with structural defects, such as broken or missing rungs, cleats, or steps, broken or split rails, or other faulty or defective components, shall be immediately removed from service and tagged as 'Dangerous — Do Not Use' or destroyed. Fiberglass ladders can develop cracks from impact (hitting the door frame) that compromise structural integrity. Duct tape (C) is not a repair. Field repairs are not permitted — only manufacturer-approved repairs or replacement."
+    },
+    {
+      "question": "A 40-foot aluminum extension ladder is being used to access a 32-foot-high roof. The ladder extends 2 feet above the roof landing. Is this compliant with 1926.1053(b)(1)?",
+      "options": [
+        "A. Yes — 2 feet is below the 3-foot minimum extension requirement",
+        "B. No — extension ladders must extend at least 3 feet above the upper landing surface, OR a grab rail must be provided at the top if the 3-foot extension is not possible",
+        "C. Yes — any amount of extension above the roof is sufficient",
+        "D. No — extension ladders must extend exactly 4 feet above the landing"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(1): when portable ladders are used for access to an upper landing surface, the ladder side rails shall extend at least 3 feet (0.9 m) above the upper landing surface to which the ladder is used to gain access. At 2 feet, the worker transitioning from the ladder to the roof doesn't have a handhold at the critical moment when their center of gravity shifts. If the 3-foot extension is not feasible (e.g., gutter interferes), an adequate grab rail must be securely attached. The ladder must also be secured at the top (1926.1053(b)(6))."
+    },
+    {
+      "question": "A construction site has a temporary stairway to access the second floor. The stairway has 10 risers. The rise of each step is 8 inches and the tread run is 9 inches. Workers complain the stairs feel 'too steep.' Are these stairs compliant with 1926.1052(a)?",
+      "options": [
+        "A. Yes — 8-inch rise and 9-inch run are within OSHA tolerance",
+        "B. No — temporary stairways must have a maximum riser height of 8.25 inches AND the tread depth must be calculated using the formula: 2R + T = 25; 2(8) + 9 = 25, which meets the formula for stair angle",
+        "C. No — the riser height must be exactly 7 inches",
+        "D. Yes — any stair dimensions are acceptable for temporary stairs"
+      ],
+      "answer": "B",
+      "analysis": "1926.1052(a)(2): temporary stairways shall have a maximum riser height of 8.25 inches. At 8 inches, the rise is compliant. However, 1926.1052(a)(3): tread depth shall be determined by the formula 2R + T = 24 to 25 inches. 2(8) + 9 = 25 inches — this IS within the acceptable range. So the stairs are actually compliant. The workers' complaint about 'too steep' reflects a preference, not a violation. If the rise were 8.25 and tread 8 inches, it would still be: 2(8.25) + 8 = 24.5 — still within range. The standard allows a range of stair angles."
+    },
+    {
+      "question": "During construction of a 3-story building, stair rails have not yet been installed on a concrete stairway between the first and second floors. The stairway has 15 risers. Workers use these stairs daily. What does 1926.1052(c)(1) require?",
+      "options": [
+        "A. Stairways with 4 or more risers must have at least one handrail; stairways 30 inches or more in width must have handrails on both sides; stairways 44 inches or more in width must have a handrail on each side AND a middle stair rail",
+        "B. Handrails are only required for stairways with 20+ risers",
+        "C. The stairs can be used without handrails as long as workers 'use caution'",
+        "D. Temporary stairs are exempt from handrail requirements until the building is finished"
+      ],
+      "answer": "A",
+      "analysis": "1926.1052(c)(1): stairways having less than 4 risers need no stair rail or handrail. Stairways with 4 or more risers, or rising more than 30 inches, must have at least one handrail. 1926.1052(c)(1)(ii)-(iii): stairways 30+ inches wide need handrails on each side (if less than 44 inches) or handrails on each side + a middle stair rail (if 44+ inches or more). The concrete stairway without handrails exposes workers daily to a fall hazard."
+    },
+    {
+      "question": "On a jobsite, a worker is repairing a light fixture at 11 feet using a metal (aluminum) stepladder. The area is an electrical room with 480V panels on the walls. The worker's ladder is within 3 feet of an exposed energized bus bar. What does OSHA require regarding this ladder selection and placement?",
+      "options": [
+        "A. Aluminum ladders are preferred for electrical work because they're lightweight",
+        "B. Aluminum ladders are conductive and must not be used near exposed energized electrical equipment — a fiberglass (non-conductive) ladder is required, AND the minimum approach distance must be maintained",
+        "C. Rubber feet on the ladder provide adequate insulation",
+        "D. Any ladder can be used near electrical equipment if the worker wears rubber-soled shoes"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(12): ladders shall have nonconductive siderails if they are used where the employee or the ladder could contact exposed energized electrical equipment. Aluminum ladders are conductive — if the ladder tips and contacts a 480V bus bar, current passes through the ladder and the worker to ground. Rubber feet (C) protect against slipping, not electrical isolation. Rubber-soled shoes (D) are not a recognized substitute for a non-conductive ladder. The minimum approach distance for 480V is also relevant — 1926.1408 Table A gives 10 feet for lines, but for interior work, the general requirement is that the worker must not be able to contact the energized part."
+    },
+    {
+      "question": "A ladder is placed against a freshly painted exterior wall. The ladder has no slip-resistant feet (worn smooth). The surface is smooth and painted. A worker climbs the ladder, the base slips out, and the worker falls. What does 1926.1053(b)(6) require for ladder stability?",
+      "options": [
+        "A. The employer is not responsible — the worker should have checked the ladder feet",
+        "B. Ladders must be used only on stable and level surfaces unless secured; the ladder must be secured at the top and/or bottom, OR a ladder with slip-resistant feet must be used; the smooth feet on a smooth painted surface created a foreseeable slip hazard",
+        "C. Painting a wall near a ladder placement area is prohibited",
+        "D. Falling from a ladder is always the worker's fault for climbing too fast"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(6): ladders shall be used only on stable and level surfaces unless secured to prevent accidental displacement. 1926.1053(b)(7): ladders shall not be used on slippery surfaces unless secured or provided with slip-resistant feet to prevent accidental displacement. Smooth, worn ladder feet on a freshly painted smooth wall surface combine two slick surfaces — the base slipping out is a predictable and preventable outcome. The ladder should have been secured (tied off at the base, staked, or footed by a coworker) or feet replaced before use."
+    },
+    {
+      "question": "A carpenter builds a temporary job-made ladder to access a 12-foot high work platform. The ladder uses 2×4 side rails and 2×4 rungs, nailed together. The ladder leans against the platform but is not secured at the top or bottom. Workers use it all week. What multiple violations exist?",
+      "options": [
+        "A. Job-made ladders are always prohibited — only manufactured ladders may be used",
+        "B. Job-made ladders must: (1) have cleats/rungs spaced 10-14 inches apart uniformly, (2) be capable of supporting 4X the intended load, (3) be secured at top and bottom if non-self-supporting, (4) have side rails extending 3 ft above landing — this ladder fails multiple requirements",
+        "C. Nailed 2×4 construction is adequate for temporary ladders",
+        "D. Only the missing anti-slip feet are a violation"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(a)(19): job-made ladders shall be constructed in accordance with 1926 Subpart X Appendix A (non-mandatory guidelines). Key requirements: rungs must be spaced 10-14 inches apart on center, uniform throughout; minimum design live load of 250 lbs (single ladder) or 200 lbs per person (two-section); rungs must extend into side rails (dado or mortised), not simply face-nailed; non-self-supporting ladders must be secured at the top and bottom. 2×4 rungs that are simply nailed to the outside of 2×4 side rails will pull out under load — dado joints or through-bolt connections are required."
+    },
+    {
+      "question": "At the end of the workday, a 28-foot extension ladder is left leaning against a building, unsecured. The ladder is in an area accessible to the public (adjacent to a sidewalk). Overnight, a teenager climbs the ladder and is injured in a fall. What is the OSHA implication for the contractor?",
+      "options": [
+        "A. The contractor has no liability — the teenager was trespassing",
+        "B. The ladder must be taken down or secured at the end of the workday to prevent unauthorized use — unattended unsecured ladders in publicly accessible areas create an attractive nuisance hazard",
+        "C. Only the teenager's parents are responsible",
+        "D. OSHA does not address ladder storage"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(17): when a ladder is left unattended, it must be secured or barricaded to prevent accidental displacement and unauthorized use. An unsecured 28-foot ladder left leaning against a building overnight is an invitation to unauthorized access (an 'attractive nuisance' in tort law terms). While OSHA primarily regulates employee safety, the standard specifically addresses unattended ladders. Contractors have been cited after similar incidents where members of the public were injured. The ladder should have been laid down, locked up, or barricaded at the end of the shift."
+    },
+    {
+      "question": "A painter sets up a 32-foot extension ladder to access a roof eave at 24 feet. The ladder extends 2 feet above the roof edge. The base is 5 feet from the wall. Is this setup compliant with the 4:1 rule?",
+      "options": [
+        "A. Yes — 5 feet base distance for 24-foot height is approximately 4.8:1 ratio",
+        "B. No — for 24-foot roof height, the 4:1 rule requires the base to be 6 feet from the wall (24/4 = 6). At 5 feet, the ladder is too steep. Additionally, the ladder must extend 3 feet above the landing, not 2 feet",
+        "C. Yes — 5 feet is close enough to 6",
+        "D. The 4:1 rule is optional if the ladder has slip-resistant feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(5)(i): portable ladders shall be used at an angle such that the horizontal distance from the top support to the foot of the ladder is approximately 1/4 of the working length of the ladder (4:1 ratio). For 24-foot height: 24/4 = 6 feet horizontal distance. 1926.1053(b)(1): the ladder must extend at least 3 feet above the upper landing surface. At 5 feet base distance and 2-foot extension, both requirements are violated. The ladder angle is too steep (approximately 78° instead of 75.5° at 4:1), increasing the risk of tipping backward."
+    },
+    {
+      "question": "An electrician uses an 8-foot fiberglass stepladder to access a junction box at 10 feet. The electrician stands on the top step (not the top cap) and reaches up to work. The stepladder is rated Type I (250 lbs). The worker plus tools is about 230 lbs. Is this compliant?",
+      "options": [
+        "A. Yes — the top step is for standing and the weight is within the rating",
+        "B. No — 1926.1053(b)(13): employees shall not stand on the top step or top cap of a stepladder. The top step is marked 'THIS IS NOT A STEP' or with a similar warning. The electrician is using the ladder incorrectly and needs a taller ladder",
+        "C. Yes — as long as the spreaders are locked",
+        "D. No — the ladder is not tall enough for the task regardless of where the worker stands"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(13): employees shall not stand on the top step or the top cap of a stepladder. The top step lacks the structural bracing and depth of the lower steps — it's not designed for standing. Additionally, at full height with the worker on the top step, the worker's center of gravity is near or above the top of the ladder, creating a tipping hazard. The worker should use a 10-foot or 12-foot stepladder, or a different access method, so they can work from a lower, more stable step."
+    },
+    {
+      "question": "A worker carries an 8-foot fiberglass stepladder folded, holding it vertically at their side. As they walk through a doorway, the top of the ladder contacts a 277V fluorescent light fixture mounted at 7 feet, shattering the bulb and exposing energized contacts. The ladder is dry. Is this worker at risk?",
+      "options": [
+        "A. No — fiberglass ladders are non-conductive",
+        "B. While fiberglass ladders are rated for electrical work (non-conductive side rails), the worker's body parts (hands, head) can contact energized parts when the bulb shatters. The ladder didn't cause an electrocution path, but the falling glass and exposed 277V contacts create laceration and shock hazards",
+        "C. Yes — fiberglass becomes conductive at 277V",
+        "D. No — 277V fixtures are sealed and can't be energized when the bulb breaks"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(20): ladders shall not be used in a manner that could cause accidental contact with energized electrical conductors. Carrying a ladder vertically without a spotter creates a tip hazard — the top of the ladder can strike overhead objects. While fiberglass is non-conductive, the shattered bulb exposes energized tombstone contacts (277V, which is fatal on contact). The safe practice: carry ladders horizontally at waist height with a spotter in congested areas, or use two workers for a vertical carry through doorways, with one watching the top. Pre-plan the route to identify overhead obstructions."
+    },
+    {
+      "question": "A 40-foot aluminum extension ladder accesses a 32-foot roof. The ladder extends 3 feet above the roof edge and the base is 8 feet from the wall (32/4 = 8). However, the ladder is positioned directly in front of a door that opens outward. The door is unlocked. What's the hazard?",
+      "options": [
+        "A. No hazard — the ladder is properly set up",
+        "B. 1926.1053(b)(8): when a ladder is placed in a location where it can be displaced by workplace activities or traffic (such as a doorway), the ladder must be secured to prevent accidental displacement, OR a barricade must be placed to keep the activities or traffic away from the ladder",
+        "C. The ladder should be moved 2 feet to the side of the door",
+        "D. Aluminum ladders can't be used near buildings"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(8): ladders placed in any location where they can be displaced by workplace activities or traffic, such as in passageways, doorways, or driveways, shall be secured to prevent accidental displacement, or a barricade shall be used to keep the activities or traffic away from the ladder. An unlocked outward-opening door is a classic hazard — someone pushing the door open will strike the ladder, potentially knocking the climber 30+ feet to the ground. The ladder should be relocated away from the door, or the door should be locked, blocked, and barricaded with a spotter."
+    },
+    {
+      "question": "A 12-foot job-made wooden ladder is built on site to access a work platform. The ladder uses 2×4 side rails and 2×4 rungs nailed between the rails. The rungs are spaced 12 inches apart and are not notched into the rails — they're face-nailed with two 16d nails per end. Is this job-made ladder compliant?",
+      "options": [
+        "A. Yes — job-made ladders can use nailed construction",
+        "B. No — 1926.1053(a)(4): job-made ladders must meet specific design requirements: (1) cleats (rungs) must be inserted into the side rails (dadoed/notched) for positive bearing, not just face-nailed, (2) minimum design loads per ANSI A14.4, (3) the rails must be continuous. Face-nailed rungs can split the rail and pull out under load",
+        "C. Yes — as long as the nails are galvanized",
+        "D. No — job-made ladders are prohibited on construction sites"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(a)(4): job-made ladders shall be constructed in accordance with the design requirements for their maximum intended load. ANSI A14.4 (Safety Requirements for Job-Made Wooden Ladders) specifies: (1) side rails must be continuous (no splices), (2) rungs must be let into the side rails (dadoed or notched) at least 3/8 inch for positive bearing — face-nailing alone is not permitted, (3) rungs must be secured with at least two fasteners that cannot pull through. Face-nailed rungs concentrate all the load on the nails and can split the rail grain. The ladder could fail catastrophically under a worker's weight."
+    },
+    {
+      "question": "A fixed ladder on the side of a water storage tank is 35 feet tall. The ladder has a cage (safety cage) starting at 7 feet above ground and extending to the top. The tank was constructed in 2019. Is the cage compliant as the primary fall protection for this fixed ladder?",
+      "options": [
+        "A. Yes — cages are the traditional fall protection for fixed ladders",
+        "B. No — under 1926.1053(a)(19) (referencing 1910.28(b)(9)), for fixed ladders over 24 feet installed after November 19, 2018, a personal fall arrest system or ladder safety system (cable vertical lifeline) is REQUIRED; cages are no longer accepted as the sole fall protection on new fixed ladders",
+        "C. Yes — cages provide fall protection by catching the worker",
+        "D. No — cages are only decorative"
+      ],
+      "answer": "B",
+      "analysis": "1910.28(b)(9)(i): for fixed ladders extending more than 24 feet above a lower level installed after November 19, 2018, the employer must equip the ladder with a personal fall arrest system or a ladder safety system. Cages and wells are no longer permitted as the sole fall protection for new fixed ladders because research showed cages do not effectively arrest a fall — they only guide the falling worker and may actually trap them upside down. For existing ladders installed before November 19, 2018, cages are acceptable until November 18, 2036, when all fixed ladders over 24 feet must be retrofitted with PFAS or ladder safety systems."
+    },
+    {
+      "question": "A construction site has a temporary stairway to the second floor. The stairway has 12 risers. There is a handrail on one side only. The riser heights vary from 6 inches to 8 inches across the flight. Is this compliant?",
+      "options": [
+        "A. Yes — one handrail is sufficient for temporary stairs",
+        "B. No — 1926.1052(c)(1): stairways having 4 or more risers must have a stair rail or handrail on EACH side (two rails total). 1926.1052(a)(2): riser heights must be uniform within 1/4 inch variation — 6 to 8 inches (2-inch variation) is non-compliant",
+        "C. Yes — the variation is acceptable for temporary stairs",
+        "D. No — temporary stairs must be built to IRC residential code"
+      ],
+      "answer": "B",
+      "analysis": "1926.1052(c)(1)(ii): stairways having 4 or more risers shall be equipped with a stair rail system on each unprotected side. 1926.1052(a)(2): riser height and tread depth shall be uniform within 1/4 inch. With 12 risers, two rails are required. A 2-inch variation in riser height (33% variation) is extremely dangerous — the human gait adjusts to a consistent riser height within the first 2-3 steps; an unexpected change causes tripping. The maximum allowed variation is 1/4 inch. The stairs must be rebuilt with uniform risers and a second handrail."
+    },
+    {
+      "question": "A worker is using an aluminum stepladder near exposed 120V temporary wiring at a construction site. The ladder is rated Type I (250 lbs). The worker says 'aluminum ladders are lighter — that's why I use them.' An electrician sees this and tells them to switch to fiberglass. Who is correct?",
+      "options": [
+        "A. The worker — aluminum ladders are perfectly safe near electrical work if you're careful",
+        "B. The electrician — 1926.1053(b)(12): ladders shall not be used where they can contact exposed energized electrical equipment. Aluminum ladders are conductive; fiberglass ladders with non-conductive side rails must be used near electrical hazards",
+        "C. Both are correct — ladder material is a personal preference",
+        "D. The electrician — but only because 120V is more dangerous than 480V"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(12): ladders shall have nonconductive side rails if they are used where the employee or the ladder could contact exposed energized electrical equipment. While ANSI A14.5 specifies fiberglass as the non-conductive option, the critical point: aluminum is an excellent conductor. Even indirect contact (touching a junction box with exposed wiring, a damaged cord contacting the ladder) can make the entire aluminum ladder live. 120V is more than sufficient to cause ventricular fibrillation and death. The electrician is correct — and the weight difference between aluminum and fiberglass ladders has narrowed significantly in recent years."
+    },
+    {
+      "question": "A 16-foot extension ladder is leaned against a freshly painted exterior wall at a 4:1 angle. The ladder's rubber feet are worn smooth (no tread pattern remaining) and the wall surface is smooth. The ladder is not secured at the top. A worker starts climbing and the ladder base slides outward on the smooth concrete below. What should have been done?",
+      "options": [
+        "A. The worn feet are acceptable — ladder safety is about angle, not foot condition",
+        "B. Multiple failures: (1) 1926.1053(b)(6): ladders shall be secured at the top to prevent displacement, (2) the ladder's safety feet must be in good condition (not worn smooth), (3) on a slippery surface (smooth concrete), the base should be cleated, staked, or a ladder mitt/block should be used",
+        "C. The worker should climb faster to minimize the time at risk",
+        "D. Extension ladders don't need top securing — only stepladders do"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(6): when a ladder is used to gain access to an upper landing surface, the ladder shall be secured at its top to prevent displacement. 1926.1053(b)(5): ladders shall be used only on stable and level surfaces. Worn safety feet (no rubber tread) on smooth concrete provide almost zero friction — the ladder can slide out at any angle. A freshly painted smooth wall at the top provides no grip for the ladder rails. Solutions: (1) replace the worn safety feet, (2) secure the top with a rope or ladder strap, (3) have a second person foot the ladder base, (4) use a ladder with spiked feet or a ladder mitt/board with a cleat on soft ground."
+    },
+    {
+      "question": "A construction worker finishes using a 28-foot extension ladder at the end of the day. They leave the ladder leaning against the building, unsecured, in a public area. Overnight, a security guard trips over the base of the ladder in the dark. What regulation was violated?",
+      "options": [
+        "A. No regulation — ladders are commonly left leaning",
+        "B. 1926.1053(b)(22): ladders shall not be left unattended in a position where they can be a hazard. An unsecured ladder left in a public area is a trip hazard and a temptation for unauthorized climbing (children)",
+        "C. Only the security guard is at fault for not looking",
+        "D. Ladders must always be laid down after use"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(22): ladders shall not be left unattended in an erected position where they may be a hazard. An erected ladder is: (1) a trip hazard at its base, (2) a struck-against hazard (the extended portion above the roof is hard to see), (3) an attractive nuisance (unauthorized persons — especially children on construction sites — may attempt to climb). The ladder should be lowered and stored horizontally in a secured area at the end of the workday."
+    },
+    {
+      "question": "A worker using a 10-foot stepladder needs to reach a light fixture 12 feet high. The worker opens the stepladder fully, locks the spreaders, but sets it up on uneven ground — one leg is 1 inch higher than the others, causing a slight wobble. The worker stands on the second-from-top step and leans sideways to reach the fixture. What's wrong?",
+      "options": [
+        "A. Nothing — a slight wobble is acceptable",
+        "B. Multiple violations: (1) 1926.1053(b)(5): ladders shall be on stable and level surfaces — a wobbling ladder is a fall waiting to happen, (2) leaning sideways shifts the center of gravity outside the ladder's footprint, (3) the ladder is too short — worker must have a tall enough ladder to work without overreaching",
+        "C. The worker should use a leg leveler",
+        "D. Standing on the second step is correct — it's the top step that's prohibited"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(5): ladders shall be used only on stable and level surfaces unless secured. A 1-inch leg height difference on a 10-foot ladder creates significant instability. 1926.1053(b)(13): the 'belt buckle rule' — the worker's belt buckle must remain between the side rails; leaning outside the rails can cause the ladder to tip. The root cause: the ladder is too short for the task. A 14-foot stepladder or an extension ladder would allow the worker to work at a comfortable height and avoid overreaching. The wobble should be corrected with leg levelers (if the ladder has them) or by leveling the ground underneath."
+    },
+    {
+      "question": "A stairway under construction has a concrete stair rail on one side (permanent, formed in place) and an open side on the other. The open side drops 14 feet to the floor below. A single 2×4 is nailed across the opening at 36 inches height as a temporary guard. Workers use the stairway daily. Is this adequate?",
+      "options": [
+        "A. Yes — a 2×4 at 36 inches is a standard temporary guard",
+        "B. No — 1926.1052(c)(1)(i): stairways with an unprotected side must have a stair rail system capable of withstanding 200 lbs of force. A single 2×4 at 36 inches is below the 42-inch requirement (falls under guardrail, not stair rail — stair rails can be 36 inches but must meet structural requirements). Additionally, the midrail is missing",
+        "C. Yes — the concrete wall provides sufficient protection on the other side",
+        "D. Only the top of the stairway needs a guardrail"
+      ],
+      "answer": "B",
+      "analysis": "1926.1052(c)(1)(i): stair rail systems shall be not less than 36 inches from the upper surface of the stair rail to the stair tread. 1926.1052(c)(2): they shall be capable of withstanding 200 lbs of force. A single nailed 2×4 does not meet the structural requirement — it can split at the nails and pull loose under load. Additionally, the midrail is required: 1926.1052(c)(3): a midrail shall be provided halfway between the stair rail and the stair tread. The open side requires a proper stair rail system (top rail + midrail) with secure connections to structural members, not just nails into framing."
+    },
+    {
+      "question": "A worker needs a special-purpose ladder for accessing a 14-foot high industrial platform with limited space. The employer buys a ladder rated Type III (200 lbs). The worker plus tools weighs 210 lbs. The worker says 'it's only 10 lbs over — it'll hold.' Is this ladder appropriate?",
+      "options": [
+        "A. Yes — 10 lbs over the rating is within the safety factor",
+        "B. No — 1926.1053(a)(1): ladders shall be selected based on their duty rating adequate for the intended load. Type III (200 lbs) is light-duty household use only. For construction, at minimum Type II (225 lbs) or preferably Type I (250 lbs) is required. Exceeding the duty rating is a violation of manufacturer specifications and OSHA",
+        "C. Yes — duty ratings include a 50% safety margin",
+        "D. No — Type III ladders are only for indoor use"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(a)(1): the employer shall ensure ladders are used in accordance with their listing and labeling. ANSI A14 ladder duty ratings: Type III = 200 lbs (light household), Type II = 225 lbs (medium commercial), Type I = 250 lbs (heavy industrial), Type IA = 300 lbs (extra heavy), Type IAA = 375 lbs (special duty). For construction, the minimum accepted is usually Type I (250 lbs) to account for tools, materials, and dynamic loading. A 210-lb worker on a 200-lb rated ladder exceeds the design load. While there is a safety factor (typically 4:1), exceeding the duty rating means the safety factor is being consumed and the ladder may fail after repeated loading."
+    },
+    {
+      "question": "A worker using a 6-foot stepladder as a work platform needs to work in a different position every few minutes. Instead of climbing down and moving the ladder, the worker stays on the ladder and 'hops' it sideways by shifting their weight. The ladder scoots about 2 feet at a time. Is this acceptable?",
+      "options": [
+        "A. Yes — hopping the ladder is a common and efficient technique",
+        "B. No — 1926.1053(b)(17): ladders shall not be moved, shifted, or extended while occupied. The ladder base can catch on debris or uneven spots during hopping, causing the ladder to tip and the worker to fall",
+        "C. Yes — if the floor is perfectly smooth",
+        "D. No — but only because a 6-foot ladder is too short"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(17): ladders shall not be moved, shifted, or extended while occupied. Hopping/scooting a stepladder is dangerous: (1) the ladder's feet can catch on surface irregularities, (2) the ladder can tip when it drops off a small edge, (3) the worker's weight shifting changes the center of gravity unpredictably. The safe practice: climb down, move the ladder, verify stability and locked spreaders, then climb back up. Yes, it takes more time — it also prevents life-altering falls. If the worker needs to move frequently, a mobile scaffold or scissor lift may be more appropriate."
+    },
+    {
+      "question": "A fixed ladder on a building provides roof access. The ladder rungs are round steel bars, 3/4-inch diameter. The rungs are rusted — some have lost up to 20% of their original diameter from corrosion. The ladder is 30 feet tall with no cage or fall protection. Workers use it to access roof-mounted HVAC equipment monthly. Is this ladder safe?",
+      "options": [
+        "A. Yes — rust on steel rungs is cosmetic and doesn't affect strength",
+        "B. No — multiple issues: (1) rusted rungs with 20% cross-section loss are structurally compromised (corrosion reduces load capacity proportionally to the square of the remaining diameter, so 20% diameter loss ≈ 36% strength loss), (2) the ladder requires fall protection (cage if pre-2018, PFAS or ladder safety system if post-2018), (3) inspection is required before each use",
+        "C. Yes — monthly use means wear is minimal",
+        "D. The ladder just needs a rust-inhibiting paint coating"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(15): ladders shall be inspected by a competent person for visible defects on a periodic basis and after any occurrence that could affect their safe use. Corrosion is a defect — it reduces rung cross-sectional area. A rung with 20% diameter loss has lost approximately 36% of its bending strength (strength ∝ d³). Multiple rungs in this condition make the ladder unsafe. The ladder also needs fall protection per 1910.28(b)(9) based on installation date. The rungs must be replaced or the entire ladder replaced. Paint does not restore lost steel — it only hides the corrosion."
+    },
+    {
+      "question": "A job-made ladder is constructed on site from 2×4 lumber. The side rails are 16 feet long, and cleats are nailed to the narrow face of the rails. The ladder will be used for daily access to a 12-foot-high work platform. Is this ladder compliant?",
+      "options": [
+        "A. Yes — job-made ladders can be built from 2×4 lumber up to 24 feet",
+        "B. No — cleats must be attached to the wide face of the side rails, and job-made ladders have specific dimensional requirements",
+        "C. Yes — as long as the nails are ring-shank and spaced at 12 inches",
+        "D. No — job-made ladders are prohibited for daily access; only manufactured ladders are allowed for routine use"
+      ],
+      "answer": "B",
+      "analysis": "1926.450(b) defines a job-made ladder and incorporates 1926 Subpart X Appendix A, which provides construction specifications. Cleats (rungs) must be attached to the wide face of the side rails — not the narrow edge — because the wide face provides the mechanical bearing surface for fasteners. 2×4 side rails are permitted only up to specified lengths. 1926.1053(a)(19) also requires that job-made ladders be inspected for defects. For daily access to a 12-foot platform, a manufactured extension ladder or a fixed stairway under 1926.1052 would be the more appropriate and compliant permanent access solution."
+    },
+    {
+      "question": "An extension ladder is set up to access a roof with a 3-foot parapet. The ladder extends 2 feet above the roof edge. The ladder is placed at a 4:1 angle (base 3 feet from wall for a 12-foot vertical rise). A worker must step over the parapet to transition from the ladder to the roof. Is this setup correct?",
+      "options": [
+        "A. Yes — the ladder meets the 3-foot minimum extension and is at the correct angle",
+        "B. No — the ladder must extend at least 3 feet above the landing surface, not just 2 feet",
+        "C. Yes — parapet walls have separate access requirements",
+        "D. No — the 4:1 angle is too shallow; extension ladders require a 3:1 angle"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(1): 'When portable ladders are used for access to an upper landing surface, the ladder side rails shall extend at least 3 feet (.9 m) above the upper landing surface to which the ladder is used to gain access.' The 3-foot minimum provides a handhold during the transition. At 2 feet, the worker must reach down to grip the ladder while stepping over the parapet — a moment of high fall risk. Additionally, 1926.1053(b)(5)(i) requires securing the ladder at the top to prevent displacement. The 4:1 angle is correct (1926.1053(b)(5)(i) specifies the ladder be set so the horizontal distance from the top support to the foot is approximately one-quarter of the working length)."
+    },
+    {
+      "question": "A stepladder is set up on a freshly poured concrete slab that has a 2% slope for drainage. The worker places a 2×4 block under one leg to level the ladder, then climbs to the top step to reach a junction box at 10 feet. Which violation(s) exist?",
+      "options": [
+        "A. Standing on the top step only",
+        "B. Leveling with a wooden block only",
+        "C. Both standing on the top step AND using an improvised leveling method — stepladders must be used on stable, level surfaces with factory leveling feet",
+        "D. No violation — 2% slope is negligible and the block provides adequate leveling"
+      ],
+      "answer": "C",
+      "analysis": "1926.1053(b)(13): 'The top or top step of a stepladder shall not be used as a step.' 1926.1053(b)(4): 'Ladders shall be used only for the purpose for which they were designed.' 1926.1053(b)(6): 'Ladders shall be used only on stable and level surfaces unless secured to prevent accidental displacement.' Improvised leveling with blocks, bricks, or lumber is prohibited — only the manufacturer's leveling feet or a factory-designed leveling system may be used. The 2% slope creates horizontal displacement force that the block does not resist. The correct approach: use a taller stepladder (so worker can stay off the top step), or use a platform ladder, or level the slab area."
+    },
+    {
+      "question": "A stairway under construction in a 4-story building has temporary treads made from 2×10 planks spanning the stringers. The stairway has 16 risers with a rise of 7.5 inches each. There are no handrails yet because the permanent rails will be installed after drywall. Is this acceptable during construction?",
+      "options": [
+        "A. Yes — temporary handrails are only required for stairways with more than 20 risers",
+        "B. No — 1926.1052(c)(1) requires stairways having 4 or more risers to be equipped with at least one handrail during construction",
+        "C. Yes — handrails can be waived if the stairway is only used by the crew building it",
+        "D. No — but only because the rise exceeds 7 inches, not because of the missing handrail"
+      ],
+      "answer": "B",
+      "analysis": "1926.1052(c)(1): 'Stairways having four or more risers or rising more than 30 inches, whichever is less, shall be equipped with: (i) At least one handrail; and (ii) one stairrail system along each unprotected side or edge.' 16 risers × 7.5 inches = 120 inches total rise — well beyond the 30-inch threshold. The temporary handrail requirement applies during construction, not just in the finished condition. 1926.1052(c)(3) specifically requires stairrails and handrails to be in place during construction — not deferred until finishing. Falls on stairs are among the most common construction injuries."
+    },
+    {
+      "question": "A worker is using a 24-foot aluminum extension ladder near energized 480-volt overhead power lines. The nearest conductor is 8 feet horizontally from where the ladder will be placed. The worker plans to set up the ladder parallel to the power lines (not touching them) to access a sign. Is this compliant?",
+      "options": [
+        "A. Yes — 8 feet of clearance exceeds the 3-foot minimum for voltages under 50kV",
+        "B. No — aluminum ladders are conductive and must never be used near energized power lines; only fiberglass or wood ladders are permitted",
+        "C. Yes — the ladder is parallel to the lines and won't contact them",
+        "D. No — OSHA requires a minimum 10-foot clearance for all ladders near power lines regardless of voltage"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(12): 'Ladders shall not be used in a manner that could cause a hazardous electrical contact.' 1926.951(c)(1): 'Conductive tools and materials shall not be used in proximity to energized lines.' Aluminum ladders are excellent conductors. Even if placed parallel to lines, a slip, wind gust, or misjudged carrying position can cause contact. 1926.1053(b)(15) specifically requires that ladders have nonconductive side rails when used where the ladder could contact exposed energized electrical equipment. The minimum approach distance for unqualified persons to 480V lines is 10 feet per 1926.1408 and 1926.416 — the 8-foot distance already violates this."
+    },
+    {
+      "question": "A stairway in a commercial building under construction is 6 feet wide, measured between the finished wall surfaces. When must an intermediate handrail be installed?",
+      "options": [
+        "A. When the stairway exceeds 44 inches in width — then both handrails plus an intermediate rail are required",
+        "B. When the stairway exceeds 88 inches in width",
+        "C. Only when the stairway exceeds 10 feet in width",
+        "D. Intermediate handrails are never required in construction — only in permanent installations"
+      ],
+      "answer": "B",
+      "analysis": "1926.1052(c)(1)(i-ii) requires at least one handrail for 4+ risers, plus a stairrail on each unprotected side. 1926.1052(c)(2) states: 'Stairways more than 88 inches (2.2 m) in width shall be provided with one intermediate handrail for each 88 inches or fraction thereof of additional width.' At 6 feet (72 inches), the stairway is less than 88 inches — so no intermediate rail is required. However, at 8 feet (96 inches), an intermediate handrail would be required. This applies during construction precisely as it applies to permanent installations — 1926.1052 makes no distinction between temporary and permanent stairway requirements."
+    },
+    {
+      "question": "A roofer carries a bundle of shingles (75 lbs) up an extension ladder. One hand is on the ladder rail, the other cradles the shingle bundle against the chest. At the roof edge, the worker must release the rail hand to push the bundle onto the roof. Is this acceptable?",
+      "options": [
+        "A. Yes — as long as the worker maintains 3 points of contact when climbing",
+        "B. No — a ladder or other mechanical hoist must be used to raise materials; climbing while carrying loads that prevent 3 points of contact is prohibited",
+        "C. Yes — roofing materials are routinely hand-carried up ladders",
+        "D. No — but only because 75 lbs exceeds the 50-lb maximum for ladder material handling"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(22): 'An employee shall not carry any object or load that could cause the employee to lose balance and fall.' OSHA's standard interpretation is that climbing a ladder requires at least 3 points of contact (two hands and one foot, or two feet and one hand). Carrying a 75-lb bundle prevents a secure hand grip — if the load shifts or the worker slips, there is no recovery hand available. 1926.1053(b)(21) requires that materials and equipment be hoisted separately, not carried up ladders. A rope, pulley, or material hoist must be used for shingle bundles. This is one of the most common causes of ladder falls in roofing."
+    },
+    {
+      "question": "A fixed ladder on a new water tower is being installed. The ladder is 35 feet from ground to the catwalk platform. The climbing side is the rung side only; no climbing cage is installed. What additional safety equipment is required?",
+      "options": [
+        "A. A ladder safety system (vertical lifeline with cable grab) or a personal fall arrest system is required for fixed ladders over 24 feet",
+        "B. A cage is required for fixed ladders over 20 feet",
+        "C. Rest platforms every 20 feet",
+        "D. No additional equipment — 35 feet does not trigger PFAS requirements for fixed ladders"
+      ],
+      "answer": "A",
+      "analysis": "1926.1053(a)(18) and 29 CFR 1910.28(b)(9)(i) (effective 2018): All new fixed ladders over 24 feet must be equipped with a ladder safety system or personal fall arrest system. Cages and wells are no longer recognized as compliant fall protection on new fixed ladders — they prevent falls outward but do not arrest a fall. OSHA phased out cages as standalone fall protection: existing cages installed before November 19, 2018 may remain until November 18, 2036, after which they must be replaced with ladder safety systems or PFAS. New construction must comply immediately with the ladder safety system or PFAS requirement."
+    },
+    {
+      "question": "A stairway temporarily used by 25 employees during construction has a 9-inch riser height and 9-inch tread depth for all steps. Stairway landings are provided every 12 feet of vertical rise. Is this compliant?",
+      "options": [
+        "A. Yes — riser and tread dimensions are uniform and landings are provided",
+        "B. No — the tread depth of 9 inches does not meet the construction minimum; also, a 9-inch riser with a 9-inch tread does not meet the stair angle requirements",
+        "C. Yes — temporary stairs have relaxed dimensional requirements",
+        "D. No — landings must be provided every 10 feet of vertical rise, not 12"
+      ],
+      "answer": "B",
+      "analysis": "1926.1052(a)(2): 'Temporary stairways shall have a minimum tread depth of 9.5 inches.' A 9-inch tread depth fails this requirement by 0.5 inches. 1926.1052(a)(3): 'Risers shall be uniform within any flight and shall not exceed 8.25 inches.' A 9-inch riser exceeds the maximum by 0.75 inches. Additionally, 1926.1052(a)(1) through the references to 1926 Subpart X Appendix A require that stair angle be between 30 and 50 degrees from horizontal — a 9/9 stair produces a 45-degree angle, which just barely fits, but the individual dimension violations make the stair non-compliant independently. 1926.1052(a)(4) requires landings at least every 12 feet — this one provision is compliant."
+    },
+    {
+      "question": "A 10-foot A-frame stepladder is being used on an asphalt surface in direct summer sun. The ladder is fully opened with spreaders locked. After 3 hours of use, the worker notices one of the rear rails has sunk approximately 1 inch into the softened asphalt. What should the worker do?",
+      "options": [
+        "A. Place a plywood pad under the sunken leg and continue working",
+        "B. Immediately stop work — the ladder is on an unstable surface; use a plywood base or move the ladder to stable, unsoftened ground",
+        "C. Adjust the spreader bar to compensate for the settlement",
+        "D. Continue working — 1 inch of settlement is within acceptable tolerance"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(6): 'Ladders shall be used only on stable and level surfaces unless secured to prevent accidental displacement.' Asphalt softened by heat is not a stable surface — it can continue to settle, causing sudden shifts. 1926.1053(b)(7): 'Ladders shall not be used on slippery surfaces unless secured or provided with slip-resistant feet.' Softened asphalt is effectively a slippery, unstable surface. A wide plywood base (minimum 3/4-inch thickness) that distributes the load across a larger surface area and insulates the asphalt from the ladder feet would make the surface stable enough for continued use."
+    },
+    {
+      "question": "During a fire watch, workers evacuate using the temporary construction stairway in a 6-story building. The stairway is 44 inches wide and has a handrail on only one side (the wall side). The open side has no stairrail because the steel studs for the shaft wall aren't installed yet. Was the stairway properly equipped?",
+      "options": [
+        "A. Yes — one handrail meets minimum requirements for emergency egress",
+        "B. No — all stairways with 4 or more risers require a stairrail along EACH unprotected side; the open side required a stairrail",
+        "C. Yes — emergency egress follows NFPA 101, not OSHA construction standards",
+        "D. No — but only because the width exceeds 36 inches, not because of the missing stairrail"
+      ],
+      "answer": "B",
+      "analysis": "1926.1052(c)(1)(ii) requires a stairrail system along each unprotected side or edge of stairways with 4 or more risers (or rising more than 30 inches). A stairrail is a vertical barrier (similar to a guardrail) erected along the exposed sides of stairways to prevent falls. The handrail on the wall side provides gripping support but does not protect the open side. 1926.1052(d) specifies that the height of stairrails shall not be less than 36 inches from the upper surface to the tread. Adherence to this requirement is required at all times during construction, not just in finished condition."
+    },
+    {
+      "question": "A double-cleat ladder is being constructed on site to provide two-way access for a concrete formwork crew of 15 workers. The ladder will be 12 feet tall. What is the minimum width required between the side rails?",
+      "options": [
+        "A. 16 inches — standard for single-cleat ladders",
+        "B. Minimum 20 inches between side rails for a double-cleat ladder",
+        "C. Minimum 24 inches between side rails, or at least wide enough for two workers to pass",
+        "D. 36 inches — double-cleat ladders must meet stairway width requirements"
+      ],
+      "answer": "B",
+      "analysis": "1926.450(b) defines a double-cleat ladder as having a center rail allowing simultaneous two-way traffic. Per 1926 Subpart X, Appendix A, Table A-1 (Job-Made Ladder Specifications), double-cleat ladders require a minimum width of 20 inches between side rails. The center rail must provide structural support and separate the climbing paths. If 15 workers need simultaneous two-way access, a double-cleat ladder is appropriate — it allows ascending and descending workers to pass each other without one having to step off, which reduces congestion and fall hazard."
+    },
+    {
+      "question": "A worker sets up a 16-foot extension ladder against a vinyl-sided wall without securing the top. The ladder feet are on a concrete sidewalk with no slip-resistant pads. The ladder is set at a 4:1 angle. As the worker climbs past the 8-foot level, the base begins to slide. What is the primary cause?",
+      "options": [
+        "A. The 4:1 angle is wrong — extension ladders need a 3:1 angle on concrete",
+        "B. Combination of unsecured top, hard-smooth feet on concrete, and increasing horizontal thrust as the climber ascends — any one of these corrected would likely prevent the slide-out",
+        "C. The vinyl siding created a slippery top contact point",
+        "D. The ladder is too short — extension ladders under 20 feet don't have adequate base spread"
+      ],
+      "answer": "B",
+      "analysis": "1926.1053(b)(5)(i) requires the ladder be secured at its top when displacement could occur. 1926.1053(b)(6) requires stable, level surfaces and slip-resistant feet. Ladder slide-out occurs because the climber's horizontal force at the top increases as they ascend (higher moment arm) while the friction at the base remains constant. The 4:1 angle is CORRECT — 1926.1053(b)(5)(i) specifies the horizontal distance from the top support to the foot shall be approximately 1/4 of the working length. The error is the unsecured top AND the smooth feet on concrete — correcting either one (tying off the top, or adding a slip-resistant foot/base) is a sufficient control."
+    },
+    {
+      "question": "A 20-foot portable metal ladder is being used by an electrician to access a cable tray. A coworker begins arc welding 6 feet from the base of the ladder. The welding circuit's work lead (ground clamp) is attached to the cable tray support steel, which is bolted to the same structure the ladder leans against. What is the electrical hazard?",
+      "options": [
+        "A. No hazard — the ladder is not part of the welding circuit",
+        "B. The ladder could become part of the welding current return path if the work lead connection is inadequate, energizing the ladder and creating a shock or arc hazard",
+        "C. UV radiation from welding will degrade the aluminum ladder's heat treatment",
+        "D. The hazard is purely from welding spatter burning the ladder rungs"
+      ],
+      "answer": "B",
+      "analysis": "1926.351(c)(2): 'The work lead shall be firmly attached to the work.' When the work lead is attached to a structural member far from the actual welding point, the return current finds the path of least resistance — which may include any conductive path to ground, including a metal ladder leaning against the connected steel. If the work lead connection has high resistance (paint, rust, loose clamp), the return current divides across all parallel paths. A worker touching the ladder and grounded structure simultaneously can become a parallel path. 1926.351(c)(3) requires that welding leads be protected from accidental contact. The ladder should be relocated, or a nonconductive fiberglass ladder should be used."
+    },
+    {
+      "question": "A painter is using an articulated ladder (multi-position ladder) configured as a 6-foot stepladder to reach a 9-foot ceiling. Each of the four sections is independently adjustable. The painter fails to fully engage the locking mechanism on one of the rear sections. While reaching laterally with a roller, the section collapses. Who is responsible?",
+      "options": [
+        "A. The manufacturer — the locking mechanism should be fail-safe",
+        "B. The employer — for not training the worker on proper setup and for not inspecting the ladder before use",
+        "C. The worker — the user is responsible for verifying ladder setup",
+        "D. Both the employer and the worker share responsibility"
+      ],
+      "answer": "B",
+      "analysis": "1926.1060(a) requires the employer to provide a training program for each employee using ladders and stairways, covering: the nature of fall hazards, correct procedures for erecting/maintaining/disassembling, and maximum intended load-carrying capacities. 1926.1053(b)(2): 'Ladders shall be maintained free of oil, grease, and other slipping hazards.' 1926.1053(b)(15): 'Ladders shall be inspected by a competent person for visible defects on a periodic basis and after any occurrence that could affect their safe use.' While the worker has a duty to use equipment properly, OSHA places the primary responsibility on the employer to ensure workers are trained and the ladder is functional. The multi-position ladder requires specific setup training that the employer must provide and document."
+    }
+  ]
+}

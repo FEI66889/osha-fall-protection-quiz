@@ -1,0 +1,454 @@
+{
+  "seo_metadata": {
+    "unique_h1": "OSHA Excavation & Trenching Quiz — 29 CFR 1926.650-652 Practice Questions",
+    "meta_description": "Free OSHA 30-Hour Construction excavation and trenching practice test with 40 realistic scenarios. Soil classification, protective systems, spoil piles, access/egress, competent person duties, hazardous atmospheres with 29 CFR 1926 Subpart P references.",
+    "primary_keywords": [
+      "OSHA excavation quiz",
+      "trench safety practice test",
+      "29 CFR 1926.652",
+      "OSHA 30-Hour excavation trenching"
+    ]
+  },
+  "questions": [
+    {
+      "question": "A crew is installing a 24-inch storm drain in a trench 8 feet deep and 3 feet wide. The competent person has classified the soil as Type C (granular, moist sand). The trench is in an open field with no vibration sources or surcharge loads. Workers must enter the trench to connect pipe. If sloping is the chosen protective method, what is the minimum required slope?",
+      "options": [
+        "A. Vertical walls are acceptable for Type C soil up to 10 feet deep",
+        "B. 1:1 slope (45°) — per 1926.652 Table B-1, Type C soil requires a 1½:1 slope (34°)",
+        "C. 1½:1 slope (34°) from the trench bottom — meaning the trench opening must be significantly wider than the bottom",
+        "D. Benching is permitted for Type C soil at any depth if the bench width is 4 feet"
+      ],
+      "answer": "C",
+      "analysis": "1926.652(b)(2) Table B-1: for Type C soil in an excavation less than 20 feet deep, the maximum allowable slope is 1½:1 (34° measured from horizontal). This means for every 1 foot of depth, the trench must widen 1.5 feet on each side. At 8 feet deep, the top width must be: 3 feet (bottom) + 2 × (8 × 1.5) = 27 feet MINIMUM. Type C soil CANNOT be benched (D is wrong). Vertical walls for Type C (A) would be catastrophic — Type C soil has unconfined compressive strength ≤0.5 tsf and will not stand vertically."
+    },
+    {
+      "question": "A competent person is performing the daily inspection of a 12-foot deep trench in Type B soil that is being used as a pipe-laying operation. The trench uses an aluminum hydraulic shoring system. The competent person notices that one of the shoring cylinders has a hydraulic fluid leak and has lost pressure. Workers are in the trench. What must happen?",
+      "options": [
+        "A. Note the leak in the inspection log and schedule repair after the shift",
+        "B. Immediately remove all workers from the trench until the damaged shoring component is repaired or replaced",
+        "C. Add a second cylinder next to the leaking one and continue work",
+        "D. Workers can stay as long as the other cylinders hold — redundancy is built into the design"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(c): protective systems shall have the capacity to resist all intended loads without failure. A leaking hydraulic cylinder has already failed — it cannot maintain design pressure. 1926.651(k)(1): daily inspections of excavations and protective systems shall be conducted by a competent person. If evidence of a hazardous condition is found (which this is), exposed employees shall be removed until necessary precautions have been taken. The competent person's obligation when finding an active failure is immediate evacuation, not note-taking."
+    },
+    {
+      "question": "Excavated soil (spoil) from a 6-foot deep foundation excavation is being piled next to the edge. The competent person measures the spoil pile at 18 inches from the edge of the excavation. Is this compliant with 1926.651(j)(1)?",
+      "options": [
+        "A. Yes — any distance from the edge is acceptable for excavated material",
+        "B. No — spoil piles must be kept at least 2 feet (0.61 m) from the edge of the excavation",
+        "C. Yes — 18 inches is adequate for excavations under 10 feet deep",
+        "D. No — spoil must be at least 10 feet from the edge regardless of depth"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(j)(1)(i): employees shall be protected from excavated or other materials or equipment that could pose a hazard by falling or rolling into excavations by placing and keeping such materials at least 2 feet (0.61 m) from the edge of excavations. 18 inches is insufficient. The spoil pile adds surcharge weight to the trench wall, increasing the likelihood of collapse. At only 18 inches, loose material can easily roll back into the trench onto workers below."
+    },
+    {
+      "question": "A worker enters a 5-foot deep utility trench to make a quick repair. The competent person checked the trench and said 'it looks stable.' No protective system is used. The trench is in Type B soil. Ten minutes later, a section of the wall collapses, burying the worker to his waist. What does OSHA require for this trench?",
+      "options": [
+        "A. No protective system is required because the trench is exactly 5 feet (the depth trigger) and looked stable",
+        "B. A protective system IS required — excavations 5 feet or deeper must be protected unless in stable rock, regardless of how 'stable' they look",
+        "C. The competent person's visual check exempts the trench from protective system requirements",
+        "D. Protective systems are only required for trenches deeper than 6 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(a)(1)(i): the only exemption for excavations under 5 feet is when examination by a competent person provides no indication of a potential cave-in. For excavations 5 feet OR MORE, 1926.652(a)(1)(ii) requires an adequate protective system UNLESS the excavation is made ENTIRELY in STABLE ROCK. Type B soil is not stable rock. The 5-foot trigger is inclusive — 5 feet requires protection. The competent person's 'visual check' does not override this standard. This soil collapse is exactly why the rule exists."
+    },
+    {
+      "question": "A 9-foot deep trench in Type B soil is protected by a trench box (shield). The trench box is 8 feet tall but the contractor has it sitting 2 feet above the trench bottom, leaving the bottom 3 feet of the trench walls exposed (9 feet depth - 6 feet inside the shield). Workers are laying pipe at the bottom. Is this shield placement compliant?",
+      "options": [
+        "A. Yes — the shield covers most of the depth; the bottom exposure is acceptable",
+        "B. No — shields must extend from the trench bottom to at least 18 inches above the top of the vertical face, unless benching is used; workers must be fully within the shielded area",
+        "C. Yes — the shield only needs to cover the top half of the trench where collapse initiates",
+        "D. No — but only because the shield must touch the very bottom of the trench"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(g)(2): shields shall be installed in a manner to restrict lateral or other hazardous movement. Industry standards (recognized by OSHA) require the shield to extend from the bottom of the trench to a height of no less than 18 inches above the vertical face of the trench wall. Workers must stay WITHIN the protected envelope of the shield at all times. A worker at the bottom of this trench with the shield 2 feet above the bottom is outside the protective envelope — exposed to a wall collapse that could entrap or crush them."
+    },
+    {
+      "question": "In a 7-foot deep excavation with vertical walls in Type A soil (clay), the competent person decides no protective system is needed because of the soil type. Is this decision correct?",
+      "options": [
+        "A. Yes — Type A soil is cohesive and sufficiently strong to stand vertically up to 10 feet",
+        "B. No — ALL excavations 5 feet or deeper require a protective system unless the excavation is made entirely in STABLE ROCK, regardless of soil type",
+        "C. Yes — but only if the competent person documents the decision in writing",
+        "D. No — but a safety monitor may substitute for a protective system in Type A soil"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(a)(1)(ii): excavations 5 feet or more in depth shall be protected from cave-ins unless the excavation is made entirely in STABLE ROCK. Stable rock means natural solid mineral matter that can be excavated with vertical sides and remain intact while exposed. Soil — even Type A clay — is NOT stable rock. Type A soil has unconfined compressive strength ≥1.5 tsf, which is strong but will still fail in time, especially after exposure to air, rain, or loading. The only legal way to have NO protective system at 5+ feet is STABLE ROCK. Everything else requires shoring, shielding, or sloping."
+    },
+    {
+      "question": "Workers are in a 6-foot trench laying electrical conduit. The nearest ladder is 50 feet away at the end of the trench. The trench is straight but the workers have to walk through mud to reach the ladder. What does 1926.651(c)(2) require for egress?",
+      "options": [
+        "A. One ladder is sufficient for any trench length",
+        "B. Means of egress (ladder, ramp, or stairway) must be provided so that no worker has to travel more than 25 feet laterally to reach it in trenches 4 feet or more in depth",
+        "C. Ladders are only required in trenches over 10 feet deep",
+        "D. Workers can climb the trench wall if no ladder is nearby"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(c)(2): a stairway, ladder, ramp, or other safe means of egress shall be located in trench excavations that are 4 feet (1.22 m) or more in depth so as to require no more than 25 feet (7.62 m) of lateral travel for employees. At 50 feet, the workers are 25 feet beyond the maximum allowed travel distance. In a collapse, seconds matter — an extra 25 feet of travel through mud could mean the difference between escape and burial."
+    },
+    {
+      "question": "Surface water from a rainstorm the previous night has accumulated to 8 inches deep at the bottom of a 7-foot footing excavation. The competent person arrives in the morning and finds workers pumping the water with a trash pump while standing in the water. Is this safe practice?",
+      "options": [
+        "A. Yes — pumping while working is standard practice to dewater excavations",
+        "B. No — employees shall not work in excavations where water has accumulated unless proper precautions (shoring, special equipment, water removal) protect them from the hazards",
+        "C. Yes — the competent person can observe the workers while they pump",
+        "D. No — but only because trash pumps are not rated for trench dewatering"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(h)(1): employees shall not work in excavations in which there is accumulated water, or in excavations in which water is accumulating, unless adequate precautions have been taken. Water-saturated soil loses strength dramatically — what was Type B soil yesterday may be Type C (or worse) after a rain. Standing water also obscures the trench bottom, hiding scour holes, undermined sections, and soft spots. The competent person must reclassify the soil after the rain, implement a dewatering plan, and ensure the protective system accounts for the weakened soil conditions before workers re-enter."
+    },
+    {
+      "question": "A backhoe is excavating next to an existing building foundation. The excavation is 10 feet deep. There is no shoring or underpinning of the adjacent foundation. The competent person is concerned the foundation may be undermined. What does OSHA require?",
+      "options": [
+        "A. As long as the backhoe stays 2 feet from the building, no additional protection is needed",
+        "B. The building may need to be evacuated during excavation",
+        "C. If the stability of adjoining structures is endangered by an excavation, support systems such as shoring, bracing, or underpinning shall be provided to ensure the stability of the structure",
+        "D. The competent person's concern is sufficient; no engineered solution is required"
+      ],
+      "answer": "C",
+      "analysis": "1926.651(i)(1): where the stability of adjoining buildings, walls, or other structures is endangered by excavation operations, support systems such as shoring, bracing, or underpinning shall be provided to ensure the stability of such structures for the protection of employees. An adjacent foundation undermined by a 10-foot excavation can settle, crack, and collapse. A registered professional engineer may need to design the support system. The 2-foot rule in (A) applies to spoil piles, not adjacent structures."
+    },
+    {
+      "question": "The competent person performs a visual and manual soil test before classifying a 12-foot excavation. The soil is cohesive and can be molded into a 2-inch thread without crumbling. A pocket penetrometer reads 1.2 tsf. No fissures, vibration, or water is present. Based on 1926 Subpart P Appendix A, what is the correct soil classification?",
+      "options": [
+        "A. Type A — cohesive soil, strength ≥1.5 tsf? Actually the penetrometer reads 1.2 tsf, which is below the 1.5 tsf threshold, so this would be Type B",
+        "B. Stable Rock — no protective system required",
+        "C. Type C — all cohesive soils are Type C",
+        "D. Type A — because it can be rolled into a thread without crumbling"
+      ],
+      "answer": "A",
+      "analysis": "Wait — per 1926 Subpart P Appendix A, Type A soil requires unconfined compressive strength ≥1.5 tsf. A penetrometer reading of 1.2 tsf does NOT meet this threshold. The correct classification is Type B: cohesive soil with unconfined compressive strength between 0.5 tsf and 1.5 tsf. The 2-inch thread test confirms cohesiveness but not strength. The penetrometer value of 1.2 tsf is the definitive measurement. This is Type B soil. Many accidents occur because soil is incorrectly classified as Type A based on appearance and feel alone, when quantitative testing shows it's weaker."
+    },
+    {
+      "question": "A competent person classifies soil in a 12-foot excavation as Type B. The excavation walls are vertical. What protective system options are available?",
+      "options": [
+        "A. No protection needed for Type B soil under 15 feet",
+        "B. Type B with vertical walls requires: sloping at 1:1 (45 degrees), benching per Table B-1, OR a trench box/shoring designed for Type B loads; unshielded vertical walls in Type B are not permitted at 12 feet",
+        "C. Only benching is allowed for Type B",
+        "D. Vertical walls are acceptable for Type B up to 20 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(b)(2) Table B-1: for Type B soil, the maximum allowable slope is 1:1 (45 degrees) for excavations under 20 feet. Vertical walls (90 degrees) are only permitted in stable rock or Type A soil (with specific conditions). Type B soil at 12 feet with vertical walls requires a protective system."
+    },
+    {
+      "question": "A crew is installing a sewer line in a 14-foot deep trench with Type C soil. The contractor plans to use aluminum hydraulic shoring engineered for Type B soil. Can this shoring be used?",
+      "options": [
+        "A. Yes — shoring approved for Type B can handle Type C",
+        "B. No — shoring must be designed for the specific soil type; Type C exerts significantly more lateral earth pressure than Type B at the same depth",
+        "C. Yes — aluminum shoring is rated for all soil types",
+        "D. No — hydraulic shoring is prohibited in Type C soil entirely"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(c)(2): manufacturer's tabulated data shall be followed — the data specifies allowable configurations, depths, and soil types. Type C soil (unconfined compressive strength ≤0.5 tsf, granular soils, or submerged soil) exerts significantly higher lateral pressure. Using shoring rated only for Type B is equivalent to using an undersized protective system."
+    },
+    {
+      "question": "Spoil from a 9-foot deep trench is piled 18 inches from the edge. The pile is 4 feet high. A competent person says nothing. What does 1926.651(j)(1) require?",
+      "options": [
+        "A. Spoil can be at any distance as long as it doesn't fall back into the trench",
+        "B. Spoil piles must be kept at least 2 feet from the edge; at 18 inches with a 4-foot high pile, the surcharge on the trench wall may cause collapse",
+        "C. Spoil placement has no specific distance requirement",
+        "D. Spoil must be at least 10 feet from the edge"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(j)(1): material must be kept at least 2 feet from the edge. Additionally, the spoil pile creates a surcharge load on the trench wall — a 4-foot pile of soil (~100 psf per foot of height = 400 psf surcharge) significantly increases lateral pressure on the wall."
+    },
+    {
+      "question": "A worker enters a 5-foot trench for a 'quick repair.' The competent person classified the soil as Type A 3 hours ago. Since then, a water truck passed near the edge multiple times, and tension cracks appear 2 feet from the edge. Is the trench safe without a protective system?",
+      "options": [
+        "A. Yes — Type A soil at 5 feet doesn't require a protective system",
+        "B. No — conditions have changed: vibration from the truck and visible tension cracks indicate soil disturbance; re-classification is required, and the trench likely now needs a protective system",
+        "C. Yes — 5 feet is too shallow for a fatal cave-in",
+        "D. No — all trenches require protective systems regardless"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(a)(1): excavations 5 feet or deeper require protective systems. 1926.651(k)(1): daily inspections required and after any condition change. Vibration and tension cracks indicate the soil has been disturbed — Type A classification is likely no longer valid. A cubic yard of soil weighs over 2,700 lbs and can suffocate a worker in minutes."
+    },
+    {
+      "question": "A 9-foot trench in Type B soil has a trench box 8 feet tall. Workers install pipe 1 foot below the bottom of the box (in a 1-foot 'lip' of exposed soil). Is this acceptable?",
+      "options": [
+        "A. Yes — the exposed soil is only 1 foot",
+        "B. No — the trench box must protect workers at all times; the 1-foot gap below the box exposes workers to soil collapsing inward",
+        "C. Yes — a 1-foot gap is standard practice",
+        "D. No — the box must be exactly at the trench floor level"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(g)(2): employees must be within the protection of the shield at all times. If the box is 8 feet tall in a 9-foot trench, there is a 1-foot zone at the bottom that is not protected. The box should extend from trench floor to above the trench top, or workers must stay within the protected envelope."
+    },
+    {
+      "question": "A 7-foot deep foundation excavation in Type A clay has vertical walls. The competent person decides no protective system is needed because Type A is stable. However, the excavation is 20 feet wide. Does width matter?",
+      "options": [
+        "A. No — soil classification rules are the same regardless of width",
+        "B. Width matters: wide excavations lose the arching effect that narrow trenches benefit from; wide excavations have greater exposed face area and higher total lateral force",
+        "C. Wide excavations are safer than narrow trenches",
+        "D. Width only matters for access/egress requirements"
+      ],
+      "answer": "B",
+      "analysis": "Narrow trenches benefit from soil arching (horizontal stress transfer between walls), which reduces effective lateral earth pressure. Wide excavations lose this effect — the exposed face behaves more like a retaining wall with full active earth pressure. At 20 feet wide and 7 feet deep, the competent person should be conservative and consider sloping or shoring, especially for longer-duration exposures."
+    },
+    {
+      "question": "Workers are in a 6-foot trench laying conduit. The nearest ladder is 50 feet away. The trench is a straight run. Is this compliant?",
+      "options": [
+        "A. Yes — one ladder per trench is sufficient",
+        "B. No — 1926.651(c)(2) requires ladders in trench excavations to be located no more than 25 feet of lateral travel from any worker; a second ladder is required",
+        "C. Yes — 6-foot trenches don't require ladders",
+        "D. No — ladders must be every 15 feet"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(c)(2): a stairway, ladder, ramp or other safe means of egress shall be located in trench excavations 4 feet or more in depth so as to require no more than 25 feet of lateral travel. With workers 50 feet from the ladder, a second ladder is required at the far end. In a cave-in, seconds matter."
+    },
+    {
+      "question": "A 16-foot excavation in Type C sand has 8 inches of water accumulated from overnight rain. The trench is protected by a trench box. Workers are scheduled to enter. What must the competent person do?",
+      "options": [
+        "A. Allow work — the trench box provides protection regardless of water",
+        "B. Water must be removed and the soil re-evaluated — Type C sand saturated with water may have reduced stability, and the trench box's bearing at the floor may be compromised",
+        "C. Workers can work with rubber boots",
+        "D. Only water clarity matters"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(h)(1): employees shall not work in excavations with accumulated water unless adequate precautions are taken. Water saturates soil, reducing bearing capacity and potentially causing the trench box to sink. Type C sand with water becomes flowable (quick condition). The competent person must pump out water, verify the floor is stable, and recheck the protective system before workers enter."
+    },
+    {
+      "question": "A backhoe is excavating next to an existing building foundation. The excavation is 10 feet deep, extending 2 feet below the existing footing. What protection is needed?",
+      "options": [
+        "A. Nothing — the building was there first and is stable",
+        "B. Undermining an existing foundation requires shoring, underpinning, or other positive support before excavation proceeds below the footing's bearing level per 1926.651(i)(1)",
+        "C. Excavate quickly and backfill immediately",
+        "D. The 2-foot difference is negligible"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(i)(1): where the stability of adjoining buildings is endangered by excavation operations, support systems such as shoring, bracing, or underpinning shall be provided. Excavating below an existing footing removes lateral and bearing support — the foundation can settle, crack, or collapse. An RPE should evaluate and design the support system."
+    },
+    {
+      "question": "A competent person uses the thumb penetration test. The thumb penetrates about 1/2 inch with moderate effort in undisturbed soil. How would this soil be preliminarily classified?",
+      "options": [
+        "A. Type A — only very hard soils resist thumb penetration",
+        "B. Type B — the thumb penetrates with moderate effort, indicating unconfined compressive strength between 0.5 and 1.5 tsf",
+        "C. Type C — any thumb penetration indicates Type C",
+        "D. The thumb test alone cannot classify soil"
+      ],
+      "answer": "B",
+      "analysis": "1926 Subpart P Appendix A(d): when the thumb penetrates no more than the length of the thumbnail with moderate effort, it's probably Type B. Type A requires great effort to indent; Type C is easily penetrated. Multiple tests (visual and manual) are required for definitive classification."
+    },
+    {
+      "question": "A supervisor wants workers to enter a 15-foot deep manhole excavation with aluminum hydraulic shoring. The manufacturer's tabulated data for Type B soil shows a maximum depth of 12 feet for this configuration. The supervisor says 'it's only 3 feet deeper.' Is this acceptable?",
+      "options": [
+        "A. Yes — 3 feet past tabulated depth is within the safety factor",
+        "B. No — manufacturer's tabulated data is a limit; exceeding the maximum depth by 25% means the shoring is operating outside its proven design envelope",
+        "C. Yes — the crew can add extra cylinders",
+        "D. No — but only because it's a manhole"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(c)(2): manufacturer's tabulated data shall be followed. At 15 feet vs. 12 feet max, lateral earth pressure is approximately 25% higher. The shoring cylinders and rails are loaded beyond design capacity. The correct action: slope the top 3 feet at 1:1, use a different configuration rated for 15 feet in Type B, or have an RPE design the system."
+    },
+    {
+      "question": "A trench box is lowered into a 13-foot deep excavation. The box is 6 feet wide and suspended 2 feet above the trench floor by the excavator while workers work at floor level. Is this acceptable?",
+      "options": [
+        "A. Yes — the box can be suspended; workers are protected from sidewall collapse",
+        "B. No — the shield must be set on the trench floor; a suspended shield can shift, tilt, or drop if the excavator moves or hydraulics bleed, crushing workers below",
+        "C. Yes — suspending the box makes it easier to move",
+        "D. No — the box must extend above the trench top as well"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(g)(1)(ii): shields shall be securely installed to prevent lateral movement. A suspended shield is not securely installed. If the excavator's hydraulics bleed, the box can descend, crushing workers. The box must be set on the trench floor so its weight is supported by the ground."
+    },
+    {
+      "question": "Traffic vibrations from heavy trucks are noticeable at a trench edge. The competent person classified the soil as Type B this morning. Small clods of soil are falling from the trench wall. What should be done?",
+      "options": [
+        "A. Nothing — the morning classification is still valid",
+        "B. Re-evaluate the soil classification and protective system — vibration degrades soil cohesion; falling clods indicate the wall is becoming unstable",
+        "C. Just add more shoring without reclassifying",
+        "D. Traffic vibration only affects the surface"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(k)(1): the competent person shall inspect after any occurrence that could affect stability. Traffic vibration can increase pore water pressure, rearrange soil particles, and propagate tension cracks. Falling clods are a warning sign of wall degradation. The soil may need to be reclassified to Type C."
+    },
+    {
+      "question": "A trench is dug through an area with fill material (construction debris, gravel, soil mix). The competent person cannot classify it using standard methods. The trench is 8 feet deep with vertical walls. How should this be classified?",
+      "options": [
+        "A. Type A — fill with gravel is stable",
+        "B. Type C — previously disturbed soil and heterogeneous fill cannot be classified higher than Type C",
+        "C. Unclassifiable, so no protective system is required",
+        "D. Type B — as long as the penetrometer gives some high readings"
+      ],
+      "answer": "B",
+      "analysis": "1926 Subpart P Appendix A(b): 'Type C' includes gravel, submerged soil, AND 'any soil that has been previously disturbed.' Fill material is previously disturbed by definition. Appendix A(c)(1): Type A soil must NOT have been previously disturbed. Heterogeneous fill with debris is unpredictable and must be classified as Type C, requiring a protective system rated for Type C at 8 feet."
+    },
+    {
+      "question": "Workers in a 7-foot trench have a ladder that extends 2 feet above grade (the ladder is 9 feet long). Subpart X requires ladders to extend at least 3 feet above the landing surface. Does this apply?",
+      "options": [
+        "A. No — trench ladders have separate requirements",
+        "B. 1926.651(c)(2) references Subpart X — the 3-foot extension requirement applies: the ladder must extend 3 feet above the trench edge for safe handhold during entry/exit",
+        "C. 1 foot of extension is sufficient",
+        "D. Trench ladders only need to reach the surface"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(c)(2): egress from trench excavations shall comply with 1926 Subpart X. 1926.1053(b)(1): portable ladders shall extend at least 3 feet above the upper landing surface. Without adequate extension, a worker lacks a secure grip while stepping off and can fall backward into the trench. The ladder must also be secured to prevent displacement."
+    },
+    {
+      "question": "A contractor is excavating a basement 18 feet deep in Type B soil. The sides are sloped at 1:1 per Table B-1. Halfway down, there is a 6-foot wide bench before the slope continues. Workers stand on the bench. Is this adequate?",
+      "options": [
+        "A. Yes — the 6-foot bench provides a safe platform",
+        "B. The bench must be designed as part of the protective system — standard benching under Table B-1 has specific dimensional requirements; an arbitrary 6-foot bench may not meet the standard configuration",
+        "C. Benching is prohibited — only sloping is allowed",
+        "D. Any bench wider than 4 feet is adequate"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(b)(2) Table B-1 allows benching for Type B soil. However, Appendix B specifies specific configurations — standard bench dimensions are based on vertical spacing (typically 5-foot max between benches) and horizontal width (typically 4-foot minimum). An arbitrary bench at a random height may not meet the prescribed configuration. The contractor should follow the benching diagram or have an RPE design the system."
+    },
+    {
+      "question": "During pipe-laying, the trench box is dragged forward by the excavator as pipe is laid. Workers remain inside the box during movement. The competent person says 'everyone does this.' What does OSHA require?",
+      "options": [
+        "A. This is standard practice — workers can remain in the box",
+        "B. Workers must exit the shield before it is moved — moving a shield with workers inside exposes them to crush hazards if the shield tilts or soil collapses against it",
+        "C. Workers can stay if the excavator moves slowly",
+        "D. OSHA does not address moving shields with workers inside"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(e)(1): employees shall not be permitted in excavations when protective systems are being installed, removed, or modified, unless the system was designed by an RPE to allow employees to remain. Moving a shield is a modification — the soil behind becomes temporarily unsupported. Workers must exit, the shield moved, and re-enter only after the competent person verifies proper positioning."
+    },
+    {
+      "question": "A 22-foot deep excavation is being designed. Soil is Type B. Table B-1 applies to excavations up to 20 feet. What is required?",
+      "options": [
+        "A. Slope at 1:1 — the 20-foot limit is just a guideline",
+        "B. Any excavation over 20 feet deep requires a protective system designed by a Registered Professional Engineer; the contractor cannot rely solely on Table B-1",
+        "C. Use a 1.5:1 slope instead",
+        "D. Add 2 feet of shoring"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(b)(3): excavations over 20 feet in depth require a protective system designed by an RPE. Table B-1 sloping/benching configurations are valid only for excavations 20 feet deep or less. This is a hard threshold — no amount of contractor experience can substitute for the RPE requirement at depths exceeding 20 feet."
+    },
+    {
+      "question": "Water seeps into a 6-foot trench through the wall. A sump pump removes it, discharging 10 feet from the edge. A worker is concerned about erosion. Is this valid?",
+      "options": [
+        "A. No — as long as the pump removes water, the trench is safe",
+        "B. Yes — water seeping through the wall causes internal erosion (piping), undermining the wall; seepage also indicates the soil may be reclassified as Type C",
+        "C. Only the competent person can assess water concerns",
+        "D. Water seepage is normal"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(h)(1): where water accumulates, precautions shall be taken. Water seeping through a trench wall carries soil particles (piping), creating voids behind the face. Saturated soil is, by definition, not Type A or B. Well-point dewatering (lowering the water table before excavation) is preferable to sump pumping alone."
+    },
+    {
+      "question": "A worker in a 9-foot trench with a trench box removes their hard hat because 'the box protects us.' A tool falls from the surface into the trench. What hazard does the trench box NOT protect against?",
+      "options": [
+        "A. No hazard — the trench box is comprehensive protection",
+        "B. Trench boxes protect against cave-ins (lateral soil collapse), NOT against falling objects; hard hats are essential additional protection",
+        "C. The tool would have bounced off the box",
+        "D. Hard hats are not required inside trench boxes"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(j)(1): protection from falling materials is a separate requirement from cave-in protection. The trench box has no roof — objects falling from the surface enter vertically. 1926.100(a): protective helmets are required where there is danger of head injury from falling objects. A tool dropped from 9 feet imparts significant impact force."
+    },
+    {
+      "question": "A competent person uses a pocket penetrometer reading 1.2 tsf on cohesive clay and classifies it as Type A. No other tests were done. Is this classification defensible?",
+      "options": [
+        "A. Yes — 1.2 tsf with cohesive clay is Type A",
+        "B. No — Type A requires unconfined compressive strength of 1.5 tsf or greater; 1.2 tsf is Type B range. Additionally, multiple tests are required",
+        "C. Penetrometer tests supersede all other tests",
+        "D. The competent person's judgment is all that matters"
+      ],
+      "answer": "B",
+      "analysis": "1926 Subpart P Appendix A(c)(1)(ii): Type A requires unconfined compressive strength of 1.5 tsf or greater. At 1.2 tsf, the soil is Type B (0.5-1.5 tsf). Appendix A(d) requires at least one visual AND one manual test — a single penetrometer reading is insufficient."
+    },
+    {
+      "question": "After a 3-inch rainstorm, a 12-foot trench in Type B soil with hydraulic shoring has 2 feet of water. The competent person plans to pump it out and resume work 1 hour later without adjusting the shoring. Is this sufficient?",
+      "options": [
+        "A. Yes — once pumped out, conditions return to pre-rain status",
+        "B. No — the rain requires: pumping, inspecting shoring for displacement, re-evaluating soil (saturated = Type C), verifying floor bearing capacity is still adequate for shoring",
+        "C. Hydraulic shoring is waterproof",
+        "D. The trench must be completely backfilled and re-excavated"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(h)(1): employees shall not work in excavations with water unless precautions are taken. Water exerts hydrostatic pressure on walls, can shift shoring, saturates soil (Type C), and reduces floor bearing capacity. A thorough re-inspection of the entire protective system is required before workers re-enter."
+    },
+    {
+      "question": "A trench in Type B soil is open for 3 weeks. After 1 week of hot dry weather, tension cracks appear 3 feet from the edge. Hydraulic shoring pressure has dropped 20%. Workers continue. What must happen?",
+      "options": [
+        "A. Continue — cracks are normal in dry weather",
+        "B. The competent person must re-inspect: tension cracks indicate potential block failure; the 20% pressure drop must be corrected (re-pressurized); workers must be removed until both issues are resolved",
+        "C. Just re-pressurize and continue",
+        "D. Tension cracks only matter within 2 feet of the edge"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(k)(1): inspections required after any condition change. Tension cracks are a serious precursor to block failure (toppling or sliding) — this failure mode is sudden with no warning. 1926.652(d)(2): hydraulic shoring shall be maintained to specified pressure. A 20% drop means the wall is under-supported."
+    },
+    {
+      "question": "How many cubic yards of soil must collapse to cause a fatal cave-in?",
+      "options": [
+        "A. At least 5 cubic yards",
+        "B. A single cubic yard weighs ~2,700-3,000 lbs; a collapse of just 1-2 cubic yards can completely bury and suffocate a worker — soil fills lungs and compresses the chest",
+        "C. Cave-ins are rarely fatal",
+        "D. Only full trench wall collapses cause fatalities"
+      ],
+      "answer": "B",
+      "analysis": "A cubic yard of soil weighs 2,700-3,000 lbs. Even 2-3 feet of wall collapsing along a section can release 1-2 cubic yards. Soil weight on a worker's chest prevents breathing (traumatic asphyxia), and soil in the mouth/nose causes suffocation. Unlike water, soil does not 'swim' — the worker is immobilized instantly. Rescue is extremely difficult; prolonged burial even 5-10 minutes is often fatal."
+    },
+    {
+      "question": "A benching system for a 16-foot excavation in Type A soil uses Appendix B Figure B-1. After 4 days, vertical bench faces are spalling (peeling). The soil appears drier. What is happening?",
+      "options": [
+        "A. Normal drying — benches always spall",
+        "B. The soil is degrading from Type A to a lower classification due to weathering (desiccation); the benching designed for Type A may no longer be adequate — reclassification is required",
+        "C. Spalling is just cosmetic",
+        "D. The excavation must be backfilled"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(k)(1): inspection required after condition changes. Soil exposed to atmosphere weathers — clay shrinks and cracks as it dries (desiccation), creating fissures that reduce mass strength. Bench faces spalling are a visible sign of this degradation. The competent person must reclassify the soil and potentially modify the protective system to meet Type B requirements."
+    },
+    {
+      "question": "A worker is in a 6-foot trench kneeling to make a pipe connection. Their hard hat falls and rolls outside the trench box. They crawl out of the box for a moment to retrieve it. Is this 10-second exposure outside the box acceptable?",
+      "options": [
+        "A. Yes — it was only 10 seconds",
+        "B. No — employees must be within the protection of the shield at ALL times; a 6-foot vertical wall can collapse without warning, and 10 seconds is more than enough time to be caught in a cave-in",
+        "C. Yes — the worker was retrieving safety equipment",
+        "D. The worker should have asked the competent person first"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(g)(2): employees must be within the protection of the shield at all times. There is no 'short exposure' exception. Soil failure is often instantaneous. Proper procedure: exit the trench entirely using the ladder, retrieve the hard hat from the surface, re-enter using the ladder."
+    },
+    {
+      "question": "A contractor digging a 5-foot trench for a water line decides no protective system is needed because it's 'only 5 feet deep.' Is this correct?",
+      "options": [
+        "A. Yes — 5 feet is the cutoff",
+        "B. No — 1926.652(a)(1) requires protective systems for excavations '5 feet or more in depth'; '5 feet or more' includes exactly 5 feet (unless entirely in stable rock)",
+        "C. Yes — '5 feet and deeper' means deeper than 5 feet",
+        "D. The competent person can decide case by case"
+      ],
+      "answer": "B",
+      "analysis": "1926.652(a)(1)(i): protective systems are required for excavations 5 feet or more in depth, except those made entirely in stable rock or those less than 5 feet where a competent person finds no indication of potential cave-in. The standard's plain language covers exactly 5 feet — the exception is for 'less than 5 feet.' Many contractors misinterpret this."
+    },
+    {
+      "question": "A crew is digging a 12-foot-deep trench in Type B soil. The trench runs parallel to a busy highway, and vibrations from traffic are noticeable. The competent person classified the soil as Type B based on one manual test. What additional protective measure is required?",
+      "options": [
+        "A. No additional measure — Type B classification already accounts for traffic loads",
+        "B. The protective system must be designed to account for the surcharge load from highway traffic",
+        "C. A spotter must be assigned to watch for falling debris from the highway",
+        "D. The trench must be backfilled and re-excavated when traffic is lighter"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(c) requires that surface encumbrances and surcharge loads (including nearby vehicle traffic, spoil piles, and equipment) be considered in the design of protective systems. Traffic-induced vibration can destabilize trench walls and invalidate a Type B classification. 1926.652 requires protective systems designed by a registered professional engineer when surcharge loads are present beyond what the standard tabulated data covers. OSHA Standard Interpretation letters consistently reaffirm that highway vibration constitutes a surcharge hazard."
+    },
+    {
+      "question": "An excavation is 5 feet deep in stable rock. The competent person inspects it at the start of the shift and finds no issues. A rainstorm passes through at 10 AM but the trench appears dry. When must the next inspection occur?",
+      "options": [
+        "A. At the end of the shift — stable rock doesn't require re-inspection",
+        "B. Immediately after the rainstorm — weather changes require re-inspection regardless of soil type",
+        "C. The next morning — daily inspections are sufficient for rock",
+        "D. Within 24 hours, per standard inspection frequency"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(k)(1) requires daily inspections by a competent person, AND after every rainstorm or other hazard-increasing occurrence. 'Stable rock' is the exception to protective system requirements under 1926.652(b)(1)(i), but the inspection requirement of 1926.651(k)(1) applies to ALL excavations regardless of soil type. Rain can seep into rock fissures, create hydrostatic pressure, and cause rockfall — making immediate re-inspection mandatory."
+    },
+    {
+      "question": "A 6-foot deep trench in Type C soil is being excavated near an existing underground fiber optic line. The one-call center marked the line, but the exact depth is uncertain. The operator begins digging within 2 feet of the marking using a backhoe. Is this compliant?",
+      "options": [
+        "A. Yes — as long as the one-call center was notified at least 24 hours in advance",
+        "B. No — within the tolerance zone, mechanical excavation is prohibited; only hand digging or vacuum excavation is permitted",
+        "C. Yes — the operator is staying 2 feet away from the markings, which is the OSHA minimum",
+        "D. No — but only because fiber optics require 5-foot clearance, unlike gas lines"
+      ],
+      "answer": "B",
+      "analysis": "1926.651(b)(2) requires that while the excavation is open, underground installations be protected, supported, or removed as necessary to safeguard employees. Additionally, 1926.651(b)(1) requires the exact location of underground installations to be determined prior to excavation. Most state one-call laws define a tolerance zone (typically 18-24 inches on either side of the marking), within which ONLY hand digging or non-invasive methods (vacuum excavation) are permitted. Using a backhoe within 2 feet of a marked utility line violates both OSHA requirements and industry practice (CGA Best Practices)."
+    }
+  ]
+}
