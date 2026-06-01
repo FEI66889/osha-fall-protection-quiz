@@ -4,11 +4,14 @@ GSC Long-Tail Attack Script
 用法: python3 gsc_attack.py "osha subpart m guardrail height requirements 2026" [--num 20] [--mode bonus]
 """
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+
+DATA_DIR = ROOT / "data"
 
 sys.path.insert(0, str(ROOT))
 
@@ -80,6 +83,19 @@ def api_generate(keyword: str, topic: str, num: int) -> dict | None:
     return data
 
 
+def save_json(slug: str, data: dict, force: bool = False) -> bool:
+    """保存 JSON 到 data/{slug}.json，已存在时询问"""
+    path = DATA_DIR / f"{slug}.json"
+    if path.exists() and not force:
+        answer = input(f"   ⚠️ {path.name} 已存在，覆盖？[y/N] ").strip().lower()
+        if answer != "y":
+            print("   ⏭ 跳过，不覆盖")
+            return False
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"   💾 已保存: {path}")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(description="GSC Long-Tail Attack — 一键长尾词攻击脚本")
     parser.add_argument("keyword", type=str, help="GSC 长尾关键词")
@@ -108,6 +124,10 @@ def main():
     data = api_generate(args.keyword, topic, args.num)
     if data is None:
         sys.exit(1)
+
+    # Step 3: 保存 JSON
+    if not save_json(slug, data):
+        sys.exit(0)
 
 
 if __name__ == "__main__":
