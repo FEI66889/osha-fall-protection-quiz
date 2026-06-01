@@ -185,7 +185,11 @@ def update_sitemap(slug: str, domain: str, priority: str = "0.9") -> bool:
         print("⚠️ sitemap.xml 不存在，跳过")
         return False
 
-    tree = ET.parse(str(sitemap_path))
+    try:
+        tree = ET.parse(str(sitemap_path))
+    except ET.ParseError as e:
+        print(f"❌ sitemap.xml 格式错误: {e}")
+        return False
     root = tree.getroot()
 
     # 检查是否已存在
@@ -226,16 +230,20 @@ def git_auto_push(slug: str, keyword: str, mode: str) -> bool:
         print(f"❌ git add 失败: {result.stderr}")
         return False
 
-    # git commit
+    # git commit (gracefully handle "nothing to commit")
     msg = f"attack(gsc): {keyword}"
     result = subprocess.run(
         ["git", "commit", "-m", msg],
         cwd=str(ROOT), capture_output=True, text=True
     )
     if result.returncode != 0:
-        print(f"❌ git commit 失败: {result.stderr}")
-        return False
-    print(f"   📝 Committed: {msg}")
+        if "nothing to commit" in result.stderr or "nothing to commit" in result.stdout:
+            print("   📝 无新内容需要 commit，跳过")
+        else:
+            print(f"❌ git commit 失败: {result.stderr}")
+            return False
+    else:
+        print(f"   📝 Committed: {msg}")
 
     # git push
     print("   🚀 Pushing to GitHub...")
@@ -255,35 +263,42 @@ def chapter_mode_append(slug: str, topic: str) -> bool:
     build_site_path = ROOT / "build_site.py"
     content = build_site_path.read_text(encoding="utf-8")
 
-    # 找到 chapters 列表最后一个元素（Confined Spaces）
-    marker = '{"topic": "29 CFR 1926.800-806 — Confined Spaces'
-    if marker not in content:
-        print("❌ 找不到 chapters 列表标记，build_site.py 结构可能已变化")
+    # 检查 slug 是否已存在
+    if f'"slug": "{slug}"' in content:
+        print(f"   ⚠️ build_site.py 已包含 slug: {slug}")
+        return True  # 已存在，不算失败
+
+    # 使用行级操作：在 chapters 列表的最后一个条目之后，"]" 之前插入
+    lines = content.split("\n")
+    new_lines = []
+    inserted = False
+
+    for i, line in enumerate(lines):
+        new_lines.append(line)
+        # 查找 chapters 列表的最后一个条目（Confined Spaces）
+        if '"slug": "confined-spaces"' in line and not inserted:
+            # 检查下一行是否是 ]（列表结束）
+            next_line = lines[i + 1].strip() if i + 1 < len(lines) else ""
+            if next_line == "]":
+                short = topic[:30]
+                new_lines.append(f'        {{"topic": "{topic}", "slug": "{slug}", "short_title": "{short}"}},')
+                inserted = True
+
+    if not inserted:
+        print("❌ 无法在 build_site.py 中插入章节")
         return False
 
-    insert_after = '        {"topic": "29 CFR 1926.800-806 — Confined Spaces (密闭空间)", "slug": "confined-spaces", "short_title": "Confined Spaces"},'
-    new_entry = f'        {{"topic": "{topic}", "slug": "{slug}", "short_title": "{topic[:30]}"}},\n'
-
-    modified = content.replace(
-        insert_after,
-        insert_after + "\n" + new_entry
-    )
-
-    if modified == content:
-        print("❌ 修改 build_site.py 失败")
-        return False
-
-    build_site_path.write_text(modified, encoding="utf-8")
+    build_site_path.write_text("\n".join(new_lines), encoding="utf-8")
     print(f"   📝 已添加章节到 build_site.py: {slug}")
 
-    # 运行 build_site.py 重建首页
+    # 运行 build_site.py 重建
     print("   🔨 运行 build_site.py 重建全站...")
     result = subprocess.run(
         ["python3", str(build_site_path)],
         cwd=str(ROOT), capture_output=True, text=True
     )
     if result.returncode != 0:
-        print(f"❌ build_site.py 失败: {result.stderr}")
+        print(f"❌ build_site.py 失败:\n{result.stderr[-500:]}")
         return False
     print("   ✅ 全站重建完成")
     return True
@@ -307,6 +322,7 @@ def main():
     parser.add_argument("--num", type=int, default=20, help="题量 (10-40, default 20)")
     parser.add_argument("--mode", type=str, default="bonus", choices=["bonus", "chapter"], help="模式 (default bonus)")
     parser.add_argument("--cleanup", type=str, default=None, help="删除指定 slug 的测试文件")
+    parser.add_argument("--force", action="store_true", help="强制覆盖已存在的 JSON 文件")
     args = parser.parse_args()
 
     if args.cleanup:
@@ -351,7 +367,7 @@ def main():
         sys.exit(1)
 
     # Step 3: 保存 JSON
-    if not save_json(slug, data):
+    if not save_json(slug, data, force=args.force):
         sys.exit(0)
 
     # Chapter mode: 追加到 build_site.py 并重建全站
