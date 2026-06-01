@@ -29,10 +29,12 @@ from build_site import get_client, call_claude  # type: ignore  # noqa
 
 def keyword_to_slug_topic(keyword: str) -> tuple[str, str]:
     """纯字符串处理，不调外部 API"""
-    # Topic: 首字母大写 + 末尾加 " Quiz"
-    topic = keyword.strip().title() + " Quiz"
-    # Slug: 小写 + 非字母数字替换为 - + 去重 - + 去首尾 - + max 60 chars
-    slug = re.sub(r"[^a-z0-9]+", "-", keyword.strip().lower())
+    kw = keyword.strip()
+    topic = kw.title()
+    # 避免 "Quiz Quiz" 重复
+    if not topic.lower().endswith(" quiz"):
+        topic += " Quiz"
+    slug = re.sub(r"[^a-z0-9]+", "-", kw.lower())
     slug = re.sub(r"-+", "-", slug)
     slug = slug.strip("-")[:60]
     return slug, topic
@@ -287,12 +289,29 @@ def chapter_mode_append(slug: str, topic: str) -> bool:
     return True
 
 
+def cleanup(slug: str) -> None:
+    """删除生成的测试文件（仅用于调试）"""
+    files_to_rm = [
+        DATA_DIR / f"{slug}.json",
+        DIST_DIR / f"{slug}.html",
+    ]
+    for f in files_to_rm:
+        if f.exists():
+            f.unlink()
+            print(f"   🗑 已删除: {f}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="GSC Long-Tail Attack — 一键长尾词攻击脚本")
     parser.add_argument("keyword", type=str, help="GSC 长尾关键词")
     parser.add_argument("--num", type=int, default=20, help="题量 (10-40, default 20)")
     parser.add_argument("--mode", type=str, default="bonus", choices=["bonus", "chapter"], help="模式 (default bonus)")
+    parser.add_argument("--cleanup", type=str, default=None, help="删除指定 slug 的测试文件")
     args = parser.parse_args()
+
+    if args.cleanup:
+        cleanup(args.cleanup)
+        return
 
     # 检查 git 状态（忽略 data/ 和 dist/ 未追踪文件）
     status = subprocess.run(
