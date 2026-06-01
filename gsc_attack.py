@@ -6,6 +6,7 @@ GSC Long-Tail Attack Script
 import argparse
 import json
 import re
+import subprocess
 import sys
 import xml.etree.ElementTree as ET
 from datetime import date, datetime
@@ -205,12 +206,69 @@ def update_sitemap(slug: str, domain: str, priority: str = "0.9") -> bool:
     return True
 
 
+def git_auto_push(slug: str, keyword: str, mode: str) -> bool:
+    """git add → commit → push"""
+    files = [
+        f"data/{slug}.json",
+        f"dist/{slug}.html",
+        "dist/sitemap.xml",
+    ]
+    if mode == "chapter":
+        files.append("dist/index.html")
+        files.append("build_site.py")
+
+    # git add
+    add_cmd = ["git", "add"] + files
+    result = subprocess.run(add_cmd, cwd=str(ROOT), capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"❌ git add 失败: {result.stderr}")
+        return False
+
+    # git commit
+    msg = f"attack(gsc): {keyword}"
+    result = subprocess.run(
+        ["git", "commit", "-m", msg],
+        cwd=str(ROOT), capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        print(f"❌ git commit 失败: {result.stderr}")
+        return False
+    print(f"   📝 Committed: {msg}")
+
+    # git push
+    print("   🚀 Pushing to GitHub...")
+    result = subprocess.run(
+        ["git", "push"],
+        cwd=str(ROOT), capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        print(f"❌ git push 失败: {result.stderr}")
+        return False
+    print("   ✅ Push 成功！Cloudflare Pages 正在自动部署")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(description="GSC Long-Tail Attack — 一键长尾词攻击脚本")
     parser.add_argument("keyword", type=str, help="GSC 长尾关键词")
     parser.add_argument("--num", type=int, default=20, help="题量 (10-40, default 20)")
     parser.add_argument("--mode", type=str, default="bonus", choices=["bonus", "chapter"], help="模式 (default bonus)")
     args = parser.parse_args()
+
+    # 检查 git 状态（忽略 data/ 和 dist/ 未追踪文件）
+    status = subprocess.run(
+        ["git", "status", "--porcelain"],
+        cwd=str(ROOT), capture_output=True, text=True
+    )
+    dirty_lines = [
+        line for line in status.stdout.strip().split("\n")
+        if line.strip() and not line.startswith("?? data/") and not line.startswith("?? dist/")
+    ]
+    if dirty_lines:
+        print("⚠️ Working directory 不干净：")
+        print("\n".join(dirty_lines[:10]))
+        print("请先 commit 或 stash 已有改动")
+        sys.exit(1)
 
     if not (10 <= args.num <= 40):
         print("❌ --num 范围: 10-40")
@@ -245,6 +303,10 @@ def main():
     # Step 5: 更新 sitemap
     priority = "0.9" if args.mode == "bonus" else "0.7"
     update_sitemap(slug, config.DOMAIN, priority)
+
+    # Step 6: Git auto push
+    if not git_auto_push(slug, args.keyword, args.mode):
+        sys.exit(1)
 
 
 if __name__ == "__main__":
