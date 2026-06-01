@@ -248,6 +248,45 @@ def git_auto_push(slug: str, keyword: str, mode: str) -> bool:
     return True
 
 
+def chapter_mode_append(slug: str, topic: str) -> bool:
+    """向 build_site.py 的 chapters 列表追加一行 entry"""
+    build_site_path = ROOT / "build_site.py"
+    content = build_site_path.read_text(encoding="utf-8")
+
+    # 找到 chapters 列表最后一个元素（Confined Spaces）
+    marker = '{"topic": "29 CFR 1926.800-806 — Confined Spaces'
+    if marker not in content:
+        print("❌ 找不到 chapters 列表标记，build_site.py 结构可能已变化")
+        return False
+
+    insert_after = '        {"topic": "29 CFR 1926.800-806 — Confined Spaces (密闭空间)", "slug": "confined-spaces", "short_title": "Confined Spaces"},'
+    new_entry = f'        {{"topic": "{topic}", "slug": "{slug}", "short_title": "{topic[:30]}"}},\n'
+
+    modified = content.replace(
+        insert_after,
+        insert_after + "\n" + new_entry
+    )
+
+    if modified == content:
+        print("❌ 修改 build_site.py 失败")
+        return False
+
+    build_site_path.write_text(modified, encoding="utf-8")
+    print(f"   📝 已添加章节到 build_site.py: {slug}")
+
+    # 运行 build_site.py 重建首页
+    print("   🔨 运行 build_site.py 重建全站...")
+    result = subprocess.run(
+        ["python3", str(build_site_path)],
+        cwd=str(ROOT), capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        print(f"❌ build_site.py 失败: {result.stderr}")
+        return False
+    print("   ✅ 全站重建完成")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(description="GSC Long-Tail Attack — 一键长尾词攻击脚本")
     parser.add_argument("keyword", type=str, help="GSC 长尾关键词")
@@ -296,9 +335,15 @@ def main():
     if not save_json(slug, data):
         sys.exit(0)
 
-    # Step 4: 渲染 HTML
-    if not render_html(slug, topic, data, config.DOMAIN):
-        sys.exit(1)
+    # Chapter mode: 追加到 build_site.py 并重建全站
+    if args.mode == "chapter":
+        if not chapter_mode_append(slug, topic):
+            sys.exit(1)
+        print("   ✅ Chapter 模式: build_site.py 已生成 HTML 和首页")
+    else:
+        # Bonus mode: 手动渲染单页 HTML
+        if not render_html(slug, topic, data, config.DOMAIN):
+            sys.exit(1)
 
     # Step 5: 更新 sitemap
     priority = "0.9" if args.mode == "bonus" else "0.7"
