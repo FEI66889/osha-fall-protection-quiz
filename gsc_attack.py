@@ -66,12 +66,17 @@ def api_generate(keyword: str, topic: str, num: int) -> dict | None:
     print(f"\n🤖 调用 {config.MODEL} 生成 {num} 道题...")
     data = call_claude(prompt)
     if data is None:
-        print("❌ API 调用失败（已重试 3 次）")
+        print("❌ API 调用失败")
         return None
-    if "questions" not in data or "seo_metadata" not in data:
-        print("❌ API 返回数据缺少必要字段")
+    # call_claude 已保证 questions 和 seo_metadata 字段存在，这里是 defence in depth
+    questions = data.get("questions")
+    if not isinstance(questions, list) or len(questions) == 0:
+        print("❌ API 返回的 questions 为空或格式错误")
         return None
-    print(f"   ✅ 生成 {len(data['questions'])} 道题")
+    if "seo_metadata" not in data:
+        print("❌ API 返回数据缺少 seo_metadata")
+        return None
+    print(f"   ✅ 生成 {len(questions)} 道题")
     return data
 
 
