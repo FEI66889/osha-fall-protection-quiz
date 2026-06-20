@@ -31,7 +31,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "{{ chapter_title }}",
-      "item": "{{ domain }}/{{ chapter_slug }}.html"
+      "item": "{{ domain }}/{{ chapter_slug }}"
     }{% if page_num > 1 %},
     {
       "@type": "ListItem",
@@ -49,7 +49,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Quiz",
-  "@id": "{{ domain }}/{{ chapter_slug }}.html#quiz",
+  "@id": "{{ domain }}/{{ chapter_slug }}#quiz",
   "name": "{{ chapter_title }}",
   "about": "OSHA {{ chapter_title }} practice test with detailed 29 CFR references",
   "educationalLevel": "OSHA 30-Hour Construction",
@@ -287,12 +287,12 @@
   <div class="text-center mb-4">
     <p class="text-xs text-gray-400 mb-3">Popular chapters:</p>
     <div class="flex flex-wrap justify-center gap-x-4 gap-y-2">
-      <a href="/fall-protection.html" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Fall Protection</a>
-      <a href="/scaffold-safety.html" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Scaffold Safety</a>
-      <a href="/electrical-safety.html" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Electrical Safety</a>
-      <a href="/excavation-trenching.html" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Excavation</a>
-      <a href="/confined-spaces.html" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Confined Spaces</a>
-      <a href="/ppe-equipment.html" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">PPE</a>
+      <a href="/fall-protection" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Fall Protection</a>
+      <a href="/scaffold-safety" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Scaffold Safety</a>
+      <a href="/electrical-safety" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Electrical Safety</a>
+      <a href="/excavation-trenching" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Excavation</a>
+      <a href="/confined-spaces" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">Confined Spaces</a>
+      <a href="/ppe-equipment" class="text-xs text-gray-400 hover:text-primary-500 transition-colors">PPE</a>
     </div>
   </div>
   <p class="text-xs text-gray-400 text-center">Questions generated {{ generated_date }} · For OSHA 30-Hour Construction training · Content not legal advice</p>

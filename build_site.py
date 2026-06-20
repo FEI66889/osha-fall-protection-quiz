@@ -208,21 +208,23 @@ def render_paginated_chapter(
         end = start + QUESTIONS_PER_PAGE
         page_questions = questions[start:end]
 
-        # 文件名
+        # 文件名 (disk) vs URL path (clean, no .html)
         if page_num == 1:
             filename = f"{slug}.html"
-            canonical_url = f"{DOMAIN}/{slug}.html"
+            url_path = f"{slug}"
+            canonical_url = f"{DOMAIN}/{slug}"
         else:
             filename = f"{slug}-{page_num}.html"
-            canonical_url = f"{DOMAIN}/{slug}.html"  # 子页 canonical 指向第 1 页
+            url_path = f"{slug}-{page_num}"
+            canonical_url = f"{DOMAIN}/{slug}"  # 子页 canonical 指向第 1 页
 
         # 页面内导航
         prev_page_url = None
         next_page_url = None
         if page_num > 1:
-            prev_page_url = f"{slug}.html" if page_num == 2 else f"{slug}-{page_num - 1}.html"
+            prev_page_url = f"{slug}" if page_num == 2 else f"{slug}-{page_num - 1}"
         if page_num < total_pages:
-            next_page_url = f"{slug}-{page_num + 1}.html"
+            next_page_url = f"{slug}-{page_num + 1}"
 
         # 标题加页码
         page_title = seo["unique_h1"]
@@ -242,15 +244,15 @@ def render_paginated_chapter(
             # 第 1 页：prev 链到上一章最后一页
             if prev_chapter:
                 if prev_chapter_pages > 1:
-                    prev_chapter_link = f"{prev_chapter['slug']}-{prev_chapter_pages}.html"
+                    prev_chapter_link = f"{prev_chapter['slug']}-{prev_chapter_pages}"
                 else:
-                    prev_chapter_link = f"{prev_chapter['slug']}.html"
+                    prev_chapter_link = f"{prev_chapter['slug']}"
                 prev_chapter_label = prev_chapter["short_title"]
 
         if page_num == total_pages:
             # 最后一页：next 链到下一章第 1 页
             if next_chapter:
-                next_chapter_link = f"{next_chapter['slug']}.html"
+                next_chapter_link = f"{next_chapter['slug']}"
                 next_chapter_label = next_chapter["short_title"]
 
         # 如果章内还有下一页，跨章导航用本页自己的 next page
@@ -280,8 +282,8 @@ def render_paginated_chapter(
 
         output_path = DIST / filename
         output_path.write_text(html, encoding="utf-8")
-        generated_files.append(filename)
-        print(f"   ✅ {filename} (p{page_num}/{total_pages}, {len(page_questions)} questions)")
+        generated_files.append(url_path)
+        print(f"   ✅ {filename} → /{url_path} (p{page_num}/{total_pages}, {len(page_questions)} questions)")
 
     return generated_files
 
@@ -292,7 +294,7 @@ def generate_index(chapters: list[dict[str, str]]) -> None:
     """生成首页，列出全部章节"""
     items_html = ""
     for i, ch in enumerate(chapters, 1):
-        items_html += f"""      <a href="{ch['slug']}.html" class="block bg-white rounded-xl border border-gray-200 p-5 hover:border-primary-300 hover:shadow-md transition-all">
+        items_html += f"""      <a href="{ch['slug']}" class="block bg-white rounded-xl border border-gray-200 p-5 hover:border-primary-300 hover:shadow-md transition-all">
         <div class="flex items-center gap-3">
           <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600 font-bold text-sm shrink-0">{i:02d}</span>
           <div>
@@ -430,16 +432,19 @@ def generate_sitemap(urls: list[str]) -> None:
     """生成符合 Google 规范的 sitemap.xml"""
     entries = []
     for url in urls:
-        # page 1 (no numeric suffix) = 0.9, sub-pages = 0.7, index = 1.0
-        if url == "index.html":
+        # page 1 (no numeric suffix) = 0.9, sub-pages = 0.7, root = 1.0
+        if url == "":
             priority = "1.0"
-        elif "-2.html" in url or "-3.html" in url or "-4.html" in url:
+            loc = f"{DOMAIN}/"
+        elif url.endswith("-2") or url.endswith("-3") or url.endswith("-4"):
             priority = "0.7"
+            loc = f"{DOMAIN}/{url}"
         else:
             priority = "0.9"
+            loc = f"{DOMAIN}/{url}"
         entries.append(
             "  <url>\n"
-            f"    <loc>{DOMAIN}/{url}</loc>\n"
+            f"    <loc>{loc}</loc>\n"
             f"    <lastmod>{datetime.today().strftime('%Y-%m-%d')}</lastmod>\n"
             "    <changefreq>weekly</changefreq>\n"
             f"    <priority>{priority}</priority>\n"
@@ -557,7 +562,7 @@ def main() -> None:
 
     # ----- 生成首页 -----
     generate_index(chapters)
-    urls.append("index.html")
+    urls.append("")  # root URL for sitemap
 
     # ----- 生成 robots.txt -----
     generate_robots()

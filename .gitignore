@@ -23,3 +23,5 @@ output/
 
 # Config with secrets
 config.py
+*-service-account.json
+service-account*.json

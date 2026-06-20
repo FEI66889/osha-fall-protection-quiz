@@ -147,7 +147,7 @@ def render_html(slug: str, topic: str, data: dict, domain: str) -> bool:
         # <meta keywords>
         keywords=",".join(seo.get("primary_keywords", [])),
         # canonical, og:url
-        canonical_url=f"{domain}/{slug}.html",
+        canonical_url=f"{domain}/{slug}",
         domain=domain,
         # Schema.org 中的章节名
         chapter_title=topic,
@@ -193,7 +193,7 @@ def update_sitemap(slug: str, domain: str, priority: str = "0.9") -> bool:
     root = tree.getroot()
 
     # 检查是否已存在
-    target_url = f"{domain}/{slug}.html"
+    target_url = f"{domain}/{slug}"
     for url_elem in root.findall("url"):
         loc = url_elem.find("loc")
         if loc is not None and loc.text == target_url:
@@ -387,6 +387,19 @@ def main():
     # Step 6: Git auto push
     if not git_auto_push(slug, args.keyword, args.mode):
         sys.exit(1)
+
+    # Step 7: 通知 Google 立即抓取新页面
+    if hasattr(config, "INDEXING_SERVICE_ACCOUNT_FILE") and config.INDEXING_SERVICE_ACCOUNT_FILE:
+        print("\n📢 通知 Google Indexing API...")
+        result = subprocess.run(
+            ["python3", str(ROOT / "index_now.py"), "--slug", slug],
+            cwd=str(ROOT), capture_output=True, text=True
+        )
+        print(result.stdout)
+        if result.returncode != 0:
+            print(f"   ⚠️ Indexing API 通知失败（不影响部署）:\n{result.stderr[-300:]}")
+    else:
+        print("\n💡 配置 INDEXING_SERVICE_ACCOUNT_FILE 后可自动通知 Google 抓取新页面")
 
 
 if __name__ == "__main__":

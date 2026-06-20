@@ -4,6 +4,9 @@
 CLAUDE_API_KEY = ""  # 从 https://console.anthropic.com/ 获取
 DOMAIN = "https://osha-fall-protection.pages.dev"
 
+# ===== Indexing API（自动通知 Google 抓取新页面）=====
+INDEXING_SERVICE_ACCOUNT_FILE = ""   # 服务账号 JSON 密钥文件路径（相对于项目根目录或绝对路径）
+
 # ===== 可选 =====
 OUTPUT_DIR = "dist"
 MODEL = "claude-sonnet-4-6"              # 性价比最优
